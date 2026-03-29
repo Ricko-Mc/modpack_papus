@@ -1,0 +1,13 @@
+{
+    "name": "§5§nLess Hearts",
+    "description": "You have a weaker constitution than most humans\n",
+    "hidden": false,
+
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "addition",
+        "value": -4
+    },
+    "update_health": true
+}

@@ -1,0 +1,12 @@
+{
+	id: "66808A634939BCC9"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ item: "coinsje:diamond_coin" }
+		{ item: "coinsje:diamond_coin_pile" }
+		{ item: "coinsje:netherite_coin" }
+		{ item: "coinsje:netherite_coin_pile" }
+	]
+	title: "Epic coin Loot"
+}

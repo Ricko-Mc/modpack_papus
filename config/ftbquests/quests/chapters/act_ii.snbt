@@ -1,0 +1,1341 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_ii"
+	group: "2082B1037B9195D1"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:scroll"
+		tag: {
+			ISB_Spells: {
+				data: [{
+					id: "irons_spellbooks:portal"
+					index: 0
+					level: 1
+					locked: 1b
+				}]
+				maxSpells: 1
+				mustEquip: 0b
+				spellWheel: 0b
+			}
+		}
+	}
+	id: "2152F01E9F8411B8"
+	images: [{
+		alpha: 125
+		height: 20.0d
+		image: "loe:textures/other/dragon.png"
+		rotation: 0.0d
+		width: 29.978586723768736d
+		x: -0.5d
+		y: 1.0d
+	}]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["50CD3585A0E31EAD"]
+			description: [
+				"After the battle with the Hydra proved you could stand the heat you went off to investigate the Nether Realm, but your Magical Map still has some pictures on it that bear investigation."
+				""
+				"Your first stop is that incredibly dense forest surrounding an impossibly tall tower.  Near the edge fo the wood, you find yourself looking at some brick stabilized trenches with some sort of barrier preventing further exploration or entry, and a pedestal with odd markings on it.  After placing one of the trophies you took from one of the other greater beings on the pedestal, the subterranean domain of the goblins opens up and you can proceed inside."
+				""
+				"If it is anything like the rest of the places you've seen marked on the Magical Map, there's another guardian of some kind here for you to challenge."
+			]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "4E61F5225879DB6B"
+			rewards: [
+				{
+					id: "02996AB4335858D4"
+					item: {
+						Count: 1
+						id: "tarotcards:the_lovers"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7A526F409B200524"
+					item: {
+						Count: 1
+						id: "simplyswords:caelestis"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C7411267B6D4A53"
+					item: "skillcloaks:blue_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4428A55BD946BD20"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			subtitle: "If they are a figment of my imagination, why does it hurt when they hit me?"
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "21F410EF71973B46"
+				title: "Slay the Knight"
+				type: "advancement"
+			}]
+			title: "Crypt Guardians"
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4E61F5225879DB6B"]
+			description: [
+				"Those grave guardians were sustaining a barrier around the innermost part of this darkened wood.  Now that you can get close enough, you can see Ghasts floating around the tower like huge, annoying, fireball-spiiting, whiny balloons.  These are new though, they have red markings on them and seem to be more constrained in their movements."
+				""
+				"The top of the tower is covered in netherrack and flames, and there are strange machines powered by redstone.  Tiny versions of the red-accented ghasts float around these machines, and seem to get pulled into it...maybe you can find a way to make the machine pull that giant Ghast with the extra squiggly tentacles into it..."
+			]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "50EEFEE9BAD96BF7"
+			rewards: [
+				{
+					id: "1A6109C13E24BFDB"
+					item: {
+						Count: 1
+						id: "tarotcards:the_hierophant"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5080289CE20838A0"
+					item: {
+						Count: 1
+						id: "simplyswords:magiscythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1470FB07CEEAC533"
+					item: "skillcloaks:green_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51E5ACBB3B57427B"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "0BCE58D8252960E3"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "And why are its tentacles all weird?"
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "003636FED3B942D2"
+				title: "Tears Of Fire"
+				type: "advancement"
+			}]
+			title: "How did that get here?"
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["50EEFEE9BAD96BF7"]
+			description: [
+				"There are only a couple more points of interest marked on the map with faces to explore.  They appear to be in cold places, and the next one looks like a big angry mouth full of teeth with either horns or hair surrounding it, it's hard to tell."
+				""
+				"Even once you enter the beast's cave you can't really tell if those blue things on its face are horns or not.  Looks like you aren't going to get a chance to ask, it's a savage creature and once it smells you in its home, the fight is on!"
+			]
+			id: "6CF0DCCD55EFCA3F"
+			rewards: [
+				{
+					id: "62093FC1A4B5D0AF"
+					item: {
+						Count: 1
+						id: "tarotcards:the_fool"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0320D1FAF3DE1E12"
+					item: {
+						Count: 1
+						id: "simplyswords:frostfall"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77D23A4FD3874834"
+					item: "skillcloaks:red_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1768D9D9C6719488"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "30F5DAC0A5B788C3"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Big and strong leading small and weak."
+			tasks: [{
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "7262A743A73E7292"
+				title: "&bYeti"
+				type: "advancement"
+			}]
+			title: "Angry Snowman"
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CF0DCCD55EFCA3F"]
+			description: [
+				"Clearly there's a rulebook for the bad guys in this reality.  This is the fourth tower you've had to climb to face off against some variety of megalomaniac or psychopath.  At least this one looks nice..."
+				""
+				"Ascent to the topmost chambers reveals the Snow Queen, and no indication of who she is or what she intends to do, but she is not pleased that you are interrupting her inscrutible plans..."
+			]
+			id: "26D6D5B168A2A967"
+			rewards: [
+				{
+					id: "45AE959DFCD50CC2"
+					item: {
+						Count: 1
+						id: "tarotcards:the_high_priestess"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "746333C070099204"
+					item: {
+						Count: 1
+						id: "simplyswords:livyatan"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DD924FFF25988AC"
+					item: "skillcloaks:red_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5956ED4683B3C247"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p \"Watcher: She feels...familiar, but I do not know her.  She must be like the rest of us; corrupted, or perhaps a failure\""
+					elevate_perms: true
+					id: "0BC1BCFE309F12F5"
+					title: "Familiarity"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "4C8AF945722FE136"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Seems like towers are compulsory for the adversaries."
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "1611251A97246326"
+				title: "&bSnow Queen"
+				type: "advancement"
+			}]
+			title: "Slay the &bQueen!"
+			x: -12.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0A1377FFF7BFA159"]
+			description: [
+				"Defeating the Gauntlet in that fiery arena awakened something, a compulsion to return to an endless nullscape that is strangely familiar to you.  "
+				""
+				"You've heard there are ancient strongholds where practitioners of forbidden magics could tear open reality to allow travel beyond the confines of time and space, to see The End of all things."
+			]
+			id: "0122BCF8254117F0"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p \"Watcher: The creature circling above is the Guardian of the Void Realm.  If you wish to explore the Final Infinity, you will need to kill it.\""
+				elevate_perms: true
+				id: "04C3BD4E102A2F9B"
+				type: "command"
+			}]
+			subtitle: "Neat island...it would be a shame if tons of people randomly griefed it."
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "2ADEF039935CA0E3"
+				title: "Visit &dThe End"
+				type: "dimension"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0122BCF8254117F0"]
+			description: [
+				"I think perhaps The Watcher, John, meant to say something like \"...if you plan to survive for more than a couple of minutes here, you need to kill it.\""
+				""
+				"One thing is certainly consistent about the monsters set to guard things and places in this reality:  they are very enthusiastic about performing their duties."
+			]
+			id: "24E5A58734EE7998"
+			rewards: [
+				{
+					id: "6D9488C573DF8B1E"
+					item: {
+						Count: 1
+						id: "runes_of_power:teleport_rune"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p \"Watcher: Another step taken towards building your lasting legend.  Not many can face the raw power inherent in the denizens of the Void Realm.\""
+					elevate_perms: true
+					id: "763C4839DB27F8E3"
+					type: "command"
+				}
+			]
+			subtitle: "You know what to do "
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "39A25CF31BC13B2C"
+					title: "Slay &dEnder Dragon"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+					id: "72741D23D6644D7C"
+					type: "advancement"
+				}
+			]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24E5A58734EE7998"]
+			description: ["The endermen seem to be able to squeeze themselves through these small openings to go elsewhere.  Throw one of their pearls in there to see if the latent teleportation magic will let you enter the distortion and travel to another place."]
+			hide_dependency_lines: false
+			id: "4A3268DF4B2271B2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "630B27AC251FA1A7"
+					table_id: 2614350496967698251L
+					type: "loot"
+				}
+				{
+					id: "34CBDCD2A8D288B1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "If this place followed any sensible rules, these would be something like wormholes."
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				icon: "minecraft:ender_pearl"
+				id: "049710363D418D9E"
+				type: "advancement"
+			}]
+			title: "Tiny Portals"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A3268DF4B2271B2"]
+			description: [
+				"The rest of the &cObisidilith Arena&r can’t be entered, so instead, make your way to the roof. There, you will find the &dObsidian Altar&r. When an &aEye of Ender&r is added, the Obsidilith will spawn, which looks like a &emonolith&r."
+				""
+				"5,000&cHP"
+			]
+			id: "7156DB4F67422F8A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70C5AD41802B43C1"
+					table_id: 3407043161375062910L
+					type: "loot"
+				}
+				{
+					command: "/skills add @p MINING 3"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "05B5F2145E2606BA"
+					title: "4 Levels of Mining"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			subtitle: "Watch out for the tower!"
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+				criterion: ""
+				id: "51F8B736360F11AE"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["72C78CD76ADD286C"]
+			description: [
+				"Out here in the frozen sea you've stumbled upon a ship locked in icebergs.  Your trek into the icy regions chasing the Night Lich left you feeling like the frost may be keeping more secrets. "
+				""
+				"Sip on some of that hot chocolate and warp up some, this is not going to be a comfortable journey."
+			]
+			icon: "enigmaticlegacy:animal_guidebook"
+			id: "38427A4B44D5A437"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p \"Watcher: Ahhh, Cornelia.  She came here around the same time I did.\""
+					elevate_perms: true
+					id: "233AEB9404FA7460"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "021048A2FAEADEF4"
+					item: "farmersdelight:hot_cocoa"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B47852CFCC4281A"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Might need more than just some Hot Cocoa to get through this."
+			tasks: [{
+				icon: "aquamirae:ship_graveyard_echo"
+				id: "2CBF8971C8DC36A6"
+				structure: "aquamirae:ship"
+				type: "structure"
+			}]
+			title: "A Frozen Wreck"
+			x: -3.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38427A4B44D5A437"]
+			description: [
+				"One of the pillagers on the ship was carrying a Conch horn, standing around near a log book in the Captain's quarters."
+				""
+				"Seems like the Captain has been diving and searching the nearby seabed for something, latest entry in the log says she's been gone for more than a day on the last trip.  That doesn't bode well, no sir.  Diving suits generally only have enough air for an hour or two.  Unfortunately that log entry isn't dated, so there's no way to tell how long their Captain has been gone.  "
+				""
+				"I wonder if this is the same Cornelia that John mentioned..."
+			]
+			id: "2D5D265C1DCB9ECC"
+			rewards: [
+				{
+					id: "1D07A9796EE2AAAA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "494456A4F81305A4"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "I'm certain they are not dressed appropriately for this sort of lifestyle."
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "61CBE15E9517FE05"
+				title: "&bFirst Mate slayer"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Pillagers!?"
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2D5D265C1DCB9ECC"]
+			description: [
+				"Blowing into the rime-coated conch produces a deep wail, slightly distorted by comething otherworldly."
+				""
+				"A moment passes and you feel that all-to-familiar pulse, something tainted by Undeath is approaching."
+				""
+				"Whatever it is, best prepare for a fight.  It feels like it's going to be here soon..."
+			]
+			id: "4563F28F4FCC010A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p \"Watcher: I had wondered where she went.  The depths were not kind to her.\""
+					elevate_perms: true
+					id: "292B9D332E2B91EF"
+					type: "command"
+				}
+				{
+					id: "1943932FE0968BFA"
+					item: {
+						Count: 1
+						id: "tarotcards:the_empress"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "78C21C65D22FF9AD"
+					item: {
+						Count: 1
+						id: "simplyswords:icewhisper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C6500053E10B4BE"
+					item: "skillcloaks:green_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5540B4966F61232E"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "55ADF686160120EA"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Blow into the conch, perhaps she will hear it."
+			tasks: [
+				{
+					id: "71DA56CD27DD49A3"
+					item: "aquamirae:shell_horn"
+					type: "item"
+				}
+				{
+					entity: "aquamirae:captain_cornelia"
+					icon: {
+						Count: 1
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "00D994EE45172A38"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Captain Cornelia's Conch"
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4563F28F4FCC010A"]
+			description: [
+				"The Captain is a ghost and there are several ships out here with entirely different crews.  The whole situation stinks like undead fish."
+				""
+				"Is this what John meant when he said they came here at the same time?  Are they like me, brought here by The One Above All to conquer and rule and be...tested?  Are the extra crews the result of some kind of strange power duplicating stuff, or did Cornelia just hire a ton of pillagers to help with searching the ocean floor?"
+				""
+				"Maybe summoning her again with a conch from the other ships you found will unlock another piece of the puzzle, or perhaps provide a clue about what she was searching for in the depths of the frozen seas."
+			]
+			icon: {
+				Count: 1
+				id: "aquamirae:three_bolt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0DABBFEC68034353"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "sophisticatedbackpacks:diamond_backpack"
+						tag: {
+							contentsUuid: [I;
+								-1035260071
+								1123041576
+								-2065562705
+								517096816
+							]
+							inventorySlots: 108
+							renderInfo: {
+								upgradeItems: [
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											Charged: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											Charged: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											Charged: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											Charged: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											Charged: 0b
+										}
+									}
+								]
+							}
+							upgradeSlots: 5
+						}
+					}
+					id: "03A0FE828CBBE1F3"
+					title: "Aquamirae Loot"
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "02108638434293D3"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "Do it again."
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0A2229F86EAAA0D6"
+				title: "Slay the &dCaptain &7Twice"
+				type: "kill"
+				value: 1L
+			}]
+			title: "She keeps comin..."
+			x: -10.625d
+			y: 8.125d
+		}
+		{
+			dependencies: ["0DABBFEC68034353"]
+			description: [
+				"Cornelia had this key on her, made from an eerie material, an ice coral, frozen but still alive.  It thrums with power, and you feel resonant vibrations sometimes when you travel across the ice floes."
+				""
+				"Maybe you can use the diving gear you recovered from her to explore one of those places, there's got to be a lock somewhere that this key will open."
+			]
+			id: "3DC74CF3ED85FC55"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08AACB9DEEB7E310"
+					table_id: 2614350496967698251L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "7214E7B74084B036"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.75d
+			subtitle: "\"...more ancient than the mountains, and freighted withthe memories and the dreams of Time.\"  - Lovecraft"
+			tasks: [{
+				id: "49E33C54B6BC3E4E"
+				item: "aquamirae:frozen_key"
+				type: "item"
+			}]
+			x: -12.375d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4CE4BF5B16C18EF4"]
+			description: ["Most people would call something like this segmented mostrosity very unrealistic.  It's certainly not the worst you've seen, but it might be the wierdest.  After this, there are probably very few things that could possibly offer you a challenge. "]
+			id: "4A83C09A487BE37A"
+			rewards: [
+				{
+					id: "18CD2B6A16CC974F"
+					item: {
+						Count: 1
+						id: "tarotcards:the_star"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "33AA09335305E13A"
+					item: {
+						Count: 1
+						id: "simplyswords:stars_edge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BCBC044ED134E51"
+					item: "skillcloaks:brown_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09F5B3050D584490"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					command: "/skills add @p AGILITY 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "50673E23F4B590D8"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "26032F6D74CFA9E9"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "If you cut a worm in half, you end up with two worms..."
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/void_worm_kill"
+				criterion: ""
+				id: "4DBABD0B371BE98A"
+				title: "Slay the Void Worm"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["750B5B37641CD8A6"]
+			description: [
+				"John's final instruction is to toss the new larva into the void, to let it absorb the infinite energies of this Realm.  "
+				""
+				"Take a moment to prepare yourself, John says this will be a worthy challenge..."
+			]
+			id: "4CE4BF5B16C18EF4"
+			rewards: [
+				{
+					id: "5BFC6687A034350C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "4DBA3A95DA864F55"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Cannot be avoided, whether you walk with rhythm or not..."
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/void_worm_summon"
+				criterion: ""
+				id: "495CEEAB5B0AC0F4"
+				type: "advancement"
+			}]
+			title: "Strange Energies"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["40BE0D2013F6B98E"]
+			description: [
+				"The next instruction you recieve is to place the top portion of the viral creature on a stable surface in The End Realm, and then to submerge the larva you collected in it.  "
+				""
+				"Whether it's Science or Sorcery at work is not clear, but the larva changes into a blue-black wormlike thing."
+			]
+			id: "750B5B37641CD8A6"
+			rewards: [
+				{
+					id: "1E907206D6B8CE84"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "79DBFDA266793EFC"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "I think the technique used here is called crispy? or something like that."
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/mysterious_worm"
+				criterion: ""
+				id: "06ACB600F2B2F0B4"
+				type: "advancement"
+			}]
+			title: "Genetic Manipulation"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74ECFA093E7689C6"]
+			description: ["John''s next task for you is to return to The Nether and collect larva from the gigantic mosquitos in the Crimson Forests."]
+			id: "40BE0D2013F6B98E"
+			rewards: [
+				{
+					id: "3A2C0450E1E2B093"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "4615974DB5CF9C43"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Raw and Wriggling"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito_larva"
+				criterion: ""
+				id: "1E8ED800775E0734"
+				type: "advancement"
+			}]
+			title: "Nightmare Fuel"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A3268DF4B2271B2"]
+			description: [
+				"The being trapped in this relic claims to know a use for the strange elongated, cubic, flying, infectious, quardropeds that are occasionally seen floating around this Realm.  "
+				""
+				"According to him, you will need to acquire the top portion of one of the creatures."
+			]
+			hide_dependency_lines: false
+			id: "74ECFA093E7689C6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p \"Watcher: These creatures can be used for other purposes.  I can provide you with instructions in their use, to summon a creature that will offer a fine challenge.\""
+					elevate_perms: true
+					id: "69400684675E33B2"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "4C4B4C5D38CB3E62"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "John's Limitless...Imagination?"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/capsid"
+				criterion: ""
+				id: "740590149670F6A7"
+				type: "advancement"
+			}]
+			title: "Viral Marketing"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7983348996AD60E7"]
+			description: [
+				"The Night Lich's tower seemed more than just some crazy undead wizard's man(?) cave, like it was meant for more than just making really huge ice cubes and a limitless supply of skeletal soldiers."
+				""
+				"Come to think of it, after you crushed him into bone dust, you did see some clues about light and flowing water.  Maybe this was intended to be a staging point for a dimensional invasion!"
+				""
+				"&o&7[Hint:Standard portal construction applies.  Once you have laid the Night Lich to rest, construct a portal frame of glowstone blocks and right click in inner boundary of the frame with a bucket of water.]"
+			]
+			id: "3EDAC16B0032B5A2"
+			rewards: [{
+				id: "581A3D90055D691E"
+				item: "skillcloaks:crafting_cloak"
+				type: "item"
+			}]
+			subtitle: "Hostile and Heavenly"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "3EFDED03F0FE139F"
+				type: "dimension"
+			}]
+			title: "&bThe Aether"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["76EF076A1761E499"]
+			description: ["Jumping from island to island, you spy iun the distance a structure of megalithic proportion, it's Doric facades gleaming golden in the sunlight.  Immediately upon entry, you are confronted by a winged woman, clearly a challenge to prove your worthiness to enter this holy structure."]
+			id: "171774120069632F"
+			rewards: [
+				{
+					id: "01E75FA4BB6A2BB5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "4925C8011CCD5CAB"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Defeat the Champions to challenge the Queen."
+			tasks: [{
+				count: 10L
+				id: "21B9531A7BA58540"
+				item: { Count: 10, id: "aether:victory_medal" }
+				type: "item"
+			}]
+			title: "Champions in the Sky"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["171774120069632F"]
+			description: [
+				"You seem to have finished winding your way through all the rooms and staircases, to find yourself standing before another of the Winged Warriors, this one larger and bearing a majesty the others lacked."
+				""
+				"She asks for the reason you stand before her today, and you present the tokens the Lesser Valkyries gave you when your duels concluded."
+				""
+				"Another challenge it is then, as she steps down from her throne and salutes you with her blade..."
+			]
+			icon: {
+				Count: 1
+				id: "aether:valkyrie_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "214D09E87B67D0F8"
+			rewards: [
+				{
+					id: "2C72EDD50D2ABD23"
+					item: {
+						Count: 1
+						id: "tarotcards:justice"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "128E133B174B9A5E"
+					item: {
+						Count: 1
+						id: "simplyswords:righteous_relic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2675D3889B68E395"
+					item: "skillcloaks:blue_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C5756E1CC224DD4"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "453ECAF491FD39A7"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "I can't believe it's not Undead!"
+			tasks: [{
+				advancement: "aether:silver_dungeon"
+				criterion: ""
+				id: "14DC28BD95352FC3"
+				type: "advancement"
+			}]
+			title: "Are you Worthy?"
+			x: -5.7d
+			y: 0.0d
+		}
+		{
+			dependencies: ["220B6896382BD70C"]
+			description: [
+				"This particular stonework frames a sprawling catacomb, which mean treasure and lost knowledge!  "
+				""
+				"It's occupied though, and the owner is a magical powerhouse! Unsurprisingly, this is another Lich with an army of undead loitering nearby.  Challenge it, and once it is defeated maybe you can find some more insights about this realm and the seeming steady stream of catastrophies it's been experiencing."
+			]
+			id: "1178573FE1A2FC05"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p \"Watcher: The Ancient King, another of us who failed.  He made it so far, passed so many tests, yet still fell.  The Dead King now, I suppose.\""
+					elevate_perms: true
+					id: "2CC812DE3ECAE3A2"
+					ignore_reward_blocking: true
+					type: "command"
+				}
+				{
+					id: "05F603C2DF9CCC5F"
+					item: {
+						Count: 1
+						id: "tarotcards:the_hanged_man"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "424C0F816BAC0B17"
+					item: {
+						Count: 1
+						id: "simplyswords:decaying_relic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EF71CB0A5EA3D9D"
+					item: "skillcloaks:brown_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05FB9D25A30CB002"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					command: "/skills add @p MAGIC 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "6932C965FF50EC0B"
+					title: "1 Magic Level"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			subtitle: "Slay the Dead King"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/staff_blood_staff"
+				criterion: ""
+				id: "213EED652E32A58E"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["214D09E87B67D0F8"]
+			description: [
+				"The last of the structures you find is a small one, a cubical chamber set within a globule of the blue dirt and silvery-gray stone of this place."
+				""
+				"Within resides a spirit whose presence belies the simplicity of the structure, a spirit composed of the Sun's power and its arrogance.  "
+			]
+			icon: "aether:sun_altar"
+			id: "65F48544CEB2D593"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p \"Watcher: You've progressed further than the others, quite impressive.  What further challenges await you, I wonder?\""
+					elevate_perms: true
+					id: "05E9B994651D3003"
+					type: "command"
+				}
+				{
+					id: "43985B4D32F8BF42"
+					item: {
+						Count: 1
+						id: "tarotcards:the_sun"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6BA2909C3AA1BDD6"
+					item: {
+						Count: 1
+						id: "simplyswords:emberblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68595BF5553508DB"
+					item: "skillcloaks:green_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "034987ECF21EFE3D"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "347FA63F02859760"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Neither Sun nor Death can be looked at with a steady eye."
+			tasks: [{
+				advancement: "aether:gold_dungeon"
+				criterion: ""
+				id: "2A66EA79410A6DD7"
+				type: "advancement"
+			}]
+			title: "Primal Warmth"
+			x: -6.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EDAC16B0032B5A2"]
+			description: [
+				"The landscape here is fragmented, floating islands surrounded by clouds and teeming with alien flora and fauna."
+				""
+				"There are structures here too, one of which has chests that come alive to assault you alongside blocky stone creatures.  Test yourself here, steel and sorcery versus ethereal geography and elemental forces."
+				""
+				"The first of these tests appears to be a large floating block creature that charges directly toward you if you cross its line of sight."
+				""
+				"&o&7[Hint: As for any other block of stone you have encountered, your blade will be minimally effective.  Use a Pickaxe to damage the Slider.]"
+			]
+			id: "76EF076A1761E499"
+			rewards: [
+				{
+					id: "7DFE3DEE9D48972B"
+					item: {
+						Count: 1
+						id: "simplyswords:watcher_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64C54B52D88EF8A7"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "2DC0148FAE4FF052"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Redstone contraptions not required..."
+			tasks: [{
+				advancement: "aether:bronze_dungeon"
+				criterion: ""
+				id: "779DF942C12A9BA5"
+				type: "advancement"
+			}]
+			title: "Moving Blocks"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26E0987409A57C69"]
+			description: ["Whether digging for resources or exploring caves in the depths of the world, it is always a little bit unsettling, and a little bit exciting, to find worked stone walls buried and forgotten."]
+			id: "220B6896382BD70C"
+			subtitle: "\"Okay, I'm drawing a line in the sand here.  Do NOT read the Latin.\""
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_dark_tower"
+				id: "4419CF0F7F636120"
+				structure: "irons_spellbooks:catacombs"
+				type: "structure"
+			}]
+			title: "Buried Throne"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EDAC16B0032B5A2"]
+			description: [
+				"An ancient monument in the Nether belonging to a time long past. Ancient Maps can be crafted to locate the structure"
+				""
+				"Craft : &bCinderous Soulcaller&f used to summon the boss"
+			]
+			icon: "irons_spellbooks:cinderous_soulcaller"
+			id: "250B5696171E3687"
+			rewards: [
+				{
+					id: "3400F5005C01A387"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "35493E5AAC2B9705"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "089BAB7BB022F071"
+				structure: "irons_spellbooks:citadel"
+				type: "structure"
+			}]
+			title: "Locate the &cCitadel "
+			x: -4.500000000000007d
+			y: -5.583333333333329d
+		}
+		{
+			dependencies: ["250B5696171E3687"]
+			description: ["Craft this item to summon the Fire Boss &cTyros"]
+			id: "3B961B7284488A7E"
+			rewards: [
+				{
+					count: 6
+					id: "1FDC2F5B3C700937"
+					item: "irons_spellbooks:cinder_essence"
+					type: "item"
+				}
+				{
+					id: "1DA967EB285A5E75"
+					item: "irons_spellbooks:divine_soulshard"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0BC8D2D75EFD5721"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft!"
+			tasks: [{
+				id: "7B98055536990FBA"
+				item: "irons_spellbooks:cinderous_soulcaller"
+				type: "item"
+			}]
+			x: -7.119047619047635d
+			y: -3.154761904761905d
+		}
+		{
+			dependencies: ["3B961B7284488A7E"]
+			description: ["Find this block in the center area of the area at the top of the Citadel.."]
+			id: "4796927B5E111B42"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "634BFF8A92E14BE7"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69640E90C2B95859"
+					table_id: 255314140086928802L
+					type: "loot"
+				}
+				{
+					id: "47E4930572DA9853"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					command: "/skills add @p ATTACK 2"
+					elevate_perms: true
+					icon: "relics:relic_experience_bottle"
+					id: "3A998CAFEA7393B1"
+					silent: true
+					title: "2 levels of attack"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "637A8D04F96844AB"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				icon: "irons_spellbooks:cinderous_soul_rune"
+				id: "6D883B0CF80B7C03"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay &cThe First FireBorn"
+			x: -9.166666666666679d
+			y: 0.75d
+		}
+	]
+	title: "&cAct II -&7&o The Hero Evolves"
+}

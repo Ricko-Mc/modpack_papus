@@ -1,0 +1,29 @@
+{
+  "attackSkillLocks": {
+    "minecraft:zombie": [
+      "attack:2"
+    ],
+    "minecraft:skeleton": [
+      "attack:2"
+    ],
+    "minecraft:villager": [
+      "attack:5"
+    ],
+    "minecraft:phantom": [
+      "attack:5",
+      "agility:5"
+    ],
+    "minecart:creeper": [
+      "attack:4",
+      "defense:4"
+    ],
+    "minecraft:spider": [
+      "attack:2",
+      "agility:5"
+    ],
+    "realmrpg_demons:chort": [
+      "attack:4",
+      "agility:4"
+    ]
+  }
+}

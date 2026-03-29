@@ -1,0 +1,31 @@
+{
+  "streakRewards": {
+    "1": {
+      "effect": "Luck",
+      "xp": 0
+    },
+    "2": {
+      "effect": "Haste",
+      "xp": 0
+    },
+    "3": {
+      "effect": "Regeneration",
+      "xp": 0
+    },
+    "4": {
+      "effect": "Speed",
+      "xp": 0
+    },
+    "5": {
+      "effect": "Resistance",
+      "xp": 10
+    },
+    "6": {
+      "xp": 50
+    },
+    "7": {
+      "effect": "Strength",
+      "xp": 50
+    }
+  }
+}

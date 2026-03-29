@@ -1,0 +1,5 @@
+{
+  "tip": {
+    "text": "Getting lag whilst in your inventory? It is most likely caused by JEI. Either close it with CTRL + O, or switch to a page with only blocks. Like the first page or do @Minecraft. The lag is caused by many items being on screen, like animated textures, or enchantment books."
+  }
+}

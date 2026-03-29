@@ -1,0 +1,22 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 688286800,
+        "separation": 3000,
+        "spacing": 550
+    },
+    "structures": [
+        {
+            "structure": "shrines:modern_villa",
+            "weight": 1
+        },
+        {
+            "structure": "shrines:abandoned_villa",
+            "weight": 1
+        },
+        {
+            "structure": "shrines:luxury_villa",
+            "weight": 1
+        }
+    ]
+}

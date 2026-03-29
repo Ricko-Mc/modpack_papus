@@ -1,0 +1,1364 @@
+{
+	autofocus_id: "1185E4D359FD6DC9"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_i"
+	group: "2082B1037B9195D1"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "enigmaticlegacy:lore_fragment"
+		tag: {
+			display: { }
+		}
+	}
+	id: "479B115618AB54ED"
+	images: [
+		{
+			alpha: 100
+			height: 20.0d
+			image: "loe:textures/other/wither.png"
+			rotation: 0.0d
+			width: 22.7d
+			x: -9.095238095238095d
+			y: -17.738095238095227d
+		}
+		{
+			height: 7.0d
+			image: "loe:textures/other/knight.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -17.0d
+			y: -13.0d
+		}
+		{
+			height: 5.0d
+			image: "loe:textures/other/cloud.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.0d
+			y: -12.2d
+		}
+		{
+			height: 1.0d
+			image: "legendary_monsters:textures/mob_effect/freeze.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			height: 1.0d
+			image: "legendary_monsters:textures/mob_effect/freeze.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "legendary_monsters:textures/mob_effect/freeze.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			image: "legendary_monsters:textures/mob_effect/freeze.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "legendary_monsters:textures/mob_effect/freeze.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -10.0d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You've traveled, you've met many a villager and emeralds in the thousands have changed hands to buy you the materials you need to survive and thrive in this strange world. Your base is fortified, and all the logistics are sorted to keep your people fed and the forges burning."
+				""
+				"All that really remains is to head out into the untamed places and prove your right to rule them all! So suit up, call your banners, gather your hardiest companions, and prepare for a challenge!"
+			]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:skullbreaker_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03E28F1CA713BA8E"
+			rewards: [{
+				id: "75A53A199C0D6453"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "You CAN get there from here!"
+			tasks: [{
+				id: "3DF5AFBA14E834C6"
+				title: "Establishing Credibility"
+				type: "checkmark"
+			}]
+			title: "Time for your Adventure!"
+			x: -9.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["03E28F1CA713BA8E"]
+			description: [
+				"Welcome to the Nether—A realm of unrested souls, where unbearable heat clings to every breath, Sulfur hangs heavy in the air, and sorrowful echoes drift through the crimson skies."
+				""
+				"The feelings of rot and corruption permeating this place remind you of the battles against the Night Lich and the Twilight Lich.  Something here in this blazing hellscape resonates with the undead you felt both in the Overworld and the Twilight realm, something sinister and powerful.  Find it, and perhaps you can glean some insight regarding the Risen Dead and their heavy presence in The Realms."
+				""
+				"&6Advancement required:&f"
+				"Slay the &2Naga&f in the &aTwilight Forest&f to be able to enter &cThe Nether&f!  Standard portal construction rules apply!"
+			]
+			icon: "minecraft:crying_obsidian"
+			id: "1E71B57AD2BD8F84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12FE1BF3C5C6AF7E"
+				table_id: 5393747632124787178L
+				type: "loot"
+			}]
+			subtitle: "Most of the floor is actually lava."
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "54EC71016D464C6B"
+				type: "dimension"
+			}]
+			title: "The Nether"
+			x: -6.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["03E28F1CA713BA8E"]
+			description: [
+				"You've heard from some of the more adventurous wandering traders that there is a forest realm draped in twilight and brimming with new regions to explore and, of course, treasure to plunder.  Tales from these wanderers lead you to understand that entry to this gloaming wood requries a ritual sacrifice of a valuable gemstone and mastery of magic sufficient to imbue your panoply with energies that allow you to exceed the limits of even the most fantastical materials you have encountered."
+				""
+				"&6Advancement required:&f"
+				"&dEnchant&f your first piece of equipment or tool to be able to enter &aThe Twilight Forest&f"
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "762C0381A3EC5E7E"
+			require_sequential_tasks: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00D78F2EA967F36B"
+				table_id: 3034821864176397678L
+				type: "random"
+			}]
+			subtitle: "The Twilight Realm"
+			tasks: [
+				{
+					advancement: "minecraft:story/enchant_item"
+					criterion: ""
+					id: "55804DAF22F211FD"
+					type: "advancement"
+				}
+				{
+					dimension: "twilightforest:twilight_forest"
+					id: "324DF667479D9B72"
+					type: "dimension"
+				}
+			]
+			title: "The Twilight Forest"
+			x: -11.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["73D720BAF82FD8F4"]
+			description: [
+				"Well, for better or worse, it worked."
+				""
+				"You stacked soul-infused silicates and placed the skulls atop it, and with a sickening cross between a pop and slurp the effigy disappeared.  "
+				""
+				"In its place, another charred bone monstrosity appears, floating a bit above the ground with a huge dose of actual explosive hatred.  It fires skulls reminiscent of the ones you harvested from the tall skeletons, and a phantom version emitting a ghostly blue light that utterly destroys anything it strikes."
+				""
+				"The thing renews itself slowly, knitting spine and skull back together with a dark energy.  Break it down fast, and clear the taint of malice and Undeath from the world!"
+			]
+			id: "2CD695FAF1E809AE"
+			rewards: [
+				{
+					command: "/skills add @p DEFENSE 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "219AF0520279E9DF"
+					title: "1 Defense Level"
+					type: "command"
+				}
+				{
+					id: "740B60C499764C69"
+					item: {
+						Count: 1
+						id: "tarotcards:death"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6340D0495199AED1"
+					item: "tieredreforge:fucdu_hard"
+					type: "item"
+				}
+				{
+					id: "04D5D4220308BC54"
+					item: {
+						Count: 1
+						id: "simplyswords:soulrender"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B0ABFF4ADEFEC7B"
+					item: "skillcloaks:red_sack"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "It Hates Everything"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:nether_star"
+				id: "5D2CF0B70D2F0423"
+				title: "&bWither"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Unimaginable Malice"
+			x: -9.0d
+			y: -25.5d
+		}
+		{
+			dependencies: ["1E71B57AD2BD8F84"]
+			description: [
+				"Your first stop in the wastes is a massive labyrinth of brick halls and bridges.  "
+				""
+				"Scattered stockpiles of gathered treasures and seemingly purposeless rooms abound, and the occasional tower with a focusing cage spewing elemental creatures of flame and rage.  "
+				""
+				"You have encountered a blackened variant of skeletal menace here, which sucks the life out of any unfortunate enough to make contact with its charred bones."
+			]
+			id: "7B56B7393B067482"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74F1CE60D0F79755"
+				table_id: 5393747632124787178L
+				type: "loot"
+			}]
+			subtitle: "But...where do these halls GO?"
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "7367914F6D5E2540"
+				structure: "#minecraft:fortress"
+				type: "structure"
+			}]
+			title: "Ancient Ruins"
+			x: -6.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["7B56B7393B067482"]
+			description: [
+				"Concentrated malice is certainly harmful.  You aren't really sure if these skeleton are black because of charring or because they are just so incredibly saturated with evil.  The chunks of coal left behind after swiftly dismantling them is not a helpful indicator either, as this entire Realm is seems to be compased of flames and flammable things."
+				""
+				"One thing is certain, they can be destroyed.  "
+			]
+			icon: "minecraft:wither_skeleton_spawn_egg"
+			id: "1185E4D359FD6DC9"
+			rewards: [{
+				id: "246B2C41A3AAC820"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Smoke and Shadow and Sickness"
+			tasks: [{
+				icon: "minecraft:wither_skeleton_skull"
+				id: "042A1390B33B6BAF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:wither_skeleton"
+				type: "observation"
+			}]
+			title: "Charred Menace"
+			x: -9.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["1185E4D359FD6DC9"]
+			description: [
+				"Hordes of these things exist here, constantly clacking and shambling out of the dark halls of the dark brick fortresses."
+				""
+				"Take a few moments to thin out their numbers."
+			]
+			id: "62515D5060E31480"
+			rewards: [{
+				id: "7C52CE627945B618"
+				item: "handcrafted:wither_skeleton_trophy"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "If you always come back, can this ever be considered a war of attrition?"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_spawn_egg"
+				id: "3F992DE7122400E2"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Force Reduction"
+			x: -9.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["03E28F1CA713BA8E"]
+			description: ["Carving your way through the endless horde of Undead has proven an excellent source of organic materials and ammunition.  It seems that these creatures also carry a star-shaped object that pulses with cold energy.  Your first instinct was to throw the item away, but tossing it aside showed unexpected properties; it simply rose into the air and started moving away from you as though following some distant call. Perhaps finding more of these stars and following them will yield further unexpected results."]
+			hide_until_deps_complete: true
+			icon: "bosses_of_mass_destruction:soul_star"
+			id: "6D6B92717EF302D5"
+			rewards: [{
+				count: 2
+				id: "68B885340A72AEDC"
+				item: "bosses_of_mass_destruction:soul_star"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Where does it lead?"
+			tasks: [{
+				id: "2805F9F8216836CC"
+				item: "bosses_of_mass_destruction:soul_star"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6613A6E26372A4C8"]
+			description: [
+				"The hoarfrost and snowdrifts play host to a tall tower, grey and cold.  Within you find ensorcelled cages spewing forth a seemingly limitless supply of undead soldiers, and four stone altars bearing indentations matching the size and shape of the little star you followed here.  "
+				""
+				"High above the frosty terrain, the master of the tower is conducting a ritual of some sort in this unfinished example of rudimentary architecture.  "
+				"Rather than examine the effects of the ritual, interrupt it.  Destroy this undead menace and investigate the intent behind creating such a spire clawing its way to the heavens. "
+				""
+				"&o&7[Hint: The Night Lich flies!  Be sure to have a trusy projectile weapon at hand and perhaps a friend or other protective measure to keep the denizens of the night at bay during your skirmish!  Defeating the Night Lich unlocks access to the Aether.]"
+			]
+			id: "7983348996AD60E7"
+			rewards: [
+				{
+					id: "429CC6487662C4BE"
+					item: {
+						Count: 1
+						id: "tarotcards:the_magician"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6EE8F8FFE48F32F9"
+					item: {
+						Count: 1
+						id: "simplyswords:magispear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p \"Watcher: This was clearly a being with great power once, now wasting away building towers to try to reach the heavens....\""
+					id: "5B72EAD881FFB73B"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77407158CB946830"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					id: "69E476B6B4A72D9A"
+					item: {
+						Count: 1
+						id: "tiered:armorers_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Lord of the Night"
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+				criterion: ""
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "183D5B662EF7D4A4"
+				title: "&bNight Lich"
+				type: "advancement"
+			}]
+			title: "&bNight Lich"
+			x: -9.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6D6B92717EF302D5"]
+			description: [
+				"The distant call the little stars seemed to be responding to has led you to a tower high up in the cold mountains.  It's in quite bad repair, and the feeling of malice and decay coming from it lend to the idea that something aligned with Undeath and sinister intent resides there."
+				""
+				"Better start climbing."
+			]
+			icon: "born_in_chaos_v1:spawn_structures_lookout_tower"
+			id: "6613A6E26372A4C8"
+			rewards: [
+				{
+					id: "12EE444CFFA5CC86"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F84ECC2577E6856"
+					table_id: 5576410721870332972L
+					type: "loot"
+				}
+			]
+			size: 1.0d
+			subtitle: "Surprisingly easy to miss..."
+			tasks: [{
+				id: "129BE420DB1429C0"
+				structure: "bosses_of_mass_destruction:lich_tower"
+				title: "Lich Tower"
+				type: "structure"
+			}]
+			title: "&bArcane Adversary"
+			x: -9.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["0A1377FFF7BFA159"]
+			description: [
+				"Sunken in the seemingly endless oceans of molten rock, you find another massive blackstone structure. This has the feeling of a combat arena, but there do not seem to be any barracks or cages for participants...only an obelisk of more blackstone with four faces carved in relief."
+				""
+				"&o&7[Hint: Breaking one of these blocks will cause the monument to open, and the Nether Gauntlet will appear.]"
+			]
+			icon: "born_in_chaos_v1:spawn_structures_lookout_tower"
+			id: "3C3428568C29E523"
+			rewards: [{
+				id: "4982D25456F46030"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "This doesn't look like an obstacle course."
+			tasks: [{
+				icon: "alexscaves:abyssal_altar"
+				id: "0325245A104B5DD8"
+				structure: "bosses_of_mass_destruction:gauntlet_arena"
+				title: "Find the &cGauntlet Arena"
+				type: "structure"
+			}]
+			title: "The Forgotten Arena"
+			x: -1.8d
+			y: -22.5d
+		}
+		{
+			dependencies: ["3C3428568C29E523"]
+			description: [
+				"The obelisk shatters after you deface one of the four panels, revealing a gigantic Gauntlet made of a metal resembling the shards you have found and the dense ores you've discovered deep in the strange reddish stone."
+				""
+				"This is clearly meant to be a combat trial of some sort, perhaps to test the readiness of the soldiers serving whatever kingdom once dominated this Realm."
+				""
+				"Unfortunately, the construct seems to only have one level of intesity for training: Lethal.  Either the aeons have worn away at the spells and etchings governing it workings, or there were some extreme examples of live-fire excercises here in the past."
+				""
+				"Might as well make use of it and test your abilities to make certain you are prepared to face the coming challenges!"
+				""
+				""
+				"&o&7Hint: The Nether Gauntlet won’t take any damage unless it’s hit in the eye, which is on the front. Defeating the Nether Guantlet will unlock access to The End."
+			]
+			id: "1EDBF74D9D622B71"
+			rewards: [
+				{
+					id: "13353C3FC4E27C87"
+					item: {
+						Count: 1
+						id: "simplyswords:emberlash"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/skills add @p ATTACK 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "194B5083E488418C"
+					title: "1 Attack level"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p \"Watcher: This shows that you are a force of reckoning.  Go now, find a way to the Void Realms and continue your quest!\""
+					elevate_perms: true
+					id: "034452D99D551F5D"
+					type: "command"
+				}
+				{
+					id: "25662BAE1874EA39"
+					item: {
+						Count: 1
+						id: "runes_of_power:fire_resistance_rune"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Is it Running the Gauntlet, or Running FROM the Gauntlet?"
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+				criterion: ""
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "37BBD64E7D80D421"
+				title: "&cNether Gauntlet"
+				type: "advancement"
+			}]
+			title: "Keeper of the Gate"
+			x: -3.5d
+			y: -21.25d
+		}
+		{
+			dependencies: ["62515D5060E31480"]
+			description: [
+				"You've seen the signs in the overworld, ancient temples in the hottest deserts bearing carvings of a spine with three skulls attached to it."
+				""
+				"You thought it was just a fanciful thing carved by primitive peoples, until you witnessed the unique brand of undead here in The Nether.  It's clear to you now that there was a sort of primitive worship of a thing.  This knowledge might just help you discover the nature of the entity."
+				""
+				"Harvest some of the soul infused sand, assemble them in the 'spine' shape from the carvings, and place three of the withered skulls atop the structure. This should provide some energy to focus through the severed skulls, summoning the dark force from it's hidden lair so you can destroy it."
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "73D720BAF82FD8F4"
+			rewards: [{
+				id: "0DFB5EB7E838199B"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fire_protection"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "It's been scribed into the stones themselves."
+			tasks: [
+				{
+					count: 4L
+					id: "2BD295EC39230DA0"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "368EA8B6D333CC89"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			title: "Assemble the Effigy"
+			x: -9.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["253C674B4CCFA857"]
+			description: [
+				"An expansive tower rises above the canopy, stark and grey against the verdure of the forested Twilight Realm. Wan light illuminates the surrounding boughs with an unearthly glow, in perfect alignment with the tenebrous atmosphere ever-present in this Realm."
+				""
+				"This is clearly a place of importance to your quest.  Something aligned with Undeath lairs here in this place, and judging from the raw power crackling in the air, it's not a weak representative of evil."
+				""
+				"Climb the tower, pillage it for whatever knowledge and wealth you can find, and destroy its master."
+				""
+				"&o&7Hint:The Twilight Lich has an initial phase where it is shielded.  Reflecting the ender pearls it and its clones shoot at you will break the shield, moving you into position to simply beat the thing to crumbling shards of bone like you have done to so many other skeletal mostrosities."
+			]
+			icon: "twilightforest:lich_trophy"
+			id: "39767E42C2255EF1"
+			rewards: [
+				{
+					id: "2FCAD10412E8DDC7"
+					item: {
+						Count: 1
+						id: "tarotcards:the_tower"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0E3B7EF88C5F6D3C"
+					item: {
+						Count: 1
+						id: "simplyswords:slumbering_lichblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52E0EE7B31DA3135"
+					item: "skillcloaks:brown_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65231A54DD6D66DF"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					command: "/skills add @p AGILITY 1"
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "6D87FC4A915DC180"
+					silent: true
+					title: "1 Agility Level"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "At least 20% more evil"
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "7E2E2C74FB7E119D"
+				title: "&bLich "
+				type: "advancement"
+			}]
+			title: "The Twilight Lich"
+			x: -18.0d
+			y: -21.25d
+		}
+		{
+			dependencies: ["1063FB9CAE038CF0"]
+			description: [
+				"This map you've fabricated reveals a great deal of the surrounding landscape.  There are some odd markings on it, like some sort of indicator that a structure or entity resides in a particular location.  "
+				""
+				"Why not wander on over to the one that looks like a reptile's head and see what that's all about."
+			]
+			icon: "twilightforest:naga_trophy"
+			id: "253C674B4CCFA857"
+			rewards: [
+				{
+					command: "/skills add @p ATTACK 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "5A657CF02E2016BA"
+					title: "1 Attack Level"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p \"Watcher: Hmph, they certainly grow large here.  That tower in the distance, the energy there feels like...death.\""
+					elevate_perms: true
+					id: "3292BB13A516B5BD"
+					type: "command"
+				}
+				{
+					id: "2110665837A5B517"
+					item: {
+						Count: 1
+						id: "tiered:toolsmiths_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Why does it always have to be snakes..."
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "32BE6415C619B5DC"
+				type: "advancement"
+			}]
+			title: "A gigantic...snake!?"
+			x: -16.285714285714285d
+			y: -18.976190476190474d
+		}
+		{
+			dependencies: ["39767E42C2255EF1"]
+			description: [
+				"For the most part this Twilight Realm is tranquil and beautiful.  You do have to look past the corrupted corpses of dead druids wandering around, and mega-snakes, and the spiders, and the hungry dogs, and goblinoids, and..."
+				""
+				"And then you find this thing.  Deep in the maze underneath the swamp, you have encountered man-cows, charging around making noises and swinging unreasonably heavy axes at you.  But this takes the cake.  It's a Mooshroom, like any you would find on the exotic mushroom islands, but atop its foresection is the torso head and arms of one of those man-cows.  "
+				""
+				"Who even made this..."
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "227772223FA80C12"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B70D6C5131298AB"
+					table_id: 7005991227151607963L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5489055A82FF7796"
+					table_id: 3407043161375062910L
+					type: "loot"
+				}
+				{
+					id: "2E11CA88A1B98A1E"
+					item: {
+						Count: 1
+						id: "tiered:weaponsmiths_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "I drink your soup!  I DRINK IT UP!"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "130019B552F91EBA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mushrooms and man-cows."
+			x: -16.23809523809524d
+			y: -22.547619047619044d
+		}
+		{
+			dependencies: ["227772223FA80C12"]
+			description: [
+				"One must wonder if this particular story about this particular creature is some sort of universal constant.  "
+				""
+				"The multi-headed menace from mythology is present here in the Twilight Realm.  Stand firm against its flaming breath, and keep hacking away until it runs out of heads.  Try to return some of the delayed blast explosives it spits at you, you don't want to get hit by those and you might as well try to make use of the energy."
+				""
+				"&o&7Hint: Defeat the Hydra to unlock access to The Nether, allowing you to continue the quest to discover the source of Undeath plaguing The Realms."
+			]
+			icon: "twilightforest:hydra_trophy"
+			id: "50CD3585A0E31EAD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38E5B4ABF506A096"
+					table_id: 7005991227151607963L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7321C9AECC9B4B7E"
+					table_id: 3407043161375062910L
+					type: "loot"
+				}
+				{
+					id: "4DED609FBA5FB52C"
+					item: "skillcloaks:ranging_cloak"
+					type: "item"
+				}
+				{
+					command: "/skills add @p DEFENSE 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "46D16010BCEF582D"
+					title: "1 Defense Skill"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "You've heard a story like this before"
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				icon: "twilightforest:hydra_trophy"
+				id: "4B9CE4ADF0C2D572"
+				title: "slay the Hydra"
+				type: "advancement"
+			}]
+			title: "Slay the Hydra"
+			x: -14.75d
+			y: -21.25d
+		}
+		{
+			dependencies: ["762C0381A3EC5E7E"]
+			description: [
+				"Those traders weren't kidding when they called this place magical."
+				""
+				"Now that you have some facility with the arcane arts, let's see if we can use some of the local materials to focus the energies of the realm into a more compact way to record our journeys here."
+				""
+				"Let's start by getting a feather from one of the ravens.  They've always been associated with memory and observation, perhaps the focus can be a quill of some kind.  We'll want to use the juice from some of the glowing underground berries, that seems like it will fill the need for an ink made from native sources, and the natural glow of the berries can be augmented with some glowstone dust to make the images on the map nice and bright.  Ruining your eyesight by reading in such a gloomy place simply won't do."
+			]
+			icon: "twilightforest:magic_map"
+			id: "1063FB9CAE038CF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "675CAF9C2755ECB0"
+				table_id: 3034821864176397678L
+				type: "random"
+			}]
+			subtitle: "Does this count as artifice?"
+			tasks: [{
+				id: "6313C7AA686C81BA"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			title: "Magic Map"
+			x: -14.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["03E28F1CA713BA8E"]
+			description: [
+				"In the deepest reaches under tall mountains, there lies ancient secrets to uncover. "
+				""
+				"Search these forgotten ruins cautiously, for strange plants shriek in the blackness, and they call upon an eyeless horror to defend the sanctity of the old places."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7C085F42A1DBCE75"
+			rewards: [
+				{
+					id: "524005E4E4A68290"
+					item: {
+						Count: 1
+						id: "tarotcards:the_moon"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					command: "/skills add @p AGILITY 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "6F446513B4BD37B7"
+					title: "1 agility skill level"
+					type: "command"
+				}
+				{
+					id: "04CBBF57B41AEF9D"
+					item: {
+						Count: 1
+						id: "runes_of_power:stealth_rune"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Trespassers Beware!"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "22754D644B5E9BEE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Echoes of the Past"
+			x: -11.25d
+			y: -22.5d
+		}
+		{
+			dependencies: ["03E28F1CA713BA8E"]
+			description: [
+				"Inundated ruins mark the sites of nations long since abandoned when the world changed.  Eldritch things have claimed these sodden monoliths as their own and the eldest of those things rule over their lesser kin and bring destruction to all natural creatures that stray too close."
+				""
+				"560&c HP"
+			]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			id: "72C78CD76ADD286C"
+			rewards: [{
+				id: "68C95AE5FDF4B3B7"
+				item: {
+					Count: 1
+					id: "runes_of_power:water_rune"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "...that ocean is not silent."
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "6B5E6B1A5B50F900"
+				type: "kill"
+				value: 1L
+			}]
+			title: "In the Depths"
+			x: -10.642857142857139d
+			y: -24.375d
+		}
+		{
+			description: [
+				"During your journeys through the realms, you will encounter and defeat powerful beings.  Each of these respresent some force or concept, and they posess a token that can be claimed."
+				""
+				"This deck can keep the cards organized and conveniently accesible to you, useful since the tokens enhance your own abilities while carrying them!"
+				""
+				"&o&7[Hint: The deck can be crafted if you lose the one gained as a reward here.  Replacement cards can be purchsed at great expense from the Merchant]"
+			]
+			id: "4358E6E658667604"
+			rewards: [{
+				id: "59925C0B25F12C94"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 22
+						}
+					}
+					id: "tarotcards:tarot_deck"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Gambling for a different sort of Fortune"
+			tasks: [{
+				id: "499F1A0C60AC6489"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tarotcards:tarot_cards"
+					}
+				}
+				title: "Any #tarotcards:tarot_cards"
+				type: "item"
+			}]
+			title: "The Tarot"
+			x: -11.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["1E71B57AD2BD8F84"]
+			description: ["Wandering in this most nightmarish of spa resorts, you stumble upon a monument to the energies of Undeath, built of blackstone and obsidian and posessed of an odius, dreadful aura."]
+			id: "417E5A2B1F7EC494"
+			rewards: [
+				{
+					id: "228D01E9B1D03E77"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_power"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D19D5561C05E85A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Fools meddling with forces they cannot understand...again."
+			tasks: [{
+				advancement: "eeeabsmobs:eeeabsmobs/bloody_altar"
+				criterion: ""
+				id: "6EA24143F1A6551F"
+				type: "advancement"
+			}]
+			title: "Unholy Service"
+			x: -1.8d
+			y: -19.0d
+		}
+		{
+			dependencies: ["417E5A2B1F7EC494"]
+			description: [
+				"Attending this mound of horrors, a dark-robed figure embodying the simplest cliches of evil stands over the freshly carven corpse of a Piglin Brute.  "
+				""
+				"Clearly potent enough to combat the martial arm of the Piglins, and certainly aligned with the dark forces you are tracking and eliminating, you know what your next stop on the path of conquest must be.  "
+				""
+				"Cut this supplicant of sorrow down and topple his disgusting altar."
+			]
+			id: "0A1377FFF7BFA159"
+			rewards: [
+				{
+					id: "47D4247049B736A2"
+					item: {
+						Count: 1
+						id: "simplyswords:watching_warglaive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07492FDD413E1DB6"
+					item: {
+						Count: 1
+						id: "tiered:weaponsmiths_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Promote this thing to client."
+			tasks: [{
+				advancement: "eeeabsmobs:eeeabsmobs/kill_corpse_warlock"
+				criterion: ""
+				id: "5B56EE566339DD67"
+				type: "advancement"
+			}]
+			title: "Deacons of Death"
+			x: -0.25d
+			y: -21.25d
+		}
+		{
+			description: [
+				"Occasionally while spelunking you find places where the stone was worked by mortal hands rather than nature."
+				""
+				"On a recent spelunking adventure, you've found more than just traces or masonry, you discovered an entire ancient burial ground!"
+			]
+			id: "3726B48B8154C0E2"
+			rewards: [{
+				id: "040FAB590468BFD8"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "Bring a Light"
+			tasks: [{
+				advancement: "legendary_monsters:locate_abandoned_crypt"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "legendary_monsters:soul_great_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1AE244514A87C38F"
+				title: "&dLocate The Posessed Paladin's Domain"
+				type: "advancement"
+			}]
+			title: "Creepy Crypts"
+			x: -15.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3EFC8FA95CF2F214"]
+			description: [
+				"The lesser armored figures are aggressive to a fault, but upon encountering the greater armored figure and the aura of malice and corruption surrounding it, you think they might be there to discourage visitors for very good reasons.  Disturbing this gigantic armored figure triggers an immediate onslaught. "
+				" "
+				"&o&7[Hint:Has stun attack and second phase.]"
+			]
+			id: "26E0987409A57C69"
+			rewards: [
+				{
+					id: "6F1C315BAC682401"
+					item: {
+						Count: 1
+						id: "tarotcards:judgement"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6ED0D9C2FD392B53"
+					item: {
+						Count: 1
+						id: "simplyswords:tainted_relic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "543A126531C05BAF"
+					item: "skillcloaks:red_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6726E6CE14D83DDA"
+					table_id: 3407043161375062910L
+					type: "loot"
+				}
+				{
+					id: "7F388FB4BCD59FEB"
+					item: {
+						Count: 1
+						id: "tiered:armorers_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "It's Just a Fancy Way to Say Knight"
+			tasks: [{
+				advancement: "legendary_monsters:defeat_posessed_paladin"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "legendary_monsters:soul_great_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0F04C9003469657B"
+				title: "&cSmite the Paladin!"
+				type: "advancement"
+			}]
+			title: "An Unholy Chevalier"
+			x: -18.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["021CC4F96CCBD2D2"]
+			description: ["At the peak of the windy Temple, there is a construct of coiulds and squalls waiting to assault you.  Once you step into its arena, the battle commences!"]
+			id: "2963AFAA7F069718"
+			rewards: [
+				{
+					id: "0C18282001E15C13"
+					item: {
+						Count: 1
+						id: "tarotcards:wheel_of_fortune"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "458DC816B84E0A95"
+					item: {
+						Count: 1
+						id: "simplyswords:enigma"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C77C784F8E01DF3"
+					item: "skillcloaks:brown_sack"
+					type: "item"
+				}
+				{
+					id: "09501BB62DDEA1B3"
+					item: {
+						Count: 1
+						id: "tiered:weaponsmiths_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Squad gales!  Ahahah, oh...sorry."
+			tasks: [{
+				advancement: "legendary_monsters:defeat_cloud_golem"
+				criterion: ""
+				id: "73F78C884B1988FA"
+				title: "Slay Teh Cloud Golem"
+				type: "advancement"
+			}]
+			title: "Ten Cloud Golem"
+			x: -3.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["0D4F3D0841A7EB9C"]
+			description: [
+				"So far, no monks and no fluffy beasts.  Very disappointing."
+				""
+				"The upside is that the angry wind elementals that are attacking you can be beaten.  Cut a few elementals down, and calm the winds a bit around here."
+			]
+			id: "021CC4F96CCBD2D2"
+			rewards: [{
+				id: "6436B8399C388186"
+				item: {
+					Count: 1
+					id: "legendary_monsters:atmospheric_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Bad weather always looks worse through a window."
+			tasks: [{
+				entity: "legendary_monsters:hovering_hurricane"
+				icon: "legendary_monsters:hovering_hurricane_spawn_egg"
+				id: "0750046F2EE91F4D"
+				type: "kill"
+				value: 4L
+			}]
+			title: "Elemental Constructs"
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			description: ["From the looks of this place, you think there might be a wise old monks up here to speak with, or a big fluffy animal lazing around that you can befriend."]
+			icon: "supplementaries:wind_vane"
+			id: "0D4F3D0841A7EB9C"
+			rewards: [{
+				id: "53AFE4355AD8BD4B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Same number of Air Benders here as there was at that other place..."
+			tasks: [{
+				icon: "supplementaries:wind_vane"
+				id: "797F8E31352D0AFE"
+				structure: "legendary_monsters:cloudy_temple"
+				type: "structure"
+			}]
+			title: "Temple of Wind"
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3726B48B8154C0E2"]
+			description: ["Upon entry into the crypt you've discovered, you are immediately confronted by silent armored figures that seem very interested in preventing you from investigating further/."]
+			id: "3EFC8FA95CF2F214"
+			rewards: [
+				{
+					id: "61BD040478594B40"
+					item: "legendary_monsters:guard_summoner"
+					type: "item"
+				}
+				{
+					id: "37ECD5B40A181AC3"
+					item: "legendary_monsters:knight_summoner"
+					type: "item"
+				}
+			]
+			subtitle: "What Exactly Are They Protecting?"
+			tasks: [{
+				entity: "legendary_monsters:haunted_knight"
+				icon: "legendary_monsters:deactivated_guard_summoner"
+				id: "1472FDAFBE921740"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Armored Company"
+			x: -15.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7B56B7393B067482"]
+			description: ["The undead menace has opposition here in the wastes.  A porcine people inhabit massive structures of blackstone and gold, ancient bastions erected in defiance of undeath's mastery of this place.  Perhaps you will find some useful items here, something to bolster you in your conflict with whatever is tearing souls away from The Shrouded Realm for use in its insidious schemes."]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon: "born_in_chaos_v1:spawn_structures_lookout_tower"
+			id: "5502DBA533CAD250"
+			subtitle: "Strange to find out you are not the first."
+			tasks: [{
+				id: "126A11824F7CA855"
+				secret: true
+				structure: "#minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			title: "The Opposition"
+			x: -7.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["5502DBA533CAD250"]
+			description: [
+				"There are 'people' inhabiting these old ruins, anthrpomorphized pig-like folk.  In fact, what snippets of information you can find indicates they are called 'Piglin'.  All of them are, however, aggressive.  Some more so than others."
+				""
+				"The more, uh...normal, Piglins are easily fooled into believing you are aligned with them by taking advantage of their very obvious obsession with gold.  Wearing a bit of highly impractical golden armor will convince them you are no threat whatsoever to their people.  You've also discovered that accidentally dropping some gold bars on the ground near them causes them to chase it down, pick it up, and accidentally drop something they were carrying for you to pick up."
+				""
+				"I suppose this technically counts as trading..."
+			]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			id: "2F45D1A5583A27CF"
+			subtitle: "At least the name makes sense..."
+			tasks: [{
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+				id: "2872004FA270B385"
+				type: "advancement"
+			}]
+			title: "Odd Inhabitants"
+			x: -7.5d
+			y: -24.37d
+		}
+		{
+			dependencies: ["2CD695FAF1E809AE"]
+			description: [
+				"Your battle was not terribly epic.  More of a mad scramble to just break off as much of the physical form of this thing and scatter its energies into the void, or The Shrouded Realm perhaps."
+				""
+				"Your efforts have NOT yielded the expected results.  The palpable malice and terror are still there, and short hop back to your home Realm shows that the menace of Undeath is still very much present.  You did receive some potent tokens from felling the creature though, one of which is a four-pointed star posessing incredible raw energy."
+				""
+				"The summoning ritual worked once, perhaps it can be repeated.  Since you have the benefit of foreknowledge now, and you can summon it directly to the location at which the ritual is performed, perhaps you can also concoct some sort of scheme or material to contain the beast so it doesn't cause such rampant destruction.  Several of these 'Nether Stars' might prove useful..."
+			]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "65F29B8AC3D4CB29"
+			rewards: [{
+				command: "/skills add @p MAGIC 1"
+				icon: "sophisticatedbackpacks:xp_pump_upgrade"
+				id: "6828A30B2A0D1ACA"
+				title: "1 Magic Level"
+				type: "command"
+			}]
+			subtitle: "Death knell? Or perhaps a warning bell?"
+			tasks: [{
+				id: "5E5F7D6608563E5C"
+				title: "Unfortunate Discovery"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -27.0d
+		}
+	]
+	title: "&aAct I - &7&oRites of Passage"
+}

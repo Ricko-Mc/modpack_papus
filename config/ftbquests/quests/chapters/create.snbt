@@ -1,0 +1,467 @@
+{
+	autofocus_id: "61FFFE9D07386A84"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "create"
+	group: "02AD8609A8FE6EE4"
+	icon: "create:cogwheel"
+	id: "67B1F5C6C5B523D4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Create is about turning motion into machines."
+				""
+				"You’ll start with simple parts, then learn how to power them and scale up."
+				""
+				"&7Tip: Most Create blocks have a Ponder tutorial. Use it if you get stuck."
+			]
+			disable_toast: true
+			id: "61FFFE9D07386A84"
+			rewards: [{
+				id: "6C2154391AB25A8F"
+				item: "create:wrench"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Start small. Make it spin. Make it useful."
+			tasks: [{
+				block: "minecraft:andesite"
+				block_type: 0
+				checkItem: false
+				id: "4CBD4D8FBDCF23BA"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "&6Create: &eThe Age of Rotation"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61FFFE9D07386A84"]
+			description: [
+				"This is the core material for Create’s early machines."
+				"Once you can craft this reliably, you can build almost everything else in this chapter."
+			]
+			id: "260DEAE6ED686D3B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47860D521E084E18"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+				{
+					id: "31F72436802A6204"
+					type: "xp"
+					xp: 75
+				}
+			]
+			subtitle: "The backbone of early Create"
+			tasks: [{
+				id: "19BFBD353D90503D"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Andesite Alloy"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["260DEAE6ED686D3B"]
+			description: [
+				"Shafts are your rotation cables."
+				"They move power in a straight line."
+			]
+			id: "3FF8C3938F6C4D88"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FA51D4044F86D09"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+				{
+					id: "5A9F34B2A4A8EC02"
+					type: "xp"
+					xp: 75
+				}
+			]
+			subtitle: "Carry rotation forward"
+			tasks: [{
+				id: "526351C4F99CAD74"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Shafts"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["260DEAE6ED686D3B"]
+			description: [
+				"Cogwheels let you turn corners and route motion cleanly."
+				""
+				"&7Tip: Small cog to big cog changes speed/torque."
+			]
+			id: "1EB7C4D10D137146"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E03710E4C0815EC"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+				{
+					id: "12B0CE7F242529DD"
+					type: "xp"
+					xp: 75
+				}
+			]
+			subtitle: "Redirect rotation"
+			tasks: [{
+				id: "286E91F9BDA4CFFC"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "Cogwheels"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3FF8C3938F6C4D88"
+				"1EB7C4D10D137146"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Now you need a way to generate rotation."
+				"Pick a starter power source below."
+			]
+			id: "4E01DDF0DFD3ECE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DB9D63059A494BD"
+				table_id: 4935671014145890216L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "Choose how you’ll spin things"
+			tasks: [{
+				id: "298554D6725F79F6"
+				title: "Pick a power source"
+				type: "checkmark"
+			}]
+			title: "Power Sources"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E01DDF0DFD3ECE5"]
+			description: [
+				"Perfect for early testing and tiny setups."
+				"Not efficient — but extremely convenient."
+			]
+			id: "2438131D949FB461"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4064351B2C7EEBB3"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+				{
+					id: "7E8FAC3AD05BC14A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Manual power for testing"
+			tasks: [{
+				id: "2B978CF69DCC8277"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Hand Crank"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E01DDF0DFD3ECE5"]
+			description: [
+				"Your first sustainable Create power."
+				"Great for early factories and processing lines."
+			]
+			id: "3ACD855248398139"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B71D4376303C2E2"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+				{
+					id: "07B9FF65CE486F3B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Steady, reliable rotation"
+			tasks: [{
+				id: "19548A1A4DD2DD3B"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Water Wheel"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2438131D949FB461"
+				"3ACD855248398139"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Create machines can overload if they don’t have enough capacity."
+				"The stressometer tells you when you’ve asked for too much."
+			]
+			id: "0324A65EC8FA0BDE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FDD28F28C5684FF"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+				{
+					id: "0CDB9E8190FBDF3A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Why did my machine stop?"
+			tasks: [{
+				id: "3C20F9E18259E470"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			title: "Stressometer"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0324A65EC8FA0BDE"]
+			description: [
+				"Some machines want speed. Others want torque."
+				"This lets you adjust your system cleanly."
+			]
+			id: "158614EC375C948E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "025B2DA91CEE9857"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+				{
+					id: "5080573E95FE3069"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Tune RPM without rebuilding"
+			tasks: [{
+				id: "2492194F6FEA7DA5"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "Rotation Speed Controller"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["158614EC375C948E"]
+			description: [
+				"Processing is where Create starts paying you back."
+				"Hook this to rotation and feed it items."
+			]
+			id: "7E723FC9AB561982"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BE6FF2774325216"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+				{
+					id: "3E3052F77C523739"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Your first real processor"
+			tasks: [{
+				id: "7C9557B2F2EC12C7"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Millstone"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E723FC9AB561982"]
+			description: [
+				"Funnels handle inserting and extracting items."
+				"Combine with filters later for cleaner automation."
+			]
+			id: "047C63154FCA43DA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72D409333D6E9B78"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+				{
+					id: "47F7788500D49531"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Move items with intent"
+			tasks: [{
+				id: "57B3663D7FF215DC"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			title: "Andesite Funnel"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["047C63154FCA43DA"]
+			description: [
+				"The deployer can place, use, and craft like a mechanical worker."
+				"It’s one of the most flexible early automation blocks."
+			]
+			id: "6B6D44F0FA3548B7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0CFF1F5062613F17"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+				{
+					id: "4E028D347825C182"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Automation with a \"hand\""
+			tasks: [{
+				id: "4207767CBC0CA773"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Deployer"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B6D44F0FA3548B7"]
+			description: [
+				"You’ve unlocked the real Create loop:"
+				"power → control → process → route → automate."
+				""
+				"From here, scaling up is just a matter of creativity (and stress capacity)."
+			]
+			id: "3F7988BC5FEC3080"
+			rewards: [{
+				id: "74556EC539C4EA9F"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 1.35d
+			subtitle: "You’re officially building machines now."
+			tasks: [{
+				id: "3FD93C7297C11DB0"
+				title: "Create milestone completed"
+				type: "checkmark"
+			}]
+			title: "Factory Beginnings"
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E01DDF0DFD3ECE5"]
+			description: [
+				"Belts are one of the easiest ways to move items early."
+				"Great for tidy lines and compact builds."
+			]
+			id: "047C443C57C79E5B"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03C046A1D9A215B9"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+				{
+					id: "12763178AB82DD4E"
+					type: "xp"
+					xp: 75
+				}
+			]
+			subtitle: "Simple logistics"
+			tasks: [{
+				id: "4B99FEEC4DBA5EE1"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Mechanical Belt"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1EB7C4D10D137146"]
+			description: [
+				"Create isn’t only machines — it’s moving builds."
+				"Bearings are the gateway to contraptions."
+			]
+			id: "74B218EC0B7421CE"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7856DBC992BFA8FD"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+				{
+					id: "0E8D46E00F771111"
+					type: "xp"
+					xp: 75
+				}
+			]
+			subtitle: "Move structures, not just items"
+			tasks: [{
+				id: "5EA96AA23A39141D"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "Mechanical Bearing"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Early Create progression"]
+	title: "&6Create"
+}

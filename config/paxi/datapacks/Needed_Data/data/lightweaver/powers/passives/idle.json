@@ -1,0 +1,85 @@
+{
+    "name": "§6§n",
+    "description": "\n",
+    "hidden": true,
+
+    "type": "origins:multiple",
+    "idling": {
+        "type": "apoli:action_over_time",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:chance",
+                    "chance": 0.2,
+                    "action": {
+                        "type": "origins:play_sound",
+                        "sound": "minecraft:block.amethyst_block.hit",
+                        "volume": 0.5,
+                        "pitch": 1.1
+                    }
+                },
+                {
+                    "type": "origins:chance",
+                    "chance": 0.5,
+                    "action": {
+                        "type": "origins:choice",
+                        "actions": [
+                            {
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "command": "particle electric_spark ~ ~1 ~ 0.25 0.5 0.25 0 3 force @a"
+                                },
+                                "weight": 1
+                            },
+                            {
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "command": "particle electric_spark ~ ~1 ~ 0.25 0.5 0.25 0 4 force @a"
+                                },
+                                "weight": 1
+                            },
+                            {
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "command": "particle electric_spark ~ ~1 ~ 0.25 0.5 0.25 0 5 force @a"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:moving",
+            "inverted": true
+        },
+        "interval": 40
+    },
+    "walking": {
+        "type": "apoli:action_over_time",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:play_sound",
+                "sound": "minecraft:block.amethyst_block.hit",
+                "volume": 0.3,
+                "pitch": 1.1
+            }
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:moving"
+                },
+                {
+                    "type": "origins:on_block"
+                }
+            ]
+        },
+        "interval": 20
+    }
+}

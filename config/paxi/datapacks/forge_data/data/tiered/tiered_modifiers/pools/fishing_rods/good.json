@@ -1,0 +1,25 @@
+{
+  "weight": 1,
+  "verifiers": [
+    {
+      "id": "forge:fishing_rods"
+    },
+    {
+      "id":"aquaculture:neptunium_fishing_rod"
+    },
+    {
+      "id":"aquaculture:diamond_fishing_rod"
+    },
+    {
+      "id":"aquaculture:gold_fishing_rod"
+    },
+    {
+      "id":"aquaculture:iron_fishing_rod"
+    }
+  ],
+  "tiers": [
+    "tiered:fishing_rods/lucky",
+    "tiered:fishing_rods/lucky1",
+    "tiered:fishing_rods/unlucky"
+  ]
+}

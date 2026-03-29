@@ -1,0 +1,88 @@
+{
+  "weight": 2,
+  "reforge_experience_cost": 10,
+  "reforge_durability_cost": 5,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "style": {
+    "color": "light_purple"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "id": "tiered:legendary_tool",
+        "operation": "ADD_VALUE",
+        "amount": 1.625
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "irons_spellbooks:spell_resist",
+      "modifier": {
+        "id": "tiered:legendary_tool",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.luck",
+      "modifier": {
+        "id": "tiered:legendary_tool",
+        "operation": "ADD_VALUE",
+        "amount": 1.5
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "irons_spellbooks:spell_power",
+      "modifier": {
+        "id": "tiered:legendary_tool",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "irons_spellbooks:mana_regen",
+      "modifier": {
+        "id": "tiered:legendary_tool",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "irons_spellbooks:max_mana",
+      "modifier": {
+        "id": "tiered:legendary_tool",
+        "operation": "ADD_VALUE",
+        "amount": 25
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "betterparagliders:two_handed_stamina_reduction",
+      "modifier": {
+        "id": "tiered:mythic",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.65
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

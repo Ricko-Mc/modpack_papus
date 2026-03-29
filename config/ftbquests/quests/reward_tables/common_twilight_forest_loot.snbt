@@ -1,0 +1,28 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "random_materials"
+		}
+	}
+	id: "2A1DDA6802D2AD6E"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ count: 3, item: "twilightforest:torchberries", random_bonus: 5, weight: 2.0f }
+		{ item: "twilightforest:raven_feather", random_bonus: 1, weight: 1.5f }
+		{ count: 2, item: "twilightforest:armor_shard", random_bonus: 1, weight: 0.5f }
+		{ item: "twilightforest:naga_scale", random_bonus: 1, weight: 0.5f }
+		{ count: 3, icon: "twilightforest:liveroot", item: "twilightforest:liveroot", random_bonus: 5, weight: 1.5f }
+		{ item: "twilightforest:steeleaf_ingot", random_bonus: 2, weight: 0.5f }
+		{ count: 7, item: "twilightforest:maze_wafer", random_bonus: 9, weight: 1.5f }
+		{ item: "twilightforest:rainbow_oak_sapling", random_bonus: 1, weight: 2.0f }
+		{ item: "twilightforest:canopy_sapling", random_bonus: 1, weight: 2.0f }
+		{ item: "twilightforest:darkwood_sapling", random_bonus: 1, weight: 2.0f }
+		{ item: "twilightforest:mangrove_sapling", random_bonus: 1, weight: 2.0f }
+	]
+	title: "Common Twilight Forest Loot"
+	use_title: true
+}

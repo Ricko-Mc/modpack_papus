@@ -1,0 +1,2820 @@
+{
+	autofocus_id: "0C6A76ADEA5C0A31"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enigmatic_legacy"
+	group: "3368DAD22055D0D9"
+	icon: "enigmaticlegacy:unwitnessed_amulet"
+	id: "7AEED523FAE23767"
+	images: [
+		{
+			height: 0.75d
+			image: "enigmaticlegacy:item/eldritch_pan"
+			rotation: 0.0d
+			width: 0.75d
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			height: 2.0d
+			image: "enigmaticlegacy:item/enigmatic_amulet"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			click: "#1816EBC6544A9E83"
+			height: 1.0d
+			image: "minecraft:textures/gui/sprites/widget/page_backward.png"
+			rotation: 0.0d
+			width: 1.7692307692307692d
+			x: 15.5d
+			y: -10.5d
+		}
+		{
+			height: 3.0d
+			image: "loe:textures/other/woe_lore.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 6.8d
+			y: -11.049999999999999d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"“The Acknowledgement—an ancient tome, bound not by thread and leather, but by fate and legacy.”"
+				""
+				"“It is your guide through the Journey of Enigmatic Legacy, a beacon in the dark, whispering truths long buried.”"
+				""
+				"“Within its ever-turning pages lies every fragment of knowledge you uncover: the secrets of cursed artifacts, the origins of forgotten relics, and the stories etched into the bones of this world.”"
+				""
+				"“It does not teach—it remembers. And through it, you will remember too.”"
+				""
+				"“Carry it well, Adventurer. For in a world lost to time… knowledge is power.”"
+				""
+				"\"...\""
+				""
+				"\"Oh, and you want to cosplay John Wick? Then this is the Weapon for you.\""
+			]
+			id: "4BABCC4A07F44E07"
+			rewards: [
+				{
+					count: 2
+					id: "5C0968AF42D7531C"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "506699FCD6E78459"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Craft the Acknowledgment"
+			tasks: [{
+				id: "0EE630645A48CB12"
+				item: "enigmaticlegacy:the_acknowledgment"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			description: ["The tome… holds immense knowledge that's believed to have been lost in it. Torn edges and faded ink mark its timeworn history, but maybe… if you look closely, the whispers of ancient scholars still echo through some of its surviving pages."]
+			id: "0C6A76ADEA5C0A31"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "3EB740CEB106DB8C"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:tattered_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Start Collecting Tattered Tomes"
+			tasks: [{
+				id: "30F69020C18DC77F"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:tattered_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0C6A76ADEA5C0A31"]
+			description: ["The tome… holds immense knowledge that's believed to have been lost in it. Decay has claimed most of its form, brittle and barely held together, but maybe… among the dust and rot, lies insight long buried with time itself."]
+			id: "1B0E0919ECA86CD6"
+			rewards: [{
+				id: "0BE0DD42AC3FDAD0"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:withered_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Collect Withered Tomes"
+			tasks: [{
+				id: "1AE9A0C294DA30A2"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:withered_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0C6A76ADEA5C0A31"]
+			description: ["The tome… holds immense knowledge that's believed to have been lost in it. Though many of its pages are drenched in darkness and warped beyond recognition, maybe… just maybe, you can still find fragments of forbidden wisdom buried deep within."]
+			id: "6748B7085A06688D"
+			rewards: [{
+				id: "3C236A9595E628DC"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:corrupted_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Collect Corrupted Tomes"
+			tasks: [{
+				id: "13662F3407F25860"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:corrupted_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4BABCC4A07F44E07"]
+			description: ["Equip the Iron Ring to boost your defense. A must-have for adventurers!"]
+			id: "39A933A2770D643D"
+			rewards: [{
+				id: "4D0EA7B33EC22F46"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			subtitle: "Craft or Find an Iron Ring"
+			tasks: [{
+				id: "620FAC8FB63C80B3"
+				item: "enigmaticlegacy:iron_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["39A933A2770D643D"]
+			description: [
+				"\"Seek the &aHeart of the Earth&r within chests scattered across the Overworld.\""
+				""
+				"\"A rare and vital core, pulsing with ancient life—essential in the crafting of most useful Artifacts your soul may desire.\""
+			]
+			id: "62859BB1F4E230CB"
+			rewards: [
+				{
+					count: 3
+					id: "2BFA2544657605B7"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "522C62869D5D762B"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Collect a Heart of the Earth"
+			tasks: [{
+				id: "1982D798DA5F9F70"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:earth_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["448FF36DB55A9BA0"]
+			description: [
+				"Forge the Twisted Heart—a vessel of warped essence and shadowed desire."
+				""
+				"Within it pulses the power of forbidden magic, sealed by the will of those who dared to defy the light."
+				""
+				"Craft it… and the veil between you and the arcane abyss shall be torn."
+				""
+				"So tell me, wanderer... are you prepared to embrace the dark?"
+			]
+			id: "64BB495A6EB14DCF"
+			rewards: [
+				{
+					id: "52964610DDF861FF"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:earth_heart"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3352B78890160DCC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Craft a Twisted Heart"
+			tasks: [{
+				id: "06A2B0C8341781A8"
+				item: "enigmaticlegacy:twisted_heart"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["64BB495A6EB14DCF"]
+			description: [
+				"…Demise is but a fleeting setback for a being such as yourself—a Demi-God, touched by eternity. Yet, the cost of resurrection is steep… for the echoes of what you lost may not return so willingly."
+				""
+				"This… is the Wayfinder of the Damned—a relic bound to souls who wander. It shall guide you back to the place of your fall, where fragments of your essence still linger, waiting... or perhaps, watching."
+			]
+			id: "43844AAAA07AC76A"
+			rewards: [{
+				count: 6
+				id: "35E1928755C4E138"
+				item: "lootbundles:fragment"
+				type: "item"
+			}]
+			subtitle: "Craft a Wayfinder of the Damned"
+			tasks: [{
+				id: "72684BB5657C7AFD"
+				item: "enigmaticlegacy:soul_compass"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["64BB495A6EB14DCF"]
+			description: [
+				"The Pact of Infinite Avarice—a relic of ancient greed, crafted to twist the hearts of Piglins who roam the Nether's blazing depths.”"
+				""
+				"Its sole purpose is to bend their desire, to cloud their rage, and bind their loyalty to you."
+				""
+				"So long as the pact is kept, they shall never turn their blades nor claws against you—no matter what you do."
+				""
+				"Use this artifact well… for even greed, when mastered, can become a shield as mighty as any sword"
+			]
+			id: "28ACF94EF13485BF"
+			rewards: [
+				{
+					id: "531D5ABB549D4FB6"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "04B5A5839DF7F767"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Craft the Pact of Infinite Avarice"
+			tasks: [{
+				id: "734468117C999D7E"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["39A933A2770D643D"]
+			description: [
+				"Legend have it that the Piglin will approve whoever wears this Ring."
+				""
+				"&7Rewards: x1 block of gold, x3 golden apple"
+			]
+			id: "72BD2C013517FAEF"
+			rewards: [
+				{
+					id: "23E5245FB918D988"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1F9EB54BB7F0E7C6"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Exquisite Ring."
+			tasks: [{
+				id: "76F1F85173DABBF6"
+				item: "enigmaticlegacy:golden_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"Use the blank scroll to craft other helpful scrolls."
+				""
+				"&7Rewards: x4 bottle o' enchanting, x3 feather"
+			]
+			id: "41715B42D35EDF22"
+			rewards: [
+				{
+					count: 4
+					id: "6291EF0F23F0094B"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "34237BA2C4C867C0"
+					item: "minecraft:feather"
+					type: "item"
+				}
+			]
+			subtitle: "Can be found anywhere"
+			tasks: [{
+				id: "4159EF79BA139BD9"
+				item: "enigmaticlegacy:thicc_scroll"
+				type: "item"
+			}]
+			title: "Blank Scroll"
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["41715B42D35EDF22"]
+			description: [
+				"In the ever-twisting, cruel dance of fate, experience is often the first sacrifice upon death's embrace. But what if your precious knowledge could be preserved, untouched by the decay of time and mortality?"
+				""
+				"The Scroll of Ageless Wisdom acts as a timeless vessel, a sacred storage that absorbs and safeguards all your experience. Fear not the loss of hard-earned wisdom."
+				""
+				"When the moment comes, and you once again seek the power of the ages, the scroll shall return every fragment of your gathered knowledge."
+				""
+				"Your journey is long, but your wisdom shall never fade... "
+			]
+			id: "08637E44D20B542C"
+			rewards: [
+				{
+					id: "7950101F86349296"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "7A9E0A929C00E7F6"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Scroll of Ageless Wisdom."
+			tasks: [{
+				id: "7F12C8CD2D40AA1F"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["41715B42D35EDF22"]
+			description: [
+				"Even for a being touched by divinity like yourself, death remains a troublesome annoyance. Each fall strips you of your treasures, your hard-earned knowledge, and the countless relics you carried."
+				""
+				"But no longer."
+				""
+				"With the Scroll of Postmortal Recall, this cruel cycle is broken. Upon your demise, everything you bore—your weapons, your artifacts, even your memories—will be preserved, tethered to your soul. When you awaken, it will all still be with you, as if death itself had merely brushed against you, powerless."
+				""
+				"Yet... the Scroll itself will not follow you. It shall remain, solemnly standing where your body fell, a silent witness to your final battle. Waiting for your return... or to be lost to time forever."
+				""
+				"Will you risk it, Adventurer? Will you embrace its blessing—or leave a piece of your fate behind?"
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "6DE1630D1AA519E8"
+			rewards: [{
+				id: "76148C6EEF91E993"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Craft a Scroll of Postmortal Recall."
+			tasks: [{
+				id: "3BFF434C841A0DAC"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"\"The &dEye of the Nebula&f, a Spellstone crystallized from the pure essence of the End itself.\""
+				""
+				"\"Discovered within the strange, warped lands at the edge of reality, it brims with raw enderic energy—an echo of the dimension’s very soul.\""
+				""
+				"\"Those who dare to attune with it may find themselves glimpsing through the veils of space, time, and fate.\""
+				""
+				"But beware—what it shows you, you may never unsee…"
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "0D2B6CF259929CB2"
+			rewards: [
+				{
+					id: "4D0C0405CF0E56D6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4460EC190EA715BF"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Locate an Eye of the Nebula."
+			tasks: [{
+				id: "7120CCFA7426ACC4"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: 2.3d
+			y: -2.8000000000000007d
+		}
+		{
+			dependencies: ["41715B42D35EDF22"]
+			description: [
+				"This is no mere parchment. The Darkest Scroll is an artifact shrouded in ancient ink and even darker secrets. It is believed to have borne silent witness to every vile sin humanity has ever committed—every betrayal, every cruelty, every unspoken desire."
+				""
+				"Darkened not by time, but by the insatiable greed and corruption of man, this scroll has absorbed it all. Its script writhes with ink that moves on its own, whispering forgotten names and cursed intentions."
+				""
+				"Now, it rests deep within the treasure hoards of the Piglins, who guard it fiercely. They do not understand its true nature, only that it holds power—twisted, forbidden power."
+				""
+				"Some say reading from the scroll may grant forbidden knowledge… others say it will curse your very soul."
+				""
+				"Will you dare to unroll it, Adventurer? Or will you let it sleep among gold and ash, waiting for the next fool to seek its secrets?"
+				""
+				"&7Rewards: x1 enchanted golden apple, x4 blaze powder, 1x Loot Bundle"
+			]
+			id: "7C948366E70BFDBA"
+			rewards: [
+				{
+					id: "4F0B1CB019C9C77E"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "27D05B310F2089C6"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "22DD387DEFFB49E3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Can be found in Bastion Remnant"
+			tasks: [{
+				id: "1A174653584B81EE"
+				item: "enigmaticlegacy:darkest_scroll"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["41715B42D35EDF22"]
+			description: [
+				"Have you ever thought that the sky was the limit? That there was no further beyond? Then you have not yet touched the true blessing hidden among the clouds."
+				""
+				"The Gift of the Heaven is a sacred scroll, granting the bearer the ability to soar through the skies, like an angel whispered into existence. Though not entirely free — your wings beat strongest within the embrace of a beacon's range — it is still a flight few could ever dream of."
+				""
+				"With the power of Heaven woven into your soul, Adventurer, the sky is no longer your limit. It is your playground."
+			]
+			id: "1508BA7FF3791FDE"
+			rewards: [
+				{
+					id: "70D1FE53CE9E1314"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6692B16CAE29723B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4920A9F33AAF9444"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Gift of Heaven."
+			tasks: [{
+				id: "3C2B35A00C9DDB24"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["64BB495A6EB14DCF"]
+			description: [
+				"Your soul is cursed. So too are your armor, and your blade. Why fight it… when you could wield it?"
+				""
+				"Behold—this is the Scroll of a Thousand Curses. With it, all curses upon you shall be twisted into strength untold."
+				""
+				"But beware… power born of darkness demands a price. Use it wisely, or be devoured by the abyss you dare to command."
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "2394FF9DD7778BB3"
+			rewards: [
+				{
+					id: "66CE735F26589C6D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "64732C8FDD59413F"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft a scroll of a Thousand Curses."
+			tasks: [{
+				id: "35EB69B51D9B78E9"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["39A933A2770D643D"]
+			description: [
+				"Collects items within an 8 block radius."
+				""
+				"&7Rewards: x2 Loot Bundle Fragment, 2 exp levels"
+			]
+			id: "423ED7CC4D6C9698"
+			rewards: [
+				{
+					count: 2
+					id: "196017D1E61D347E"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "66DAF322E0F8AF0B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a magnetic ring."
+			tasks: [{
+				id: "547C530D02FD7C81"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["423ED7CC4D6C9698"]
+			description: [
+				"Instantly collects items within a 16 block radius."
+				""
+				"&7Rewards: x1 eye of ender, x1 Loot Bundle"
+			]
+			id: "715043E2C1C68A7B"
+			rewards: [
+				{
+					id: "14480A5F73D1548F"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "66B1297E8F2E93D1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a dislocation ring."
+			tasks: [{
+				id: "5276B0095BC30AC6"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["72BD2C013517FAEF"]
+			description: [
+				"This ring allows remote access to your ender chest."
+				""
+				"&7Rewards: x1 ender chest, 7x Loot Bundle Fragment"
+			]
+			id: "7FB95183A77C109E"
+			rewards: [
+				{
+					id: "5D2B4301B951A561"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "0FF50A65C308EF83"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a ring of ender."
+			tasks: [{
+				id: "050DE008DAC25EFC"
+				item: "enigmaticlegacy:ender_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			description: [
+				"\"The &6Heart of the Golem&f, a Spellstone born from the very marrow of the earth, is said to pulse with ancient endurance.\""
+				""
+				"\"Those who bear it shall find their flesh hardened like steel, their stance unshaken even before the fiercest blows.\""
+				""
+				"It is not merely power—it is the will of the mountain itself"
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "25CB5DB68033989A"
+			rewards: [
+				{
+					id: "280AE95D38473E6B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "039BC29E3DB6AC72"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Can be found anywhere."
+			tasks: [{
+				id: "1E96055BC6F4476D"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: 1.2000000000000002d
+			y: -1.9000000000000004d
+		}
+		{
+			description: [
+				"\"Deep within the forgotten temples, hidden beneath layers of earth and time, where once divine songs echoed and sacred rituals painted the air...\""
+				""
+				"\"...now only silence lingers — heavy, eternal.\""
+				""
+				"\"Yet, the legends whisper still: the &fBlessings of the Angels&f, bestowed in ancient rites long since faded, remain undisturbed.\""
+				""
+				"\"In the shattered halls of what once was holy, among crumbling altars and moss-covered stones, you may uncover the &dAngel’s Blessing&f — a Spellstone imbued with the whispers of a sacred past.\""
+			]
+			id: "0F2D7D1069C860AC"
+			rewards: [
+				{
+					count: 5
+					id: "6AAAE96830C6806B"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "45606A57B26C8BB9"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+				{
+					id: "7FDC16FD14CBC18A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "This Spellstone is found in jungle temples, Cleric houses, Shiraz Palace, or desert pyramids."
+			tasks: [{
+				id: "3E23A4A3703DF7F2"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: 3.4d
+			y: -0.5d
+		}
+		{
+			description: [
+				"\"The &bWill of the Ocean&f, a Spellstone said to harness the raw power of the abyssal seas.\""
+				""
+				"\"Forged in the final breath of the fallen Atlantis civilization, it now lies dormant—lost to time, slumbering in the darkest, deepest trenches of the ocean.\""
+			]
+			id: "36C6A6A6CB71212A"
+			rewards: [
+				{
+					id: "3A1F396741C19177"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2857FFB9E6676F8D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Find in shipwrecks, underwater ruins, or buried treasure chests."
+			tasks: [{
+				id: "6868E2BDC2584881"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: 1.4d
+			y: -0.40000000000000036d
+		}
+		{
+			description: [
+				"\"The &cBlazing Core&f, forged in the searing heart of the Nether itself, pulses with the wrath of unending flame.\""
+				""
+				"\"It grants the bearer unmatched resistance and strength, tempered by the endurance of eternal heat.\""
+				""
+				"Only those who walk through fire without fear may claim its burning will."
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "74B6746298E3616F"
+			rewards: [
+				{
+					id: "6576C917D14603C7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "30E7697F742A3933"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Find in the Nether Fortress, Bastion and Ruined Nether Portal"
+			tasks: [{
+				id: "0077294FDC7B2ED0"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: 2.4d
+			y: -1.4000000000000004d
+		}
+		{
+			description: [
+				"\"There is something more to the End... something far beyond the End itself.\""
+				""
+				"\"Beneath the drifting islands and shimmering skies lies the &8Great Void&f — a place untouched by time, unshaped by gods, where even air dares not linger.\""
+				""
+				"\"Many who wandered too close to the edge have vanished, their souls swallowed by the silent abyss. For most, it is a realm of finality — a place of no return.\""
+				""
+				"\"And yet… it speaks.\""
+				""
+				"\"Deep within that formless dark, there exists the &5Pearl of the Void&f — a Spellstone not of flame, nor frost, nor storm, but of something... older.\""
+				""
+				"\"Its properties defy all known magic, whispering truths that unmake reality itself, as if the Void were not the absence of all elements — but an element on its own.\""
+				""
+				"\"None know how it surfaced. None know what it cost to bring it back. Only that it should not be here.\""
+				""
+				""
+				""
+				"&7Rewards: x1 totem of void undying, x1 Loot Bundle"
+			]
+			id: "709F519678E10920"
+			rewards: [
+				{
+					id: "582DD799EAB62925"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2545D1A592EEA4A5"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Can be found in End City."
+			tasks: [{
+				id: "1F137D9014072CE6"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			x: 3.5999999999999996d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62859BB1F4E230CB"]
+			description: [
+				"\"The &6Charm of the Treasure Hunter&f bestows boons and blessings upon those who dwell beneath the surface, ever digging, ever searching, guided by the whispers of stone and soil for the hidden essences of the earth.\""
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "03BDA7730DEC14F7"
+			rewards: [
+				{
+					id: "47B690E555FB0DE0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "53882369A00ACA84"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Charm of Treasure Hunter."
+			tasks: [{
+				id: "7C1911254AE48154"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Once, in a time long past, there existed a legendary warrior who bore this emblem—a symbol of unmatched strength, a token of honor, and a pledge to protect the weak from the monstrous beasts that roamed the lands."
+				""
+				"But now? The emblem lies shattered, its power lost in the winds of history, its fragments scattered across the vast, forgotten corners of the world. It is said that the warrior, too, has fallen to darkness, leaving behind only the relic, awaiting the one who could once again forge it into its former glory."
+				""
+				"Could you be that one? The chosen one to awaken the slumbering might of the Emblem of Monster Slayer? Perhaps, within the ruins of ancient lands, you will find the lost pieces and restore it to its rightful form. Once awakened, this emblem will grant you the power to hunt and slay monsters, the strength to face even the most horrific beasts, and the courage to stand against the shadows."
+				""
+				"Will you take up the mantle and breathe life into this forgotten artifact?"
+			]
+			id: "1109213EE9466FCA"
+			rewards: [
+				{
+					id: "3ED6DEC1F4FDA3FF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "51947D8C8784E1E0"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Emblem of Monster Slayer."
+			tasks: [{
+				id: "1A1974552FC4C064"
+				item: "enigmaticlegacy:monster_charm"
+				type: "item"
+			}]
+			x: -8.7d
+			y: -6.5d
+		}
+		{
+			description: [
+				"It is a Sponge"
+				""
+				"Y-yeah, that... that's all, no lore or crap, just... a wearable sponge"
+			]
+			id: "3F4CCE49A9041994"
+			rewards: [
+				{
+					count: 3
+					id: "0F776E1EBED474C6"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7830F9B1A331F40E"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Extrapolated Megasponge."
+			tasks: [{
+				id: "6D1A0A8344151A5E"
+				item: "enigmaticlegacy:mega_sponge"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.600000000000001d
+		}
+		{
+			description: [
+				"A mysterious and eerie artifact, The Extradimensional Eye possesses the power to capture the very essence of life itself. When activated, the eye opens a portal to another dimension, one that binds the soul of an animal, trapping it inside its lens. This bond is unbreakable, and once trapped, the animal’s soul is bound to the eye forever."
+				""
+				"However, such power comes at a great cost. The eye is a fragile creation, and once used, it will shatter and be lost to the void, its magic dissipating with its final use. The creature’s soul will be kept safe within its crystalline chamber, but its freedom is forever lost—until you decide to release it."
+				""
+				"The eye can be used to carry your faithful companion through dangerous lands, and into the farthest reaches of the unknown. But beware: the fate of the soul trapped within the eye is in your hands. Will you carry it with care, or will you disregard the consequences of such a twisted bond?"
+				""
+				"Use wisely, for you may never get the chance again."
+			]
+			id: "761D749A158BD554"
+			rewards: [
+				{
+					count: 3
+					id: "0624021B46A10D2D"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7BC6608C0D9A7817"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Extradimensional Eye."
+			tasks: [{
+				id: "694661D2AC08B1E3"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:extradimensional_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.7d
+			y: -4.700000000000001d
+		}
+		{
+			description: [
+				"Don't drink it"
+				""
+				"Just... don't"
+				""
+				"Unless..."
+			]
+			id: "0D248FFA664D7F8B"
+			rewards: [{
+				count: 3
+				id: "2A7DEDB688D9A639"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			subtitle: "Locate an Unholy Grail."
+			tasks: [{
+				id: "166F3757C6553D7A"
+				item: "enigmaticlegacy:unholy_grail"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"When the darkness closes in and death breathes coldly down your neck, there remains a single hope — the Potion of Recall. "
+				""
+				"Drink it, and in a blink of an eye, you will find yourself safely back in your warm, beloved home, far away from the fangs of doom. "
+				""
+				"Escape danger... slip away from the grip of death… just like a frightened soul fleeing its inevitable fate. "
+				""
+				"But tell me, Adventurer... would you truly choose to run like a coward? Or would you stay and fight, to carve your legend into destiny itself?"
+			]
+			id: "4688EFA97FE32B89"
+			rewards: [
+				{
+					id: "3AE7F249C78F48BA"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:luck"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2C671D900CD12AF7"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Locate a potion of recall."
+			tasks: [{
+				id: "1DD2DB41948571C8"
+				item: "enigmaticlegacy:recall_potion"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Look! Mending in a bottle!"]
+			id: "670A23F01AD31FA1"
+			rewards: [
+				{
+					count: 2
+					id: "0D34843B19A699B7"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "14B3015797839A08"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			subtitle: "Craft or locate mending mixture."
+			tasks: [{
+				id: "7578C345FB778F29"
+				item: "enigmaticlegacy:mending_mixture"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62859BB1F4E230CB"]
+			description: [
+				"Long ago, when the End was still untouched and brimming with arcane energies, it was blessed with a rare and radiant ore known as Etherium."
+				""
+				"Forged from the very essence of cosmic power, Etherium became the backbone of ancient civilizations, woven into their armor, their relics, and even their souls."
+				""
+				"But time, cruel and relentless, devoured it all."
+				""
+				"Now, no Etherium remains beneath the End’s surface."
+				""
+				"Only relics of the past hold its spark."
+				""
+				"To obtain it, brave the ruins, the ships, the chests scattered across the End’s eerie skies."
+				""
+				"Only then shall you reclaim the Ore..."
+				""
+				"...and awaken the power lost to time."
+				""
+				"&7Rewards: x2 Loot Bundle Fragment, 3 exp levels"
+			]
+			id: "72B258E7EF500A40"
+			rewards: [
+				{
+					count: 2
+					id: "00A45CA06F4FE5A6"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "14787EC9F079DC40"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Travel to end cities to locate."
+			tasks: [{
+				id: "75D0BD0590686107"
+				item: "enigmaticlegacy:etherium_ore"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72B258E7EF500A40"]
+			description: [
+				"Used to create armor and tools."
+				""
+				"&7Rewards: x1 enchanted book looting III, x1 enchanted book fortune III"
+			]
+			id: "0108C8363EDCEB37"
+			rewards: [
+				{
+					id: "412013F1B430AE29"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F9521E121ABA666"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Smelt some etherium ore to get an ingot."
+			tasks: [{
+				id: "1FB94D7F8EB83979"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0108C8363EDCEB37"]
+			description: [
+				"Forged from the mystical Etherium, this armor does not clink or shine like the others."
+				""
+				"No gleam. No shadow."
+				""
+				"Only silence."
+				""
+				"When a piece is worn, it slips into invisibility, cloaking itself and your body with the forgotten magic of the End."
+				""
+				"You will feel it—not see it."
+				""
+				"You will move as if unarmored—but you are protected."
+				""
+				"And when all four pieces embrace your body…"
+				""
+				"A hush will fall."
+				""
+				"The End itself may acknowledge your presence."
+				""
+				"Reality may bend, just slightly. The void may watch. The stars may blink in your favor."
+				""
+				"Something extraordinary... may awaken."
+				""
+				"&7Rewards: x1 block of etherium, x2 Loot Bundle"
+			]
+			id: "78203BD8B97C7607"
+			rewards: [
+				{
+					id: "49BB517CB5B2570D"
+					item: "enigmaticlegacy:etherium_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2CAACBCA5C3BC4CD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a set of etherium armor."
+			tasks: [
+				{
+					id: "60360544B7BB232B"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76E1AA16F523D36A"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D935C08E8E55912"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1088D97274B928C6"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Etherium Armor"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["309FE1985BAF49DD"]
+			description: [
+				"Forged from the Essence of the End, the forgotten ore known only as Etherium, these tools shimmer not with light, but with mystery."
+				""
+				"They do not simply strike—they consume."
+				""
+				"When used, they break not just what lies before you, but everything surrounding your will."
+				""
+				"The land trembles. The void responds."
+				""
+				"The Etherium Sword, however, is another tale entirely."
+				""
+				"It does not boast—it hunts."
+				""
+				"When you hold it, it listens… to movement, to danger."
+				""
+				"With each incoming blow, it may guide you to a swift sidestep—and offer you the perfect moment to strike back."
+				""
+				"A blade that dances with destiny."
+				""
+				"A weapon worthy of the End."
+				""
+				"&7Rewards: x1 block of etherium, x2 Loot Bundle"
+			]
+			id: "3EB53951C56D0770"
+			rewards: [
+				{
+					id: "0F6594755D772EED"
+					item: "enigmaticlegacy:etherium_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B27999490C6885D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Craft etherium tools and a sword."
+			tasks: [
+				{
+					id: "46A80D2C2D8B0B89"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61826F6A9B4F7935"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "333401E751381731"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "608EEDF6D5484EB4"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C1F074D58ECBC7E"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Etherium tools"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Let the beheading begin."
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "7C388E7F31698D84"
+			rewards: [
+				{
+					id: "7837C1FA3DA1B7A7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3FFC93B44FCECFCC"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "4FAA6C614C0E2965"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Axe of Executioner."
+			tasks: [{
+				id: "6CB38D2091143557"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:forbidden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"When a star exhausts its final breath of life, it succumbs to its own gravity, collapsing in on itself and bursting into a blinding Supernova."
+				""
+				"The remains of this celestial death — the Astral Dust — are fragments of cosmic dreams shattered across the universe."
+				""
+				"These glittering particles, once the core of mighty stars, are now treasured as essential material for all cosmic creations. "
+				""
+				"Holding even a single grain of Astral Dust means cradling a memory of a fallen star... and perhaps, a whisper of its endless power"
+			]
+			id: "1934812AC5CAC82D"
+			rewards: [
+				{
+					count: 10
+					id: "101B4C78CB5CE485"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+				{
+					id: "75A4FE0E16399128"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5D666C60F64C3EF4"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Astral dust can be found in end city chests."
+			tasks: [{
+				id: "2074F6CE32150420"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1934812AC5CAC82D"]
+			description: [
+				"Behold! The Cosmic Level Delicacy!"
+				""
+				"Gordon Ramsay approved!"
+				""
+				"&7Rewards: x2 tiny potato lantern, x1 potato crate, 4x Loot Bundle Fragment"
+			]
+			id: "52A5C6F3F000216F"
+			rewards: [
+				{
+					id: "6A8F28C2375F9AE7"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3F3687C813E3357C"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a teleportato."
+			tasks: [{
+				id: "42FB178CDE957A02"
+				item: "enigmaticlegacy:astral_potato"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1934812AC5CAC82D"]
+			description: [
+				"Forged from the very hardness of Astral Dust, the Astral Breaker is a tool of unimaginable destruction."
+				""
+				"It does not simply shatter what it strikes — it ravages everything around it, causing the earth itself to tremble."
+				""
+				"Harness the Cosmic force with caution, for the sky itself may one day answer your call... by collapsing upon you."
+				""
+				"A weapon of gods... or a curse upon the mortal realm? Only your hands will decide."
+			]
+			id: "468718200BF90E97"
+			rewards: [
+				{
+					id: "3DC97DE92D5A6B2F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "14BA8D53FF8058A2"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					id: "46162DD312B6ACEF"
+					item: "minecraft:gold_ore"
+					type: "item"
+				}
+				{
+					id: "077AC2E5A3A027A9"
+					item: "minecraft:emerald_ore"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Astral Breaker."
+			tasks: [{
+				id: "54AB360816F5283A"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:astral_breaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0108C8363EDCEB37"]
+			description: [
+				"The ender rod is used to create etherium tools."
+				""
+				"&7Rewards: x5 blaze rod, 1x ender rod"
+			]
+			id: "309FE1985BAF49DD"
+			rewards: [
+				{
+					count: 5
+					id: "483C1865DC5569EE"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "63D2DBFE2DB30D13"
+					item: "enigmaticlegacy:ender_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an ender rod."
+			tasks: [{
+				id: "4FB3EA85701D263A"
+				item: "enigmaticlegacy:ender_rod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1934812AC5CAC82D"]
+			description: [
+				"The Gift of the Heaven once limited your flight, chaining you within the fragile reach of a beacon’s light. "
+				""
+				"But now, with the sacred Astral Dust infused into the Gift of the Heaven, the Grace of the Creator is born."
+				""
+				"With this divine blessing, you are no longer bound by earthly limits. "
+				""
+				"Fly freely, endlessly, across skies untamed and stars uncharted, as if you were crafted by the Creator's own hands."
+				""
+				"No beacon, no anchor — only you, the endless sky, and the stardust under your wings."
+			]
+			id: "137D893BA87C8AEE"
+			rewards: [
+				{
+					id: "7EDAE7C1FDDA13EA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "11E118D341461DE6"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Grace of the Creator."
+			tasks: [{
+				id: "719C2111D5EF6067"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1934812AC5CAC82D"]
+			description: [
+				"Born from the fusion of countless Astral Dust, the Heart of the Cosmos embodies the very essence of the Universe itself. "
+				""
+				"This condensed core, a fragment of the stars' final breath, holds power far beyond mortal comprehension."
+				""
+				"To hold it is to hold the crushing weight and boundless expanse of the cosmos, pressed into the palm of your hand."
+				""
+				"With it, you are no longer bound by the petty limits of earth and sky. You become a whisper among the stars... or a calamity that the world shall never forget."
+				""
+				"A Material for the powerful gears and artifact. Including &dThe Cube..."
+			]
+			id: "19DF6D39AF363A9F"
+			rewards: [
+				{
+					count: 4
+					id: "75BE66EDB814D386"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A4D0BBF75CF39E2"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "17F782D311C916DB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Heart of the Cosmos."
+			tasks: [{
+				id: "58895AFAAF01DD7D"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:cosmic_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19DF6D39AF363A9F"]
+			description: [
+				"Nom, nom. Please refer to the Acknowledgment for more details."
+				""
+				"&7Rewards: Cake \\& 1x Loot Bundle"
+			]
+			id: "72B13E96E546259F"
+			rewards: [
+				{
+					id: "221D02B8FD218329"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "42E705A3314CF265"
+					item: "minecraft:cake"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Eternal Cake."
+			tasks: [{
+				id: "0048C0776D8F93BD"
+				item: "enigmaticlegacy:cosmic_cake"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["62859BB1F4E230CB"]
+			description: [
+				"\"The &aEssence of Raging Life&f, forged by harnessing the primal power of the &aHeart of the Earth&r, brims with untamed vitality.\""
+				""
+				"\"When used, it mimics the effects of infinite Bone Meal, breathing wild growth into your crops with every touch.\""
+				""
+				"&7Rewards: x2 cactus, x2 sugar cane, 4x Loot Bundle Fragment"
+			]
+			id: "434C9007727AB65E"
+			rewards: [
+				{
+					count: 2
+					id: "2C6DEAF20A8CBDD1"
+					item: "minecraft:cactus"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B9044AD725E3A7C"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "685B8ED488B8ED30"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Craft the Essence of Raging Life."
+			tasks: [{
+				id: "6ED9EFF4432AAC56"
+				item: "enigmaticlegacy:infinimeal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["64BB495A6EB14DCF"]
+			description: [
+				"Bearer of the Curse, your flesh shall burn with every misstep into the fire’s embrace, an eternal agony awaiting those who falter."
+				""
+				"But fear not, for this Bulwark of Blazing Pride stands as your shield against the searing flames."
+				""
+				"The fire shall never scorch your skin, nor shall its heat claim your life."
+				""
+				"In its wake, each blow you block shall return blessings—a reward for your endurance, and a testament to your will."
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "4E6821B3AF8DD735"
+			rewards: [
+				{
+					id: "723175DB974A35EF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7C7F44591F763F56"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FB0C28FBC4517E9"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			subtitle: "Craft a Bulwark of Blazing Pride."
+			tasks: [{
+				id: "7136B76F1505588D"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["64BB495A6EB14DCF"]
+			description: [
+				"Each time a Curse-Bearer such as yourself falls, a fragment of your soul shatters—your very life force, diminished."
+				""
+				"This is the burden you carry... a fading light, dimmed by each demise."
+				""
+				"Yet in your suffering lies potential."
+				""
+				"With the Emblem of Bloodstianed Valor, each soul-piece lost becomes fuel—igniting what remains with ferocious strength."
+				""
+				"Rise, bearer of curses... and let vengeance fall like fire upon whatever wretch dared to strike you down."
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "7AECF8E2AF8AE4E9"
+			rewards: [
+				{
+					id: "40D4D91E0209FD42"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "238052A93649DE22"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0935DD317DF966F7"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			subtitle: "Craft an Emblem of Bloodstained Valor."
+			tasks: [{
+				id: "50CD5510D58395A4"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["64BB495A6EB14DCF"]
+			description: [
+				"The Wither, birthed from the anguish of a thousand tormented souls, forever bound in the heart of the blazing Nether."
+				""
+				"Its very essence is a force of destruction—intense and all-consuming. So potent is its Soul Essence that even in death, traces of it linger."
+				""
+				"This is the Nefarious Essence, a remnant of the Wither’s demise, where the fabric of life and death blurs."
+				""
+				"&7Rewards: x3 wither skeleton skull"
+			]
+			id: "3D95E76A73543BF4"
+			rewards: [
+				{
+					count: 3
+					id: "7CDF17C8D0680040"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "7FFD2A057F8058F4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0058B2A64DC76DEB"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			subtitle: "Gather up some nefarious essence."
+			tasks: [{
+				id: "6AEF273E37AAEE45"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D95E76A73543BF4"]
+			description: [
+				"Bearer of the Curse… Have you ever wondered what a life untouched by shadows might be like?"
+				""
+				"What if the Ring of the Seven Curses never touched your hand? What if all this, the suffering and power, were but a fleeting nightmare?"
+				""
+				"The answer lies within the Unholy Stone—an ancient relic forged by the Elder Gods themselves to defy the curses of the Eldritch Beings."
+				""
+				"Hold this stone, and seek out the deepest Lava Pool in the Nether. Dive into its fiery depths, and death shall claim you. The Ring shall be destroyed."
+				""
+				"When you awaken, you will find yourself in the warmth of your bed, free from the Ring’s grasp. The curses, and the blessings… gone."
+				""
+				"Know this, Wanderer—this path is irreversible. Once you choose, there is no turning back."
+				""
+				"So, will you accept the Curses that have shaped you, or will you cast aside the blessings that have empowered you?"
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "6800A5A812D0787F"
+			rewards: [
+				{
+					id: "1525D0C81F303AB2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44F5BC28CCE4482A"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			subtitle: "Craft an Unholy Stone."
+			tasks: [{
+				id: "446AB69D01FDCEB5"
+				item: "enigmaticlegacy:cursed_stone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D95E76A73543BF4"]
+			description: [
+				"“Unlike the Tome of Hungering Knowledge, the Tome of Devoured Malignancy thirsts only for the curses that bind your weapons and gear.”"
+				""
+				"“It is a dark relic with a singular purpose—to consume the curses that plague your possessions, devouring them whole.”"
+				""
+				"“Once absorbed, the curses become part of the tome, locked away in its pages. It will keep them for as long as you desire, should you ever wish to wield such dark power again.”."
+				""
+				"&7Rewards: x2 Loot Bundle Fragment"
+			]
+			id: "1836C1DE2045FDF8"
+			rewards: [
+				{
+					count: 2
+					id: "0D595A66A41ABED3"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "6C70808D487B73EB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05DE1C296517D57E"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			subtitle: "Craft a Tome of Devoured Malignancy."
+			tasks: [{
+				id: "5B5192F90B5E7BF1"
+				item: "enigmaticlegacy:curse_transposer"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D95E76A73543BF4"]
+			description: [
+				"“So, you have slain the Wither and claimed the Nefarious Essence that lingers at its demise…”"
+				""
+				"“Now, it is time to strengthen your Acknowledgement.”"
+				""
+				"“The Acknowledgement—a powerful tome, both a weapon and a wellspring of knowledge—has served you well, but it is nothing compared to what awaits.”"
+				""
+				"“By combining the Nefarious Essence with the Acknowledgement, you shall create The Twist—a dark and twisted artifact that merges destruction with enlightenment.”"
+				""
+				"“This, The Twist, is now yours to wield, bending both the forces of knowledge and the essence of the void to your will.”"
+				""
+				""
+				""
+				"&7Rewards: x1 The Acknowledgement, x1 Loot Bundle"
+			]
+			id: "5B5A48AA2750B059"
+			rewards: [
+				{
+					id: "30AA4213E49B77EB"
+					item: "enigmaticlegacy:the_acknowledgment"
+					type: "item"
+				}
+				{
+					id: "3C929D51B02FFABF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "215B3EFC6CBE7E70"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			subtitle: "Craft the Twist."
+			tasks: [{
+				id: "1A51CF75DAB0F11E"
+				item: "enigmaticlegacy:the_twist"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Are you an Animal Lover? Or perhaps... a kind-hearted soul, a Vegan who cherishes every life and seeks to protect all creatures? You don’t want to mistakenly harm these innocent beings, do you?"
+				""
+				"Then, The Guide to Animal Companionship is exactly what your gentle heart needs."
+				""
+				"With this book in your hands, your presence will no longer bring harm to any innocent creature. Even the fierce Hoglin, once naturally aggressive, will see you not as a threat, but as a playful companion, wagging its tail like a joyful puppy."
+				""
+				"Compassion blooms wherever you go. ⸜(｡˃ ᵕ ˂)⸝"
+			]
+			id: "3CA72ABF6B26E4D7"
+			rewards: [
+				{
+					id: "4F2F8AEB51570AA7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "593C7A276709546A"
+					item: "minecraft:wolf_spawn_egg"
+					type: "item"
+				}
+			]
+			subtitle: "Craft the Guide to Animal Companionship."
+			tasks: [{
+				id: "248C1877C2533B5B"
+				item: "enigmaticlegacy:animal_guidebook"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"Have you ever felt a chill run down your spine, fearing that your beloved pet may one day perish…? Be it at the cruel claws of a vile monster, or a tragic accident in a pool of scorching lava...?"
+				""
+				"Fear no more."
+				""
+				"With the Guide to Feral Hunt, the bond between you and your loyal companion grows unbreakable. Every harm that dares to befall your pet, every wound meant for them... will be redirected to you instead."
+				""
+				"They shall remain safe, shielded by your undying love... but you? You will carry their pain, their suffering, all in silence."
+				""
+				"It is the price of true protection... The mark of a guardian’s heart."
+				""
+				"&7Rewards: x1 cat spawn egg"
+			]
+			id: "36E8244388327032"
+			rewards: [{
+				id: "029CCBEBB0606F84"
+				item: "minecraft:cat_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "Craft a Guide to Feral Hunt."
+			tasks: [{
+				id: "3139A5BC707D1B9B"
+				item: "enigmaticlegacy:hunter_guidebook"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"“The Tome of Hungering Knowledge is no ordinary book.”"
+				""
+				"“It possesses an insatiable desire—a hunger to consume all knowledge that exists in this world.”"
+				""
+				"“When put into the Crafting Table with an enchanted gear, it will begin to absorb any enchantments bound to your weapons, armor, or tools, tearing the magic from their vessels and sealing it within its endless pages.”"
+				""
+				"“But fear not. The knowledge is never truly lost.”"
+				""
+				"“When the time is right, you need only open the tome… and the enchantments may be returned to your gear, as if they had never left.”"
+				""
+				"“Beware, however—when its page is tear off, the tome will disappear, forever.”"
+			]
+			id: "6D50912485960708"
+			rewards: [
+				{
+					count: 2
+					id: "1496A5C1A4BB6AA5"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "27E48D1612828443"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Library in your hand!"
+			tasks: [{
+				id: "47642F1F517138C4"
+				item: "enigmaticlegacy:enchantment_transposer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			description: ["Behold! The Ultimate Trash Can!"]
+			id: "58B892A32F5EAEFC"
+			rewards: [
+				{
+					id: "2D37408B7613DAC8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2A98ACCF3E76D012"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Locate Keystone of the Oblivion."
+			tasks: [{
+				id: "2410E3E51759628A"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:void_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.600000000000001d
+		}
+		{
+			description: [
+				"“How does the Elder Guardian command the endless tides of its kind?”"
+				""
+				"“The answer lies not in its size, nor in its strength… but in the ancient secret nestled within its chest—the Heart of the Guardian.”"
+				""
+				"“A relic of deep oceanic power, pulsing with ancient magic older than time itself. Through it, the Elder bends the will of the seas, summoning the unwavering loyalty of every Guardian it lays eyes upon.”"
+				""
+				"“And now… you wonder.”"
+				""
+				"“Can you claim that power?”"
+				""
+				"“Can a Cursed Wanderer, whose path reeks of corruption and ambition, steal the heart of the sea’s ancient sentinel?”"
+				""
+				"“Perhaps.”"
+				""
+				"“But beware—some hearts do not wish to be taken.”"
+			]
+			id: "1723916D601379C4"
+			rewards: [
+				{
+					id: "5ABCAB7BB4BF1A3C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7174B9910A12A03B"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain the Heart of the Guardian."
+			tasks: [{
+				id: "7E4E6D949956387F"
+				item: "enigmaticlegacy:guardian_heart"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"“There exists a tale, passed from tongue to tongue, from fire-lit night to moonlit silence — the tale of the First Ones, Adam and Eve, cast from the celestial garden over a single, fateful bite of a Fruit.”"
+				""
+				"“The Forbidden Fruit.”"
+				""
+				"“Long has it slumbered in silence, its power waned… Yet even now, after countless ages, something within it stirs.”"
+				""
+				"“It no longer grants divine knowledge. That gift is lost to time. But its Enigmatic Ability still lingers — a blessing… or perhaps, a curse.”"
+				""
+				"“For those who dare consume it shall never know hunger again… nor shall they ever eat again.”"
+				""
+				"“Eternally full. Forever hollow.”"
+				""
+				"“Is that the mercy of the Heavens… or the cruelty of the Divine?”"
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "1C4E52F8A7494A24"
+			rewards: [{
+				id: "7352918C84B8B81B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Locate Forbidden Fruit."
+			tasks: [{
+				id: "582FD57A72E2D4D4"
+				item: "enigmaticlegacy:forbidden_fruit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72BD2C013517FAEF"]
+			description: [
+				"&fThe &eUnwitnessed Amulet&f—an artifact crafted from silence and shadow."
+				""
+				"When it first appears before you, it will gaze into your soul, judge your essence..."
+				""
+				"Then, and only then, will it shift its form—becoming the &6Enigmatic Amulet&f,"
+				""
+				"its effects forever shaped by the verdict it renders upon you."
+				""
+				"&7Rewards: x1 Loot Bundle \\& x3 Loot Bundle Fragment."
+			]
+			id: "091DC655494F76F1"
+			rewards: [
+				{
+					id: "198280C2BF37EEF2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2F532281106B05B9"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Acquire an Enigmatic Amulet"
+			tasks: [
+				{
+					id: "7AA42225E80B3017"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:enigmatic_amulet"
+						tag: {
+							AssignedColor: 0.1f
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33A00168EE125A9E"
+					item: "enigmaticlegacy:unwitnessed_amulet"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["19DF6D39AF363A9F"]
+			description: [
+				"“The Enigmatic Amulet once bore a sign—a faint Blessing from Above. But for you… that is no longer enough.”"
+				""
+				"“You have walked a path of shadows and storms, carved your name into forgotten ruins and cursed tomes.”"
+				""
+				"“You have endured. You have conquered. You have ascended.”"
+				""
+				"“Now, as recognition for all you have suffered, the heavens offer a final gift: the Amulet of Ascension.”"
+				""
+				"“A relic not merely of power, but of divine acknowledgment—for the Adventurer who wandered through the Unknown, for the Wanderer who conquered the Darkness.”"
+				""
+				"“This amulet… is you. A reflection of your legacy. A fragment of the light you thought you had lost.”"
+			]
+			id: "398ADFBDCD756442"
+			rewards: [
+				{
+					id: "11B510E30D24537E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7C5FC383AA2B614E"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Amulet of Ascension."
+			tasks: [{
+				id: "7DE69A684E420337"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ascension_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D95E76A73543BF4"]
+			description: [
+				"The Endermen have long defied your will, slipping through the shadows, mocking your power."
+				""
+				"Now, with the Ender Slayer in hand, surge forth and command those who dare to disobey. Let the very fabric of the End tremble at your might."
+				""
+				"The Endermen shall not escape, nor defy you any longer. Let their fate be sealed beneath the weight of your wrath."
+				""
+				"&7Rewards: x2 eye of ender, x1 Loot Bundle"
+			]
+			id: "7C48451CE49D8FD7"
+			rewards: [
+				{
+					count: 2
+					id: "7C6FC8240879F32B"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "4EBF6B53B05C02E3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4170087EE92635A7"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			subtitle: "Craft an Ender Slayer."
+			tasks: [{
+				id: "6A75F03333A97B30"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ender_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3D95E76A73543BF4"]
+			description: [
+				"“The Heart of the Abyss—a lost essence buried deep within the void of the End—now throbs within the corrupted soul of the Ender Dragon.”"
+				""
+				"“It is far beyond saving... only death shall bring it peace.”"
+				""
+				"“But perhaps, just perhaps… you can claim it.”"
+				""
+				"“This Heart, ancient and sentient, does not yield to just anyone. It only reveals itself to one it deems worthy—one who has borne the Ring of Seven Curses since the moment they stepped into this world.”"
+				""
+				"“Your journey must be forged in suffering, in sacrifice, in endless torment.”"
+				""
+				"“Only through a path paved in agony can the Heart be yours—at the very end of all things.”"
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "3B8FA3A0F9118BCC"
+			rewards: [
+				{
+					id: "3C612224E7BCB194"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "628E5C50AC3CC2D4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "316D777CBC004E39"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			subtitle: "Obtain the Heart of the Abyss."
+			tasks: [{
+				id: "7F08E0159B200892"
+				item: "enigmaticlegacy:abyssal_heart"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D95E76A73543BF4"]
+			description: [
+				"“The Enchanter’s Pearl—a crystal brimming with untold knowledge, a vessel of ancient power.”"
+				""
+				"“Wear it, and feel the surge of enchantments course through your veins. With this pearl, your enchanting power will grow beyond measure.”"
+				""
+				"“Its wisdom is boundless, and so too will your craft be, unlocking secrets that were once thought unreachable.”"
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "7DA89687E05065B7"
+			rewards: [
+				{
+					id: "2232F749D4C7687C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7EB93F5AAF0ED672"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50CF73526AF7AD84"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			subtitle: "Craft the Enchanter's Pearl."
+			tasks: [{
+				id: "3A02B522BA4B7F02"
+				item: "enigmaticlegacy:enchanter_pearl"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B8FA3A0F9118BCC"]
+			description: [
+				"“Even after you have corrupted the Acknowledgement with the Nefarious Essence… Even though the Twist now bends to your will…”"
+				""
+				"“It is not enough.”"
+				""
+				"“Your thirst for power is unquenchable. As a bearer of Curses, you crave not peace, nor salvation—only power. Endless, boundless power.”"
+				""
+				"“Now, with the Heart of the Abyss in your grasp, a new path unfolds before you… the path to The Infinitum.”"
+				""
+				"“By further corrupting the Twist, the Heart shall merge with it, and The Infinitum shall awaken—its Eye opening for the first time in eons.”"
+				""
+				"“It watches you, unblinking… not as an ally, nor as a servant. But as a judge.”"
+				""
+				"“It sees the depths of your greed, the hunger clawing at your soul… and it does not forget.”"
+				""
+				"&7Rewards: x2 Loot Bundle, 5 exp levels"
+			]
+			id: "2887C05F57CED960"
+			rewards: [
+				{
+					count: 2
+					id: "422B99F5C3924C33"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2F4341E19D6BA5B7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "384BB1FD7FB71E7E"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			subtitle: "Craft the Infinitum."
+			tasks: [{
+				id: "1FE300DA62845709"
+				item: "enigmaticlegacy:the_infinitum"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"\"Throughout the ages, countless seekers of power have dared to claim the six primordial Spellstones — each a fragment of creation’s raw essence. And yet, with ambition unbound, they dreamed of something more…\""
+				""
+				"\"A union. A convergence of forces so vast, so reality-defying, that none could fathom its outcome.\""
+				""
+				"\"Most perished in madness. Others vanished into the folds of twisted realms.\""
+				""
+				"\"But you, have succeeded.\""
+				""
+				"\"The &dHeart of the Cosmos&f, a celestial force beyond mortal comprehension, now pulses within your grasp. With it, you forge the &5Non-Euclidean Cube&f — a construct that defies logic, dimension, and fate itself.\""
+				""
+				"\"This artifact is not merely power... it is dominion. Over time. Over space. Over death.\""
+				""
+				"\"For as long as this cube endures, so too shall your will.\""
+				""
+				"\"And thus, in its presence... you are eternal.\""
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "04E302A59593F58C"
+			rewards: [{
+				count: 2
+				id: "385B25EE74CCB4B0"
+				item: "lootbundles:loot_bundle"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft the Non-Euclidean Cube."
+			tasks: [{
+				id: "6C21305AF65E70D4"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"“A divine fruit slumbers within the City at the End of the Journey.”"
+				""
+				"“Radiant and untouched, it pulses with forgotten power—awaiting a soul bound by fate, by burden, by Curses.”"
+				""
+				"“To consume it is to strengthen your soul, to widen the path carved by your suffering. With its blessing, you shall gain the strength to wear an additional Ring, and with it, wield more power.”"
+				""
+				"“But beware, Wanderer.”"
+				""
+				"“The fruit is not for the hesitant. It only reveals itself if your first treasure chest is opened while wearing the Ring of the Seven Curses.”"
+				""
+				"“If you fail this trial—if you come unmarked, unscarred—then the fruit shall vanish from this world, never to be found again.”"
+				""
+				"“Even if you wear the Ring later… it shall no longer see you as worthy.”"
+			]
+			id: "477809F6433402A2"
+			rewards: [
+				{
+					id: "0612D123FC418AC0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A1332A1FF3CA6F9"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Locate a Celestial Fruit in an end city."
+			tasks: [{
+				id: "667D1F446B60601B"
+				item: "enigmaticlegacy:astral_fruit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3B8FA3A0F9118BCC"]
+			description: [
+				"“The Amulet of Ascension is now yours… but why?”"
+				""
+				"“Why does your heart still feel empty?”"
+				""
+				"“You—the Cursed Adventurer, the Wanderer of Ruin—you are not content.”"
+				""
+				"“Your thirst knows no bounds. You crave more. More than power. More than divinity. You would curse the very heavens if it meant gaining an inch more strength.”"
+				""
+				"“And the Heart of the Abyss... it watches.”"
+				""
+				"“It judges. But you no longer care.”"
+				""
+				"“Instead, it offers. A pact. A perversion.”"
+				""
+				"“Corrupt the Amulet of Ascension, and let it grow twisted into the Testament of Contempt.”"
+				""
+				"“A wretched thing with a single, glaring eye—filled not with wonder or mercy… but with pure, unyielding judgment.”"
+				""
+				"“It stares into your soul.”"
+				""
+				"“And you stare back.”"
+				""
+				"“You do not care. For in the end… it is Power you seek. Endless. Absolute. Eternal.”"
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "4A5D49E6FA0DD092"
+			rewards: [
+				{
+					id: "7BA2C5A9462CE079"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4BC3E23B9919CED8"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62383555070CB154"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			subtitle: "Craft the Testament of Contempt."
+			tasks: [{
+				id: "2A90D1AF1353546A"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64BB495A6EB14DCF"]
+			description: [
+				"Drink of this elixir, and let the threads of fate unwind."
+				""
+				"Your essence shall be pulled through the veil... back to the place where you last drew breath."
+				""
+				"Where death claimed you, you shall return—whether to reclaim what was lost... or to fall once more."
+				""
+				"&7Rewards: x2 Loot Bundle Fragment"
+			]
+			id: "77E4FAE2C6BFDCF1"
+			rewards: [
+				{
+					count: 2
+					id: "47E37376C515D771"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "5CD3F85F301D0280"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Brew a potion of Twisted Mercy."
+			tasks: [{
+				id: "56A91DACF683E4C0"
+				item: "enigmaticlegacy:twisted_potion"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["64BB495A6EB14DCF"]
+			description: [
+				"“Gaze into the Mirror of Retreat, and the path home shall reveal itself.”"
+				""
+				"“Use it to escape danger, to slip from death’s grasp… just like a frightened soul running from fate.”"
+				""
+				"“It won’t judge you—but you might judge yourself.”"
+				""
+				"&7Rewards: x1 Loot Bundle"
+			]
+			id: "106B58066A10677A"
+			rewards: [
+				{
+					id: "2E230D28F7664948"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6779DC938221F538"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D5BEF3CD2F5C378"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			subtitle: "Craft a Twisted Mirror."
+			tasks: [{
+				id: "771ABC884879AEC9"
+				item: "enigmaticlegacy:twisted_mirror"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["709F519678E10920"]
+			description: [
+				"For countless moons, the Cursed Adventurer — you — have borne the scorn of a world that never understood, never forgave. You who never struck first, yet always bled.\""
+				""
+				"\"But now... no more.\""
+				""
+				"\"The &dHeart of the Abyss&f, ancient and all-seeing, offers its dark mercy once more.\""
+				""
+				"\"And from that mercy, the &8Burden of Desolation&f is born.\""
+				""
+				"\"A silent decree written into the fabric of existence — any creature, mortal or not, who dares raise hostility against you...\""
+				""
+				"\"...shall be undone, erased from time’s weave within mere minutes.\""
+				""
+				"\"No blade will reach you. No claw shall pierce your skin.\""
+				""
+				"\"Only silence remains... and you, untouched.\""
+				""
+				"\"Safe. And utterly, irrevocably... alone.\""
+			]
+			id: "38288DFB28EDE3F9"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "07FCD5791CF167FA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "7BA658ABEE654CF6"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft the Burden of Desolation."
+			tasks: [{
+				id: "79B662A32D51B54E"
+				item: "enigmaticlegacy:desolation_ring"
+				type: "item"
+			}]
+			x: 3.6d
+			y: -3.1d
+		}
+		{
+			dependencies: ["0D2B6CF259929CB2"]
+			description: [
+				"Forged through the divine grace of the Angel’s Blessing and the celestial force of the Eye of the Nebula, this is no ordinary pair of wings."
+				""
+				"These wings do not glide. They ascend."
+				""
+				"With power surging from deep within, the Majestic Elytra can propel you skyward, no height required, no aid needed."
+				""
+				"It lifts not only your body, but your very spirit."
+				""
+				"Where others fall to fly..."
+				""
+				"You rise to rule."
+				""
+				"&7> Hold jump key while flying to continuously accelerate forward. Elytra is damaged faster when accelerating."
+			]
+			id: "5CD39FABB39A5B6B"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1A20D1853FBDAFE1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1555109B2F03F689"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					id: "1512B53896B11101"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Majestic Elytra."
+			tasks: [{
+				id: "445692F96567B8D8"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.3d
+			y: -3.9d
+		}
+		{
+			description: [
+				"&e&l! &f&r“Upon using the Eye... you may hear a voice.”"
+				""
+				"“Faint, distant—like someone watching from beyond the veil of reality.”"
+				""
+				"…"
+				""
+				"“Alright, alright, let’s drop the whole ‘Enigma’ tone for a second.”"
+				""
+				"“I don’t know his real name—nobody does—but I’ve always called him John.”"
+				""
+				"“He’s… strange. Silent. Watches over the Journey of Adventurers like you.”"
+				""
+				"“Doesn’t say much, really. Only speaks when the world shifts—when something important happens.”"
+				""
+				"“Is he friend? Is he foe? No idea. But he’s been here longer than any of us.”"
+				""
+				"“So if you hear a whisper in the dark, maybe... just maybe... John’s paying attention.”"
+			]
+			id: "420919E128967D72"
+			rewards: [{
+				count: 2
+				id: "14D214EB4FBAE94F"
+				item: "lootbundles:fragment"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Find or acquire a Dormant Eye."
+			tasks: [{
+				id: "4422CDA3608E10EA"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+	]
+	subtitle: ["Tempted... New resources, powerful gear, and ancient relics"]
+	title: "&bEnigmatic Legacy"
+}

@@ -1,0 +1,22 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "random_materials"
+		}
+	}
+	id: "3705E2B2C328048F"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 16, item: "create:builders_tea" }
+		{ count: 2, item: "create:pulse_repeater" }
+		{ count: 2, item: "create:redstone_link" }
+		{ count: 8, item: "create:copper_casing" }
+		{ count: 8, item: "create:brass_casing" }
+		{ item: "create:adjustable_chain_gearshift" }
+		{ item: "create:pulse_repeater" }
+	]
+	title: "Epic Create Loot"
+}

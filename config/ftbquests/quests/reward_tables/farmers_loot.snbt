@@ -1,0 +1,40 @@
+{
+	id: "11C94DD707225347"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{ item: "farmersdelight:glow_berry_custard" }
+		{ count: 4, item: "farmersdelight:rope" }
+		{ count: 5, item: "farmersdelight:rich_soil" }
+		{ item: "farmersdelight:apple_cider" }
+		{ count: 4, item: "farmersdelight:sweet_berry_cookie" }
+		{ count: 3, item: "farmersdelight:organic_compost" }
+		{ item: "farmersdelight:pasta_with_meatballs" }
+		{ count: 2, item: "farmersdelight:dark_oak_cabinet" }
+		{ count: 2, item: "farmersdelight:cake_slice" }
+		{ item: "farmersdelight:horse_feed" }
+		{ item: "farmersdelight:dog_food" }
+		{ count: 2, item: "farmersdelight:squid_ink_pasta" }
+		{ item: "farmersdelight:milk_bottle" }
+		{ count: 3, item: "farmersdelight:tomato_seeds" }
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:netherite_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:iron_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Farmer's Loot"
+}

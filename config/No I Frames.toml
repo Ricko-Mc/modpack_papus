@@ -1,0 +1,81 @@
+
+["10 equals 0"]
+
+	["10 equals 0"."5 seconds"]
+		#Amount of damage types not listed here I frames.
+		Unasigned = 5.0
+		#Amount of arrow damage type I frames.
+		Arrow = 0.0
+		#Amount of bed/anchor explosion I frames.
+		"Intentional Game Design" = 0.0
+		#Amount of cactus damage I frames.
+		Cactus = 10.0
+		#Amount of cramming damage I frames.
+		Cramming = 10.0
+		#Amount of drowning damage I frames.
+		Drowning = 0.0
+		#Amount of explosion damage I frames.
+		Explosion = 0.0
+		#Amount of fall damage I frames.
+		Falling = 0.0
+		#Amount of anvil fall damage I frames.
+		"Falling Anvil" = 0.0
+		#Amount of block fall damage I frames.
+		"Falling Block" = 0.0
+		#Amount of falling dripstone damage I frames.
+		"Falling Dripstone" = 0.0
+		#Amount of blaze fireball damage I frames.
+		"Blaze Fireball" = 0.0
+		#Amount of fireworks damage I frames.
+		Fireworks = 0.0
+		#Amount of flying into wall damage I frames.
+		"Fly Into Wall" = 0.0
+		#Amount of freezing damage I frames.
+		Freezing = 0.0
+		#Amount of generic damage I frames. Mostly unused.
+		Generic = 0.0
+		#Amount of hot floor damage I frames.
+		"Hot Floor" = 10.0
+		#Amount of suffocation damage I frames.
+		Suffocation = 10.0
+		#Amount of in fire damage I frames.
+		"In Fire" = 10.0
+		#Amount of indirect damage I frames e.g potion of harming.
+		"Indirect Magic" = 0.0
+		#Amount of lava damage I frames.
+		Lava = 10.0
+		#Amount of lightning damage I frames.
+		Lightning = 10.0
+		#Amount of magic damage I frames.
+		Magic = 0.0
+		#Amount of mob damage I frames.
+		"Mob Attack" = 0.0
+		#Amount of goat ramming damage I frames.
+		"Goat Attack" = 0.0
+		#Amount of shulker damage I frames.
+		Shulker = 0.0
+		#Amount of on fire damage I frames.
+		"On Fire" = 0.0
+		#Amount of player damage I frames.
+		"Player Attack" = 5.0
+		#Amount of player explosion I frames.
+		"Player Explosion" = 0.0
+		#Amount of warden sonic boom damage I frames.
+		"Sonic Boom" = 0.0
+		#Amount of falling onto dripstone damage I frames.
+		"Fall onto Dripstone" = 0.0
+		#Amount of starve damage I frames.
+		Starve = 0.0
+		#Amount of bush damage I frames.
+		Bush = 10.0
+		#Amount of thorns damage I frames.
+		Thorns = 0.0
+		#Amount of thrown damage I frames.
+		Thrown = 0.0
+		#Amount of trident damage I frames.
+		Trident = 0.0
+		#Amount of wither effect damage I frames.
+		"Wither Effect" = 0.0
+		#Amount of wither skull damage I frames.
+		"Wither Skull" = 0.0
+

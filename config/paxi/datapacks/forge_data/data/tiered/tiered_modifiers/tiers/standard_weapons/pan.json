@@ -1,0 +1,53 @@
+{
+  "weight": 8,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+    {
+      "type": "betterparagliders:idle_stamina_regen",
+      "modifier": {
+        "id": "tiered:resilient_1",
+        "operation": "ADD_VALUE",
+        "amount": 100
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "betterparagliders:one_handed_stamina_reduction",
+      "modifier": {
+        "id": "tiered:resilient_1",
+        "operation": "ADD_VALUE",
+        "amount": 1000
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "betterparagliders:two_handed_stamina_reduction",
+      "modifier": {
+        "id": "tiered:resilient_1",
+        "operation": "ADD_VALUE",
+        "amount": 1000
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    }
+  ]
+}

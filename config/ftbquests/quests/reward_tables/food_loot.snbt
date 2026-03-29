@@ -1,0 +1,36 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "random_materials"
+		}
+	}
+	id: "3C031CD5D5F185B0"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 5
+			item: {
+				Count: 1
+				id: "minecraft:bread"
+				tag: { }
+			}
+		}
+		{ count: 5, item: "minecraft:beetroot_soup" }
+		{ count: 2, item: "forbidden_arcanus:bat_soup" }
+		{ item: "farmersdelight:fried_egg" }
+		{ item: "farmersdelight:cooked_bacon" }
+		{ item: "farmersdelight:wheat_dough" }
+		{ item: "farmersdelight:pumpkin_slice" }
+		{ item: "farmersdelight:ham" }
+		{ item: "farmersdelight:ham" }
+		{ item: "farmersdelight:mixed_salad" }
+		{ item: "farmersdelight:chicken_sandwich" }
+		{ item: "farmersdelight:mutton_wrap" }
+	]
+	title: "Food Drops"
+	use_title: true
+}

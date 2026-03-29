@@ -1,0 +1,26 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "random_materials"
+		}
+	}
+	id: "02D66F5C8BF63F14"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ item: "minecraft:netherite_ingot", random_bonus: 2, weight: 1.5f }
+		{ item: "minecraft:nether_star", weight: 0.5f }
+		{ count: 7, item: "minecraft:gold_ingot", random_bonus: 9, weight: 2.0f }
+		{ count: 3, item: "nethersdelight:nether_skewer", random_bonus: 5 }
+		{ item: "nethersdelight:stuffed_hoglin", random_bonus: 1 }
+		{ count: 7, item: "minecraft:blaze_rod", random_bonus: 9 }
+		{ count: 3, item: "quark:blaze_lantern", random_bonus: 5 }
+		{ item: "minecraft:wither_skeleton_skull", weight: 2.0f }
+		{ item: "eidolon:withered_heart", weight: 1.1f }
+	]
+	title: "Epic Nether Loot"
+	use_title: true
+}

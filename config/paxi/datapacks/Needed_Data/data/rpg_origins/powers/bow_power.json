@@ -1,0 +1,17 @@
+{
+    "type": "origins:attribute",
+	"modifiers": [
+        {
+        "attribute": "too_many_bows:bow_crit_chance",
+        "operation": "addition",
+        "value": 0.05
+    },
+    {
+        "attribute": "too_many_bows:bow_damage",
+        "operation": "addition",
+        "value": 0.2
+    }
+],
+"name": "Too Many Bows: Bonuses",
+"description": "While using any Too Many Bows bow you'll get addition Crit Chances and Bow overall damage!"
+}

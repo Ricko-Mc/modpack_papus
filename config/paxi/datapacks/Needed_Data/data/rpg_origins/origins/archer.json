@@ -1,0 +1,16 @@
+{
+    "name": "Archer",
+    "description": "You're great with bows and crossbows, but it comes at a cost.",
+    "powers": [
+        "rpg_origins:marksman",
+        "rpg_origins:bow_power",
+        "rpg_origins:untrained",
+        "rpg_origins:inexperienced",
+        "rpg_origins:resourceful",
+        "rpg_origins:quiver"
+    ],
+    "icon": {
+        "item": "too_many_bows:arcane_bow"
+    },
+    "impact": 2
+}

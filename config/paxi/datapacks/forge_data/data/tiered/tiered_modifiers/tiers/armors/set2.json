@@ -1,0 +1,53 @@
+{
+  "weight": 1,
+  "reforge_experience_cost": 10,
+  "reforge_durability_cost": 5,
+  "reforge_item": "tiered:armorers_hammer",
+  "style": {
+    "color": "red"
+  },
+  "attributes": [
+    {
+      "type": "irons_spellbooks:spell_power",
+      "modifier": {
+        "id": "tiered:resilient_1",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "irons_spellbooks:cooldown_reduction",
+      "modifier": {
+        "id": "tiered:legendary_tool",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": -0.5
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "irons_spellbooks:fire_spell_power",
+      "modifier": {
+        "id": "tiered:legendary_tool",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.35
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    }
+  ]
+}

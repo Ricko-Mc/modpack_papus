@@ -1,0 +1,35 @@
+{
+  "weight": 8,
+  "reforge_experience_cost": 0,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "style": {
+    "color": "white"
+  },
+  "attributes": [
+    {
+      "type": "irons_spellbooks:mana_regen",
+      "modifier": {
+        "id": "tiered:unchained",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": -0.20
+      },
+      "optional_equipment_slots": [
+        "MAINHAND",
+        "OFFHAND"
+      ]
+    },
+    {
+      "type": "irons_spellbooks:spell_power",
+      "modifier": {
+        "id": "tiered:unchained",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": [
+        "MAINHAND",
+        "OFFHAND"
+      ]
+    }
+  ]
+}

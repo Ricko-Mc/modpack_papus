@@ -1,0 +1,39 @@
+{
+  "weight": 2,
+  "reforge_experience_cost": 6,
+  "reforge_durability_cost": 3,
+  "reforge_item": "tiered:armorers_hammer",
+  "style": {
+    "color": "blue"
+  },
+  "attributes": [
+    {
+      "type": "generic.max_health",
+      "modifier": {
+        "id": "tiered:rare_armor",
+        "operation": "ADD_VALUE",
+        "amount": 4
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "additionalentityattributes:dropped_experience",
+      "modifier": {
+        "id": "tiered:rare_armor",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.65
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    }
+  ]
+}

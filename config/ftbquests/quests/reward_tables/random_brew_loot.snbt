@@ -1,0 +1,38 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "random_enchant"
+		}
+	}
+	id: "3F082EC195299908"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "minecraft:ghast_tear" }
+		{ item: "minecraft:magma_cream" }
+		{ item: "minecraft:rabbit_foot" }
+		{ count: 6, item: "minecraft:gunpowder" }
+		{ item: "minecraft:redstone" }
+		{ count: 6, item: "minecraft:sugar" }
+		{ count: 6, item: "minecraft:glowstone_dust" }
+		{ item: "minecraft:glistering_melon_slice" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:turtle_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:fermented_spider_eye" }
+		{ item: "minecraft:phantom_membrane" }
+		{ item: "minecraft:golden_carrot" }
+		{ item: "minecraft:pufferfish" }
+		{ item: "minecraft:blaze_powder" }
+		{ count: 6, item: "minecraft:nether_wart" }
+	]
+	title: "Random Brew loot"
+}

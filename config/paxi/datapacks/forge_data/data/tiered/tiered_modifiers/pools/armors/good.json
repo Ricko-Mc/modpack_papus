@@ -1,0 +1,46 @@
+{
+  "weight": 3,
+  "verifiers": [
+    {
+      "tag": "forge:armors/helmets"
+    },
+    {
+      "tag": "forge:armor"
+    },
+    {
+      "tag": "forge:armors"
+    },
+    {
+      "tag": "bookshelf:armor"
+    },
+    {
+      "tag": "forge:armors/chestplates"
+    },
+    {
+      "tag": "forge:armors/leggings"
+    },
+    {
+      "tag": "forge:armors/boots"
+    }
+  ],
+  "tiers": [
+    "tiered:armors/fortified",
+    "tiered:armors/heavy",
+    "tiered:armors/magical",
+    "tiered:armors/arcane",
+    "tiered:standard_armors/godly",
+    "tiered:armors/speed",
+    "tiered:armors/swift",
+    "tiered:armors/reinforced",
+    "tiered:armors/resilient",
+    "tiered:armors/resilient_1",
+    "tiered:standard_armors/epic",
+    "tiered:standard_armors/legendary",
+    "tiered:standard_armors/legendary_1",
+    "tiered:standard_armors/legendary_2",
+    "tiered:standard_armors/legendary_3",
+    "tiered:standard_armors/mythic",
+    "tiered:standard_armors/rare",
+    "tiered:standard_armors/rare_1"
+  ]
+}

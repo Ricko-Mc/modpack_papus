@@ -1,0 +1,39 @@
+{
+  "weight": 50,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:armorers_hammer",
+  "id": "tiered:common_elytra_1",
+  "verifiers": [
+    {
+      "id": "minecraft:elytra"
+    }
+  ],
+  "style": {
+    "color": "gray"
+  },
+  "attributes": [
+    {
+      "type": "tiered:generic.durable",
+      "modifier": {
+        "id": "tiered:common_elytra_1",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": -0.3
+      },
+      "optional_equipment_slots": [
+        "CHEST"
+      ]
+    },
+    {
+      "type": "generic.max_health",
+      "modifier": {
+        "id": "tiered:common_elytra_1",
+        "operation": "ADD_VALUE",
+        "amount": -2
+      },
+      "optional_equipment_slots": [
+        "CHEST"
+      ]
+    }
+  ]
+}

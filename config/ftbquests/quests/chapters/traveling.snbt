@@ -1,0 +1,2643 @@
+{
+	autofocus_id: "1D4C42DAF914FDAC"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "traveling"
+	group: "478F493742D3F387"
+	icon: {
+		Count: 1
+		id: "sophisticatedbackpacks:backpack"
+		tag: {
+			borderColor: 3949738
+			clothColor: 3949738
+		}
+	}
+	id: "1D24C398A990FE26"
+	images: [
+		{
+			height: 5.0d
+			image: "loe:textures/other/bandit-arcadia1.png"
+			order: 1
+			rotation: 0.0d
+			width: 15.0d
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			click: "#1816EBC6544A9E83"
+			height: 1.0d
+			image: "minecraft:textures/gui/sprites/widget/page_backward.png"
+			rotation: 0.0d
+			width: 1.7692307692307692d
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			height: 2.7d
+			image: "loe:textures/other/alerus_lore.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 1.5714285714285694d
+			y: -2.2857142857142847d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to the world of Arcadia!"
+				""
+				"This is the start of your adventures, here your new life begins. "
+				""
+				"Travel the lands, build an empire, and fight eldritch monsters in a mad scramble for more power! "
+				""
+				"Endless potential awaits you, now journey forth and &2CLAIM WHAT IS RIGHTFULLY YOURS!&f"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1D4C42DAF914FDAC"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0DFA005289A34B0D"
+					item: "valhelsia_structures:white_sleeping_bag"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 4
+					id: "5840B99016B19129"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "It's Dangerous to go Alone"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					disable_toast: true
+					icon: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4E9E1C0C684109C0"
+					title: "&l&aThe World Of &l&6Arcadia!"
+					type: "dimension"
+				}
+				{
+					id: "09D3CE8F9D56C037"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FD482871FCF2831"]
+			dependency_requirement: "one_started"
+			description: ["You ran and jumped quite a bit to get here. Take a rest adventurer."]
+			id: "182B71F1B42077BC"
+			rewards: [
+				{
+					id: "3BFE88F52DBF2FFE"
+					item: "skillcloaks:agility_cloak"
+					type: "item"
+				}
+				{
+					id: "5E3CAB5A505ACC29"
+					item: "skillcloaks:agility_hood"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FA62B4DEF1B7143"
+					table_id: 7425475955515657121L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "7A55D86A21DF37EA"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "artifacts:rooted_boots"
+						tag: {
+							abilities: {
+								devouring: {
+									points: 0
+									stats: {
+										frequency: 120.21476d
+									}
+									temp: {
+										ticking: 1b
+									}
+								}
+							}
+						}
+					}
+					id: "11B9BD0672D09731"
+					stat: "minecraft:sprint_one_cm"
+					type: "stat"
+					value: 160000
+				}
+				{
+					icon: {
+						Count: 1
+						id: "eidolon:summoning_staff"
+						tag: {
+							selected: 0
+						}
+					}
+					id: "25E972475C01E31A"
+					stat: "minecraft:jump"
+					type: "stat"
+					value: 3200
+				}
+			]
+			title: "Nomad"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32A79C8E0246F46B"]
+			description: ["Lootr is a mod that adds per-player instanced containers with tons of goodies.  Open enough of these and you'll get a little something to commemorate your greed!"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "73945EE6D8B667AC"
+			rewards: [{
+				id: "3E8973BC129E9F55"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Plenty to go around!"
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "7A508F9E60BDA26A"
+				type: "advancement"
+			}]
+			title: "Open 100 Lootr Chests"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58C607A4668C5733"]
+			description: ["There uh...might be dangerous things living in it though.  Practice your freestyle stroke, you're going to need it to cross that body of water fast enough to get out with almost all of your skin intact!"]
+			icon: "minecraft:oak_boat"
+			id: "0434AF51B3C6D102"
+			rewards: [{
+				id: "5813202EB384AFA4"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "alas the seas call..."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "create:copper_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "193C1621E4FF689D"
+				stat: "minecraft:swim_one_cm"
+				type: "stat"
+				value: 100
+			}]
+			title: "...and Sea"
+			x: -3.797619047619051d
+			y: 3.499999999999993d
+		}
+		{
+			dependencies: ["0434AF51B3C6D102"]
+			id: "5558A1FF605CA48F"
+			rewards: [
+				{
+					id: "704AC0C2615F0CAB"
+					item: "skillcloaks:fishing_cloak"
+					type: "item"
+				}
+				{
+					id: "7272DF6922EDF90C"
+					item: "skillcloaks:fishing_hood"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C3C22660DDC3DEF"
+					table_id: 7425475955515657121L
+					type: "loot"
+				}
+				{
+					id: "290FDCBB6662112A"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "If only I could talk to fish..."
+			tasks: [
+				{
+					icon: "aquamirae:fin"
+					id: "2A9C66BBA7A2BFC5"
+					stat: "minecraft:swim_one_cm"
+					type: "stat"
+					value: 15000
+				}
+				{
+					icon: "aquamirae:fin"
+					id: "5E971190CD6D39F2"
+					stat: "minecraft:walk_under_water_one_cm"
+					type: "stat"
+					value: 15000
+				}
+			]
+			title: "AquaMan"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0434AF51B3C6D102"]
+			id: "0024EA15B5D0A4DD"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p \"Watcher: Hmmm..  a Shipwreck? Maybe some good loot in there..\""
+				elevate_perms: true
+				id: "0EBE7F43098E0840"
+				title: "message"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2CA0B126C2B01E39"
+				structure: "minecraft:shipwreck"
+				type: "structure"
+			}]
+			title: "A Shipwreck!"
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0024EA15B5D0A4DD"]
+			id: "33C8AB7E5A1A3F59"
+			rewards: [
+				{
+					id: "18DDFDE7A7016D53"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "078BDD676D0EE521"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "59C0C0CE7E251C22"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Of the sea.."
+			tasks: [{
+				id: "288615964C7B3E2E"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			title: "Find the Heart"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["34B5593ED765D223"]
+			description: [
+				"It was bound to happen.  Misfortune, misadventure, missed a crucial block, one way or another your hearts all went away."
+				""
+				"Shockingly, that wasn't the end!  You pop out of the Shrouded Realm of souls with a key that shows the way back to the location of your untimely demise and can unlock the gave to return your worldly possesions to you."
+			]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			id: "41B784594D6C0F08"
+			rewards: [
+				{
+					id: "593694A61257CBDE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p \"Watcher: What.. Dead already?? Pathetic...\""
+					elevate_perms: true
+					id: "0D3F73AF0FAF72F5"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Well that's spooky!"
+			tasks: [{
+				advancement: "tombstone:adventure/first_grave"
+				criterion: ""
+				id: "2C78910043D0C921"
+				type: "advancement"
+			}]
+			x: -13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32A79C8E0246F46B"]
+			description: ["A portable bed that will not set a new respawn point. Truly the best option when you need a little shut-eye during your travels abroad! Rest easy Traveller."]
+			id: "2C5D5EAC9E4A4B2E"
+			rewards: [
+				{
+					id: "65DEA3490F0D2CA5"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "146D692B8169B2C2"
+					item: "minecraft:beef"
+					type: "item"
+				}
+			]
+			tasks: [{
+				block: "valhelsia_structures:white_sleeping_bag"
+				block_type: 0
+				id: "66D8FE799E98E52B"
+				replace: false
+				replaced: "minecraft:air"
+				type: "questsadditions:place"
+				value: 1L
+			}]
+			title: "Placing your sleeping bag"
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C5D5EAC9E4A4B2E"]
+			description: [
+				"An essential part of the classic camp site.  Cook some meat while you've got it going! "
+				""
+			]
+			id: "5F7A0414A10E2DD8"
+			rewards: [{
+				id: "786C61DD1387B5D3"
+				item: {
+					Count: 1
+					id: "minecraft:golden_sword"
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "tiered:standard_tools/uncommon"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Useful for early-game cooking!"
+			tasks: [{
+				block: "minecraft:campfire"
+				block_type: 0
+				id: "2D983D4FE35A0F85"
+				replace: false
+				replaced: "minecraft:air"
+				type: "questsadditions:place"
+				value: 1L
+			}]
+			title: "Place the Campfire"
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5F7A0414A10E2DD8"]
+			description: [
+				"Many professionals will argue that open-flame cooking is the superior method for preparing a delicious steak."
+				""
+				"I don't know that there's any way to tell the difference between a steak you cooked over a roaring fire, or one made in a hot furnace in this world..."
+			]
+			id: "1EFA772AAB0C5A1E"
+			rewards: [{
+				id: "7AE7D0E682F93F80"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			subtitle: "Steak!"
+			tasks: [{
+				count: 4L
+				id: "7336E63184F31A12"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			title: "Flame-broiled Goodness!"
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["32A79C8E0246F46B"]
+			description: ["Find a completely normal, totally regular Tower."]
+			hide_until_deps_visible: true
+			id: "63E1635A59F6125F"
+			rewards: [{
+				id: "3BB1507F60AA1B70"
+				item: "paraglider:stamina_vessel"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Quite the view!"
+			tasks: [{
+				advancement: "totw_modded:regular_tower"
+				criterion: ""
+				id: "182BB56DA60F3288"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["63E1635A59F6125F"]
+			description: [
+				"Go for a drift, use your paraglider!"
+				""
+				"This handy dany little item will slow your fall and propel you in the direction you are facing.  Slow is the key term here."
+				""
+				"Keep an eye on your stamina guage, it's limited and when it runs out you won't be able to hold up the paraglider anymore!"
+			]
+			id: "27CA777A26318CCF"
+			rewards: [
+				{
+					id: "5A111216E1898A90"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					id: "5F0B4EB6E792BEAE"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Let's see what's in the BOX!"
+			tasks: [{
+				advancement: "paraglider:paraglider"
+				criterion: ""
+				id: "433AE682EED37C88"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6715C9CA02E2B404"]
+			id: "663F48ECD12CF075"
+			rewards: [
+				{
+					count: 5
+					id: "00ED0EDD0969E638"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "01C92332B4BF5019"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "paraglider:spirit_orb"
+					}
+					type: "item"
+				}
+				{
+					command: "/skills add @p ATTACK 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "5E84DCBDF2781D4A"
+					title: "Level Of Attack"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "2BBFB892DEAC249A"
+				type: "kill"
+				value: 10L
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["455C07BEAA106F6A"]
+			id: "32CBCACFFCDAB5F8"
+			rewards: [
+				{
+					count: 24
+					id: "1C59B4C807E2409D"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					id: "609144FD08963F13"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					command: "/skills add @p ATTACK 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "569A5F8339E336C4"
+					title: "Level Of Attack"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "3CB3D5ED5EE973D5"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["387935F2ABDBCF6A"]
+			id: "27B3611A821DC20A"
+			rewards: [
+				{
+					id: "677C5EAEE67AA822"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					id: "6D2D9F5012826B9F"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					command: "/skills add @p ATTACK 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "5434738461A5D802"
+					title: "Level Of Attack"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "606492D5087A6019"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5973DD2832C01463"]
+			id: "7DC8473843E1F148"
+			rewards: [
+				{
+					count: 12
+					id: "3F84E8FF52905258"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "25E949E0AE5E6588"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3374E3CAEC4A8D47"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					command: "/skills add @p ATTACK 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "4AA92B4F698D9F9D"
+					title: "Level Of Attack"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "0784D4D2BF07D10A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"32CBCACFFCDAB5F8"
+				"7DC8473843E1F148"
+				"663F48ECD12CF075"
+				"27B3611A821DC20A"
+			]
+			id: "0A574E9D49743B1C"
+			rewards: [
+				{
+					id: "43B7AFF03AF63655"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A4A56EA3B88C56B"
+					table_id: 3407043161375062910L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			subtitle: "Great Work "
+			tasks: [{
+				id: "0F0B8AF64AB6DE52"
+				title: "Adventuring Slayer"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["32A79C8E0246F46B"]
+			description: ["Use these for fast traveling."]
+			id: "55ACABAFB65EA778"
+			rewards: [
+				{
+					id: "33FB5B40A4BBC9A1"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "09BF8610BF85917C"
+					item: {
+						Count: 1
+						id: "minecraft:painting"
+						tag: {
+							EntityTag: {
+								variant: "goblins_tyranny:hunters_in_the_forest"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				icon: "waystones:waystone"
+				id: "4604434BA3EB62A2"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 1
+			}]
+			title: "Waystones Activated!"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["41B784594D6C0F08"]
+			description: [
+				"Combining your grave key with the calcified remains of Endermen imbues the key with the ability to teleport you straight to the matching grave."
+				""
+				"This can also be accomplished by right clicking the key on a grave that contains a soul (little purple or blue ball circling above the gravestone)."
+			]
+			icon: "tombstone:grave_key"
+			id: "19FEA4DB924DF8A1"
+			rewards: [{
+				count: 2
+				id: "31AAE7427209BF59"
+				item: "forbidden_arcanus:ender_pearl_fragment"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "The new /back"
+			tasks: [
+				{
+					id: "751F221CBE599374"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "5B93A3E036DDBB33"
+					item: "tombstone:grave_key"
+					type: "item"
+				}
+			]
+			title: "The Grave Key "
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32A79C8E0246F46B"]
+			description: ["Make your first trade with a &aVillager"]
+			id: "513DE71C2CA3DFF7"
+			rewards: [{
+				count: 6
+				id: "7B2ECE1EFE41BF1B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "So.  Much.  Variety."
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				id: "4AE2DE4065298CD0"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D4C42DAF914FDAC"]
+			description: [
+				"If your going to rule this place, you're going to need to know your way around."
+				""
+				"Go out and see the sights and meet people!  While you're out there, keep a lookout for neat things to bring home!"
+			]
+			disable_toast: true
+			hide_until_deps_visible: true
+			id: "32A79C8E0246F46B"
+			rewards: [{
+				id: "5195171B2DF7BC13"
+				item: "valhelsia_structures:explorers_tent"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "A big world, and big shoes to fill!"
+			tasks: [{
+				id: "41EB3197BA001D35"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Going Places"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55ACABAFB65EA778"]
+			description: ["This little wonder can be used to make more waystones, or carried without you as a portable means to travel to any waystone you have already discovered."]
+			icon: {
+				Count: 1
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C6F0BC071AC9283"
+			rewards: [
+				{
+					count: 2
+					id: "23730F4EE90714D0"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "618D87D73F6A92FD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "In your pocket."
+			tasks: [{
+				id: "5E521B488C4DED8C"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tiny Waystone."
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["55ACABAFB65EA778"]
+			description: [
+				"Don't want fully public access?  Tired of clicking and spending hard earned exp to move between buildings at your base?"
+				""
+				"Worry not!  The warp plate is the newest and most advancedest in personal transportation networking!"
+				""
+				"Once placed you can right click the warp plate to access its GUI, and retrieve the precious Attuned Shard.  Placing this shard in another warp plate will allow you to step on the plate and (nearly) instantly be transported to the attuned location."
+			]
+			icon: "waystones:warp_plate"
+			id: "25128D84B40DA032"
+			rewards: [
+				{
+					id: "5BCA9D2184B0C566"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "06DE521D6CB74487"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40E2AE78F869ECFF"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			title: "There he was...gone!"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["55ACABAFB65EA778"]
+			description: [
+				"Public transportation has never been easier!  "
+				""
+				"Color coding a Sharestone lets you go to any other Sharestone of the same color.  Use these when you want an area to be open to public visitation, such as trading halls or dimension-specific mob spawning farms."
+			]
+			id: "6FCD4B3A0D506778"
+			optional: true
+			rewards: [{
+				id: "068EEDF9D55C2AF5"
+				item: "lootbundles:fragment"
+				type: "item"
+			}]
+			subtitle: "Now with a million percent less claustrophobia!"
+			tasks: [{
+				id: "02FD656DCA2DEF7D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "waystones:sharestones"
+					}
+				}
+				match_nbt: false
+				title: "Any #waystones:sharestones"
+				type: "item"
+			}]
+			title: "Public Transportation"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D4C42DAF914FDAC"]
+			description: ["The world is full of life.  Go forth, observe it, and kill and eat some of it too!"]
+			disable_toast: true
+			hide_until_deps_visible: true
+			id: "34B5593ED765D223"
+			shape: "pentagon"
+			subtitle: "You're not alone out there..."
+			tasks: [{
+				id: "419D21F0E805A5D1"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Encounters in the &eWild!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34B5593ED765D223"]
+			icon: "minecraft:cow_spawn_egg"
+			id: "7421CD13A6596B83"
+			rewards: [
+				{
+					id: "52D9194CF987FB19"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "55D64A8C10976266"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "butcher:cowcorpseitem"
+				id: "6C84DA58D2C76C76"
+				observe_type: 5
+				timer: 0L
+				title: "Cow"
+				to_observe: "minecraft:cow"
+				type: "observation"
+			}]
+			title: "Highly Tippable"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34B5593ED765D223"]
+			icon: "minecraft:pig_spawn_egg"
+			id: "10D0331276621E00"
+			rewards: [
+				{
+					id: "60B5695E74018649"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "65EADC19FDEAC18B"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "butcher:pig_corpse_item"
+				id: "6D3E2A216676E884"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:pig"
+				type: "observation"
+			}]
+			title: "Walking Trash Disposal"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34B5593ED765D223"]
+			icon: "minecraft:chicken_spawn_egg"
+			id: "67C175399324CBFD"
+			rewards: [
+				{
+					id: "087BEA8284854D72"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2AF895498AECA1BF"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "butcher:chicken_corpse_item"
+				id: "46E38CBA7A3FFEA5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:chicken"
+				type: "observation"
+			}]
+			title: "Egg Factory"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34B5593ED765D223"]
+			icon: "minecraft:sheep_spawn_egg"
+			id: "27219F7FF4D03E5E"
+			rewards: [
+				{
+					id: "3C9274A85999E30B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "17F373692E3F3931"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "butcher:sheep_corpse_item"
+				id: "39A236DB7CE2066D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:sheep"
+				type: "observation"
+			}]
+			title: "Fluffy Lawnmower"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7421CD13A6596B83"]
+			id: "7DB15D30461C3ACA"
+			rewards: [
+				{
+					count: 4
+					icon: "minecraft:beef"
+					id: "1563B7535C823C9D"
+					item: "minecraft:beef"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "22EA3BB816AF2815"
+					item: "minecraft:leather"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					command: "/skills add @p GATHERING 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "6E2C80207A3C2C37"
+					title: "Level Of Gathering"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "0CBFA2C918849F3D"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10D0331276621E00"]
+			id: "76A63BAEC20D503B"
+			rewards: [
+				{
+					count: 4
+					id: "4EC471AAD165C845"
+					item: "minecraft:porkchop"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "065F1DD52DED01BB"
+					item: "untamedwilds:material_fat"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					command: "/skills add @p GATHERING 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "56987A276CDBEC5A"
+					title: "Level Of Gathering"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "76706FFA1CFB6F2F"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["27219F7FF4D03E5E"]
+			id: "4365C313CFED305F"
+			rewards: [
+				{
+					count: 4
+					id: "5E9B43F78DB7A0B9"
+					item: "minecraft:mutton"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "309123B03AFCB323"
+					item: "minecraft:white_wool"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					command: "/skills add @p GATHERING 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "2C226562C1CE9791"
+					title: "Level Of Gathering"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "23335BAAE5289B28"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67C175399324CBFD"]
+			id: "094BCD0ECBD37B32"
+			rewards: [
+				{
+					count: 4
+					id: "6E49474506BAEAC6"
+					item: "minecraft:chicken"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "400A5B7C110DEFF1"
+					item: "minecraft:feather"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					command: "/skills add @p GATHERING 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "08C0FEA4513C96B3"
+					title: "Level Of Gathering"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "40D733731477205E"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D4C42DAF914FDAC"]
+			disable_toast: true
+			hide_until_deps_visible: true
+			id: "58C607A4668C5733"
+			shape: "pentagon"
+			subtitle: "“Then what are the best boots for?”  “Walking,” Mat said. “Any farmer knows the value of good boots when you go walking a distance.”"
+			tasks: [{
+				id: "654BE25A3F86D797"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The Experienced Wanderer"
+			x: -3.797619047619051d
+			y: 1.6904761904761898d
+		}
+		{
+			dependencies: ["37C4C7FF71E4F203"]
+			description: ["You're going to need a way to carry all your essentials, so why not stitch a bit of leather together and make a handy haversack to strap to your back!"]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "7A26315B512024CA"
+			rewards: [{
+				id: "5FA5C033B900C15E"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "1B21A3DABAC84CF9"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7A26315B512024CA"]
+			description: ["One of these will take you home, the others will take you on adventures!"]
+			icon: "minecraft:compass"
+			id: "326D33EEEE583376"
+			rewards: [
+				{
+					id: "4B8E14CFE1AECE93"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "0A5ADC47D9BF7525"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "They point the way."
+			tasks: [{
+				id: "2F2E60D6E46920EE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:compasses"
+					}
+				}
+				only_from_crafting: false
+				title: "Any #minecraft:compasses"
+				type: "item"
+			}]
+			title: "Navigation Tools"
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["58C607A4668C5733"]
+			icon: "minecraft:grass_block"
+			id: "4FD482871FCF2831"
+			rewards: [{
+				id: "35677C5C3A7ED604"
+				item: {
+					Count: 1
+					id: "minecraft:chainmail_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Get your steps in for the day."
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "alexsmobs:roadrunner_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "68748B1A11A6B48A"
+					stat: "minecraft:sprint_one_cm"
+					type: "stat"
+					value: 5000
+				}
+				{
+					icon: {
+						Count: 1
+						id: "immersive_armors:slime_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "44B06B24B0CFC5ED"
+					stat: "minecraft:jump"
+					type: "stat"
+					value: 100
+				}
+			]
+			title: "Over Land..."
+			x: -5.55952380952381d
+			y: 1.7380952380952337d
+		}
+		{
+			dependencies: ["41B784594D6C0F08"]
+			id: "53CBAAC062AC57D0"
+			rewards: [
+				{
+					id: "00377CABB22631DD"
+					item: "improvableskills:parchment_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E583EEC04F86F8F"
+					table_id: 3407043161375062910L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			subtitle: "Discretion is truly the better part of Valor."
+			tasks: [{
+				advancement: "tombstone:adventure/strong_or_careful"
+				criterion: ""
+				id: "0C5DF7C8B164732C"
+				type: "advancement"
+			}]
+			title: "Stayin' Alive"
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34B5593ED765D223"]
+			description: [
+				"You've fallen.  Met your end.  Been soundly and roundly defeated.  Killed, sir.  Slain."
+				""
+				"But that strange place you passed through, the Shrouded Realm, cannot hold you.  An unseen and unknowable force pulls at your consciousness, draws you back to the Overworld.  "
+				""
+				"Your work is not finished, your purpose unfulfilled.  But you know now that there are other places that you cannot see, and you can use this knowledge to draw on their power."
+			]
+			hide_dependency_lines: true
+			id: "1F332BEAD02EEC3D"
+			rewards: [{
+				id: "58F7E46B801A889B"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "A journey unlike any other."
+			tasks: [{
+				advancement: "tombstone:adventure/first_knowledge"
+				criterion: ""
+				id: "20A3502B3F309A35"
+				type: "advancement"
+			}]
+			title: "Knowing Death"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7A569228CA277403"]
+			description: [
+				"When destroyed, on rare occasions, the undead will drop a gooey, foul-smelling substance that can be collected in a flask."
+				""
+				"When used in conjunction with specially prepared stone, this substance enables the creation of ensorcelled tombstones capable of attracting and containing souls from the Shrouded Realm.  Once a soul is bound to one of these special monuments, it can be expended for a variety of purposes."
+			]
+			id: "2939544C85349F98"
+			rewards: [{
+				id: "7F575572A6921B2E"
+				item: "tombstone:grave_plate"
+				type: "item"
+			}]
+			subtitle: "Corrupted soul...stuff."
+			tasks: [
+				{
+					id: "221BEBA9B61EC688"
+					item: "tombstone:essence_of_undeath"
+					type: "item"
+				}
+				{
+					id: "2935E0F1AD160C73"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tombstone:decorative_graves"
+						}
+					}
+					title: "Any #tombstone:decorative_graves"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"1F332BEAD02EEC3D"
+				"663F48ECD12CF075"
+				"32CBCACFFCDAB5F8"
+			]
+			description: ["Grave dust is left behind occasionally when an undead monster is destroyed.  You can also acquire it from Tombstone gifts, and it is available for trade from Grave Guardians."]
+			hide_details_until_startable: true
+			id: "7A569228CA277403"
+			rewards: [{
+				id: "33E7F92330342758"
+				item: "tombstone:grave_dust"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "But why is it blue?"
+			tasks: [{
+				count: 4L
+				id: "064F970796FA8F16"
+				item: "tombstone:grave_dust"
+				type: "item"
+			}]
+			title: "Grave Remains"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7421CD13A6596B83"
+				"10D0331276621E00"
+				"67C175399324CBFD"
+				"27219F7FF4D03E5E"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The supplementaries cage allow you to trap small mobs, like chickens and baby animals."
+				""
+				"These are useful for startin gup a nice livestock collection, and chickens kept in cages will still produce eggs.  "
+			]
+			hide_dependency_lines: true
+			id: "3B67B0106770EE73"
+			rewards: [{
+				id: "72BB00A83D7E755C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Free range is better."
+			tasks: [{
+				id: "309BB8CAD0C0121C"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["513DE71C2CA3DFF7"]
+			description: [
+				"Every now and then while you are underground, one of these diminutive cave dwellers will approach to see if you have any tasty turtle eggies, building materials, or ore on hand.  "
+				""
+				"They can use their magic tiny people powers to make more ingots than you can out of those raw ores, and somehow have access to superior enchantments.  Those enchantments are pretty pricey though, and you'll never know which tools their wierd little shamans spiffed up and are sending to market."
+			]
+			id: "0D57D559DA13844D"
+			rewards: [{
+				id: "149238F428BA9667"
+				table_id: 162941360134059119L
+				type: "random"
+			}]
+			subtitle: "Green as the emeralds they crave."
+			tasks: [{
+				checkItem: false
+				entity: "goblintraders:goblin_trader"
+				id: "483C152D05EE6A45"
+				nbt: { }
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			title: "Tiny Merchants!"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["513DE71C2CA3DFF7"]
+			description: [
+				"These wee entrepreneurs inhabit The Nether, burning with a need to acquire ancient debris and carrots."
+				""
+				"Like their slightly less toasty cousins, they have strange processing magics that increase materiel yields, providing 25% more netherite scraps when given ancient debris and guaranteeing a full return of four glowstone dust when traded a glowstone block.  They also have some shamans of their own, offering up a selection of superior enchanments."
+			]
+			id: "4031045857672FF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12D019E627837A1A"
+				table_id: 2614350496967698251L
+				type: "random"
+			}]
+			subtitle: "Behold!  The raging fires of commerce!"
+			tasks: [{
+				checkItem: false
+				entity: "goblintraders:vein_goblin_trader"
+				id: "70456783D8585918"
+				nbt: { }
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			title: "Tiny Fiery Merchants!"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["513DE71C2CA3DFF7"]
+			description: [
+				"Dressed in brilliant blue robes and accompanied by a couple of pack llamas, these itinerant merchants will show up with an assortment of seemingly random items for sale."
+				""
+				"Wandering traders can also be found at their llama stables caring for their trusty companions or camped out in the field next to wagons loaded with goodies.  Rumor has it there are gatherings of the traders at secret locations in far-flung, secluded locations!"
+			]
+			id: "3935634B0E4D1CA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39281FF22BDBD231"
+				table_id: 7425475955515657121L
+				type: "loot"
+			}]
+			subtitle: "At least they don't peddle insurance policies!"
+			tasks: [{
+				checkItem: false
+				entity: "minecraft:wandering_trader"
+				id: "305F8A714338BDA5"
+				nbt: { }
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			title: "Door to Door?"
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["34B5593ED765D223"]
+			icon: "minecraft:skeleton_spawn_egg"
+			id: "455C07BEAA106F6A"
+			rewards: [
+				{
+					count: 2
+					id: "6B912AC508F25641"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "6832B2798E8703F6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				icon: "minecraft:skeleton_spawn_egg"
+				id: "11E84136DF5A7DEF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:skeleton"
+				type: "observation"
+			}]
+			title: "Dry Bones"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34B5593ED765D223"]
+			icon: "minecraft:spider_spawn_egg"
+			id: "5973DD2832C01463"
+			rewards: [
+				{
+					count: 2
+					id: "10ADF11443DF4B96"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "65A11A830FB66456"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				icon: "minecraft:spider_spawn_egg"
+				id: "09CD8F9EE9978BC2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:spider"
+				type: "observation"
+			}]
+			title: "Skittery Bugs"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34B5593ED765D223"]
+			icon: "minecraft:zombie_spawn_egg"
+			id: "6715C9CA02E2B404"
+			rewards: [
+				{
+					count: 2
+					id: "69604AD6E70484E5"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "2D7226A322E0EAFC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				icon: "minecraft:zombie_spawn_egg"
+				id: "2676EEBA842C68A0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:zombie"
+				type: "observation"
+			}]
+			title: "Walking Rot"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34B5593ED765D223"]
+			icon: "minecraft:creeper_spawn_egg"
+			id: "387935F2ABDBCF6A"
+			rewards: [
+				{
+					count: 2
+					id: "3BE810F9E2CBCD24"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "033C736A04A5D347"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				icon: "minecraft:creeper_spawn_egg"
+				id: "61014B2267E76E18"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:creeper"
+				type: "observation"
+			}]
+			title: "Sneaky Bombs"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["670093DB9F0E272B"]
+			description: [
+				"To see that warm, welcoming glow is to see a place of safety and comfort!"
+				""
+				"Torches produce light out to 14 blocks away.  Keeping your base well-lit prevents monsters from spawning close to you."
+			]
+			id: "0A2E9D5FBCF3FFC3"
+			rewards: [{
+				id: "27EF4949840B7336"
+				item: "minecraft:torch"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2BACEDA51C3BCD73"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			title: "We'll leave a light on for ya!"
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["670093DB9F0E272B"]
+			description: [
+				"Fences and gates are only a single block high in appearance, but count as one-and-a-half blocks tall to prevent things from climbing over them (except spiders). "
+				""
+				"Gates are redstone compatible.  Use a pressure plate to close the gate behind you after entering your perimeter, and never worry about sneaky zombies and creepers again!"
+			]
+			icon: "minecraft:oak_fence"
+			id: "52EB76E688DD47D6"
+			rewards: [
+				{
+					id: "633877F07B4A3281"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1AF69A7731A3F2D7"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5DDF9B399BAE22C5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:fences"
+						}
+					}
+					title: "Any #forge:fences"
+					type: "item"
+				}
+				{
+					id: "4A21475A42B3E448"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:fence_gates"
+						}
+					}
+					title: "Any #forge:fence_gates"
+					type: "item"
+				}
+			]
+			title: "Good fences make for good neighbors."
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["670093DB9F0E272B"]
+			description: ["Letting various critters mill around just outside your fence is going to get unsightly before too long.  Use these spikes to keep the crowding under control.  You can even fill the bottom of a pit with them, then use open trap doors at the top of the pit to trick &mvictims&rvisitors into falling down while they meander about. "]
+			id: "628644AA5D7290C0"
+			rewards: [
+				{
+					id: "5686E5C7AF3C3631"
+					item: "supplementaries:bamboo_spikes"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					id: "64026B7DB4AA40E2"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03543CFF06DA424A"
+				item: "supplementaries:bamboo_spikes"
+				type: "item"
+			}]
+			title: "Tell 'em they aren't welcome here..."
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32A79C8E0246F46B"]
+			description: [
+				"Placing your bed and right-clicking it will set your respawn point.  Keep it safe though, if the bed is destroyed your spawn point is reset!  "
+				""
+				"In the early stages of your journey, consider using a small cave or building a small hut from easily acquired materials, such as wood or dirt."
+			]
+			icon: "minecraft:orange_bed"
+			id: "670093DB9F0E272B"
+			rewards: [
+				{
+					id: "11D12C9E6E9222B6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1A525F8EEA8BB300"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					block: "minecraft:beds"
+					block_type: 1
+					id: "1F8EE63702CD9811"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					id: "123FAC5E2C13ADDF"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "57B5ED5676783BDE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:chests"
+						}
+					}
+					title: "Any #forge:chests"
+					type: "item"
+				}
+			]
+			title: "Where I lay my head is Home."
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["32A79C8E0246F46B"]
+			description: [
+				"The first tools you'll be using to gather materials."
+				""
+				"There are two methods to move forward from here:"
+				"1) keep using progressively tougher materials in the good ol' fashioned Minecraft way, or"
+				"2) refer to the Tetra Quest Chapter to learn how to make fully upgradable and repairable tools!"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "37C4C7FF71E4F203"
+			rewards: [
+				{
+					id: "1B9DA8E460E77310"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1733CFB3796FA9A4"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7424D03457A78BFD"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53E7313F253FE3FD"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66BAB8F5022FBD3B"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C53F6DFAC1B51D9"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Beginner's Tools"
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["670093DB9F0E272B"]
+			description: ["A good night's sleep keeps the phantoms away.  It also keeps things like rain and thunder away."]
+			id: "7399CF090FD00888"
+			rewards: [{
+				id: "7102187B5E80B7A2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				id: "5CB017BE3963F197"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			description: ["You've managed to avoid a journey to the Shrouded Realm for ten hours! "]
+			id: "37D28B97D817D4E6"
+			rewards: [
+				{
+					id: "00EC228175C37A5C"
+					item: "tombstone:gemstone_of_guardian"
+					type: "item"
+				}
+				{
+					id: "528C869E8AA4DAE4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "396307F5C9ABCC39"
+					item: "improvableskills:parchment_fragment"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "The Wise Warrior avoids the battle."
+			tasks: [{
+				advancement: "tombstone:adventure/almost_unkillable"
+				criterion: ""
+				id: "5D51B9DA96D0594C"
+				type: "advancement"
+			}]
+			title: "Still Alive"
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3699DEF425F9DDB8"]
+			description: ["Stone tools knapped from various types of flinty material have been in use since the earliest memories were formed.  Ancient cultures formed great monoliths and expanisve cities using these tools to guarry and shape softer stone, and eventually to mine more advanced materials."]
+			id: "649FA1DD844E861E"
+			rewards: [{
+				id: "3C3C18CA16464024"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Still in use to this very day."
+			tasks: [
+				{
+					id: "008E7C7A98A19152"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D750990EB1814C4"
+					item: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Paleolithic Pursuits"
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76B1B31183BAEFF7"]
+			description: ["The discovery of iron revolutionized toolcraft.  Now you can make superior versions of the stone tools used since early man began crafting, and with the refined shape and hardness, you can fashion sharper tools for more intricate applications."]
+			id: "776EBAB5A2333EF2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "111EA2A1B9CAC332"
+					table_id: 6140479905622921234L
+					type: "loot"
+				}
+				{
+					command: "/skills add @p ATTACK 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "7AD77BDCBE547177"
+					title: "Level of Attack"
+					type: "command"
+				}
+				{
+					id: "4D68CB46B7B2AE90"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+			]
+			subtitle: "Cheap, durable, disposable."
+			tasks: [
+				{
+					id: "57908B021B39A580"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32A3B42B539F51CD"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Industrial Improvements"
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6C4D283ABB732DE0"]
+			description: ["Combining some of the aspects of knapped stone and metal tools, diamond offers the exceptional durability expected of an advanced material, as well as the razor-edge found with such things as volcanic glass and flints.  A strong and well-ordered crystalline lattice allows items forged from this wonderous substance to absorb a large amount of mystical energies."]
+			id: "364209FA865BA98E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "572D30053ED0C733"
+					table_id: 5393747632124787178L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25DCD4BC8DDBCFA6"
+					table_id: 3407043161375062910L
+					type: "loot"
+				}
+				{
+					command: "/skills add @p ATTACK 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "03B6BB950974DDB5"
+					title: "Level of Attack"
+					type: "command"
+				}
+			]
+			subtitle: "Beautiful and deadly."
+			tasks: [
+				{
+					id: "064CDD06BBB364F0"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44C4EE90D4ABE7C7"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Adamant Artistry"
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07092D57D694A95A"]
+			id: "4901C416D28F9E21"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "218505EDEFE42383"
+					table_id: 255314140086928802L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53C89DBE1047B4C7"
+					table_id: 3407043161375062910L
+					type: "loot"
+				}
+			]
+			subtitle: "Fireproof Tools"
+			tasks: [
+				{
+					id: "4D97FDBE9F903D37"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "203DEDD03C127391"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fight Fire with..."
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["649FA1DD844E861E"]
+			description: ["A plentiful material that is also easy to find and acquire, iron has been a staple for metalworkers for ages.  Simple techniques to refine it and work it make it ideal for mass production of tools and armor, great for outfitting a large force for either work or war."]
+			id: "76B1B31183BAEFF7"
+			rewards: [
+				{
+					id: "1607A37AD79BDB62"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5581D618CBB26E2F"
+					item: "minecraft:iron_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "The backbone of industry."
+			tasks: [{
+				id: "2606C881F20A37E8"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3699DEF425F9DDB8"]
+			description: ["Armor fashioned from wooden rods and slats and backed with woven material has been used for generations by native warriors and common troops for its excellent protection against projectile attacks.  It's heavy and not terribly durable though, so it will need replacement frequently."]
+			id: "7A2BBC896E90FC46"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1E8BC312CAD43BDB"
+					table_id: 2878545973601917989L
+					type: "loot"
+				}
+				{
+					id: "7444FEC3DA075C25"
+					type: "xp"
+					xp: 10
+				}
+				{
+					command: "/skills add @p DEFENSE 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "5892C6CBBE10AA59"
+					title: "level of Defense"
+					type: "command"
+				}
+			]
+			subtitle: "Primitive, but surprisingly effective."
+			tasks: [
+				{
+					id: "27DC7D1E9162B25D"
+					item: {
+						Count: 1
+						id: "immersive_armors:wooden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57007C2ADF4B1BC7"
+					item: {
+						Count: 1
+						id: "immersive_armors:wooden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DDA13BC9FA9F9D5"
+					item: {
+						Count: 1
+						id: "immersive_armors:wooden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EB913410C17DA0D"
+					item: {
+						Count: 1
+						id: "immersive_armors:wooden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Renewable Armor?"
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76B1B31183BAEFF7"]
+			description: ["Iron, and its various alloys, has been used for centuries to craft durable protective gear.  While still quite heavy, the material allows for thinner worked sheets to be arranged and articulated for superior mobility."]
+			id: "466AD926F57BC24F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13C4D9E98A0FE486"
+					table_id: 6140479905622921234L
+					type: "loot"
+				}
+				{
+					command: "/skills add @p DEFENSE 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "403B0119913ED075"
+					title: "level of Defense"
+					type: "command"
+				}
+			]
+			subtitle: "The protective material of choice for centuries."
+			tasks: [
+				{
+					id: "2F224F794B711631"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "583B0DB0665EEF44"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D9692B0604B1B8F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6898D285BB2193E0"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Encased in Iron"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["776EBAB5A2333EF2"]
+			description: ["Ancient peoples referred to the blue-ish crystal we call Diamond as 'Adamant', meaning 'unconquerable'.  Despite its appearance, resembling glass or lesser crystals, Diamond has hardenss and durability like none other.  Learning to forge tools and armor from this material would be quite beneficial."]
+			id: "6C4D283ABB732DE0"
+			rewards: [
+				{
+					id: "3D12B8A5DA0910DC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6CA4E20821D125DA"
+					item: "minecraft:diamond"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "Adamantine, but not like you think."
+			tasks: [{
+				id: "7ECAFFB5A3255E25"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C4D283ABB732DE0"]
+			description: ["Once called Adamant and Dimantine by ancient cultures, what we now simply call diamond offers unparalleled durability and excellent protective qualities.  The advanced techniques required for its production also ensure excellent mystical qualities despite not being made of a noble metal."]
+			id: "08C71E24BAAFCE1C"
+			rewards: [
+				{
+					id: "6461E8837E34C60B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DED0990592723D0"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C8F05AC878F0B87"
+					table_id: 3407043161375062910L
+					type: "loot"
+				}
+				{
+					command: "/skills add @p DEFENSE 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "2D83444D0541494F"
+					title: "level of Defense"
+					type: "command"
+				}
+			]
+			subtitle: "Protective gear from legend and myth."
+			tasks: [
+				{
+					id: "69B2A9218D1AC7AE"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FB691093DE99923"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C9FD2FC6C1D81FF"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E106C7DB52B10CE"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shining Exemplar"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"07092D57D694A95A"
+				"08C71E24BAAFCE1C"
+			]
+			description: [""]
+			id: "6BD84E16C8C8B7AF"
+			rewards: [
+				{
+					id: "05E5458CE36A6B6F"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "681AB690BFEA67AA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "09369BF24B92E176"
+					item: {
+						Count: 1
+						id: "simplyswords:stormbringer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A98BFF1347F3A56"
+					table_id: 3407043161375062910L
+					type: "loot"
+				}
+				{
+					command: "/skills add @p DEFENSE 1"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "2F9DA995F96B1AE7"
+					title: "level of Defense"
+					type: "command"
+				}
+			]
+			subtitle: "Material remnants from a bygone age, refined in the raging inferno of Hell's depths."
+			tasks: [
+				{
+					id: "0D46DD783AE22D1B"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DB7435AB89FEDA3"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "653DE3A450AA063F"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73A068B53FFFCEB1"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Profane Panoply"
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["364209FA865BA98E"]
+			description: [
+				"Deep in the bowels of The Nether, beneath oceans of molten stone and strange geology, you have discovered a metallic substance dispersed throughout the lowest strata.  It can only be described as malfeasantly malleable and your knowledge of metallurgy and smithcraft lead you to believe an alloy with gold may just yield a new material with incredible properties."
+				""
+				"In your travels through this Realm, you've come across remnants of a civilation of porcine humanoids.  Their towering blackstone structures, now in ruins, are still inhabited by their now-defunct culture.  In their old ruins you've discovered templates that describe a process that allows tools and armor to be coated with a potent and highly pliable substance that offers complete immunity to heat and immense attribute reinforcement."
+			]
+			id: "07092D57D694A95A"
+			rewards: [
+				{
+					id: "38FA3D66FA4D0264"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "0DBA25D4D5781370"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23FE3D7680C47832"
+					table_id: 3407043161375062910L
+					type: "loot"
+				}
+			]
+			subtitle: "Incredibly infernal."
+			tasks: [
+				{
+					id: "30FF146432B61F1B"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "13219DFCECB6D721"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "22DDA8A90ABB5C3F"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "5117B4E9C118B5E8"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			description: ["Every adventure has an element of danger to it.  Before taking on the most difficult challeneges, you're going to want some protective gear and some basic tools."]
+			icon: "minecraft:armor_stand"
+			id: "3699DEF425F9DDB8"
+			rewards: [{
+				id: "6BBC114C5766D8AD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Proper Preparation Prevents Poor Performance"
+			tasks: [{
+				id: "39E705F62A578AE6"
+				title: "Gearing Up"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			id: "556591C9B08422B1"
+			rewards: [{
+				auto: "invisible"
+				command: "/ftbquests open_book"
+				elevate_perms: true
+				id: "7027509EDD22D18F"
+				type: "command"
+			}]
+			secret: true
+			size: 0.01d
+			tasks: [{
+				id: "338B835F9AD49292"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+	]
+	subtitle: ["Your starter guild to the realms.."]
+	title: "&e&oIn the Beginning."
+}

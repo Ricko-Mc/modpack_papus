@@ -1,0 +1,35 @@
+{
+  "weight": 3,
+  "verifiers": [
+    {
+      "tag": "forge:armors/helmets"
+    },
+    {
+      "tag": "forge:armor"
+    },
+    {
+      "tag": "forge:armors"
+    },
+    {
+      "tag": "forge:armors"
+    },
+    {
+      "tag": "bookshelf:armor"
+    },
+    {
+      "tag": "forge:armors/chestplates"
+    },
+    {
+      "tag": "forge:armors/leggings"
+    },
+    {
+      "tag": "forge:armors/boots"
+    }
+  ],
+  "tiers": [
+    "tiered:armors/dented",
+    "tiered:armors/dented1",
+    "tiered:armors/dented2",
+    "tiered:armors/unchained"
+  ]
+}

@@ -1,0 +1,6228 @@
+{
+  "skillLocks": {
+    "minecraft:iron_sword": [
+      "attack:5"
+    ],
+    "minecraft:horse": [
+      "gathering:5"
+    ],
+    "minecraft:spawner": [
+      "gathering:15",
+      "building:15"
+    ],
+    "dried_ghast:happy_ghast": [
+      "gathering:25"
+    ],
+    "minecraft:iron_shovel": [
+      "gathering:5"
+    ],
+    "minecraft:iron_pickaxe": [
+      "mining:5"
+    ],
+    "minecraft:fishing_rod": [
+      "gathering:3"
+    ],
+    "minecraft:iron_axe": [
+      "gathering:5"
+    ],
+    "minecraft:iron_hoe": [
+      "farming:5"
+    ],
+    "minecraft:iron_helmet": [
+      "defense:5"
+    ],
+    "minecraft:iron_chestplate": [
+      "defense:5"
+    ],
+    "minecraft:iron_leggings": [
+      "defense:5"
+    ],
+    "minecraft:iron_boots": [
+      "defense:5"
+    ],
+    "minecraft:diamond_sword": [
+      "attack:10"
+    ],
+    "minecraft:diamond_shovel": [
+      "gathering:10"
+    ],
+    "minecraft:diamond_pickaxe": [
+      "mining:10"
+    ],
+    "minecraft:diamond_axe": [
+      "gathering:10"
+    ],
+    "minecraft:diamond_hoe": [
+      "farming:10"
+    ],
+    "minecraft:diamond_helmet": [
+      "defense:10"
+    ],
+    "minecraft:diamond_chestplate": [
+      "defense:10"
+    ],
+    "minecraft:diamond_leggings": [
+      "defense:10"
+    ],
+    "minecraft:diamond_boots": [
+      "defense:10"
+    ],
+    "minecraft:netherite_sword": [
+      "attack:20"
+    ],
+    "minecraft:netherite_shovel": [
+      "gathering:20"
+    ],
+    "minecraft:netherite_pickaxe": [
+      "mining:20"
+    ],
+    "minecraft:netherite_axe": [
+      "gathering:20"
+    ],
+    "minecraft:netherite_hoe": [
+      "farming:20"
+    ],
+    "minecraft:netherite_helmet": [
+      "defense:20"
+    ],
+    "minecraft:netherite_chestplate": [
+      "defense:20"
+    ],
+    "minecraft:netherite_leggings": [
+      "defense:20"
+    ],
+    "minecraft:netherite_boots": [
+      "defense:20"
+    ],
+    "waystones:warp_scroll": [
+      "magic:10"
+    ],
+    "paraglider:heart_container": [
+      "magic:5",
+      "gathering:10"
+    ],
+    "quark:chute": [
+      "building:10"
+    ],
+    "quark:crafter": [
+      "building:12"
+    ],
+    "quark:ender_watcher": [
+      "building:22"
+    ],
+    "quark:trowel": [
+      "building:10"
+    ],
+    "relics:amphibian_boot": [
+      "magic:15",
+      "agility:12"
+    ],
+    "raccompat:desolate_pendant": [
+      "magic:15",
+      "agility:12"
+    ],
+    "ramcompat:tendon_lump": [
+      "magic:20",
+      "agility:20"
+    ],
+    "ramcompat:stink_gland": [
+      "magic:15",
+      "agility:12"
+    ],
+    "ramcompat:frost_robe": [
+      "magic:15",
+      "agility:12"
+    ],
+    "raccompat:vine_ring": [
+      "magic:15",
+      "agility:12"
+    ],
+    "raccompat:polar_boot": [
+      "magic:15",
+      "agility:12"
+    ],
+    "raccompat:acid_walker": [
+      "magic:15",
+      "agility:12"
+    ],
+    "relics:aqua_walker": [
+      "magic:15",
+      "agility:10"
+    ],
+    "relics:arrow_quiver": [
+      "magic:666",
+      "agility:666"
+    ],
+    "relics:bastion_ring": [
+      "magic:15",
+      "mining:22"
+    ],
+    "relics:blazing_flask": [
+      "magic:15",
+      "building:25"
+    ],
+    "relics:chorus_inhibitor": [
+      "magic:15",
+      "mining:30"
+    ],
+    "relics:drowned_belt": [
+      "attack:10",
+      "defense:10",
+      "magic:15",
+      "agility:10"
+    ],
+    "relics:elytra_booster": [
+      "magic:15",
+      "mining:30"
+    ],
+    "relics:enders_hand": [
+      "magic:15",
+      "mining:26"
+    ],
+    "relics:holy_locket": [
+      "magic:15",
+      "gathering:16"
+    ],
+    "relics:horse_flute": [
+      "magic:15",
+      "mining:16"
+    ],
+    "relics:hunter_belt": [
+      "magic:15",
+      "gathering:24"
+    ],
+    "relics:ice_breaker": [
+      "attack:10",
+      "magic:15",
+      "agility:10"
+    ],
+    "relics:ice_skates": [
+      "magic:15",
+      "agility:10"
+    ],
+    "relics:infinity_ham": [
+      "magic:15",
+      "gathering:20"
+    ],
+    "relics:jellyfish_necklace": [
+      "defense:15",
+      "magic:15"
+    ],
+    "relics:leather_belt": [
+      "magic:15",
+      "gathering:10"
+    ],
+    "relics:magic_mirror": [
+      "magic:15",
+      "building:26"
+    ],
+    "relics:magma_walker": [
+      "defense:28",
+      "magic:15"
+    ],
+    "relics:midnight_robe": [
+      "attack:30",
+      "magic:15",
+      "mining:30"
+    ],
+    "relics:rage_glove": [
+      "attack:20",
+      "magic:15",
+      "agility:22"
+    ],
+    "relics:reflection_necklace": [
+      "attack:16",
+      "magic:15"
+    ],
+    "relics:roller_skates": [
+      "magic:15",
+      "agility:15"
+    ],
+    "relics:shadow_glaive": [
+      "attack:30",
+      "magic:15"
+    ],
+    "relics:space_dissector": [
+      "magic:15",
+      "mining:30"
+    ],
+    "relics:spatial_sign": [
+      "magic:15",
+      "mining:26"
+    ],
+    "relics:spore_sack": [
+      "magic:15",
+      "farming:15"
+    ],
+    "relics:wool_mitten": [
+      "magic:15",
+      "agility:10"
+    ],
+    "minecraft:piston": [
+      "building:4"
+    ],
+    "minecraft:scaffolding": [
+      "building:8"
+    ],
+    "minecraft:shears": [
+      "agility:2"
+    ],
+    "minecraft:smithing_table": [
+      "building:8"
+    ],
+    "minecraft:smoker": [
+      "gathering:4",
+      "building:4"
+    ],
+    "minecraft:spyglass": [
+      "gathering:4"
+    ],
+    "minecraft:sticky_piston": [
+      "building:8"
+    ],
+    "minecraft:stonecutter": [
+      "building:8"
+    ],
+    "minecraft:tnt": [
+      "building:4"
+    ],
+    "minecraft:trident": [
+      "attack:16",
+      "agility:10"
+    ],
+    "minecraft:turtle_helmet": [
+      "defense:8",
+      "gathering:8"
+    ],
+    "irons_spellbooks:scroll_forge": [
+      "magic:25"
+    ],
+    "minecraft:anvil": [
+      "building:5"
+    ],
+    "minecraft:beacon": [
+      "magic:16"
+    ],
+    "minecraft:blast_furnace": [
+      "building:8"
+    ],
+    "minecraft:bow": [
+      "agility:4"
+    ],
+    "minecraft:brewing_stand": [
+      "magic:6",
+      "mining:6"
+    ],
+    "minecraft:cartography_table": [
+      "mining:8"
+    ],
+    "irons_spellbooks:alchemist_cauldron": [
+      "magic:9"
+    ],
+    "irons_spellbooks:amethyst_resonance_charm": [
+      "magic:14"
+    ],
+    "irons_spellbooks:arcane_anvil": [
+      "magic:13"
+    ],
+    "irons_spellbooks:archevoker_boots": [
+      "defense:16",
+      "magic:16"
+    ],
+    "irons_spellbooks:archevoker_chestplate": [
+      "defense:16",
+      "magic:16"
+    ],
+    "irons_spellbooks:archevoker_helmet": [
+      "defense:16",
+      "magic:16"
+    ],
+    "irons_spellbooks:archevoker_leggings": [
+      "defense:16",
+      "magic:16"
+    ],
+    "irons_spellbooks:artificer_cane": [
+      "magic:14"
+    ],
+    "irons_spellbooks:blaze_spell_book": [
+      "magic:22"
+    ],
+    "irons_spellbooks:blood_staff": [
+      "magic:20"
+    ],
+    "irons_spellbooks:cast_time_ring": [
+      "magic:14"
+    ],
+    "irons_spellbooks:concentration_amulet": [
+      "magic:25"
+    ],
+    "irons_spellbooks:conjurers_talisman": [
+      "magic:8"
+    ],
+    "irons_spellbooks:cooldown_ring": [
+      "magic:14"
+    ],
+    "irons_spellbooks:copper_spell_book": [
+      "magic:3"
+    ],
+    "irons_spellbooks:cryomancer_boots": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:cryomancer_chestplate": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:cryomancer_helmet": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:cryomancer_leggings": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:cultist_boots": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:cultist_chestplate": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:cultist_helmet": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:cultist_leggings": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:diamond_spell_book": [
+      "magic:22"
+    ],
+    "irons_spellbooks:dragonskin_spell_book": [
+      "magic:30"
+    ],
+    "irons_spellbooks:druidic_spell_book": [
+      "magic:22"
+    ],
+    "irons_spellbooks:eldricht_manuscript": [
+      "magic:45"
+    ],
+    "irons_spellbooks:electromancer_boots": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:electromancer_chestplate": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:electromancer_helmet": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:electromancer_leggings": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:emerald_stoneplate_ring": [
+      "magic:20",
+      "farming:15"
+    ],
+    "irons_spellbooks:evasion_elixir": [
+      "magic:22"
+    ],
+    "irons_spellbooks:evoker_spell_book": [
+      "magic:30"
+    ],
+    "irons_spellbooks:fireward_ring": [
+      "defense:15",
+      "magic:30"
+    ],
+    "irons_spellbooks:frostward_ring": [
+      "defense:15",
+      "magic:30"
+    ],
+    "irons_spellbooks:gold_spell_book": [
+      "magic:16"
+    ],
+    "irons_spellbooks:graybeard_staff": [
+      "magic:12"
+    ],
+    "irons_spellbooks:greater_evasion_elixir": [
+      "magic:30"
+    ],
+    "irons_spellbooks:greater_healing_potion": [
+      "magic:12"
+    ],
+    "irons_spellbooks:greater_invisibility_elixir": [
+      "magic:25"
+    ],
+    "irons_spellbooks:greater_oakskin_elixir": [
+      "magic:20"
+    ],
+    "irons_spellbooks:heavy_chain_necklace": [
+      "magic:14"
+    ],
+    "irons_spellbooks:hither_thither_wand": [
+      "magic:35",
+      "mining:20"
+    ],
+    "irons_spellbooks:ice_staff": [
+      "magic:16"
+    ],
+    "irons_spellbooks:scroll__summon_doppel_minion_1": [
+      "magic:40"
+    ],
+    "irons_spellbooks:inscription_table": [
+      "magic:3"
+    ],
+    "irons_spellbooks:invisibility_elixir": [
+      "magic:12"
+    ],
+    "irons_spellbooks:iron_spell_book": [
+      "magic:12"
+    ],
+    "irons_spellbooks:keeper_flamberge": [
+      "attack:30",
+      "magic:24"
+    ],
+    "irons_spellbooks:lightning_rod": [
+      "magic:16"
+    ],
+    "irons_spellbooks:magehunter": [
+      "attack:16",
+      "magic:16"
+    ],
+    "irons_spellbooks:mana_ring": [
+      "magic:14"
+    ],
+    "irons_spellbooks:necronomicon_spell_book": [
+      "magic:30"
+    ],
+    "irons_spellbooks:netherite_mage_boots": [
+      "defense:25",
+      "magic:25"
+    ],
+    "irons_spellbooks:netherite_mage_chestplate": [
+      "defense:25",
+      "magic:25"
+    ],
+    "irons_spellbooks:netherite_mage_helmet": [
+      "defense:25",
+      "magic:25"
+    ],
+    "irons_spellbooks:netherite_mage_leggings": [
+      "defense:25",
+      "magic:25"
+    ],
+    "irons_spellbooks:netherite_spell_book": [
+      "magic:28"
+    ],
+    "irons_spellbooks:oakskin_elixir": [
+      "magic:15"
+    ],
+    "irons_spellbooks:plagued_boots": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:plagued_chestplate": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:plagued_helmet": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:plagued_leggings": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:poisonward_ring": [
+      "magic:8"
+    ],
+    "irons_spellbooks:priest_boots": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:priest_chestplate": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:priest_helmet": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:priest_leggings": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:pumpkin_boots": [
+      "defense:12",
+      "magic:12"
+    ],
+    "irons_spellbooks:pumpkin_chestplate": [
+      "defense:12",
+      "magic:12"
+    ],
+    "irons_spellbooks:pumpkin_helmet": [
+      "defense:12",
+      "magic:12"
+    ],
+    "irons_spellbooks:pumpkin_leggings": [
+      "defense:12",
+      "magic:12"
+    ],
+    "irons_spellbooks:pyromancer_boots": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:pyromancer_chestplate": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:pyromancer_helmet": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:pyromancer_leggings": [
+      "defense:14",
+      "magic:14"
+    ],
+    "irons_spellbooks:rotten_spell_book": [
+      "magic:4"
+    ],
+    "irons_spellbooks:shadowwalker_boots": [
+      "defense:20",
+      "magic:20"
+    ],
+    "irons_spellbooks:shadowwalker_chestplate": [
+      "defense:20",
+      "magic:20"
+    ],
+    "irons_spellbooks:shadowwalker_helmet": [
+      "defense:20",
+      "magic:20"
+    ],
+    "irons_spellbooks:shadowwalker_leggings": [
+      "defense:20",
+      "magic:20"
+    ],
+    "irons_spellbooks:silver_ring": [
+      "magic:6"
+    ],
+    "irons_spellbooks:tarnished_helmet": [
+      "magic:25"
+    ],
+    "irons_spellbooks:villager_spell_book": [
+      "magic:28"
+    ],
+    "irons_spellbooks:wandering_magician_boots": [
+      "defense:8",
+      "magic:8"
+    ],
+    "irons_spellbooks:wandering_magician_chestplate": [
+      "defense:8",
+      "magic:8"
+    ],
+    "irons_spellbooks:wandering_magician_helmet": [
+      "defense:8",
+      "magic:8"
+    ],
+    "irons_spellbooks:wandering_magician_leggings": [
+      "defense:8",
+      "magic:8"
+    ],
+    "irons_spellbooks:spellbreaker": [
+      "attack:25",
+      "magic:25"
+    ],
+    "irons_spellbooks:amethyst_rapier": [
+      "attack:25",
+      "magic:25"
+    ],
+    "irons_spellbooks:invisibility_ring": [
+      "magic:10"
+    ],
+    "cataclysm:athame": [
+      "magic:8"
+    ],
+    "cataclysm:cursed_bow": [
+      "magic:8",
+      "agility:25"
+    ],
+    "cataclysm:wrath_of_the_desert": [
+      "magic:12",
+      "agility:35"
+    ],
+    "cataclysm:soul_render": [
+      "magic:28",
+      "attack:35"
+    ],
+    "cataclysm:the_annihilator": [
+      "magic:38",
+      "attack:40"
+    ],
+    "cataclysm:the_immolator": [
+      "magic:38",
+      "attack:34"
+    ],
+    "cataclysm:gauntlet_of_maelstrom": [
+      "magic:38",
+      "attack:40"
+    ],
+    "cataclysm:coral_spear": [
+      "agility:20"
+    ],
+    "cataclysm:bloom_stone_pauldrons": [
+      "defense:30",
+      "gathering:16"
+    ],
+    "cataclysm:bone_reptile_chestplate": [
+      "defense:30",
+      "magic:25"
+    ],
+    "cataclysm:bone_reptile_helmet": [
+      "defense:30",
+      "agility:25"
+    ],
+    "cataclysm:bulwark_of_the_flame": [
+      "defense:30",
+      "magic:30"
+    ],
+    "cataclysm:coral_bardiche": [
+      "attack:14",
+      "agility:22"
+    ],
+    "cataclysm:coral_lance": [
+      "attack:16",
+      "agility:12"
+    ],
+    "cataclysm:gauntlet_of_bulwark": [
+      "attack:32",
+      "magic:32"
+    ],
+    "cataclysm:gauntlet_of_guard": [
+      "attack:32",
+      "defense:26",
+      "magic:32"
+    ],
+    "cataclysm:ignitium_boots": [
+      "defense:30",
+      "magic:25"
+    ],
+    "cataclysm:ignitium_chestplate": [
+      "defense:30",
+      "magic:25"
+    ],
+    "cataclysm:ignitium_elytra_chestplate": [
+      "defense:30",
+      "magic:25",
+      "agility:25"
+    ],
+    "cataclysm:ignitium_helmet": [
+      "defense:30",
+      "magic:25"
+    ],
+    "cataclysm:ignitium_leggings": [
+      "defense:30",
+      "magic:25"
+    ],
+    "cataclysm:infernal_forge": [
+      "attack:32"
+    ],
+    "cataclysm:khopesh": [
+      "attack:8"
+    ],
+    "cataclysm:laser_gatling": [
+      "mining:34"
+    ],
+    "cataclysm:meat_shredder": [
+      "attack:50",
+      "mining:50"
+    ],
+    "cataclysm:mechanical_fusion_anvil": [
+      "mining:36",
+      "building:40"
+    ],
+    "cataclysm:monstrous_helm": [
+      "defense:30",
+      "gathering:24"
+    ],
+    "cataclysm:sandstorm_in_a_bottle": [
+      "farming:12"
+    ],
+    "cataclysm:the_incinerator": [
+      "attack:36",
+      "magic:30"
+    ],
+    "cataclysm:tidal_claws": [
+      "agility:30"
+    ],
+    "cataclysm:void_assault_shoulder_weapon": [
+      "mining:30"
+    ],
+    "cataclysm:void_core": [
+      "magic:38"
+    ],
+    "cataclysm:void_forge": [
+      "attack:26",
+      "magic:20"
+    ],
+    "cataclysm:wither_assault_shoulder_weapon": [
+      "mining:30"
+    ],
+    "alexmobs:blood_sprayer": [
+      "magic:12",
+      "mining:12"
+    ],
+    "alexmobs:centipede_leggings": [
+      "defense:8",
+      "agility:16"
+    ],
+    "alexmobs:chorus_on_a_stick": [
+      "farming:8"
+    ],
+    "alexmobs:crocodile_chestplate": [
+      "defense:16",
+      "agility:16"
+    ],
+    "minecraft:chainmail_helmet": [
+      "defense:5"
+    ],
+    "minecraft:golden_boots": [
+      "defense:5"
+    ],
+    "minecraft:golden_hoe": [
+      "farming:5"
+    ],
+    "minecraft:chainmail_leggings": [
+      "defense:5"
+    ],
+    "minecraft:golden_axe": [
+      "gathering:5"
+    ],
+    "minecraft:golden_helmet": [
+      "defense:5"
+    ],
+    "minecraft:chainmail_boots": [
+      "defense:5"
+    ],
+    "minecraft:golden_sword": [
+      "attack:5"
+    ],
+    "minecraft:crossbow": [
+      "agility:5",
+      "defense:5"
+    ],
+    "minecraft:golden_shovel": [
+      "gathering:5"
+    ],
+    "minecraft:golden_pickaxe": [
+      "mining:5"
+    ],
+    "minecraft:golden_leggings": [
+      "defense:5"
+    ],
+    "minecraft:golden_chestplate": [
+      "defense:5"
+    ],
+    "minecraft:chainmail_chestplate": [
+      "defense:5"
+    ],
+    "minecraft:dropper": [
+      "building:10"
+    ],
+    "minecraft:dispenser": [
+      "building:10"
+    ],
+    "minecraft:furnace": [
+      "building:2"
+    ],
+    "fantasyfurniture:furniture_station": [
+      "building:14"
+    ],
+    "minecraft:enchanted_golden_apple": [
+      "magic:14"
+    ],
+    "minecraft:golden_apple": [
+      "magic:5"
+    ],
+    "quark:blackstone_blast_furnace": [
+      "building:8"
+    ],
+    "quark:blackstone_furnace": [
+      "building:2"
+    ],
+    "nethersdelight:blackstone_blast_furnace": [
+      "building:8"
+    ],
+    "nethersdelight:blackstone_furnace": [
+      "building:2"
+    ],
+    "minecraft:minecart": [
+      "agility:5"
+    ],
+    "minecraft:furnace_minecart": [
+      "building:2",
+      "agility:4"
+    ],
+    "blue_skies:alchemy_table": [
+      "gathering:30",
+      "building:30",
+      "magic:20"
+    ],
+    "blue_skies:horizonite_pickaxe": [
+      "mining:30"
+    ],
+    "blue_skies:lunar_stone_pickaxe": [
+      "mining:5"
+    ],
+    "blue_skies:charoite_hoe": [
+      "farming:30"
+    ],
+    "blue_skies:charoite_chestplate": [
+      "defense:30"
+    ],
+    "blue_skies:charoite_helmet": [
+      "defense:30"
+    ],
+    "blue_skies:starlit_shovel": [
+      "gathering:5"
+    ],
+    "blue_skies:aquite_shovel": [
+      "gathering:15"
+    ],
+    "blue_skies:diopside_hoe": [
+      "farming:30"
+    ],
+    "blue_skies:diopside_leggings": [
+      "defense:35"
+    ],
+    "blue_skies:dusk_hoe": [
+      "farming:5"
+    ],
+    "blue_skies:maple_pickaxe": [
+      "mining:5"
+    ],
+    "blue_skies:comet_pickaxe": [
+      "mining:5"
+    ],
+    "blue_skies:charoite_leggings": [
+      "defense:30"
+    ],
+    "blue_skies:bluebright_sword": [
+      "attack:5"
+    ],
+    "blue_skies:maple_shovel": [
+      "gathering:5"
+    ],
+    "blue_skies:pyrope_shovel": [
+      "gathering:5"
+    ],
+    "blue_skies:horizonite_chestplate": [
+      "defense:15"
+    ],
+    "blue_skies:comet_axe": [
+      "gathering:5"
+    ],
+    "blue_skies:bluebright_pickaxe": [
+      "mining:5"
+    ],
+    "blue_skies:pyrope_leggings": [
+      "defense:15"
+    ],
+    "blue_skies:dusk_axe": [
+      "gathering:5"
+    ],
+    "blue_skies:turquoise_stone_pickaxe": [
+      "mining:5"
+    ],
+    "blue_skies:lunar_stone_axe": [
+      "gathering:5"
+    ],
+    "blue_skies:shadow_boots": [
+      "defense:30"
+    ],
+    "blue_skies:frostbright_axe": [
+      "gathering:5"
+    ],
+    "blue_skies:turquoise_stone_axe": [
+      "gathering:5"
+    ],
+    "blue_skies:aquite_boots": [
+      "defense:15"
+    ],
+    "blue_skies:debug_sword": [
+      "attack:30"
+    ],
+    "blue_skies:pyrope_axe": [
+      "gathering:5"
+    ],
+    "blue_skies:lunar_pickaxe": [
+      "mining:5"
+    ],
+    "blue_skies:aquite_helmet": [
+      "defense:15"
+    ],
+    "blue_skies:frostbright_sword": [
+      "attack:5"
+    ],
+    "blue_skies:charoite_axe": [
+      "gathering:30"
+    ],
+    "blue_skies:lunar_shovel": [
+      "gathering:5"
+    ],
+    "blue_skies:diopside_shovel": [
+      "gathering:30"
+    ],
+    "blue_skies:horizonite_shovel": [
+      "gathering:30"
+    ],
+    "blue_skies:comet_hoe": [
+      "farming:5"
+    ],
+    "blue_skies:lunar_stone_shovel": [
+      "gathering:5"
+    ],
+    "blue_skies:pyrope_chestplate": [
+      "defense:15"
+    ],
+    "blue_skies:charoite_shovel": [
+      "gathering:30"
+    ],
+    "blue_skies:lunar_stone_hoe": [
+      "farming:5"
+    ],
+    "blue_skies:pyrope_pickaxe": [
+      "mining:5"
+    ],
+    "blue_skies:maple_sword": [
+      "attack:5"
+    ],
+    "blue_skies:horizonite_leggings": [
+      "defense:15"
+    ],
+    "blue_skies:aquite_chestplate": [
+      "defense:15"
+    ],
+    "blue_skies:aquite_hoe": [
+      "farming:15"
+    ],
+    "blue_skies:horizonite_hoe": [
+      "farming:30"
+    ],
+    "blue_skies:diopside_sword": [
+      "attack:15"
+    ],
+    "blue_skies:pyrope_sword": [
+      "attack:5"
+    ],
+    "blue_skies:diopside_chestplate": [
+      "defense:35"
+    ],
+    "blue_skies:dusk_shovel": [
+      "gathering:5"
+    ],
+    "blue_skies:charoite_sword": [
+      "attack:15"
+    ],
+    "blue_skies:pyrope_helmet": [
+      "defense:15"
+    ],
+    "blue_skies:comet_shovel": [
+      "gathering:5"
+    ],
+    "blue_skies:lunar_hoe": [
+      "farming:5"
+    ],
+    "blue_skies:horizonite_boots": [
+      "defense:15"
+    ],
+    "blue_skies:turquoise_stone_hoe": [
+      "farming:5"
+    ],
+    "blue_skies:aquite_sword": [
+      "attack:5"
+    ],
+    "blue_skies:bluebright_shovel": [
+      "gathering:5"
+    ],
+    "blue_skies:different_sword": [
+      "attack:30"
+    ],
+    "blue_skies:diopside_helmet": [
+      "defense:35"
+    ],
+    "blue_skies:pyrope_hoe": [
+      "farming:5"
+    ],
+    "blue_skies:starlit_sword": [
+      "attack:5"
+    ],
+    "blue_skies:horizonite_sword": [
+      "attack:5"
+    ],
+    "blue_skies:shadow_helmet": [
+      "defense:30"
+    ],
+    "blue_skies:lunar_sword": [
+      "attack:5"
+    ],
+    "blue_skies:starlit_axe": [
+      "gathering:5"
+    ],
+    "blue_skies:frostbright_hoe": [
+      "farming:5"
+    ],
+    "blue_skies:charoite_boots": [
+      "defense:30"
+    ],
+    "blue_skies:horizonite_helmet": [
+      "defense:15"
+    ],
+    "blue_skies:horizonite_axe": [
+      "gathering:30"
+    ],
+    "blue_skies:diopside_boots": [
+      "defense:35"
+    ],
+    "blue_skies:dusk_sword": [
+      "attack:5"
+    ],
+    "blue_skies:aquite_leggings": [
+      "defense:15"
+    ],
+    "blue_skies:bluebright_axe": [
+      "gathering:5"
+    ],
+    "blue_skies:maple_axe": [
+      "gathering:5"
+    ],
+    "blue_skies:infused_arc_sword": [
+      "attack:15"
+    ],
+    "blue_skies:starlit_pickaxe": [
+      "mining:5"
+    ],
+    "blue_skies:lunar_stone_sword": [
+      "attack:5"
+    ],
+    "blue_skies:charoite_pickaxe": [
+      "mining:30"
+    ],
+    "blue_skies:maple_hoe": [
+      "farming:5"
+    ],
+    "blue_skies:starlit_hoe": [
+      "farming:5"
+    ],
+    "blue_skies:comet_sword": [
+      "attack:5"
+    ],
+    "blue_skies:diopside_pickaxe": [
+      "mining:30"
+    ],
+    "blue_skies:dusk_pickaxe": [
+      "mining:5"
+    ],
+    "blue_skies:frostbright_shovel": [
+      "gathering:5"
+    ],
+    "blue_skies:lunar_axe": [
+      "gathering:5"
+    ],
+    "blue_skies:turquoise_stone_sword": [
+      "attack:5"
+    ],
+    "blue_skies:shadow_chestplate": [
+      "defense:30"
+    ],
+    "blue_skies:shadow_leggings": [
+      "defense:30"
+    ],
+    "blue_skies:aquite_pickaxe": [
+      "mining:15"
+    ],
+    "blue_skies:turquoise_stone_shovel": [
+      "gathering:5"
+    ],
+    "blue_skies:aquite_axe": [
+      "gathering:15"
+    ],
+    "blue_skies:frostbright_pickaxe": [
+      "mining:5"
+    ],
+    "blue_skies:pyrope_boots": [
+      "defense:15"
+    ],
+    "blue_skies:diopside_axe": [
+      "gathering:30"
+    ],
+    "blue_skies:bluebright_hoe": [
+      "farming:5"
+    ],
+    "aquamirae:abyssal_leggings": [
+      "defense:20"
+    ],
+    "aquamirae:dagger_of_greed": [
+      "attack:5"
+    ],
+    "aquamirae:terrible_leggings": [
+      "defense:15"
+    ],
+    "aquamirae:remnants_saber": [
+      "attack:5"
+    ],
+    "aquamirae:coral_lance": [
+      "attack:30"
+    ],
+    "aquamirae:abyssal_heaume": [
+      "defense:20"
+    ],
+    "aquamirae:abyssal_boots": [
+      "defense:20"
+    ],
+    "aquamirae:abyssal_tiara": [
+      "defense:15"
+    ],
+    "aquamirae:abyssal_brigantine": [
+      "defense:20"
+    ],
+    "aquamirae:poisoned_blade": [
+      "attack:5"
+    ],
+    "aquamirae:three_bolt_leggings": [
+      "defense:10"
+    ],
+    "aquamirae:three_bolt_suit": [
+      "defense:10"
+    ],
+    "aquamirae:terrible_boots": [
+      "defense:15"
+    ],
+    "aquamirae:divider": [
+      "attack:15"
+    ],
+    "aquamirae:three_bolt_boots": [
+      "defense:10"
+    ],
+    "aquamirae:sweet_lance": [
+      "attack:30"
+    ],
+    "aquamirae:fin_cutter": [
+      "attack:5"
+    ],
+    "aquamirae:terrible_chestplate": [
+      "defense:15"
+    ],
+    "aquamirae:terrible_helmet": [
+      "defense:15"
+    ],
+    "aquamirae:three_bolt_helmet": [
+      "defense:10"
+    ],
+    "aquamirae:whisper_of_the_abyss": [
+      "attack:30"
+    ],
+    "aquamirae:terrible_sword": [
+      "attack:25",
+      "gathering:15"
+    ],
+    "magistuarmory:diamond_estoc": [
+      "attack:15"
+    ],
+    "magistuarmory:gold_chivalrylance": [
+      "attack:5"
+    ],
+    "magistuarmory:wood_chainmorgenstern": [
+      "attack:5"
+    ],
+    "magistuarmory:netherite_heavywarhammer": [
+      "attack:20"
+    ],
+    "magistuarmory:kastenbrust_boots": [
+      "defense:12"
+    ],
+    "magistuarmory:crusader_boots": [
+      "defense:12"
+    ],
+    "magistuarmory:copper_pike": [
+      "attack:5"
+    ],
+    "magistuarmory:wood_zweihander": [
+      "attack:5"
+    ],
+    "magistuarmory:silver_estoc": [
+      "attack:5"
+    ],
+    "magistuarmory:gothic_boots": [
+      "defense:12"
+    ],
+    "magistuarmory:copper_concavehalberd": [
+      "attack:15"
+    ],
+    "magistuarmory:silver_shortsword": [
+      "attack:5"
+    ],
+    "magistuarmory:knight_boots": [
+      "defense:12"
+    ],
+    "magistuarmory:wood_bastardsword": [
+      "attack:5"
+    ],
+    "magistuarmory:copper_heavywarhammer": [
+      "attack:5"
+    ],
+    "magistuarmory:pitchfork": [
+      "attack:5"
+    ],
+    "magistuarmory:steel_heavywarhammer": [
+      "attack:15"
+    ],
+    "magistuarmory:grand_bascinet": [
+      "defense:12"
+    ],
+    "magistuarmory:silver_katzbalger": [
+      "attack:5"
+    ],
+    "magistuarmory:steel_pike": [
+      "attack:15"
+    ],
+    "magistuarmory:stone_morgenstern": [
+      "attack:5"
+    ],
+    "magistuarmory:tin_zweihander": [
+      "attack:15"
+    ],
+    "magistuarmory:copper_lucernhammer": [
+      "attack:5"
+    ],
+    "magistuarmory:copper_ahlspiess": [
+      "attack:5"
+    ],
+    "magistuarmory:diamond_chainmorgenstern": [
+      "attack:12"
+    ],
+    "magistuarmory:gold_stylet": [
+      "attack:5"
+    ],
+    "magistuarmory:wood_lucernhammer": [
+      "attack:5"
+    ],
+    "magistuarmory:iron_chivalrylance": [
+      "attack:5"
+    ],
+    "magistuarmory:silver_heavymace": [
+      "attack:5"
+    ],
+    "magistuarmory:steel_concavehalberd": [
+      "attack:12"
+    ],
+    "magistuarmory:diamond_heavymace": [
+      "attack:15"
+    ],
+    "magistuarmory:rustednorman_helmet": [
+      "defense:12"
+    ],
+    "magistuarmory:steel_flamebladedsword": [
+      "attack:15"
+    ],
+    "magistuarmory:stone_ahlspiess": [
+      "attack:5"
+    ],
+    "magistuarmory:norman_helmet": [
+      "defense:8"
+    ],
+    "magistuarmory:bronze_zweihander": [
+      "attack:5"
+    ],
+    "magistuarmory:diamond_zweihander": [
+      "attack:12"
+    ],
+    "magistuarmory:iron_bastardsword": [
+      "attack:5"
+    ],
+    "magistuarmory:bronze_ranseur": [
+      "attack:5"
+    ],
+    "magistuarmory:netherite_estoc": [
+      "attack:15"
+    ],
+    "magistuarmory:bronze_lucernhammer": [
+      "attack:5"
+    ],
+    "magistuarmory:tin_heavywarhammer": [
+      "attack:5"
+    ],
+    "magistuarmory:face_helmet": [
+      "defense:10"
+    ],
+    "magistuarmory:iron_claymore": [
+      "attack:5"
+    ],
+    "magistuarmory:tin_ahlspiess": [
+      "attack:5"
+    ],
+    "magistuarmory:diamond_guisarme": [
+      "attack:15"
+    ],
+    "magistuarmory:gold_heavymace": [
+      "attack:5"
+    ],
+    "magistuarmory:steel_morgenstern": [
+      "attack:15"
+    ],
+    "magistuarmory:copper_bastardsword": [
+      "attack:5"
+    ],
+    "magistuarmory:stone_guisarme": [
+      "attack:5"
+    ],
+    "magistuarmory:iron_morgenstern": [
+      "attack:5"
+    ],
+    "magistuarmory:netherite_lucernhammer": [
+      "attack:12"
+    ],
+    "magistuarmory:maximilian_boots": [
+      "defense:12"
+    ],
+    "magistuarmory:stone_claymore": [
+      "attack:15"
+    ],
+    "magistuarmory:iron_guisarme": [
+      "attack:5"
+    ],
+    "magistuarmory:netherite_stylet": [
+      "attack:15"
+    ],
+    "magistuarmory:tin_chainmorgenstern": [
+      "attack:15"
+    ],
+    "magistuarmory:steel_estoc": [
+      "attack:15"
+    ],
+    "magistuarmory:tin_lucernhammer": [
+      "attack:5"
+    ],
+    "magistuarmory:rustedhalfarmor_chestplate": [
+      "defense:12"
+    ],
+    "magistuarmory:noble_sword": [
+      "attack:15"
+    ],
+    "magistuarmory:platemail_chestplate": [
+      "defense:8"
+    ],
+    "magistuarmory:rustedbarbute": [
+      "defense:12"
+    ],
+    "magistuarmory:wood_pike": [
+      "attack:5"
+    ],
+    "magistuarmory:gold_zweihander": [
+      "attack:15"
+    ],
+    "magistuarmory:stechhelm": [
+      "defense:12"
+    ],
+    "magistuarmory:bronze_ahlspiess": [
+      "attack:5"
+    ],
+    "magistuarmory:tin_estoc": [
+      "attack:5"
+    ],
+    "magistuarmory:bronze_flamebladedsword": [
+      "attack:5"
+    ],
+    "magistuarmory:sallet": [
+      "defense:12"
+    ],
+    "magistuarmory:iron_stylet": [
+      "attack:5"
+    ],
+    "magistuarmory:minicrown_decoration": [
+      "defense:12"
+    ],
+    "magistuarmory:netherite_heavymace": [
+      "attack:12"
+    ],
+    "magistuarmory:diamond_heavywarhammer": [
+      "attack:15"
+    ],
+    "magistuarmory:silver_pike": [
+      "attack:5"
+    ],
+    "magistuarmory:copper_stylet": [
+      "attack:5"
+    ],
+    "magistuarmory:steel_heavymace": [
+      "attack:15"
+    ],
+    "magistuarmory:copper_zweihander": [
+      "attack:15"
+    ],
+    "magistuarmory:diamond_ranseur": [
+      "attack:15"
+    ],
+    "magistuarmory:netherite_chivalrylance": [
+      "attack:12"
+    ],
+    "magistuarmory:diamond_claymore": [
+      "attack:15"
+    ],
+    "magistuarmory:diamond_concavehalberd": [
+      "attack:12"
+    ],
+    "magistuarmory:cuirassier_boots": [
+      "defense:8"
+    ],
+    "magistuarmory:iron_ranseur": [
+      "attack:5"
+    ],
+    "magistuarmory:barbedclub": [
+      "attack:15"
+    ],
+    "magistuarmory:diamond_pike": [
+      "attack:15"
+    ],
+    "magistuarmory:tin_ranseur": [
+      "attack:5"
+    ],
+    "magistuarmory:rustedchainmail_chestplate": [
+      "defense:12"
+    ],
+    "magistuarmory:steel_chivalrylance": [
+      "attack:15"
+    ],
+    "magistuarmory:wood_heavywarhammer": [
+      "attack:5"
+    ],
+    "magistuarmory:tin_guisarme": [
+      "attack:5"
+    ],
+    "magistuarmory:bronze_stylet": [
+      "attack:5"
+    ],
+    "magistuarmory:ceremonial_boots": [
+      "defense:12"
+    ],
+    "magistuarmory:stone_shortsword": [
+      "attack:5"
+    ],
+    "magistuarmory:diamond_stylet": [
+      "attack:5"
+    ],
+    "magistuarmory:netherite_pike": [
+      "attack:15"
+    ],
+    "magistuarmory:silver_chainmorgenstern": [
+      "attack:15"
+    ],
+    "magistuarmory:silver_lucernhammer": [
+      "attack:5"
+    ],
+    "magistuarmory:diamond_ahlspiess": [
+      "attack:15"
+    ],
+    "magistuarmory:iron_katzbalger": [
+      "attack:5"
+    ],
+    "magistuarmory:netherite_lochaberaxe": [
+      "attack:12"
+    ],
+    "magistuarmory:iron_flamebladedsword": [
+      "attack:5"
+    ],
+    "magistuarmory:shishak": [
+      "defense:12"
+    ],
+    "magistuarmory:rustedchainmail_leggings": [
+      "defense:12"
+    ],
+    "magistuarmory:rustedgreathelm": [
+      "defense:12"
+    ],
+    "magistuarmory:tin_flamebladedsword": [
+      "attack:15"
+    ],
+    "magistuarmory:rustedcrusader_chestplate": [
+      "defense:12"
+    ],
+    "magistuarmory:kastenbrust_chestplate": [
+      "defense:12"
+    ],
+    "magistuarmory:lamellar_boots": [
+      "defense:7"
+    ],
+    "magistuarmory:crown_decoration": [
+      "defense:12"
+    ],
+    "magistuarmory:gothic_leggings": [
+      "defense:12"
+    ],
+    "magistuarmory:wood_chivalrylance": [
+      "attack:5"
+    ],
+    "magistuarmory:netherite_shortsword": [
+      "attack:15"
+    ],
+    "magistuarmory:tin_heavymace": [
+      "attack:5"
+    ],
+    "magistuarmory:wood_ahlspiess": [
+      "attack:5"
+    ],
+    "magistuarmory:copper_katzbalger": [
+      "attack:5"
+    ],
+    "magistuarmory:netherite_guisarme": [
+      "attack:15"
+    ],
+    "magistuarmory:netherite_claymore": [
+      "attack:12"
+    ],
+    "magistuarmory:steel_ahlspiess": [
+      "attack:5"
+    ],
+    "magistuarmory:wingedhussar_chestplate": [
+      "defense:12"
+    ],
+    "magistuarmory:cuirassier_helmet": [
+      "defense:8"
+    ],
+    "magistuarmory:platemail_boots": [
+      "defense:8"
+    ],
+    "magistuarmory:chainmail_boots": [
+      "defense:7"
+    ],
+    "magistuarmory:wood_concavehalberd": [
+      "attack:5"
+    ],
+    "magistuarmory:wood_morgenstern": [
+      "attack:5"
+    ],
+    "magistuarmory:chainmail_helmet": [
+      "defense:7"
+    ],
+    "magistuarmory:flowercrown_decoration": [
+      "defense:5"
+    ],
+    "magistuarmory:bronze_heavywarhammer": [
+      "attack:5"
+    ],
+    "magistuarmory:iron_lucernhammer": [
+      "attack:5"
+    ],
+    "magistuarmory:steel_lucernhammer": [
+      "attack:15"
+    ],
+    "magistuarmory:kettlehat": [
+      "defense:7"
+    ],
+    "magistuarmory:netherite_ahlspiess": [
+      "attack:15"
+    ],
+    "magistuarmory:steel_lochaberaxe": [
+      "attack:12"
+    ],
+    "magistuarmory:bronze_morgenstern": [
+      "attack:5"
+    ],
+    "magistuarmory:copper_chivalrylance": [
+      "attack:5"
+    ],
+    "magistuarmory:tin_pike": [
+      "attack:5"
+    ],
+    "magistuarmory:gold_katzbalger": [
+      "attack:5"
+    ],
+    "magistuarmory:tin_claymore": [
+      "attack:5"
+    ],
+    "magistuarmory:bronze_concavehalberd": [
+      "attack:10"
+    ],
+    "magistuarmory:netherite_bastardsword": [
+      "attack:15"
+    ],
+    "magistuarmory:tin_katzbalger": [
+      "attack:5"
+    ],
+    "magistuarmory:diamond_lochaberaxe": [
+      "attack:12"
+    ],
+    "magistuarmory:bronze_estoc": [
+      "attack:5"
+    ],
+    "magistuarmory:maximilian_helmet": [
+      "defense:12"
+    ],
+    "magistuarmory:diamond_chivalrylance": [
+      "attack:15"
+    ],
+    "magistuarmory:diamond_katzbalger": [
+      "attack:15"
+    ],
+    "magistuarmory:gold_shortsword": [
+      "attack:5"
+    ],
+    "magistuarmory:chainmail_leggings": [
+      "defense:7"
+    ],
+    "magistuarmory:armet": [
+      "defense:12"
+    ],
+    "magistuarmory:gambeson_boots": [
+      "defense:8"
+    ],
+    "magistuarmory:pantyhose": [
+      "defense:12"
+    ],
+    "magistuarmory:cuirassier_leggings": [
+      "defense:8"
+    ],
+    "magistuarmory:platemail_leggings": [
+      "defense:8"
+    ],
+    "magistuarmory:stone_lucernhammer": [
+      "attack:5"
+    ],
+    "magistuarmory:bronze_katzbalger": [
+      "attack:5"
+    ],
+    "magistuarmory:iron_chainmorgenstern": [
+      "attack:5"
+    ],
+    "magistuarmory:tin_lochaberaxe": [
+      "attack:15"
+    ],
+    "magistuarmory:copper_ranseur": [
+      "attack:5"
+    ],
+    "magistuarmory:stone_chainmorgenstern": [
+      "attack:15"
+    ],
+    "magistuarmory:silver_heavywarhammer": [
+      "attack:15"
+    ],
+    "magistuarmory:greathelm": [
+      "defense:12"
+    ],
+    "magistuarmory:cuirassier_chestplate": [
+      "defense:8"
+    ],
+    "magistuarmory:silver_concavehalberd": [
+      "attack:15"
+    ],
+    "magistuarmory:diamond_shortsword": [
+      "attack:5"
+    ],
+    "magistuarmory:jousting_leggings": [
+      "defense:12"
+    ],
+    "magistuarmory:steel_shortsword": [
+      "attack:5"
+    ],
+    "magistuarmory:halfarmor_chestplate": [
+      "defense:12"
+    ],
+    "magistuarmory:gold_heavywarhammer": [
+      "attack:5"
+    ],
+    "magistuarmory:netherite_flamebladedsword": [
+      "attack:12"
+    ],
+    "magistuarmory:wood_estoc": [
+      "attack:5"
+    ],
+    "magistuarmory:wood_katzbalger": [
+      "attack:5"
+    ],
+    "magistuarmory:stone_pike": [
+      "attack:5"
+    ],
+    "magistuarmory:stone_bastardsword": [
+      "attack:5"
+    ],
+    "magistuarmory:rustedchainmail_boots": [
+      "defense:12"
+    ],
+    "magistuarmory:stone_zweihander": [
+      "attack:15"
+    ],
+    "magistuarmory:rustedcrusader_boots": [
+      "defense:12"
+    ],
+    "magistuarmory:silver_guisarme": [
+      "attack:5"
+    ],
+    "magistuarmory:steel_bastardsword": [
+      "attack:15"
+    ],
+    "magistuarmory:diamond_bastardsword": [
+      "attack:15"
+    ],
+    "magistuarmory:diamond_morgenstern": [
+      "attack:15"
+    ],
+    "magistuarmory:gold_chainmorgenstern": [
+      "attack:15"
+    ],
+    "magistuarmory:iron_ahlspiess": [
+      "attack:5"
+    ],
+    "magistuarmory:tin_chivalrylance": [
+      "attack:5"
+    ],
+    "magistuarmory:wood_heavymace": [
+      "attack:5"
+    ],
+    "magistuarmory:gold_morgenstern": [
+      "attack:5"
+    ],
+    "magistuarmory:copper_chainmorgenstern": [
+      "attack:15"
+    ],
+    "magistuarmory:jousting_boots": [
+      "defense:12"
+    ],
+    "magistuarmory:netherite_zweihander": [
+      "attack:12"
+    ],
+    "magistuarmory:jousting_chestplate": [
+      "defense:12"
+    ],
+    "magistuarmory:barbute": [
+      "defense:12"
+    ],
+    "magistuarmory:silver_morgenstern": [
+      "attack:5"
+    ],
+    "magistuarmory:wood_guisarme": [
+      "attack:5"
+    ],
+    "magistuarmory:stone_ranseur": [
+      "attack:5"
+    ],
+    "magistuarmory:bronze_shortsword": [
+      "attack:5"
+    ],
+    "magistuarmory:ceremonial_chestplate": [
+      "defense:12"
+    ],
+    "magistuarmory:copper_morgenstern": [
+      "attack:5"
+    ],
+    "magistuarmory:silver_flamebladedsword": [
+      "attack:15"
+    ],
+    "magistuarmory:gold_pike": [
+      "attack:5"
+    ],
+    "magistuarmory:steel_stylet": [
+      "attack:5"
+    ],
+    "magistuarmory:copper_claymore": [
+      "attack:5"
+    ],
+    "magistuarmory:iron_estoc": [
+      "attack:15"
+    ],
+    "magistuarmory:longbow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "magistuarmory:gold_ranseur": [
+      "attack:5"
+    ],
+    "magistuarmory:netherite_ranseur": [
+      "attack:15"
+    ],
+    "magistuarmory:iron_concavehalberd": [
+      "attack:12"
+    ],
+    "magistuarmory:wood_shortsword": [
+      "attack:5"
+    ],
+    "magistuarmory:copper_guisarme": [
+      "attack:5"
+    ],
+    "magistuarmory:crusader_leggings": [
+      "defense:12"
+    ],
+    "magistuarmory:copper_estoc": [
+      "attack:5"
+    ],
+    "magistuarmory:iron_heavywarhammer": [
+      "attack:15"
+    ],
+    "magistuarmory:steel_katzbalger": [
+      "attack:5"
+    ],
+    "magistuarmory:rusted_heavymace": [
+      "attack:5"
+    ],
+    "magistuarmory:knight_chestplate": [
+      "defense:12"
+    ],
+    "magistuarmory:rustedkettlehat": [
+      "defense:12"
+    ],
+    "magistuarmory:wood_claymore": [
+      "attack:5"
+    ],
+    "magistuarmory:crusader_chestplate": [
+      "defense:12"
+    ],
+    "magistuarmory:tin_morgenstern": [
+      "attack:5"
+    ],
+    "magistuarmory:bronze_lochaberaxe": [
+      "attack:7"
+    ],
+    "magistuarmory:club": [
+      "attack:15"
+    ],
+    "magistuarmory:stone_flamebladedsword": [
+      "attack:15"
+    ],
+    "magistuarmory:gold_lochaberaxe": [
+      "attack:15"
+    ],
+    "magistuarmory:silver_chivalrylance": [
+      "attack:5"
+    ],
+    "magistuarmory:copper_shortsword": [
+      "attack:5"
+    ],
+    "magistuarmory:rusted_bastardsword": [
+      "attack:5"
+    ],
+    "magistuarmory:steel_zweihander": [
+      "attack:15"
+    ],
+    "magistuarmory:silver_ranseur": [
+      "attack:5"
+    ],
+    "magistuarmory:gothic_chestplate": [
+      "defense:12"
+    ],
+    "magistuarmory:gold_bastardsword": [
+      "attack:5"
+    ],
+    "magistuarmory:messer_sword": [
+      "attack:5"
+    ],
+    "magistuarmory:iron_pike": [
+      "attack:5"
+    ],
+    "magistuarmory:tin_stylet": [
+      "attack:5"
+    ],
+    "magistuarmory:stone_concavehalberd": [
+      "attack:15"
+    ],
+    "magistuarmory:netherite_chainmorgenstern": [
+      "attack:12"
+    ],
+    "magistuarmory:bronze_claymore": [
+      "attack:5"
+    ],
+    "magistuarmory:bronze_pike": [
+      "attack:5"
+    ],
+    "magistuarmory:brigandine_chestplate": [
+      "defense:12"
+    ],
+    "magistuarmory:gold_flamebladedsword": [
+      "attack:15"
+    ],
+    "magistuarmory:wood_lochaberaxe": [
+      "attack:5"
+    ],
+    "magistuarmory:chainmail_chestplate": [
+      "defense:7"
+    ],
+    "magistuarmory:steel_guisarme": [
+      "attack:10"
+    ],
+    "magistuarmory:wood_flamebladedsword": [
+      "attack:5"
+    ],
+    "magistuarmory:diamond_flamebladedsword": [
+      "attack:12"
+    ],
+    "magistuarmory:stone_heavywarhammer": [
+      "attack:15"
+    ],
+    "magistuarmory:bascinet": [
+      "defense:12"
+    ],
+    "magistuarmory:gold_claymore": [
+      "attack:5"
+    ],
+    "magistuarmory:maximilian_chestplate": [
+      "defense:12"
+    ],
+    "magistuarmory:silver_ahlspiess": [
+      "attack:5"
+    ],
+    "magistuarmory:copper_flamebladedsword": [
+      "attack:15"
+    ],
+    "magistuarmory:netherite_morgenstern": [
+      "attack:15"
+    ],
+    "magistuarmory:stone_heavymace": [
+      "attack:15"
+    ],
+    "magistuarmory:stone_lochaberaxe": [
+      "attack:15"
+    ],
+    "magistuarmory:heavy_crossbow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "magistuarmory:wood_ranseur": [
+      "attack:5"
+    ],
+    "magistuarmory:xivcenturyknight_leggings": [
+      "defense:12"
+    ],
+    "magistuarmory:copper_heavymace": [
+      "attack:5"
+    ],
+    "magistuarmory:bronze_bastardsword": [
+      "attack:5"
+    ],
+    "magistuarmory:gold_lucernhammer": [
+      "attack:5"
+    ],
+    "magistuarmory:stone_estoc": [
+      "attack:5"
+    ],
+    "magistuarmory:tin_concavehalberd": [
+      "attack:15"
+    ],
+    "magistuarmory:gambeson_chestplate": [
+      "defense:8"
+    ],
+    "magistuarmory:silver_bastardsword": [
+      "attack:5"
+    ],
+    "magistuarmory:silver_claymore": [
+      "attack:15"
+    ],
+    "magistuarmory:bronze_chainmorgenstern": [
+      "attack:5"
+    ],
+    "magistuarmory:silver_stylet": [
+      "attack:5"
+    ],
+    "magistuarmory:stone_chivalrylance": [
+      "attack:5"
+    ],
+    "magistuarmory:tin_shortsword": [
+      "attack:5"
+    ],
+    "magistuarmory:bronze_chivalrylance": [
+      "attack:5"
+    ],
+    "magistuarmory:maximilian_leggings": [
+      "defense:12"
+    ],
+    "magistuarmory:gold_guisarme": [
+      "attack:5"
+    ],
+    "magistuarmory:knight_leggings": [
+      "defense:12"
+    ],
+    "magistuarmory:iron_shortsword": [
+      "attack:5"
+    ],
+    "magistuarmory:gold_ahlspiess": [
+      "attack:5"
+    ],
+    "magistuarmory:stone_stylet": [
+      "attack:5"
+    ],
+    "magistuarmory:gold_concavehalberd": [
+      "attack:15"
+    ],
+    "magistuarmory:steel_chainmorgenstern": [
+      "attack:12"
+    ],
+    "magistuarmory:steel_ranseur": [
+      "attack:15"
+    ],
+    "magistuarmory:wood_stylet": [
+      "attack:5"
+    ],
+    "magistuarmory:silver_lochaberaxe": [
+      "attack:15"
+    ],
+    "magistuarmory:steel_claymore": [
+      "attack:15"
+    ],
+    "magistuarmory:silver_zweihander": [
+      "attack:15"
+    ],
+    "magistuarmory:bronze_heavymace": [
+      "attack:5"
+    ],
+    "magistuarmory:stone_katzbalger": [
+      "attack:5"
+    ],
+    "magistuarmory:bronze_guisarme": [
+      "attack:5"
+    ],
+    "magistuarmory:rustedchainmail_helmet": [
+      "defense:12"
+    ],
+    "magistuarmory:lamellar_chestplate": [
+      "defense:7"
+    ],
+    "magistuarmory:xivcenturyknight_boots": [
+      "defense:12"
+    ],
+    "magistuarmory:blacksmith_hammer": [
+      "attack:15"
+    ],
+    "magistuarmory:ceremonialarmet": [
+      "defense:12"
+    ],
+    "magistuarmory:diamond_lucernhammer": [
+      "attack:15"
+    ],
+    "magistuarmory:netherite_concavehalberd": [
+      "attack:12"
+    ],
+    "magistuarmory:iron_zweihander": [
+      "attack:15"
+    ],
+    "magistuarmory:netherite_katzbalger": [
+      "attack:15"
+    ],
+    "magistuarmory:coif": [
+      "defense:12"
+    ],
+    "magistuarmory:gold_estoc": [
+      "attack:5"
+    ],
+    "magistuarmory:tin_bastardsword": [
+      "attack:5"
+    ],
+    "magistuarmory:copper_lochaberaxe": [
+      "attack:15"
+    ],
+    "magistuarmory:iron_lochaberaxe": [
+      "attack:12"
+    ],
+    "hunters_return:mini_crossbow": [
+      "agility:5"
+    ],
+    "magistuarmory:kastenbrust_leggings": [
+      "defense:12"
+    ],
+    "magistuarmory:iron_heavymace": [
+      "attack:15"
+    ],
+    "magistuarmory:xivcenturyknight_chestplate": [
+      "defense:12"
+    ],
+    "born_in_chaos_v1:nightmare_scythe": [
+      "attack:15"
+    ],
+    "born_in_chaos_v1:krampuss_bag": [
+      "gathering:30"
+    ],
+    "born_in_chaos_v1:lord_pumpkinheads_lamp": [
+      "agility:15"
+    ],
+    "born_in_chaos_v1:intoxicating_dagger": [
+      "attack:5"
+    ],
+    "born_in_chaos_v1:spiny_shell_armor_helmet": [
+      "defense:20"
+    ],
+    "born_in_chaos_v1:sweet_axe": [
+      "gathering:5"
+    ],
+    "born_in_chaos_v1:damned_demomans_hat_helmet": [
+      "defense:20"
+    ],
+    "born_in_chaos_v1:nightmare_mantleofthe_night_helmet": [
+      "defense:20"
+    ],
+    "born_in_chaos_v1:dark_metal_armor_helmet": [
+      "defense:35"
+    ],
+    "born_in_chaos_v1:nut_hammer": [
+      "attack:5"
+    ],
+    "born_in_chaos_v1:trident_hayfork": [
+      "attack:15"
+    ],
+    "born_in_chaos_v1:wood_splitter_axe": [
+      "gathering:30"
+    ],
+    "born_in_chaos_v1:dark_ritual_dagger": [
+      "attack:5"
+    ],
+    "born_in_chaos_v1:soul_cutlass": [
+      "attack:5"
+    ],
+    "born_in_chaos_v1:soulbane": [
+      "attack:30"
+    ],
+    "born_in_chaos_v1:darkwarblade": [
+      "attack:30"
+    ],
+    "born_in_chaos_v1:sharpened_dark_metal_sword": [
+      "attack:15"
+    ],
+    "born_in_chaos_v1:dark_metal_armor_chestplate": [
+      "defense:35"
+    ],
+    "born_in_chaos_v1:spider_bite_sword": [
+      "attack:5"
+    ],
+    "born_in_chaos_v1:dark_metal_armor_boots": [
+      "defense:35"
+    ],
+    "born_in_chaos_v1:nightmare_mantleofthe_night_boots": [
+      "defense:20"
+    ],
+    "born_in_chaos_v1:lord_pumpkinheads_hat_helmet": [
+      "defense:20"
+    ],
+    "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate": [
+      "defense:20"
+    ],
+    "born_in_chaos_v1:shell_mace": [
+      "attack:15"
+    ],
+    "born_in_chaos_v1:icy_sweetness": [
+      "attack:5"
+    ],
+    "born_in_chaos_v1:supreme_measure": [
+      "gathering:666"
+    ],
+    "born_in_chaos_v1:great_reaper_axe": [
+      "gathering:30"
+    ],
+    "born_in_chaos_v1:spiritual_sword": [
+      "attack:5"
+    ],
+    "born_in_chaos_v1:dark_metal_armor_leggings": [
+      "defense:35"
+    ],
+    "born_in_chaos_v1:missionary_hat_helmet": [
+      "defense:20"
+    ],
+    "born_in_chaos_v1:nightmare_mantleofthe_night_leggings": [
+      "defense:20"
+    ],
+    "born_in_chaos_v1:spiny_shell_armor_chestplate": [
+      "defense:20"
+    ],
+    "born_in_chaos_v1:sweet_sword": [
+      "attack:5"
+    ],
+    "born_in_chaos_v1:frostbitten_blade": [
+      "attack:5"
+    ],
+    "born_in_chaos_v1:spiritual_guide_sombrero_helmet": [
+      "defense:20"
+    ],
+    "born_in_chaos_v1:skullbreaker_hammer": [
+      "attack:30"
+    ],
+    "aether:valkyrie_pickaxe": [
+      "mining:30"
+    ],
+    "aether:gravitite_pickaxe": [
+      "mining:30"
+    ],
+    "aether:gravitite_hoe": [
+      "farming:30"
+    ],
+    "aether:phoenix_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "aether:obsidian_chestplate": [
+      "defense:30"
+    ],
+    "aether:skyroot_sword": [
+      "attack:5"
+    ],
+    "aether:obsidian_leggings": [
+      "defense:30"
+    ],
+    "aether:zanite_shovel": [
+      "gathering:15"
+    ],
+    "aether:lightning_sword": [
+      "attack:15"
+    ],
+    "aether:valkyrie_axe": [
+      "gathering:30"
+    ],
+    "aether:valkyrie_shovel": [
+      "gathering:30"
+    ],
+    "aether:phoenix_helmet": [
+      "defense:20"
+    ],
+    "aether:zanite_pickaxe": [
+      "mining:15"
+    ],
+    "aether:gravitite_sword": [
+      "attack:15"
+    ],
+    "aether:obsidian_boots": [
+      "defense:30"
+    ],
+    "aether:gravitite_helmet": [
+      "defense:20"
+    ],
+    "aether:holystone_pickaxe": [
+      "mining:5"
+    ],
+    "aether:valkyrie_hoe": [
+      "farming:30"
+    ],
+    "aether:holy_sword": [
+      "attack:15"
+    ],
+    "aether:phoenix_leggings": [
+      "defense:20"
+    ],
+    "aether:phoenix_boots": [
+      "defense:20"
+    ],
+    "aether:sentry_boots": [
+      "defense:20"
+    ],
+    "aether:skyroot_hoe": [
+      "farming:5"
+    ],
+    "aether:zanite_sword": [
+      "attack:5"
+    ],
+    "aether:candy_cane_sword": [
+      "attack:5"
+    ],
+    "aether:holystone_hoe": [
+      "farming:5"
+    ],
+    "aether:gravitite_axe": [
+      "gathering:30"
+    ],
+    "aether:zanite_hoe": [
+      "farming:15"
+    ],
+    "aether:pig_slayer": [
+      "attack:5"
+    ],
+    "aether:valkyrie_boots": [
+      "defense:20"
+    ],
+    "aether:zanite_boots": [
+      "defense:20"
+    ],
+    "aether:valkyrie_lance": [
+      "attack:15"
+    ],
+    "aether:holystone_axe": [
+      "gathering:5"
+    ],
+    "aether:valkyrie_chestplate": [
+      "defense:20"
+    ],
+    "aether:holystone_sword": [
+      "attack:5"
+    ],
+    "aether:zanite_chestplate": [
+      "defense:20"
+    ],
+    "aether:neptune_leggings": [
+      "defense:20"
+    ],
+    "aether:flaming_sword": [
+      "attack:15"
+    ],
+    "aether:gravitite_boots": [
+      "defense:20"
+    ],
+    "aether:skyroot_pickaxe": [
+      "mining:5"
+    ],
+    "aether:gravitite_shovel": [
+      "gathering:30"
+    ],
+    "aether:skyroot_axe": [
+      "gathering:5"
+    ],
+    "aether:skyroot_shovel": [
+      "gathering:5"
+    ],
+    "aether:neptune_chestplate": [
+      "defense:20"
+    ],
+    "aether:zanite_leggings": [
+      "defense:20"
+    ],
+    "aether:hammer_of_kingbdogz": [
+      "attack:25"
+    ],
+    "aether:neptune_boots": [
+      "defense:20"
+    ],
+    "aether:gravitite_leggings": [
+      "defense:20"
+    ],
+    "aether:holystone_shovel": [
+      "gathering:5"
+    ],
+    "aether:zanite_axe": [
+      "gathering:15"
+    ],
+    "aether:phoenix_chestplate": [
+      "defense:20"
+    ],
+    "aether:vampire_blade": [
+      "attack:15"
+    ],
+    "aether:zanite_helmet": [
+      "defense:20"
+    ],
+    "aether:neptune_helmet": [
+      "defense:20"
+    ],
+    "aether:gravitite_chestplate": [
+      "defense:20"
+    ],
+    "aether:valkyrie_helmet": [
+      "defense:20"
+    ],
+    "aether:obsidian_helmet": [
+      "defense:30"
+    ],
+    "aether:valkyrie_leggings": [
+      "defense:20"
+    ],
+    "cataclysm:black_steel_axe": [
+      "gathering:30"
+    ],
+    "cataclysm:final_fractal": [
+      "attack:30"
+    ],
+    "cataclysm:cursium_boots": [
+      "defense:35",
+      "magic:30"
+    ],
+    "cataclysm:black_steel_sword": [
+      "attack:25"
+    ],
+    "cataclysm:black_steel_shovel": [
+      "gathering:30"
+    ],
+    "cataclysm:zweiender": [
+      "attack:30"
+    ],
+    "cataclysm:black_steel_hoe": [
+      "farming:30"
+    ],
+    "cataclysm:black_steel_pickaxe": [
+      "mining:30"
+    ],
+    "cataclysm:cursium_helmet": [
+      "defense:35",
+      "magic:30"
+    ],
+    "cataclysm:cursium_chestplate": [
+      "defense:35",
+      "magic:30"
+    ],
+    "cataclysm:cursium_leggings": [
+      "defense:35",
+      "magic:30"
+    ],
+    "dragonitegear:stormforged_hoe": [
+      "farming:30",
+      "magic:40"
+    ],
+    "dragonitegear:stormforged_greatsword": [
+      "attack:40",
+      "magic:40"
+    ],
+    "dragonitegear:dragonite_axe": [
+      "gathering:40",
+      "magic:40"
+    ],
+    "dragonitegear:dragonite_pickaxe": [
+      "mining:40",
+      "magic:40"
+    ],
+    "dragonitegear:stormforged_sword": [
+      "attack:40",
+      "magic:40"
+    ],
+    "dragonitegear:stormforged_pickaxe": [
+      "mining:40",
+      "magic:40"
+    ],
+    "dragonitegear:stormforged_bow": [
+      "agility:15",
+      "defense:15"
+    ],
+    "dragonitegear:dragonite_sword": [
+      "attack:40",
+      "magic:40"
+    ],
+    "dragonitegear:dragonite_helmet": [
+      "defense:35",
+      "magic:40"
+    ],
+    "dragonitegear:stormforged_axe": [
+      "gathering:40",
+      "magic:40"
+    ],
+    "dragonitegear:dragonite_greatsword": [
+      "attack:40",
+      "magic:40"
+    ],
+    "dragonitegear:dragonite_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "dragonitegear:dragonite_shovel": [
+      "gathering:40",
+      "magic:40"
+    ],
+    "dragonitegear:dragonite_hoe": [
+      "farming:40",
+      "magic:40"
+    ],
+    "dragonitegear:dragonite_leggings": [
+      "defense:35",
+      "magic:40"
+    ],
+    "dragonitegear:stormforged_shovel": [
+      "gathering:40",
+      "magic:40"
+    ],
+    "dragonitegear:dragonite_chestplate": [
+      "defense:35",
+      "magic:40"
+    ],
+    "dragonitegear:dragonite_boots": [
+      "defense:35",
+      "magic:40"
+    ],
+    "dungeonnowloading:life_stealer": [
+      "attack:15"
+    ],
+    "dungeonnowloading:spawner_chestplate": [
+      "defense:20"
+    ],
+    "dungeonnowloading:spawner_leggings": [
+      "defense:20"
+    ],
+    "dungeonnowloading:spawner_helmet": [
+      "defense:20"
+    ],
+    "dungeonnowloading:spawner_sword": [
+      "attack:15"
+    ],
+    "dungeonnowloading:spawner_boots": [
+      "defense:20"
+    ],
+    "eeeabsmobs:immortal_sword": [
+      "attack:25",
+      "magic:15"
+    ],
+    "eeeabsmobs:ghost_warrior_leggings": [
+      "defense:35"
+    ],
+    "eeeabsmobs:immortal_axe": [
+      "gathering:15",
+      "magic:15"
+    ],
+    "eeeabsmobs:ghost_warrior_helmet": [
+      "defense:35"
+    ],
+    "eeeabsmobs:ghost_warrior_boots": [
+      "defense:35"
+    ],
+    "eeeabsmobs:ghost_warrior_chestplate": [
+      "defense:35"
+    ],
+    "eeeabsmobs:guardian_axe": [
+      "gathering:30"
+    ],
+    "eeeabsmobs:netherworld_katana": [
+      "attack:30"
+    ],
+    "epicpaladins:cryorium_boots": [
+      "defense:30"
+    ],
+    "epicpaladins:sculk_pickaxe": [
+      "mining:30"
+    ],
+    "epicpaladins:assassin_boots": [
+      "defense:20"
+    ],
+    "epicpaladins:cryorium_leggings": [
+      "defense:30"
+    ],
+    "epicpaladins:moonlight_pickaxe": [
+      "mining:30"
+    ],
+    "epicpaladins:jade_boots": [
+      "defense:30"
+    ],
+    "epicpaladins:jade_leggings": [
+      "defense:30"
+    ],
+    "epicpaladins:arclight_axe": [
+      "gathering:30"
+    ],
+    "epicpaladins:sculk_hoe": [
+      "farming:30"
+    ],
+    "epicpaladins:cryorium_hoe": [
+      "farming:30"
+    ],
+    "epicpaladins:knight_leggings": [
+      "defense:20"
+    ],
+    "epicpaladins:arclight_sword": [
+      "attack:15"
+    ],
+    "epicpaladins:knight_boots": [
+      "defense:20"
+    ],
+    "epicpaladins:jade_chestplate": [
+      "defense:30"
+    ],
+    "epicpaladins:bloodstone_chestplate": [
+      "defense:30"
+    ],
+    "epicpaladins:sculk_leggings": [
+      "defense:30"
+    ],
+    "epicpaladins:arclight_boots": [
+      "defense:30"
+    ],
+    "epicpaladins:angel_helmet": [
+      "defense:40",
+      "agility:40"
+    ],
+    "epicpaladins:angel_chestplate": [
+      "defense:40",
+      "agility:40"
+    ],
+    "epicpaladins:angel_leggings": [
+      "defense:40",
+      "agility:40"
+    ],
+    "epicpaladins:angel_boots": [
+      "defense:40",
+      "agility:40"
+    ],
+    "epicpaladins:cryorium_shovel": [
+      "gathering:30"
+    ],
+    "epicpaladins:jade_axe": [
+      "gathering:30"
+    ],
+    "epicpaladins:moonlight_hoe": [
+      "farming:30"
+    ],
+    "epicpaladins:sculk_helmet": [
+      "defense:30"
+    ],
+    "epicpaladins:bloodstone_pickaxe": [
+      "mining:30"
+    ],
+    "epicpaladins:cryorium_axe": [
+      "gathering:30"
+    ],
+    "epicpaladins:bloodstone_helmet": [
+      "defense:30"
+    ],
+    "epicpaladins:assassin_leggings": [
+      "defense:20"
+    ],
+    "epicpaladins:bloodstone_sword": [
+      "attack:15"
+    ],
+    "epicpaladins:angel_sword": [
+      "attack:15"
+    ],
+    "epicpaladins:moonlight_helmet": [
+      "defense:30"
+    ],
+    "epicpaladins:jade_shovel": [
+      "gathering:30"
+    ],
+    "epicpaladins:sculk_boots": [
+      "defense:30"
+    ],
+    "epicpaladins:moonlight_glaive": [
+      "attack:30"
+    ],
+    "epicpaladins:bloodstone_leggings": [
+      "defense:30"
+    ],
+    "epicpaladins:bloodstone_axe": [
+      "gathering:30"
+    ],
+    "epicpaladins:moonlight_leggings": [
+      "defense:30"
+    ],
+    "epicpaladins:moonlight_sword": [
+      "attack:15"
+    ],
+    "epicpaladins:arclight_hoe": [
+      "farming:30"
+    ],
+    "epicpaladins:assassin_helmet": [
+      "defense:20"
+    ],
+    "epicpaladins:moonlight_chestplate": [
+      "defense:30"
+    ],
+    "epicpaladins:sculk_chestplate": [
+      "defense:30"
+    ],
+    "epicpaladins:knight_helmet": [
+      "defense:20"
+    ],
+    "epicpaladins:jade_hoe": [
+      "farming:30"
+    ],
+    "epicpaladins:jade_pickaxe": [
+      "mining:30"
+    ],
+    "epicpaladins:jade_sword": [
+      "attack:15"
+    ],
+    "epicpaladins:arclight_leggings": [
+      "defense:30"
+    ],
+    "epicpaladins:arclight_helmet": [
+      "defense:30"
+    ],
+    "epicpaladins:cryorium_sword": [
+      "attack:15"
+    ],
+    "epicpaladins:sculk_shovel": [
+      "gathering:30"
+    ],
+    "epicpaladins:sculk_sword": [
+      "attack:15"
+    ],
+    "epicpaladins:bloodstone_boots": [
+      "defense:30"
+    ],
+    "epicpaladins:cryorium_battle_axe": [
+      "attack:30"
+    ],
+    "epicpaladins:sculk_axe": [
+      "gathering:30"
+    ],
+    "epicpaladins:cryorium_helmet": [
+      "defense:30"
+    ],
+    "epicpaladins:bloodstone_hoe": [
+      "farming:30"
+    ],
+    "epicpaladins:arclight_chestplate": [
+      "defense:30"
+    ],
+    "epicpaladins:cryorium_pickaxe": [
+      "mining:30"
+    ],
+    "epicpaladins:moonlight_boots": [
+      "defense:30"
+    ],
+    "epicpaladins:moonlight_axe": [
+      "gathering:30"
+    ],
+    "epicpaladins:moonlight_shovel": [
+      "gathering:30"
+    ],
+    "epicpaladins:arclight_shovel": [
+      "gathering:30"
+    ],
+    "epicpaladins:assassin_chestplate": [
+      "defense:20"
+    ],
+    "epicpaladins:jade_helmet": [
+      "defense:30"
+    ],
+    "epicpaladins:bloodstone_shovel": [
+      "gathering:30"
+    ],
+    "epicpaladins:arclight_pickaxe": [
+      "mining:30"
+    ],
+    "epicpaladins:knight_chestplate": [
+      "defense:20"
+    ],
+    "epicpaladins:cryorium_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:fog_guard_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:crucible_knight_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:spark_of_dawn_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:sunset_wings_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:twinned_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:hero_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:redeemer_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:chess_board_knight_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:eclipse_soldier_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:fog_guard_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:golden_execution_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:hero_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:lady_maria_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:dark_cover_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:sunset_wings_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:dark_lord_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:evening_ghost_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:dark_lord_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:hero_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:evening_ghost_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:lady_maria_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:gilded_hunt_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:ronin_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:fog_guard_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:redeemer_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:sunset_wings_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:twinned_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:lady_maria_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:thief_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:golden_horns_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:crucible_knight_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:dragonslayer_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:eclipse_soldier_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:forgotten_trace_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:gilded_hunt_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:spark_of_dawn_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:twinned_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:crucible_knight_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:chess_board_knight_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:chess_board_knight_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:golden_horns_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:crucible_knight_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:lady_maria_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:ronin_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:ronin_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:hero_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:gilded_hunt_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:eclipse_soldier_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:sunset_wings_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:twinned_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:eclipse_soldier_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:golden_execution_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:gilded_hunt_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:ronin_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:wandering_wizard_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:wandering_wizard_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:dark_lord_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:golden_execution_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:dark_cover_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:forgotten_trace_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:golden_horns_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:spark_of_dawn_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:dark_cover_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:redeemer_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:golden_horns_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:chess_board_knight_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:forgotten_trace_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:redeemer_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:dragonslayer_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:dragonslayer_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:dark_cover_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:thief_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:fog_guard_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:wandering_wizard_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:thief_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:evening_ghost_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:spark_of_dawn_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:wandering_wizard_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:forgotten_trace_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:thief_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:dragonslayer_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:dark_lord_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:evening_ghost_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:golden_execution_leggings": [
+      "defense:30"
+    ],
+    "farmersdelight:stove": [
+      "gathering:5",
+      "farming:5",
+      "building:5"
+    ],
+    "eidolon:silver_axe": [
+      "gathering:15"
+    ],
+    "eidolon:soul_enchanter": [
+      "gathering:15"
+    ],
+    "eidolon:silver_leggings": [
+      "defense:20"
+    ],
+    "eidolon:warded_mail": [
+      "defense:20"
+    ],
+    "eidolon:top_hat": [
+      "defense:5",
+      "magic:5"
+    ],
+    "eidolon:raven_cloak": [
+      "defense:10",
+      "magic:10"
+    ],
+    "eidolon:warlock_boots": [
+      "defense:5"
+    ],
+    "eidolon:bonelord_greaves": [
+      "defense:20"
+    ],
+    "eidolon:bonelord_chestplate": [
+      "defense:20"
+    ],
+    "eidolon:sapping_sword": [
+      "attack:5"
+    ],
+    "eidolon:deathbringer_scythe": [
+      "attack:30"
+    ],
+    "eidolon:silver_sword": [
+      "attack:5"
+    ],
+    "eidolon:warlock_cloak": [
+      "defense:20"
+    ],
+    "eidolon:reaper_scythe": [
+      "attack:15"
+    ],
+    "eidolon:silver_chestplate": [
+      "defense:20"
+    ],
+    "eidolon:silver_pickaxe": [
+      "mining:15"
+    ],
+    "eidolon:warlock_hat": [
+      "defense:5"
+    ],
+    "eidolon:reversal_pick": [
+      "mining:30"
+    ],
+    "eidolon:silver_boots": [
+      "defense:5"
+    ],
+    "eidolon:silver_hoe": [
+      "farming:15"
+    ],
+    "eidolon:silver_helmet": [
+      "defense:5"
+    ],
+    "eidolon:bonelord_helm": [
+      "defense:20"
+    ],
+    "eidolon:athame": [
+      "attack:5"
+    ],
+    "eidolon:cleaving_axe": [
+      "gathering:15"
+    ],
+    "eidolon:silver_shovel": [
+      "gathering:15"
+    ],
+    "gobber2:gobber2_helmet_end": [
+      "defense:40",
+      "attack:40",
+      "magic:40"
+    ],
+    "gobber2:gobber2_boots_end": [
+      "defense:40",
+      "attack:40",
+      "magic:40"
+    ],
+    "gobber2:gobber2_excavator_nether": [
+      "gathering:30"
+    ],
+    "gobber2:gobber2_axe_nether": [
+      "gathering:40"
+    ],
+    "gobber2:gobber2_helmet_nether": [
+      "defense:30",
+      "attack:30",
+      "magic:30"
+    ],
+    "gobber2:gobber2_sword_traveler": [
+      "attack:30"
+    ],
+    "gobber2:gobber2_excavator_end": [
+      "gathering:30"
+    ],
+    "gobber2:gobber2_bow_nether": [
+      "agility:10",
+      "defense:5"
+    ],
+    "gobber2:gobber2_hammer": [
+      "mining:30"
+    ],
+    "gobber2:gobber2_tree_axe": [
+      "gathering:30"
+    ],
+    "gobber2:gobber2_pickaxe": [
+      "mining:30"
+    ],
+    "gobber2:gobber2_sword": [
+      "attack:30"
+    ],
+    "gobber2:gobber2_shovel": [
+      "gathering:30"
+    ],
+    "gobber2:gobber2_leggings_nether": [
+      "defense:30",
+      "attack:30",
+      "magic:30"
+    ],
+    "gobber2:gobber2_sword_sniper": [
+      "attack:35",
+      "agility:35"
+    ],
+    "gobber2:gobber2_hoe_end": [
+      "farming:43"
+    ],
+    "gobber2:gobber2_excavator": [
+      "gathering:30"
+    ],
+    "gobber2:gobber2_hoe": [
+      "farming:30"
+    ],
+    "gobber2:gobber2_boots_dragon": [
+      "defense:50",
+      "attack:50",
+      "magic:49"
+    ],
+    "gobber2:gobber2_leggings": [
+      "defense:30"
+    ],
+    "gobber2:gobber2_hammer_end": [
+      "mining:30"
+    ],
+    "gobber2:gobber2_leggings_end": [
+      "defense:40",
+      "attack:40",
+      "magic:40"
+    ],
+    "gobber2:gobber2_chestplate_end": [
+      "defense:40",
+      "attack:40",
+      "magic:40"
+    ],
+    "gobber2:gobber2_boots_nether": [
+      "defense:30",
+      "attack:30",
+      "magic:30"
+    ],
+    "gobber2:gobber2_sword_end": [
+      "attack:30"
+    ],
+    "gobber2:gobber2_shovel_nether": [
+      "gathering:40"
+    ],
+    "gobber2:gobber2_chestplate_nether": [
+      "defense:30",
+      "attack:30",
+      "magic:30"
+    ],
+    "gobber2:gobber2_helmet": [
+      "defense:30"
+    ],
+    "gobber2:gobber2_paxel": [
+      "gathering:30",
+      "farming:30"
+    ],
+    "gobber2:gobber2_paxel_nether": [
+      "gathering:40",
+      "farming:30"
+    ],
+    "gobber2:gobber2_paxel_end": [
+      "gathering:45",
+      "farming:35"
+    ],
+    "gobber2:gobber2_paxel_stars": [
+      "gathering:45",
+      "magic:40"
+    ],
+    "gobber2:gobber2_helmet_dragon": [
+      "defense:50",
+      "attack:50",
+      "magic:49"
+    ],
+    "gobber2:gobber2_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "gobber2:gobber2_hoe_nether": [
+      "farming:40"
+    ],
+    "gobber2:gobber2_pickaxe_nether": [
+      "mining:40"
+    ],
+    "gobber2:gobber2_shovel_end": [
+      "gathering:30"
+    ],
+    "gobber2:gobber2_boots": [
+      "defense:30"
+    ],
+    "gobber2:gobber2_pickaxe_end": [
+      "mining:30"
+    ],
+    "gobber2:gobber2_tree_axe_nether": [
+      "gathering:40"
+    ],
+    "gobber2:gobber2_chestplate": [
+      "defense:30"
+    ],
+    "gobber2:gobber2_chestplate_dragon": [
+      "defense:50",
+      "attack:50",
+      "magic:49"
+    ],
+    "gobber2:gobber2_axe_end": [
+      "gathering:45"
+    ],
+    "gobber2:gobber2_hammer_nether": [
+      "mining:30"
+    ],
+    "gobber2:gobber2_leggings_dragon": [
+      "defense:50",
+      "attack:50",
+      "magic:49"
+    ],
+    "gobber2:gobber2_bow_end": [
+      "agility:10",
+      "defense:15"
+    ],
+    "gobber2:gobber2_sword_nether": [
+      "attack:30"
+    ],
+    "gobber2:gobber2_tree_axe_end": [
+      "gathering:45"
+    ],
+    "too_many_bows:cyroheart_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:torchbearer": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:webstring": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:shulker_blast": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:ethereal_hunter": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:flame_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:tidal_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:radiance": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:astral_bound": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:demons_grasp": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:scatter_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:dragons_breath": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:hunter_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:aethers_call": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:dark_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:solar_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:wind_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:sentinels_wrath": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:crimson_nexus": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:burnt_relic": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:spectral_whisper": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:auroras_grace": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:arcforge": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:twin_shadows": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:arcane_bow": [
+      "agility:18",
+      "defense:15"
+    ],
+    "too_many_bows:verdant_vigor": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:necro_flame_bow": [
+      "agility:15",
+      "magic:10",
+      "defense:5"
+    ],
+    "too_many_bows:ancient_sage_bow": [
+      "agility:20",
+      "defense:15"
+    ],
+    "too_many_bows:vitality_weaver": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:dusk_reaper": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:ironclad_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:arc_heavens": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:frostbite": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:emerald_sage_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "too_many_bows:verdant_viper": [
+      "agility:10",
+      "defense:5"
+    ],
+    "immersive_armors:robe_helmet": [
+      "defense:5"
+    ],
+    "immersive_armors:slime_chestplate": [
+      "defense:20"
+    ],
+    "immersive_armors:wooden_chestplate": [
+      "defense:5"
+    ],
+    "immersive_armors:heavy_boots": [
+      "defense:35"
+    ],
+    "immersive_armors:divine_helmet": [
+      "defense:5"
+    ],
+    "immersive_armors:warrior_leggings": [
+      "defense:20"
+    ],
+    "immersive_armors:wither_boots": [
+      "defense:5"
+    ],
+    "immersive_armors:wooden_leggings": [
+      "defense:5"
+    ],
+    "immersive_armors:slime_boots": [
+      "defense:5"
+    ],
+    "immersive_armors:wooden_helmet": [
+      "defense:5"
+    ],
+    "immersive_armors:divine_chestplate": [
+      "defense:20"
+    ],
+    "immersive_armors:warrior_chestplate": [
+      "defense:20"
+    ],
+    "immersive_armors:steampunk_leggings": [
+      "defense:5"
+    ],
+    "immersive_armors:heavy_helmet": [
+      "defense:35"
+    ],
+    "immersive_armors:wither_leggings": [
+      "defense:5"
+    ],
+    "immersive_armors:bone_chestplate": [
+      "defense:5"
+    ],
+    "immersive_armors:divine_leggings": [
+      "defense:20"
+    ],
+    "immersive_armors:prismarine_boots": [
+      "defense:5"
+    ],
+    "immersive_armors:warrior_boots": [
+      "defense:20"
+    ],
+    "immersive_armors:steampunk_chestplate": [
+      "defense:20"
+    ],
+    "immersive_armors:robe_boots": [
+      "defense:5"
+    ],
+    "immersive_armors:robe_leggings": [
+      "defense:5"
+    ],
+    "immersive_armors:slime_helmet": [
+      "defense:5"
+    ],
+    "immersive_armors:bone_boots": [
+      "defense:5"
+    ],
+    "immersive_armors:wither_helmet": [
+      "defense:5"
+    ],
+    "immersive_armors:prismarine_leggings": [
+      "defense:20"
+    ],
+    "immersive_armors:robe_chestplate": [
+      "defense:5"
+    ],
+    "immersive_armors:wooden_boots": [
+      "defense:5"
+    ],
+    "immersive_armors:bone_helmet": [
+      "defense:5"
+    ],
+    "immersive_armors:prismarine_helmet": [
+      "defense:5"
+    ],
+    "immersive_armors:wither_chestplate": [
+      "defense:20"
+    ],
+    "immersive_armors:prismarine_chestplate": [
+      "defense:20"
+    ],
+    "immersive_armors:bone_leggings": [
+      "defense:5"
+    ],
+    "immersive_armors:slime_leggings": [
+      "defense:20"
+    ],
+    "immersive_armors:steampunk_boots": [
+      "defense:5"
+    ],
+    "immersive_armors:divine_boots": [
+      "defense:5"
+    ],
+    "immersive_armors:heavy_chestplate": [
+      "defense:35"
+    ],
+    "immersive_armors:heavy_leggings": [
+      "defense:35"
+    ],
+    "immersive_armors:steampunk_helmet": [
+      "defense:5"
+    ],
+    "immersive_armors:warrior_helmet": [
+      "defense:20"
+    ],
+    "uniquedungeons:sonic_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "uniquedungeons:bound_soul_leggings": [
+      "defense:20"
+    ],
+    "uniquedungeons:rage_blade": [
+      "attack:5"
+    ],
+    "uniquedungeons:bound_soul_chestplate": [
+      "defense:20"
+    ],
+    "uniquedungeons:bound_soul_helmet": [
+      "defense:20"
+    ],
+    "uniquedungeons:bound_soul_boots": [
+      "defense:20"
+    ],
+    "uniquedungeons:blood_sword": [
+      "attack:5"
+    ],
+    "twilightforest:diamond_minotaur_axe": [
+      "gathering:30"
+    ],
+    "twilightforest:uncrafting_table": [
+      "gathering:30",
+      "magic:30"
+    ],
+    "twilightforest:giant_sword": [
+      "attack:30"
+    ],
+    "twilightforest:fiery_chestplate": [
+      "defense:20"
+    ],
+    "twilightforest:ice_sword": [
+      "attack:15"
+    ],
+    "twilightforest:twilight_scepter": [
+      "attack:15",
+      "magic:40"
+    ],
+    "twilightforest:lifedrain_scepter": [
+      "attack:15",
+      "magic:30"
+    ],
+    "twilightforest:zombie_scepter": [
+      "attack:15",
+      "magic:20"
+    ],
+    "twilightforest:fortification_scepter": [
+      "attack:15",
+      "magic:20"
+    ],
+    "twilightforest:ironwood_axe": [
+      "gathering:15"
+    ],
+    "twilightforest:steeleaf_shovel": [
+      "gathering:30"
+    ],
+    "twilightforest:knightmetal_pickaxe": [
+      "mining:30"
+    ],
+    "twilightforest:arctic_leggings": [
+      "defense:20"
+    ],
+    "twilightforest:knightmetal_boots": [
+      "defense:20"
+    ],
+    "twilightforest:fiery_boots": [
+      "defense:20"
+    ],
+    "twilightforest:arctic_chestplate": [
+      "defense:20"
+    ],
+    "twilightforest:yeti_leggings": [
+      "defense:30"
+    ],
+    "twilightforest:glass_sword": [
+      "attack:30"
+    ],
+    "twilightforest:ironwood_chestplate": [
+      "defense:20"
+    ],
+    "twilightforest:seeker_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "twilightforest:ironwood_leggings": [
+      "defense:20"
+    ],
+    "twilightforest:steeleaf_hoe": [
+      "farming:30"
+    ],
+    "twilightforest:fiery_leggings": [
+      "defense:20"
+    ],
+    "twilightforest:ironwood_boots": [
+      "defense:5"
+    ],
+    "twilightforest:phantom_helmet": [
+      "defense:30"
+    ],
+    "twilightforest:knightmetal_sword": [
+      "attack:15"
+    ],
+    "twilightforest:ice_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "twilightforest:steeleaf_boots": [
+      "defense:5"
+    ],
+    "twilightforest:phantom_chestplate": [
+      "defense:30"
+    ],
+    "twilightforest:steeleaf_pickaxe": [
+      "mining:30"
+    ],
+    "twilightforest:steeleaf_leggings": [
+      "defense:20"
+    ],
+    "twilightforest:ironwood_pickaxe": [
+      "mining:15"
+    ],
+    "twilightforest:steeleaf_helmet": [
+      "defense:5"
+    ],
+    "twilightforest:yeti_boots": [
+      "defense:30"
+    ],
+    "twilightforest:giant_pickaxe": [
+      "mining:5"
+    ],
+    "twilightforest:ender_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "twilightforest:mazebreaker_pickaxe": [
+      "mining:30"
+    ],
+    "twilightforest:knightmetal_axe": [
+      "gathering:30"
+    ],
+    "twilightforest:ironwood_hoe": [
+      "farming:15"
+    ],
+    "twilightforest:fiery_sword": [
+      "attack:15"
+    ],
+    "twilightforest:ironwood_shovel": [
+      "gathering:15"
+    ],
+    "twilightforest:fiery_helmet": [
+      "defense:20"
+    ],
+    "twilightforest:triple_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "twilightforest:yeti_helmet": [
+      "defense:30"
+    ],
+    "twilightforest:ironwood_helmet": [
+      "defense:5"
+    ],
+    "twilightforest:steeleaf_axe": [
+      "gathering:30"
+    ],
+    "twilightforest:yeti_chestplate": [
+      "defense:30"
+    ],
+    "twilightforest:knightmetal_helmet": [
+      "defense:20"
+    ],
+    "twilightforest:gold_minotaur_axe": [
+      "gathering:5"
+    ],
+    "twilightforest:knightmetal_leggings": [
+      "defense:20"
+    ],
+    "twilightforest:fiery_pickaxe": [
+      "mining:30"
+    ],
+    "twilightforest:ironwood_sword": [
+      "attack:5"
+    ],
+    "twilightforest:steeleaf_sword": [
+      "attack:15"
+    ],
+    "twilightforest:steeleaf_chestplate": [
+      "defense:20"
+    ],
+    "twilightforest:knightmetal_chestplate": [
+      "defense:20"
+    ],
+    "twilightforest:naga_leggings": [
+      "defense:20"
+    ],
+    "twilightforest:arctic_helmet": [
+      "defense:20"
+    ],
+    "twilightforest:naga_chestplate": [
+      "defense:20"
+    ],
+    "twilightforest:arctic_boots": [
+      "defense:20"
+    ],
+    "kobolds:kobold_iron_axe": [
+      "gathering:5"
+    ],
+    "kobolds:kobold_iron_hoe": [
+      "farming:5"
+    ],
+    "kobolds:kobold_iron_sword": [
+      "attack:5"
+    ],
+    "kobolds:kobold_iron_pickaxe": [
+      "mining:5"
+    ],
+    "kobolds:kobold_iron_shovel": [
+      "gathering:5"
+    ],
+    "legendary_monsters:sand_cannon": [
+      "agility:10",
+      "defense:5"
+    ],
+    "legendary_monsters:withered_scythe": [
+      "agility:15",
+      "defense:15"
+    ],
+    "legendary_monsters:void_sword": [
+      "attack:5"
+    ],
+    "legendary_monsters:golden_halbert": [
+      "gathering:15"
+    ],
+    "legendary_monsters:chorus_mask": [
+      "defense:20"
+    ],
+    "legendary_monsters:ender_hammer": [
+      "mining:30"
+    ],
+    "legendary_monsters:sharp_sai": [
+      "attack:5"
+    ],
+    "legendary_monsters:withered_ribcage": [
+      "defense:20"
+    ],
+    "legendary_monsters:shulker_helmet": [
+      "defense:20"
+    ],
+    "legendary_monsters:anchor_handle": [
+      "attack:5"
+    ],
+    "legendary_monsters:dinosaur_bone_club": [
+      "attack:15"
+    ],
+    "legendary_monsters:fiery_boots": [
+      "defense:20"
+    ],
+    "legendary_monsters:atmospheric_boots": [
+      "defense:20"
+    ],
+    "legendary_monsters:sharp_battle_axe": [
+      "gathering:15"
+    ],
+    "legendary_monsters:the_great_frost": [
+      "attack:15"
+    ],
+    "legendary_monsters:knights_sword": [
+      "attack:5"
+    ],
+    "legendary_monsters:mossy_chestplate": [
+      "defense:20"
+    ],
+    "legendary_monsters:axe_of_lightning": [
+      "gathering:15"
+    ],
+    "legendary_monsters:chorus_cannon": [
+      "agility:10",
+      "defense:5"
+    ],
+    "legendary_monsters:blastproof_helmet": [
+      "defense:20"
+    ],
+    "legendary_monsters:mossy_hammer": [
+      "mining:30"
+    ],
+    "legendary_monsters:chorus_blade": [
+      "attack:15"
+    ],
+    "legendary_monsters:monstrous_anchor": [
+      "attack:30"
+    ],
+    "legendary_monsters:fiery_jaw": [
+      "gathering:15"
+    ],
+    "legendary_monsters:dinosaur_bone_helmet": [
+      "defense:20"
+    ],
+    "legendary_monsters:soul_great_sword": [
+      "attack:15"
+    ],
+    "enchantmentmachine:enchantment_block": [
+      "building:15"
+    ],
+    "enchantmentmachine:enchanter_block": [
+      "building:15"
+    ],
+    "enchantmentmachine:disenchanter_block": [
+      "building:15"
+    ],
+    "forbidden_arcanus:draco_arcanus_sword": [
+      "attack:30"
+    ],
+    "forbidden_arcanus:tyr_boots": [
+      "defense:35"
+    ],
+    "forbidden_arcanus:quantum_catcher": [
+      "gathering:40"
+    ],
+    "forbidden_arcanus:tyr_leggings": [
+      "defense:35"
+    ],
+    "forbidden_arcanus:mortem_chestplate": [
+      "defense:20"
+    ],
+    "forbidden_arcanus:mystical_dagger": [
+      "attack:5"
+    ],
+    "forbidden_arcanus:tyr_helmet": [
+      "defense:35"
+    ],
+    "forbidden_arcanus:draco_arcanus_leggings": [
+      "defense:30"
+    ],
+    "forbidden_arcanus:iron_blacksmith_gavel": [
+      "mining:15"
+    ],
+    "forbidden_arcanus:draco_arcanus_pickaxe": [
+      "mining:30"
+    ],
+    "forbidden_arcanus:slimec_pickaxe": [
+      "mining:30"
+    ],
+    "forbidden_arcanus:tyr_chestplate": [
+      "defense:35"
+    ],
+    "forbidden_arcanus:golden_blacksmith_gavel": [
+      "mining:5"
+    ],
+    "forbidden_arcanus:draco_arcanus_axe": [
+      "gathering:30"
+    ],
+    "forbidden_arcanus:wooden_blacksmith_gavel": [
+      "mining:5"
+    ],
+    "forbidden_arcanus:mortem_boots": [
+      "defense:20"
+    ],
+    "forbidden_arcanus:draco_arcanus_chestplate": [
+      "defense:30"
+    ],
+    "forbidden_arcanus:reinforced_deorum_blacksmith_gavel": [
+      "mining:30"
+    ],
+    "forbidden_arcanus:reinforced_deorum_sword": [
+      "attack:15"
+    ],
+    "forbidden_arcanus:draco_arcanus_shovel": [
+      "gathering:30"
+    ],
+    "forbidden_arcanus:reinforced_deorum_hoe": [
+      "farming:30"
+    ],
+    "forbidden_arcanus:netherite_blacksmith_gavel": [
+      "mining:30"
+    ],
+    "forbidden_arcanus:stone_blacksmith_gavel": [
+      "mining:5"
+    ],
+    "forbidden_arcanus:draco_arcanus_hoe": [
+      "farming:30"
+    ],
+    "forbidden_arcanus:diamond_blacksmith_gavel": [
+      "mining:30"
+    ],
+    "forbidden_arcanus:draco_arcanus_helmet": [
+      "defense:30"
+    ],
+    "forbidden_arcanus:reinforced_deorum_shovel": [
+      "gathering:30"
+    ],
+    "forbidden_arcanus:reinforced_deorum_axe": [
+      "gathering:30"
+    ],
+    "forbidden_arcanus:mortem_helmet": [
+      "defense:20"
+    ],
+    "forbidden_arcanus:mortem_leggings": [
+      "defense:20"
+    ],
+    "forbidden_arcanus:draco_arcanus_boots": [
+      "defense:30"
+    ],
+    "forbidden_arcanus:reinforced_deorum_pickaxe": [
+      "mining:30"
+    ],
+    "mobs_of_mythology:kobold_spear": [
+      "attack:5"
+    ],
+    "runes_of_power:water_rune": [
+      "gathering:10"
+    ],
+    "runes_of_power:cure_rune": [
+      "gathering:10"
+    ],
+    "runes_of_power:fire_resistance_rune": [
+      "gathering:10",
+      "defense:10"
+    ],
+    "runes_of_power:teleport_rune": [
+      "magic:49"
+    ],
+    "runes_of_power:returnrune": [
+      "magic:14"
+    ],
+    "runes_of_power:stealth_rune": [
+      "magic:25",
+      "defense:20"
+    ],
+    "runes_of_power:burrow_rune": [
+      "magic:25",
+      "gathering:25"
+    ],
+    "runes_of_power:flight_rune": [
+      "magic:40"
+    ],
+    "sons_of_sins:flesh_hoe": [
+      "farming:15"
+    ],
+    "sons_of_sins:flesh_shovel": [
+      "gathering:15"
+    ],
+    "sons_of_sins:flesh_sword": [
+      "attack:15"
+    ],
+    "sons_of_sins:osseous_shovel": [
+      "gathering:5"
+    ],
+    "sons_of_sins:sinful_axe": [
+      "gathering:30"
+    ],
+    "sons_of_sins:sinful_shovel": [
+      "gathering:30"
+    ],
+    "sons_of_sins:flesh_pickaxe": [
+      "mining:15"
+    ],
+    "sons_of_sins:remnant_leggings": [
+      "defense:20"
+    ],
+    "sons_of_sins:sinful_sword": [
+      "attack:15"
+    ],
+    "sons_of_sins:remnant_helmet": [
+      "defense:5"
+    ],
+    "sons_of_sins:osseous_axe": [
+      "gathering:5"
+    ],
+    "sons_of_sins:flesh_axe": [
+      "gathering:15"
+    ],
+    "sons_of_sins:ether_sword": [
+      "attack:5"
+    ],
+    "sons_of_sins:remnant_boots": [
+      "defense:5"
+    ],
+    "sons_of_sins:butcher_cleaver": [
+      "attack:15"
+    ],
+    "sons_of_sins:remnant_chestplate": [
+      "defense:20"
+    ],
+    "sons_of_sins:sinful_hoe": [
+      "farming:30"
+    ],
+    "sons_of_sins:osseous_pickaxe": [
+      "mining:5"
+    ],
+    "sons_of_sins:osseous_sword": [
+      "attack:5"
+    ],
+    "sons_of_sins:sinful_pickaxe": [
+      "mining:30"
+    ],
+    "sons_of_sins:osseous_hoe": [
+      "farming:5"
+    ],
+    "sons_of_sins:sickle_of_struggle": [
+      "attack:5"
+    ],
+    "skillcloaks:agility_hood": [
+      "agility:5"
+    ],
+    "skillcloaks:herblore_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:farming_hood": [
+      "farming:5"
+    ],
+    "skillcloaks:slayer_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:runecraft_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:attack_hood": [
+      "attack:5"
+    ],
+    "skillcloaks:hitpoints_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:ranging_hood": [
+      "agility:5"
+    ],
+    "skillcloaks:thieving_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:smithing_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:woodcutting_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:mining_hood": [
+      "mining:5"
+    ],
+    "skillcloaks:prayer_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:strength_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:construction_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:defence_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:firemaking_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:fishing_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:cooking_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:magic_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:hunter_hood": [
+      "defense:5"
+    ],
+    "skillcloaks:max_hood": [
+      "defense:50"
+    ],
+    "skillcloaks:fletching_hood": [
+      "agility:15"
+    ],
+    "skillcloaks:crafting_hood": [
+      "building:5"
+    ],
+    "skillcloaks:max_cloak": [
+      "defense:50"
+    ],
+    "skillcloaks:agility_cloak": [
+      "agility:15"
+    ],
+    "skillcloaks:attack_cloak": [
+      "attack:15"
+    ],
+    "skillcloaks:construction_cloak": [
+      "defense:15"
+    ],
+    "skillcloaks:cooking_cloak": [
+      "gathering:15"
+    ],
+    "skillcloaks:crafting_cloak": [
+      "gathering:15"
+    ],
+    "skillcloaks:defence_cloak": [
+      "defense:15"
+    ],
+    "skillcloaks:farming_cloak": [
+      "farming:15"
+    ],
+    "skillcloaks:firemaking_cloak": [
+      "defense:15",
+      "agility:15"
+    ],
+    "skillcloaks:fishing_cloak": [
+      "defense:15",
+      "gathering:15"
+    ],
+    "skillcloaks:fletching_cloak": [
+      "agility:5"
+    ],
+    "skillcloaks:herblore_cloak": [
+      "agility:15",
+      "magic:20"
+    ],
+    "skillcloaks:hitpoints_cloak": [
+      "attack:15"
+    ],
+    "skillcloaks:hunter_cloak": [
+      "agility:15"
+    ],
+    "skillcloaks:magic_cloak": [
+      "magic:15"
+    ],
+    "skillcloaks:mining_cloak": [
+      "mining:15"
+    ],
+    "skillcloaks:prayer_cloak": [
+      "agility:5"
+    ],
+    "skillcloaks:ranging_cloak": [
+      "agility:15"
+    ],
+    "skillcloaks:runecraft_cloak": [
+      "agility:15"
+    ],
+    "skillcloaks:slayer_cloak": [
+      "agility:50",
+      "defense:50"
+    ],
+    "skillcloaks:smithing_cloak": [
+      "gathering:15",
+      "building:15"
+    ],
+    "skillcloaks:strength_cloak": [
+      "agility:15",
+      "defense:15"
+    ],
+    "skillcloaks:thieving_cloak": [
+      "agility:15"
+    ],
+    "skillcloaks:woodcutting_cloak": [
+      "gathering:25"
+    ],
+    "minecraft:enchanting_table": [
+      "magic:10",
+      "building:5"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_greataxe": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_greathammer": [
+      "attack:30"
+    ],
+    "simplyswords:gold_chakram": [
+      "attack:5"
+    ],
+    "simplyswords:runic_scythe": [
+      "attack:15"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_chakram": [
+      "attack:15"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_sai": [
+      "attack:15"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_scythe": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_longsword": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_glaive": [
+      "attack:30"
+    ],
+    "simplyswords:diamond_chakram": [
+      "attack:5"
+    ],
+    "simplyswords:watching_warglaive": [
+      "attack:15"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_sai": [
+      "attack:30"
+    ],
+    "simplyswords:runic_spear": [
+      "attack:15"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_claymore": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_greataxe": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_warglaive": [
+      "attack:30"
+    ],
+    "simplyswords:runic_longsword": [
+      "attack:15"
+    ],
+    "simplyswords:magispear": [
+      "attack:15"
+    ],
+    "simplyswords:dormant_relic": [
+      "attack:15"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_rapier": [
+      "attack:15"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_claymore": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_longsword": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_spear": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_katana": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_halberd": [
+      "attack:30"
+    ],
+    "simplyswords:netherite_chakram": [
+      "attack:15"
+    ],
+    "simplyswords:runic_claymore": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_claymore": [
+      "attack:30"
+    ],
+    "simplyswords:hiveheart": [
+      "attack:30"
+    ],
+    "simplyswords:diamond_warglaive": [
+      "attack:15"
+    ],
+    "simplyswords:netherite_warglaive": [
+      "attack:15"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_scythe": [
+      "attack:30"
+    ],
+    "simplyswords:runic_chakram": [
+      "attack:15"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_spear": [
+      "attack:30"
+    ],
+    "simplyswords:decaying_relic": [
+      "attack:15"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_spear": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_twinblade": [
+      "attack:30"
+    ],
+    "simplyswords:runic_cutlass": [
+      "attack:15"
+    ],
+    "simplyswords:gold_warglaive": [
+      "attack:5"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_greathammer": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_halberd": [
+      "attack:30"
+    ],
+    "simplyswords:runic_glaive": [
+      "attack:15"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_greataxe": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_glaive": [
+      "attack:30"
+    ],
+    "simplyswords:magiscythe": [
+      "attack:15",
+      "magic:20"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_chakram": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_rapier": [
+      "attack:30"
+    ],
+    "simplyswords:runic_greataxe": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_glaive": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_cutlass": [
+      "attack:30"
+    ],
+    "simplyswords:caelestis": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_twinblade": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_rapier": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_cutlass": [
+      "attack:30"
+    ],
+    "simplyswords:runic_katana": [
+      "attack:15"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_halberd": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_scythe": [
+      "attack:30"
+    ],
+    "simplyswords:iron_chakram": [
+      "attack:5"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_cutlass": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_longsword": [
+      "attack:30"
+    ],
+    "simplyswords:runic_warglaive": [
+      "attack:15"
+    ],
+    "simplyswords:runic_rapier": [
+      "attack:15"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_chakram": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_warglaive": [
+      "attack:30"
+    ],
+    "simplyswords:runic_sai": [
+      "attack:5"
+    ],
+    "simplyswords:gobber_compat/gobber_end/gobber_end_greathammer": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_warglaive": [
+      "attack:30"
+    ],
+    "simplyswords:runic_greathammer": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_katana": [
+      "attack:30"
+    ],
+    "simplyswords:runic_twinblade": [
+      "attack:15"
+    ],
+    "simplyswords:runic_halberd": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_katana": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber_nether/gobber_nether_twinblade": [
+      "attack:30"
+    ],
+    "simplyswords:gobber_compat/gobber/gobber_sai": [
+      "attack:15"
+    ],
+    "simplyswords:iron_warglaive": [
+      "attack:5"
+    ],
+    "simplyswords:arcanethyst": [
+      "attack:25",
+      "magic:25"
+    ],
+    "simplyswords:awakened_lichblade": [
+      "attack:25",
+      "magic:45"
+    ],
+    "simplyswords:bramblethorn": [
+      "attack:25",
+      "magic:20"
+    ],
+    "simplyswords:brimstone_claymore": [
+      "attack:25",
+      "magic:25"
+    ],
+    "simplyswords:diamond_claymore": [
+      "attack:16"
+    ],
+    "simplyswords:diamond_cutlass": [
+      "attack:16"
+    ],
+    "simplyswords:diamond_glaive": [
+      "attack:16"
+    ],
+    "simplyswords:diamond_greataxe": [
+      "attack:16"
+    ],
+    "simplyswords:diamond_greathammer": [
+      "attack:16"
+    ],
+    "simplyswords:diamond_halberd": [
+      "attack:16"
+    ],
+    "simplyswords:diamond_katana": [
+      "attack:16"
+    ],
+    "simplyswords:diamond_longsword": [
+      "attack:16"
+    ],
+    "simplyswords:diamond_rapier": [
+      "attack:16"
+    ],
+    "simplyswords:diamond_sai": [
+      "attack:16"
+    ],
+    "simplyswords:diamond_scythe": [
+      "attack:16"
+    ],
+    "simplyswords:diamond_spear": [
+      "attack:16"
+    ],
+    "simplyswords:diamond_twinblade": [
+      "attack:16"
+    ],
+    "simplyswords:emberblade": [
+      "attack:25",
+      "magic:25"
+    ],
+    "simplyswords:emberlash": [
+      "attack:25",
+      "magic:40"
+    ],
+    "simplyswords:enigma": [
+      "attack:25",
+      "magic:40"
+    ],
+    "simplyswords:flamewind": [
+      "attack:25",
+      "magic:20"
+    ],
+    "simplyswords:frostfall": [
+      "attack:25",
+      "magic:35"
+    ],
+    "simplyswords:gold_claymore": [
+      "attack:4"
+    ],
+    "simplyswords:gold_cutlass": [
+      "attack:4"
+    ],
+    "simplyswords:gold_glaive": [
+      "attack:4"
+    ],
+    "simplyswords:gold_greataxe": [
+      "attack:4"
+    ],
+    "simplyswords:gold_greathammer": [
+      "attack:4"
+    ],
+    "simplyswords:gold_halberd": [
+      "attack:4"
+    ],
+    "simplyswords:gold_katana": [
+      "attack:4"
+    ],
+    "simplyswords:gold_longsword": [
+      "attack:4"
+    ],
+    "simplyswords:gold_rapier": [
+      "attack:4"
+    ],
+    "simplyswords:gold_sai": [
+      "attack:4"
+    ],
+    "simplyswords:gold_scythe": [
+      "attack:4"
+    ],
+    "simplyswords:gold_spear": [
+      "attack:4"
+    ],
+    "simplyswords:gold_twinblade": [
+      "attack:4"
+    ],
+    "simplyswords:harbinger": [
+      "attack:25",
+      "magic:45"
+    ],
+    "simplyswords:hearthflame": [
+      "attack:25",
+      "magic:25"
+    ],
+    "simplyswords:hiverheart": [
+      "attack:25",
+      "magic:40"
+    ],
+    "simplyswords:icewhisper": [
+      "attack:25",
+      "magic:25"
+    ],
+    "simplyswords:iron_claymore": [
+      "attack:8"
+    ],
+    "simplyswords:iron_cutlass": [
+      "attack:8"
+    ],
+    "simplyswords:iron_glaive": [
+      "attack:8"
+    ],
+    "simplyswords:iron_greataxe": [
+      "attack:8"
+    ],
+    "simplyswords:iron_greathammer": [
+      "attack:8"
+    ],
+    "simplyswords:iron_halberd": [
+      "attack:8"
+    ],
+    "simplyswords:iron_katana": [
+      "attack:8"
+    ],
+    "simplyswords:iron_longsword": [
+      "attack:8"
+    ],
+    "simplyswords:iron_rapier": [
+      "attack:8"
+    ],
+    "simplyswords:iron_sai": [
+      "attack:8"
+    ],
+    "simplyswords:iron_scythe": [
+      "attack:8"
+    ],
+    "simplyswords:iron_spear": [
+      "attack:8"
+    ],
+    "simplyswords:iron_twinblade": [
+      "attack:8"
+    ],
+    "simplyswords:livyatan": [
+      "attack:25",
+      "magic:35"
+    ],
+    "simplyswords:magiblade": [
+      "attack:25",
+      "magic:30"
+    ],
+    "simplyswords:magicscythe": [
+      "attack:25",
+      "magic:49"
+    ],
+    "simplyswords:magicspear": [
+      "attack:25",
+      "magic:30"
+    ],
+    "simplyswords:mjolnir": [
+      "attack:25",
+      "magic:35"
+    ],
+    "simplyswords:molten_edge": [
+      "attack:25",
+      "magic:30"
+    ],
+    "simplyswords:netherite_claymore": [
+      "attack:25"
+    ],
+    "simplyswords:netherite_cutlass": [
+      "attack:25"
+    ],
+    "simplyswords:netherite_glaive": [
+      "attack:25"
+    ],
+    "simplyswords:netherite_greataxe": [
+      "attack:25"
+    ],
+    "simplyswords:netherite_greathammer": [
+      "attack:25"
+    ],
+    "simplyswords:netherite_halberd": [
+      "attack:25"
+    ],
+    "simplyswords:netherite_katana": [
+      "attack:25"
+    ],
+    "simplyswords:netherite_longsword": [
+      "attack:25"
+    ],
+    "simplyswords:netherite_rapier": [
+      "attack:25"
+    ],
+    "simplyswords:netherite_sai": [
+      "attack:25"
+    ],
+    "simplyswords:netherite_scythe": [
+      "attack:25"
+    ],
+    "simplyswords:netherite_spear": [
+      "attack:25"
+    ],
+    "simplyswords:netherite_twinblade": [
+      "attack:25"
+    ],
+    "simplyswords:ribboncleaver": [
+      "attack:25",
+      "magic:35"
+    ],
+    "simplyswords:righteous_relic": [
+      "attack:25",
+      "magic:35"
+    ],
+    "simplyswords:shadowsting": [
+      "attack:25",
+      "magic:30"
+    ],
+    "simplyswords:slumbering_lichblade": [
+      "attack:25",
+      "magic:25"
+    ],
+    "simplyswords:soulkeeper": [
+      "attack:25",
+      "magic:25"
+    ],
+    "simplyswords:soulpyre": [
+      "attack:25",
+      "magic:35"
+    ],
+    "simplyswords:soulrender": [
+      "attack:25",
+      "magic:30"
+    ],
+    "simplyswords:stars_edge": [
+      "attack:25",
+      "magic:35"
+    ],
+    "simplyswords:stormbringer": [
+      "attack:25",
+      "magic:20"
+    ],
+    "simplyswords:storms_edge": [
+      "attack:25",
+      "magic:20"
+    ],
+    "simplyswords:sunfire": [
+      "attack:25",
+      "magic:25"
+    ],
+    "simplyswords:sword_on_a_stick": [
+      "defense:8"
+    ],
+    "simplyswords:tainted_relic": [
+      "attack:25",
+      "magic:35"
+    ],
+    "simplyswords:tempest": [
+      "attack:25",
+      "magic:30"
+    ],
+    "simplyswords:thunderbrand": [
+      "attack:25",
+      "magic:25"
+    ],
+    "simplyswords:toxic_longsword": [
+      "attack:25",
+      "magic:20"
+    ],
+    "simplyswords:twisted_blade": [
+      "attack:25",
+      "magic:35"
+    ],
+    "simplyswords:waking_lichblade": [
+      "attack:25",
+      "magic:35"
+    ],
+    "simplyswords:watcher_claymore": [
+      "attack:25",
+      "magic:35"
+    ],
+    "simplyswords:waxweaver": [
+      "attack:25",
+      "magic:49"
+    ],
+    "simplyswords:whisperwind": [
+      "attack:25",
+      "magic:25"
+    ],
+    "simplyswords:wickpiercer": [
+      "attack:25",
+      "magic:49"
+    ],
+    "traveloptics:galenic_polarizer": [
+      "magic:38"
+    ],
+    "traveloptics:galenic_polarizer_level_one": [
+      "magic:38"
+    ],
+    "traveloptics:galenic_polarizer_level_two": [
+      "magic:41"
+    ],
+    "traveloptics:galenic_polarizer_level_three": [
+      "magic:45"
+    ],
+    "traveloptics:cursed_wraithblade_level_two": [
+      "attack:35"
+    ],
+    "traveloptics:archive_of_abyssal_secrets": [
+      "magic:45"
+    ],
+    "traveloptics:trident_of_the_eternal_maelstrom": [
+      "magic:45"
+    ],
+    "traveloptics:trident_of_the_eternal_maelstrom_level_one": [
+      "magic:45"
+    ],
+    "traveloptics:trident_of_the_eternal_maelstrom_level_two": [
+      "magic:48"
+    ],
+    "traveloptics:trident_of_the_eternal_maelstrom_level_three": [
+      "magic:49"
+    ],
+    "traveloptics:stellothorn": [
+      "magic:45"
+    ],
+    "traveloptics:wand_of_final_light": [
+      "magic:48"
+    ],
+    "traveloptics:stellothorn_level_one": [
+      "magic:45"
+    ],
+    "traveloptics:stellothorn_level_two": [
+      "magic:47"
+    ],
+    "traveloptics:stellothorn_level_three": [
+      "magic:49"
+    ],
+    "traveloptics:the_accused_codex": [
+      "magic:45"
+    ],
+    "traveloptics:chronicles_of_the_firelord": [
+      "magic:45"
+    ],
+    "traveloptics:tome_of_abyssal_flora": [
+      "magic:45"
+    ],
+    "traveloptics:abyssal_tidecaller": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:cursed_wraithblade": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:titanlord_scepter": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:titanlord_scepter_retro": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:titanlord_scepter_tectonic": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:voidstrike_reaper_level_three": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:voidstrike_reaper": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:the_obliterator_level_two": [
+      "attack:50",
+      "magic:49",
+      "farming:50",
+      "gathering:50"
+    ],
+    "traveloptics:infernal_devastator_level_three": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:scourge_of_the_sands": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:flames_of_eldritch_level_two": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:primordial_crest_armor_leggings": [
+      "defense:20"
+    ],
+    "traveloptics:flames_of_eldritch": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:nightstalkers_band": [
+      "attack:45",
+      "magic:40"
+    ],
+    "traveloptics:amulet_of_spectral_shift": [
+      "attack:50",
+      "magic:49"
+    ],
+    "traveloptics:mechanized_wraithblade_level_two": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:cursed_wraithguard_crown": [
+      "defense:35",
+      "magic:20"
+    ],
+    "traveloptics:thorns_of_oblivion": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:thorns_of_oblivion_level_one": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:infernal_devastator_level_one": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:cursed_wraithblade_level_one": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:the_obliterator": [
+      "attack:50",
+      "magic:49",
+      "farming:50",
+      "gathering:50"
+    ],
+    "traveloptics:thorns_of_oblivion_level_three": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:gauntlet_of_extinction": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:harbingers_wrath_level_one": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:cursed_wraithblade_level_three": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:the_obliterator_level_three": [
+      "attack:50",
+      "magic:49",
+      "farming:50",
+      "gathering:50"
+    ],
+    "traveloptics:primordial_crest_armor_boots": [
+      "defense:20",
+      "magic:20"
+    ],
+    "traveloptics:tectonic_crest_armor_leggings": [
+      "defense:35",
+      "magic:20"
+    ],
+    "traveloptics:voidstrike_reaper_level_one": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:cursed_wraithguard_boots": [
+      "defense:35",
+      "magic:20"
+    ],
+    "traveloptics:thorns_of_oblivion_level_two": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:abyssal_tidecaller_level_two": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:harbingers_wrath": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:primordial_crest_armor_chestplate": [
+      "defense:20"
+    ],
+    "traveloptics:scourge_of_the_sands_level_two": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:the_obliterator_level_one": [
+      "attack:50",
+      "magic:49",
+      "farming:50",
+      "gathering:50"
+    ],
+    "traveloptics:abyssal_tidecaller_level_three": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:abyssal_hide_armor_hat": [
+      "defense:35",
+      "magic:20"
+    ],
+    "traveloptics:tectonic_crest_armor_helmet": [
+      "defense:35",
+      "magic:20"
+    ],
+    "traveloptics:tectonic_crest_armor_chestplate": [
+      "defense:35",
+      "magic:20"
+    ],
+    "traveloptics:voidstrike_reaper_level_two": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:infernal_devastator_level_two": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:scourge_of_the_sands_level_one": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:scourge_of_the_sands_level_three": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:cursed_wraithguard_spectral_wrapping": [
+      "defense:35",
+      "magic:20"
+    ],
+    "traveloptics:infernal_devastator": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:abyssal_tidecaller_level_one": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:mechanized_wraithblade_level_three": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:abyssal_hide_armor_robe": [
+      "defense:35",
+      "magic:20"
+    ],
+    "traveloptics:abyssal_hide_armor_leggings": [
+      "defense:35",
+      "magic:20"
+    ],
+    "traveloptics:tectonic_crest_armor_boots": [
+      "defense:35",
+      "magic:20"
+    ],
+    "traveloptics:harbingers_wrath_level_two": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:abyssal_hide_armor_boots": [
+      "defense:35"
+    ],
+    "traveloptics:flames_of_eldritch_level_one": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:flames_of_eldritch_level_three": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:gauntlet_of_extinction_level_two": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:primordial_crest_armor_helmet": [
+      "defense:20"
+    ],
+    "traveloptics:cursed_wraithguard_chestplate": [
+      "defense:35"
+    ],
+    "traveloptics:gauntlet_of_extinction_level_one": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:harbingers_wrath_level_three": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:mechanized_wraithblade": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:gauntlet_of_extinction_level_three": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:mechanized_wraithblade_level_one": [
+      "attack:35",
+      "magic:20"
+    ],
+    "traveloptics:guide_to_watery_whispers": [
+      "attack:35",
+      "magic:40"
+    ],
+    "traveloptics:codex_of_the_crushing_depths": [
+      "attack:35",
+      "magic:40"
+    ],
+    "traveloptics:the_diamantic_archive": [
+      "attack:35",
+      "magic:35"
+    ],
+    "aquaculture:iron_fishing_rod": [
+      "gathering:5"
+    ],
+    "aquaculture:gold_fishing_rod": [
+      "gathering:10"
+    ],
+    "aquaculture:diamond_fishing_rod": [
+      "gathering:15"
+    ],
+    "aquaculture:neptunium_fishing_rod": [
+      "gathering:20"
+    ],
+    "aquaculture:gold_fillet_knife": [
+      "attack:5"
+    ],
+    "aquaculture:neptunium_helmet": [
+      "defense:20"
+    ],
+    "aquaculture:neptunium_pickaxe": [
+      "mining:30"
+    ],
+    "aquaculture:neptunium_axe": [
+      "gathering:30"
+    ],
+    "aquaculture:neptunium_boots": [
+      "defense:20"
+    ],
+    "aquaculture:diamond_fillet_knife": [
+      "attack:15"
+    ],
+    "aquaculture:neptunium_shovel": [
+      "gathering:30"
+    ],
+    "aquaculture:neptunium_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "aquaculture:neptunium_fillet_knife": [
+      "attack:25"
+    ],
+    "aquaculture:neptunium_chestplate": [
+      "defense:20"
+    ],
+    "aquaculture:stone_fillet_knife": [
+      "attack:5"
+    ],
+    "aquaculture:iron_fillet_knife": [
+      "attack:13"
+    ],
+    "aquaculture:neptunium_leggings": [
+      "defense:20"
+    ],
+    "aquaculture:neptunium_sword": [
+      "attack:15"
+    ],
+    "aquaculture:neptunium_hoe": [
+      "farming:30"
+    ],
+    "enigmaticlegacy:etherium_helmet": [
+      "defense:35"
+    ],
+    "enigmaticlegacy:magnet_ring": [
+      "gathering:15"
+    ],
+    "enigmaticlegacy:golem_heart": [
+      "gathering:15",
+      "magic:15"
+    ],
+    "enigmaticlegacy:angel_blessing": [
+      "agility:25"
+    ],
+    "enigmaticlegacy:astral_breaker": [
+      "gathering:35",
+      "mining:35",
+      "agility:25"
+    ],
+    "enigmaticlegacy:etherium_leggings": [
+      "defense:35"
+    ],
+    "enigmaticlegacy:forbidden_axe": [
+      "attack:15",
+      "gathering:30"
+    ],
+    "enigmaticlegacy:forbidden_pickaxe": [
+      "attack:15",
+      "mining:30"
+    ],
+    "enigmaticlegacy:etherium_axe": [
+      "gathering:30"
+    ],
+    "enigmaticlegacy:etherium_shovel": [
+      "gathering:30"
+    ],
+    "enigmaticlegacy:etherium_chestplate": [
+      "defense:35"
+    ],
+    "enigmaticlegacy:the_cube": [
+      "magic:49",
+      "agility:50",
+      "gathering:50",
+      "attack:50"
+    ],
+    "enigmaticlegacy:ender_slayer": [
+      "attack:15"
+    ],
+    "enigmaticlegacy:etherium_boots": [
+      "defense:35"
+    ],
+    "enigmaticlegacy:etherium_sword": [
+      "attack:30"
+    ],
+    "enigmaticlegacy:etherium_scythe": [
+      "attack:15"
+    ],
+    "enigmaticlegacy:eldritch_pan": [
+      "attack:45",
+      "magic:49"
+    ],
+    "tieredreforge:reforge_station": [
+      "building:10",
+      "magic:10"
+    ],
+    "sons_of_sins:wistivers_jaws": [
+      "magic:45"
+    ],
+    "alexscaves:primordial_tunic": [
+      "defense:10"
+    ],
+    "alexscaves:raygun": [
+      "defense:50",
+      "magic:49"
+    ],
+    "alexscaves:tremorzilla": [
+      "defense:50",
+      "magic:49",
+      "gathering:50",
+      "agility:50",
+      "attack:50"
+    ],
+    "alexscaves:dreadbow": [
+      "defense:10",
+      "magic:5",
+      "agility:15"
+    ],
+    "alexscaves:diving_leggings": [
+      "defense:10"
+    ],
+    "alexscaves:gingerbread_chestplate": [
+      "defense:10"
+    ],
+    "alexscaves:gingerbread_leggings": [
+      "defense:10"
+    ],
+    "alexscaves:hazmat_boots": [
+      "defense:30"
+    ],
+    "alexscaves:diving_chestplate": [
+      "defense:10"
+    ],
+    "alexscaves:desolate_dagger": [
+      "attack:5"
+    ],
+    "alexscaves:diving_boots": [
+      "defense:10"
+    ],
+    "alexscaves:diving_helmet": [
+      "defense:10"
+    ],
+    "alexscaves:hood_of_darkness": [
+      "defense:30"
+    ],
+    "alexscaves:gingerbread_boots": [
+      "defense:10"
+    ],
+    "alexscaves:primordial_pants": [
+      "defense:10"
+    ],
+    "alexscaves:primordial_helmet": [
+      "defense:10"
+    ],
+    "alexscaves:gingerbread_helmet": [
+      "defense:10"
+    ],
+    "alexscaves:hazmat_chestplate": [
+      "defense:30"
+    ],
+    "alexscaves:hazmat_mask": [
+      "defense:30"
+    ],
+    "alexscaves:rainbounce_boots": [
+      "defense:10"
+    ],
+    "alexscaves:cloak_of_darkness": [
+      "defense:30"
+    ],
+    "alexscaves:hazmat_leggings": [
+      "defense:30"
+    ],
+    "icarus:blue_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:brown_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:red_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:green_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:black_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:white_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:orange_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:magenta_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:light_blue_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:light_gray_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:gray_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:pink_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:lime_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:yellow_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:light_blue_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:magenta_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:orange_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:white_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:orange_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:white_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:black_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:red_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:green_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:brown_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:blue_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:purple_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:cyan_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:purple_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:cyan_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:light_gray_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:gray_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:pink_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:lime_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:yellow_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:light_blue_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:magenta_dragon_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:black_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:white_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:orange_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:magenta_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:light_blue_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:yellow_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:lime_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:pink_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:gray_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:brown_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:blue_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:purple_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:cyan_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:light_gray_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:gray_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:pink_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:lime_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:yellow_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:lime_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:yellow_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:light_blue_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:magenta_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:orange_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:white_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:black_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:red_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:green_mechanical_feathered_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:red_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:green_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:brown_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:blue_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:purple_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:cyan_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:light_gray_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:gray_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:pink_mechanical_leather_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:black_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:flandres_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:red_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:green_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:brown_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:blue_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:purple_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:cyan_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:light_gray_light_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:discords_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "icarus:zanzas_wings": [
+      "defense:10",
+      "agility:20"
+    ],
+    "monsterplus:gnawing_jaw": [
+      "attack:30",
+      "magic:15"
+    ],
+    "monsterplus:crystal_leggings": [
+      "defense:30"
+    ],
+    "monsterplus:crystal_sword": [
+      "attack:5",
+      "gathering:15"
+    ],
+    "monsterplus:crystal_helmet": [
+      "defense:30"
+    ],
+    "monsterplus:crystal_boots": [
+      "defense:30"
+    ],
+    "monsterplus:crystal_chestplate": [
+      "defense:30"
+    ],
+    "monsterplus:darkstar": [
+      "attack:30"
+    ],
+    "nyfsquiver:basic_quiver": [
+      "agility:4"
+    ],
+    "nyfsquiver:iron_quiver": [
+      "agility:10"
+    ],
+    "nyfsquiver:copper_quiver": [
+      "agility:7"
+    ],
+    "nyfsquiver:gold_quiver": [
+      "agility:15"
+    ],
+    "nyfsquiver:diamond_quiver": [
+      "agility:20"
+    ],
+    "nyfsquiver:netherite_quiver": [
+      "agility:35"
+    ],
+    "traveloptics:mechanized_exoskeleton_chestplate": [
+      "defense:35"
+    ],
+    "traveloptics:forlorn_harbinger_hood": [
+      "defense:35"
+    ],
+    "traveloptics:forlorn_harbinger_leggings": [
+      "defense:35"
+    ],
+    "traveloptics:mechanized_exoskeleton_helmet": [
+      "defense:35"
+    ],
+    "traveloptics:mechanized_exoskeleton_leggings": [
+      "defense:35"
+    ],
+    "traveloptics:deepling_mage_armor_helmet": [
+      "defense:20"
+    ],
+    "traveloptics:deepling_mage_armor_leggings": [
+      "defense:20"
+    ],
+    "traveloptics:deepling_mage_armor_boots": [
+      "defense:20"
+    ],
+    "traveloptics:deepling_mage_armor_robe": [
+      "defense:20"
+    ],
+    "traveloptics:forlorn_harbinger_boots": [
+      "defense:35"
+    ],
+    "traveloptics:mechanized_exoskeleton_boots": [
+      "defense:35"
+    ],
+    "traveloptics:forlorn_harbinger_robe": [
+      "defense:35"
+    ],
+    "fantasy_armor:silver_knight_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:old_knight_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:malenia_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:old_knight_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:malenia_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:old_knight_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:silver_knight_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:malenia_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:old_knight_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:malenia_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:silver_knight_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:silver_knight_leggings": [
+      "defense:30"
+    ],
+    "enigmaticdelicacy:blooded_cursed_ring": [
+      "magic:20"
+    ],
+    "enigmaticdelicacy:cursed_blade": [
+      "magic:10",
+      "defense:14"
+    ],
+    "enigmaticdelicacy:etherium_machete": [
+      "magic:10",
+      "defense:10"
+    ],
+    "enigmaticdelicacy:hungry_charm": [
+      "magic:15",
+      "attack:10"
+    ],
+    "enigmaticdelicacy:cursed_potion": [
+      "magic:20"
+    ],
+    "enigmaticdelicacy:weapon_charm": [
+      "magic:20"
+    ],
+    "enigmaticlegacy:fabulous_scroll": [
+      "magic:49"
+    ],
+    "bosses_of_mass_destruction:levitation_block": [
+      "building:40",
+      "magic:40"
+    ],
+    "fantasy_armor:dead_gladiator_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:dead_gladiator_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:dead_gladiator_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:dead_gladiator_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:flesh_of_the_feaster_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:flesh_of_the_feaster_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:flesh_of_the_feaster_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:flesh_of_the_feaster_leggings": [
+      "defense:30"
+    ],
+    "fantasy_armor:wind_worshipper_boots": [
+      "defense:30"
+    ],
+    "fantasy_armor:wind_worshipper_chestplate": [
+      "defense:30"
+    ],
+    "fantasy_armor:wind_worshipper_helmet": [
+      "defense:30"
+    ],
+    "fantasy_armor:wind_worshipper_leggings": [
+      "defense:30"
+    ],
+    "deeperdarker:resonarium_hoe": [
+      "farming:30"
+    ],
+    "deeperdarker:resonarium_shovel": [
+      "gathering:30"
+    ],
+    "deeperdarker:warden_shovel": [
+      "gathering:30"
+    ],
+    "deeperdarker:resonarium_sword": [
+      "attack:15"
+    ],
+    "deeperdarker:warden_helmet": [
+      "defense:35"
+    ],
+    "deeperdarker:resonarium_boots": [
+      "defense:30"
+    ],
+    "deeperdarker:warden_sword": [
+      "attack:15"
+    ],
+    "deeperdarker:warden_axe": [
+      "gathering:30"
+    ],
+    "deeperdarker:resonarium_chestplate": [
+      "defense:30"
+    ],
+    "deeperdarker:resonarium_pickaxe": [
+      "mining:30"
+    ],
+    "deeperdarker:resonarium_axe": [
+      "gathering:30"
+    ],
+    "deeperdarker:warden_leggings": [
+      "defense:35"
+    ],
+    "deeperdarker:warden_boots": [
+      "defense:35"
+    ],
+    "deeperdarker:warden_pickaxe": [
+      "mining:30"
+    ],
+    "deeperdarker:sonorous_staff": [
+      "magic:25"
+    ],
+    "deeperdarker:warden_hoe": [
+      "farming:30"
+    ],
+    "deeperdarker:resonarium_helmet": [
+      "defense:30"
+    ],
+    "deeperdarker:resonarium_leggings": [
+      "defense:30"
+    ],
+    "deeperdarker:warden_chestplate": [
+      "defense:35"
+    ],
+    "nethersdelight:netherite_machete": [
+      "attack:15"
+    ],
+    "nethersdelight:golden_machete": [
+      "attack:5"
+    ],
+    "nethersdelight:diamond_machete": [
+      "attack:10"
+    ],
+    "nethersdelight:iron_machete": [
+      "attack:5"
+    ],
+    "goblins_tyranny:reinforced_prototype_chestplate": [
+      "defense:30"
+    ],
+    "goblins_tyranny:goblin_mace": [
+      "mining:15"
+    ],
+    "goblins_tyranny:goblins_prototype_chestplate": [
+      "defense:20"
+    ],
+    "goblins_tyranny:blue_loincloth_chestplate": [
+      "defense:20"
+    ],
+    "goblins_tyranny:fake_goblin_ears_helmet": [
+      "defense:20"
+    ],
+    "goblins_tyranny:purple_loincloth_chestplate": [
+      "defense:20"
+    ],
+    "goblins_tyranny:reinforced_prototype_leggings": [
+      "defense:30"
+    ],
+    "goblins_tyranny:goblin_axe": [
+      "attack:15"
+    ],
+    "goblins_tyranny:goblin_upgraded_mace": [
+      "mining:30"
+    ],
+    "goblins_tyranny:mushroom_hat_helmet": [
+      "defense:20"
+    ],
+    "goblins_tyranny:reinforced_prototype_boots": [
+      "defense:30"
+    ],
+    "goblins_tyranny:reinforced_prototype_helmet": [
+      "defense:30"
+    ],
+    "goblins_tyranny:goblin_spear": [
+      "attack:15"
+    ],
+    "goblins_tyranny:goblin_sword": [
+      "attack:15"
+    ],
+    "goblins_tyranny:red_loincloth_chestplate": [
+      "defense:20"
+    ],
+    "goblins_tyranny:upgraded_prototype_chestplate": [
+      "defense:20"
+    ],
+    "irons_spellbooks:scroll__shadowed_miasma_1": [
+      "gathering:50",
+      "magic:49"
+    ],
+    "irons_spellbooks:scroll__abyssal_blast_1": [
+      "gathering:40",
+      "magic:40"
+    ],
+    "irons_spellbooks:scroll__abyssal_shroud_1": [
+      "gathering:40",
+      "magic:40"
+    ],
+    "irons_spellbooks:scroll__abyssal_blast_2": [
+      "gathering:45",
+      "magic:45"
+    ],
+    "irons_spellbooks:scroll__abyssal_shroud_2": [
+      "gathering:45",
+      "magic:45"
+    ],
+    "irons_spellbooks:scroll__abyssal_blast_3": [
+      "gathering:50",
+      "magic:49"
+    ],
+    "irons_spellbooks:scroll__abyssal_shroud_3": [
+      "gathering:50",
+      "magic:49"
+    ],
+    "irons_spellbooks:eldritch_manuscript": [
+      "gathering:30",
+      "magic:30"
+    ],
+    "minecraft:totem_of_undying": [
+      "magic:20"
+    ],
+    "enigmaticaddons:totem_of_malic": [
+      "magic:20"
+    ],
+    "artifacts:aqua_dashers": [
+      "agility:18"
+    ],
+    "artifacts:running_shoes": [
+      "agility:18"
+    ],
+    "artifacts:snorkel": [
+      "agility:10"
+    ],
+    "artifacts:lucky_scarf": [
+      "magic:25"
+    ],
+    "artifacts:bunny_hoppers": [
+      "agility:10"
+    ],
+    "artifacts:scarf_of_invisibility": [
+      "magic:25"
+    ],
+    "artifacts:night_vision_goggles": [
+      "magic:10"
+    ],
+    "artifacts:cowboy_hat": [
+      "gathering:10"
+    ],
+    "artifacts:villager_hat": [
+      "gathering:15"
+    ],
+    "supplementaries:altimeter": [
+      "building:4"
+    ],
+    "supplementaries:cog_block": [
+      "building:8"
+    ],
+    "supplementaries:crystal_display": [
+      "building:16"
+    ],
+    "supplementaries:quiver": [
+      "agility:8"
+    ],
+    "supplementaries:relayer": [
+      "building:12"
+    ],
+    "supplementaries:spring_launcher": [
+      "building:10"
+    ],
+    "supplementaries:turn_table": [
+      "building:4"
+    ],
+    "supplementaries:wrench": [
+      "building:4"
+    ],
+    "hyrule_terrors:zora_leggings": [
+      "defense:20"
+    ],
+    "hyrule_terrors:knights_claymore": [
+      "attack:30"
+    ],
+    "hyrule_terrors:zora_chestplate": [
+      "defense:20"
+    ],
+    "hyrule_terrors:knight_chestplate": [
+      "defense:20"
+    ],
+    "hyrule_terrors:zora_boots": [
+      "defense:20"
+    ],
+    "hyrule_terrors:barbarian_helmet": [
+      "defense:15"
+    ],
+    "hyrule_terrors:knight_boots": [
+      "defense:20"
+    ],
+    "hyrule_terrors:silver_longsword": [
+      "attack:15"
+    ],
+    "hyrule_terrors:zora_helmet": [
+      "defense:20"
+    ],
+    "hyrule_terrors:evil_spirit_boots": [
+      "defense:20"
+    ],
+    "hyrule_terrors:bokoblin_arm": [
+      "attack:5"
+    ],
+    "hyrule_terrors:evil_spirit_leggings": [
+      "defense:20"
+    ],
+    "hyrule_terrors:knight_leggings": [
+      "defense:20"
+    ],
+    "hyrule_terrors:barbarian_boots": [
+      "defense:15"
+    ],
+    "hyrule_terrors:barbarian_leggings": [
+      "defense:15"
+    ],
+    "hyrule_terrors:evil_spirit_chestplate": [
+      "defense:20"
+    ],
+    "hyrule_terrors:evil_spirit_helmet": [
+      "defense:20"
+    ],
+    "hyrule_terrors:lizalfos_horn_dagger": [
+      "attack:5"
+    ],
+    "hyrule_terrors:boulder_breaker": [
+      "attack:30"
+    ],
+    "hyrule_terrors:barbarian_chestplate": [
+      "defense:15"
+    ],
+    "hyrule_terrors:knight_helmet": [
+      "defense:20"
+    ],
+    "traveloptics:charged_sands": [
+      "attack:35",
+      "magic:35"
+    ],
+    "traveloptics:riptide_sovereign_hat": [
+      "attack:35",
+      "magic:35"
+    ],
+    "traveloptics:riptide_sovereign_fincloak": [
+      "attack:35",
+      "magic:35"
+    ],
+    "traveloptics:riptide_sovereign_leggings": [
+      "attack:35",
+      "magic:35"
+    ],
+    "traveloptics:riptide_sovereign_boots": [
+      "attack:35",
+      "magic:35"
+    ],
+    "traveloptics:staff_of_the_storm_empress": [
+      "magic:40"
+    ],
+    "irons_spellbooks:wizard_leggings": [
+      "defense:20"
+    ],
+    "irons_spellbooks:gold_crown": [
+      "defense:20"
+    ],
+    "irons_spellbooks:boreal_blade": [
+      "attack:30"
+    ],
+    "irons_spellbooks:wizard_chestplate": [
+      "defense:20"
+    ],
+    "irons_spellbooks:wizard_boots": [
+      "defense:20"
+    ],
+    "irons_spellbooks:autoloader_crossbow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "irons_spellbooks:speed_boots": [
+      "defense:20"
+    ],
+    "irons_spellbooks:wizard_helmet": [
+      "defense:20"
+    ],
+    "irons_spellbooks:twilight_gale": [
+      "attack:30"
+    ],
+    "irons_spellbooks:pyrium_staff": [
+      "magic:25"
+    ],
+    "irons_spellbooks:claymore": [
+      "attack:30"
+    ],
+    "irons_spellbooks:infernal_sorcerer_chestplate": [
+      "defense:20"
+    ],
+    "irons_spellbooks:decrepit_scythe": [
+      "attack:30"
+    ],
+    "irons_spellbooks:paladin_chestplate": [
+      "defense:35"
+    ],
+    "irons_spellbooks:hellrazor": [
+      "attack:30"
+    ],
+    "irons_spellbooks:staff_of_the_nines": [
+      "magic:25"
+    ],
+    "irons_spellbooks:legionnaire_flamberge": [
+      "attack:30"
+    ],
+    "irons_spellbooks:misery": [
+      "attack:30"
+    ],
+    "irons_spellbooks:cinderous_soul_rune": [
+      "gathering:666"
+    ],
+    "irons_spellbooks:betrayer_signet": [
+      "magic:30",
+      "defense:30"
+    ],
+    "hyrule_terrors:mastersword": [
+      "attack:30"
+    ],
+    "hyrule_terrors:hylian_shield": [
+      "defense:20"
+    ],
+    "hyrule_terrors:lizal_spear": [
+      "attack:20"
+    ],
+    "gears_of_valor:paladin_boots": [
+      "defense:20"
+    ],
+    "gears_of_valor:paladin_helmet": [
+      "defense:20"
+    ],
+    "gears_of_valor:paladin_chestplate": [
+      "defense:20"
+    ],
+    "gears_of_valor:arismas_awakening_chestplate": [
+      "defense:20"
+    ],
+    "gears_of_valor:shadow_stalker": [
+      "attack:15"
+    ],
+    "gears_of_valor:reapers_embrace_chestplate": [
+      "defense:30"
+    ],
+    "gears_of_valor:woodland_spirit_chestplate": [
+      "defense:20"
+    ],
+    "gears_of_valor:paladin_leggings": [
+      "defense:20"
+    ],
+    "gears_of_valor:woodland_spirit_boots": [
+      "defense:20"
+    ],
+    "gears_of_valor:furys_call": [
+      "attack:15"
+    ],
+    "gears_of_valor:arismas_awakening_boots": [
+      "defense:20"
+    ],
+    "gears_of_valor:woodland_spirit_helmet": [
+      "defense:20"
+    ],
+    "gears_of_valor:reapers_embrace_boots": [
+      "defense:30"
+    ],
+    "gears_of_valor:heavens_fall": [
+      "attack:5"
+    ],
+    "gears_of_valor:arismas_awakening_leggings": [
+      "defense:20"
+    ],
+    "gears_of_valor:reapers_embrace_leggings": [
+      "defense:30"
+    ],
+    "gears_of_valor:reapers_embrace_helmet": [
+      "defense:30"
+    ],
+    "gears_of_valor:harbringer": [
+      "attack:15"
+    ],
+    "gears_of_valor:woodland_spirit_leggings": [
+      "defense:20"
+    ],
+    "gears_of_valor:arismas_awakening_helmet": [
+      "defense:20"
+    ],
+    "create_enchantment_industry:printer": [
+      "building:25"
+    ],
+    "create_enchantment_industry:disenchanter": [
+      "building:15"
+    ],
+    "create:hand_crank": [
+      "building:5"
+    ],
+    "artifacts:power_glove": [
+      "defense:25"
+    ]
+  }
+}

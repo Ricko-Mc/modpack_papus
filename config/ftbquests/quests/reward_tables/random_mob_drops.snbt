@@ -1,0 +1,29 @@
+{
+	id: "27F2A64FD22C5C25"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "random_mob_drops"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "minecraft:slime_ball" }
+		{ item: "minecraft:egg" }
+		{ item: "minecraft:ink_sac" }
+		{ item: "minecraft:bone" }
+		{ item: "minecraft:ender_pearl" }
+		{ item: "minecraft:rotten_flesh" }
+		{ item: "minecraft:gunpowder" }
+		{ item: "minecraft:feather" }
+		{ item: "minecraft:string" }
+		{ item: "minecraft:leather" }
+	]
+	title: "Random mob drops"
+	use_title: true
+}

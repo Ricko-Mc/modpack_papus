@@ -1,0 +1,17 @@
+{
+    "name": "Mage",
+    "description": "You're a mage who can always find the magic in things.",
+    "powers": [
+        "rpg_origins:fastcure",
+        "rpg_origins:untrained",
+        "rpg_origins:fireball",
+        "rpg_origins:water_walk",
+        "rpg_origins:unwieldly",
+        "rpg_origins:spell_power",
+        "rpg_origins:power_reduce"
+    ],
+    "icon": {
+        "item": "irons_spellbooks:necronomicon_spell_book"
+    },
+    "impact": 2
+}

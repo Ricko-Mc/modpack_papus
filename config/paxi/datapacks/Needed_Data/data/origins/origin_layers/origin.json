@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "origins": [
+        "lightweaver:lightweaver",
+        "rpg_origins:knight",
+        "rpg_origins:archer",
+        "rpg_origins:cleric",
+        "rpg_origins:mage",
+        "rpg_origins:bard",
+        "rpg_origins:thief",
+        "rpg_origins:brute"
+    ]
+}

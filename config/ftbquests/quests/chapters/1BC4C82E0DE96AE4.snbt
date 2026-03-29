@@ -1,0 +1,251 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1BC4C82E0DE96AE4"
+	group: "3368DAD22055D0D9"
+	icon: "cataclysm:abyss_eye"
+	id: "1BC4C82E0DE96AE4"
+	images: [
+		{
+			click: "#43289BB673DA3A01"
+			dependency: "13DEC98C19BDA42A"
+			height: 1.0d
+			hover: ["The future is yet to be seen..."]
+			image: "enigmaticlegacy:item/abyssal_heart"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: "#13DEC98C19BDA42A"
+			dependency: "3D0635E384C040E0"
+			height: 1.0d
+			hover: ["...!"]
+			image: "enigmaticlegacy:item/enigmatic_eye_dormant_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.7d
+		}
+		{
+			click: "#0EFC99330CC068FD"
+			height: 1.0d
+			hover: ["..."]
+			image: "enigmaticlegacy:item/enigmatic_eye_dormant"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: 0.0d
+		}
+		{
+			click: "#3D0635E384C040E0"
+			dependency: "0EFC99330CC068FD"
+			height: 1.0d
+			hover: ["...?"]
+			image: "enigmaticlegacy:item/enigmatic_eye_dormant_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: 0.0d
+		}
+		{
+			height: 5.0d
+			image: "forbidden_arcanus:textures/effect/magic_circle/outer/absolute.png"
+			order: -10
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"So, you have found it. The symbol that was not meant to be found. You peeled back the skin of your world and found the hidden chapter, the scar in your chronicle. You believe you found it through your own cunning. A clever mortal, following a trail of whispers."
+				""
+				"You are wrong."
+				""
+				"That mark... that &o&9Symbol of the Void&r&r... it is not a key you found. It is an eye that &oopened&r. It has been watching, waiting in the silence between worlds, and in you, it has found a reflection. It has called to you, and in your arrogance, you have answered. And by answering, you have called &7me&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enigmaticlegacy:item/enigmatic_eye_dormant"
+				}
+			}
+			id: "0EFC99330CC068FD"
+			secret: true
+			size: 1.0E-6d
+			tasks: [{
+				id: "39FBE2C258A88EC9"
+				title: "The Whisper in the Marrow"
+				type: "checkmark"
+			}]
+			title: "The Echo in the Void"
+			x: -1.7d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Do not seek answers about the gods you know. They are children, playing with the light. The artifact you now seek was not &omade&r. It was &owilled&r into being by an antediluvian mind, a being that slumbered in the cold, dark ocean of potential before the first star was kindled."
+				""
+				"It is a promise. A covenant of power. It beckons to mortals and higher beings alike, whispering of untold riches, of immeasurable might, of the power to unmake your-enemies and rewrite your fate."
+				""
+				"This is its first, and &4kindest&r, deception."
+				""
+				"Countless souls have been drawn to this promise. Kings, sorcerers, &bdemigods&r. They all believed themselves the exception. They believed, through arrogance or ignorance, that they could harness its power, that they could control the abyss. Their screams have long since faded. Their suffering... defies description."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enigmaticlegacy:item/enigmatic_eye_dormant_1"
+				}
+			}
+			id: "3D0635E384C040E0"
+			secret: true
+			size: 1.0E-6d
+			tasks: [{
+				id: "688DF19FF4657F93"
+				title: "The Path of Waning Light"
+				type: "checkmark"
+			}]
+			title: "The Antediluvian Will"
+			x: 1.7d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You must understand: this relic is not a tool. It is not a sword you can sheathe or a crown you can remove."
+				""
+				"To touch it is to be known by it. To wear it... is to enter a pact."
+				""
+				"It will fuse with your very soul. It will intertwine with your fate, becoming a part of you, inseparable. Even in death, you will not be parted."
+				""
+				"It will demand a toll. A ceaseless, agonizing toll. It will make your scars weep open as fresh wounds. It will turn the indifferent beast into a ravenous hunter, sensing the blight you carry. Your armor will feel as paper, your strength will fail against the horrors that lurk in the dark. The very flame will cling to you, refusing to die. And with every stumble, every failure, every death... it will tear another fragment of your soul from you, leaving you progressively less... &oyou&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enigmaticlegacy:item/enigmatic_eye_dormant_2"
+				}
+			}
+			id: "13DEC98C19BDA42A"
+			secret: true
+			size: 1.0E-6d
+			tasks: [{
+				id: "6E67287D46EC19A5"
+				title: "The Price of Becoming"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.7d
+		}
+		{
+			dependencies: ["0E078D24C0A27566"]
+			description: [
+				"You have heard the warning. You have been shown the path of agony. And yet, you are still here. The Void's eye is upon you, and I am its voice. You sought this. You opened the book. You cannot unsee what has been seen."
+				""
+				"Now, you must choose."
+				""
+				"Behold. The Ring of the Seven Curses."
+				""
+				"It holds power unlike any other, true to its promise. The power to achieve feats that would otherwise be impossible. But this power is chained to a suffering just as absolute. It offers seven blessings, but demands seven curses in payment."
+				""
+				"The Ring is here. It is yours. But the choice remains."
+				""
+				"Will you &4accept the curses&r, binding your very soul to this eternal torment in exchange for its dark blessings?"
+				""
+				"Or will you &bdeny the blessings&r, casting this relic back into the void and walking away, forever knowing the power you refused?"
+				""
+				"Choose, mortal. Your fate awaits its master."
+			]
+			disable_toast: true
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "448FF36DB55A9BA0"
+			optional: true
+			rewards: [
+				{
+					auto: "enabled"
+					id: "3B58A985D45900BF"
+					item: "enigmaticlegacy:cursed_ring"
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/setnoringtime @p 0"
+					elevate_perms: true
+					id: "4289C7C155CC54AB"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "Claim your Ring of the Seven Curses."
+			tasks: [{
+				disable_toast: true
+				id: "29C87EA6BD17D4E2"
+				title: "Claim!"
+				type: "checkmark"
+			}]
+			title: "The Choice"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "43289BB673DA3A01"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run effect give @p minecraft:levitation 20 2"
+					elevate_perms: true
+					id: "74F79CD20DE45AAB"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run effect give @p regeneration 15 2"
+					elevate_perms: true
+					id: "7B5BAB75CA5BAB28"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run closeguiscreen"
+					elevate_perms: true
+					id: "25FED42CBF04211A"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run title @p actionbar [\"An unforeseen force pulls you off the ground \"]"
+					elevate_perms: true
+					id: "5D64954F6B675B31"
+					silent: true
+					type: "command"
+				}
+			]
+			secret: true
+			size: 1.0E-6d
+			subtitle: "Look into the Void"
+			tasks: [{
+				id: "5E4CA026B60EA8AA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "..."
+}

@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"lightweaver:setup",
+		"lightweaver:abilities/beacon",
+		"lightweaver:abilities/life_link",
+		"lightweaver:passives/vision",
+		"lightweaver:passives/armor",
+		"lightweaver:passives/hearts",
+		"lightweaver:passives/idle"
+	],
+	"icon": {
+		"item": "minecraft:glowstone_dust"
+	},
+	"order": 10,
+	"impact": 2,
+
+	"name": "§eLightweaver",
+	"description": "§rOnce a human, now a divine being touched by holy light.",
+	"comment": ""
+}

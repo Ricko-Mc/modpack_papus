@@ -1,0 +1,31 @@
+{
+    "name": "§b§nRefraction",
+    "description": "You can't wear Netherite Armor because of it's dark origins.\n",
+    "hidden": false,
+
+    "type": "origins:restrict_armor",
+    "head": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "netherite_helmet"
+        }
+    },
+    "chest": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "netherite_chestplate"
+        }
+    },
+    "legs": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "netherite_leggings"
+        }
+    },
+    "feet": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "netherite_boots"
+        }
+    }
+}

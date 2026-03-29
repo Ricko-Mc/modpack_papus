@@ -1,0 +1,28 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "random_materials"
+		}
+	}
+	id: "613A47E6D9DFE89B"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ item: "twilightforest:time_sapling", weight: 2.0f }
+		{ item: "twilightforest:transformation_sapling", weight: 2.0f }
+		{ item: "twilightforest:mining_sapling", weight: 2.0f }
+		{ item: "twilightforest:sorting_sapling", weight: 2.0f }
+		{ item: "twilightforest:uncrafting_table", weight: 0.5f }
+		{ item: "twilightforest:maze_map_focus", weight: 1.5f }
+		{ item: "twilightforest:knightmetal_ingot", random_bonus: 1, weight: 3.0f }
+		{ item: "twilightforest:fiery_ingot", random_bonus: 1, weight: 3.0f }
+		{ item: "twilightforest:ironwood_ingot", random_bonus: 1, weight: 3.0f }
+		{ item: "twilightforest:fiery_tears", weight: 0.75f }
+		{ item: "twilightforest:fiery_blood", weight: 0.75f }
+	]
+	title: "Epic Twilight Forest Loot"
+	use_title: true
+}

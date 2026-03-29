@@ -1,0 +1,320 @@
+[
+	{
+		"mob": [
+			"twilightforest:naga",
+			"twilightforest:lich",
+			"twilightforest:minoshroom"
+		],
+		"damagemultiply": 4,
+		"healthmultiply": 10.0,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"twilightforest:hydra"
+		],
+		"damagemultiply": 5.0,
+		"healthmultiply": 12.0,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"born_in_chaos_v1:krampus",
+			"alexscaves:hullbreaker"
+		],
+		"damagemultiply": 2.0,
+		"healthmultiply": 3.0,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"irons_spellbooks:dead_king"
+		],
+		"damagemultiply": 3.0,
+		"healthmultiply": 8.0,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"cataclysm:clawdian"
+		],
+		"damagemultiply": 1.6,
+		"healthmultiply": 12.0,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"traveloptics:summoned_clawdian"
+		],
+		"damagemultiply": 1.2,
+		"healthmultiply": 6,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"traveloptics:summoned_cursed_revenants"
+		],
+		"damagemultiply": 1.0,
+		"healthmultiply": 10,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"traveloptics:summoned_gum_worm"
+		],
+		"damagemultiply": 1.0,
+		"healthmultiply": 5,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"irons_spellbooks:summoned_polar_bear"
+		],
+		"damagemultiply": 1.2,
+		"healthmultiply": 2,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"irons_spellbooks:fire_boss"
+		],
+		"damagemultiply": 4.0,
+		"healthmultiply": 9.5,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"aether:valkyrie",
+			"born_in_chaos_v1:supreme_bonescaller"
+		],
+		"damagemultiply": 3.0,
+		"healthmultiply": 5.0,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"born_in_chaos_v1:bonescaller"
+		],
+		"damagemultiply": 3.0,
+		"healthmultiply": 3.0,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"born_in_chaos_v1:bone_imp"
+		],
+		"damagemultiply": 1.1,
+		"healthmultiply": 2.0,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"aether:valkyrie_queen"
+		],
+		"damagemultiply": 6.0,
+		"healthmultiply": 8.0,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"twilightforest:alpha_yeti",
+			"twilightforest:snow_queen"
+		],
+		"damagemultiply": 5,
+		"healthmultiply": 15.0,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"twilightforest:ur_ghast"
+		],
+		"damagemultiply": 4.0,
+		"healthmultiply": 15.0,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"minecraft:wither",
+			"minecraft:elder_guardian"
+		],
+		"damagemultiply": 3.0,
+		"healthmultiply": 7.0,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"minecraft:ender_dragon"
+		],
+		"damagemultiply": 5.0,
+		"healthmultiply": 15.0,
+		"when": "onjoin"
+	},
+	{
+		"mob": [
+			"minecraft:warden"
+		],
+		"damagemultiply": 2.0,
+		"healthmultiply": 6.0,
+		"when": "onjoin"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mod": "alexsmobs",
+		"mincount": {
+			"amount": 5,
+			"mod": "alexsmobs",
+			"perchunk": true
+		},
+		"result": "deny"
+	},
+	{
+		"mob": [
+			"minecraft:skeleton",
+			"minecraft:zombie"
+		],
+		"seesky": true,
+		"result": "allow",
+		"healthmultiply": 2,
+		"damagemultiply": 2,
+		"armorhelmet": [
+			"minecraft:iron_helmet",
+			"minecraft:golden_helmet"
+		]
+	},
+	{
+		"seesky": true,
+		"hostile": true,
+		"result": "allow",
+		"healthmultiply": 2,
+		"damagemultiply": 2
+	},
+	{
+		"seesky": false,
+		"random": 0.1,
+		"mob": "minecraft:zombie",
+		"result": "allow",
+		"healthmultiply": 0.5,
+		"potion": "minecraft:invisibility,10000,1"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mob": "endermanoverhaul:cave_enderman",
+		"mincount": {
+			"amount": 5,
+			"hostile": true,
+			"perchunk": true
+		},
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mod": "born_in_chaos_v1",
+		"mincount": {
+			"amount": 5,
+			"hostile": true,
+			"perchunk": true
+		},
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mod": "goblins_tyranny",
+		"mincount": {
+			"amount": 5,
+			"hostile": true,
+			"perchunk": true
+		},
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mob": "minecraft:bee",
+		"mincount": {
+			"amount": 5,
+			"hostile": true,
+			"perchunk": true
+		},
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mod": "minecraft",
+		"mincount": {
+			"amount": 75,
+			"mod": "minecraft",
+			"perchunk": true
+		},
+		"passive": true,
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:the_nether",
+		"mod": "minecraft",
+		"mincount": {
+			"amount": 50,
+			"mod": "minecraft",
+			"perchunk": true
+		},
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:the_end",
+		"mod": "minecraft",
+		"mincount": {
+			"amount": 50,
+			"mod": "minecraft",
+			"perchunk": true
+		},
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mob": "cataclysm:deepling",
+		"mincount": {
+			"amount": 10,
+			"hostile": true,
+			"perplayer": true
+		},
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mob": "cataclysm:deepling_angler",
+		"mincount": {
+			"amount": 10,
+			"hostile": true,
+			"perplayer": true
+		},
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mob": "cataclysm:deepling_brute",
+		"mincount": {
+			"amount": 5,
+			"hostile": true,
+			"perplayer": true
+		},
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mob": "cataclysm:deepling_priest",
+		"mincount": {
+			"amount": 5,
+			"hostile": true,
+			"perplayer": true
+		},
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mob": "cataclysm:deepling_warlock",
+		"mincount": {
+			"amount": 5,
+			"hostile": true,
+			"perplayer": true
+		},
+		"result": "deny"
+	}
+]

@@ -1,0 +1,10 @@
+{
+    "name": "Evocation",
+    "description": "You also do more Evocation Spell Damage!",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "irons_spellbooks:evocation_spell_power",
+        "operation": "addition",
+        "value": 1
+    }
+}

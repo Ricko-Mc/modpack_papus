@@ -1,0 +1,95 @@
+{
+  "weight": 2,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:armorers_hammer",
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "id": "tiered:uncommon",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.25
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "id": "tiered:uncommon",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.20
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "forge:entity_reach",
+      "modifier": {
+        "id": "tiered:uncommon",
+        "operation": "ADD_VALUE",
+        "amount": 0.25
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "forge:block_reach",
+      "modifier": {
+        "id": "tiered:uncommon",
+        "operation": "ADD_VALUE",
+        "amount": 1
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "forge:swim_speed",
+      "modifier": {
+        "id": "tiered:uncommon",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.20
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "betterparagliders:idle_stamina_regen",
+      "modifier": {
+        "id": "tiered:uncommon",
+        "operation": "ADD_VALUE",
+        "amount": 75
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    }
+  ]
+}

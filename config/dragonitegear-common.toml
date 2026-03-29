@@ -1,0 +1,21 @@
+
+["Dragonite Armor Effects"]
+	#Enable the full set effect for the Dragonite Armor.
+	"Enable Set Effect" = true
+	#A list of effects to receive when full set is equipped.
+	"Full Set Effects" = ["minecraft:strength", "minecraft:resistance"]
+	#The duration of the full set effect.
+	"Effect Duration" = 200
+	#The amplifier of the full set effect.
+	"Effect Amplifier" = 1
+
+["Dragonite Gear Weapons"]
+	#The damage of the Dragonite Sword.
+	"Sword Damage" = 11
+	#The damage of the Dragonite Greatsword.
+	"Greatsword Damage" = 17
+	#The damage of the Stormforged Sword.
+	"Stormforged Sword Damage" = 24
+	#The damage of the Stormforged Greatsword.
+	"Stormforged Greatsword Damage" = 32
+

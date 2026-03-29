@@ -1,0 +1,11 @@
+{
+	id: "2D912708A1B73349"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ item: "coinsje:copper_coin" }
+		{ item: "coinsje:copper_coin_pile" }
+		{ item: "coinsje:iron_coin" }
+	]
+	title: "Coin Loot"
+}

@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "20F67971AC218528", title: "&f====== &cLegend of Arcadia &f ======" }
+		{ id: "478F493742D3F387", title: "&f ====== &cThe Hero&f =======" }
+		{ id: "2082B1037B9195D1", title: "&f===== &cConquerors of Realms&f =====" }
+		{ id: "3368DAD22055D0D9", title: "&f===== &cThe Magical&f ======" }
+		{ id: "02AD8609A8FE6EE4", title: "&f===== &cThe Mechanical&f ======" }
+		{ id: "09C54E6F60ECE61B", title: "&f===&2 The Merchant &f=====" }
+	]
+}

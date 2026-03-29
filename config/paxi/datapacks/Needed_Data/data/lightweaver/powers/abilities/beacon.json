@@ -1,0 +1,511 @@
+{
+    "name": "§6§nBeacon of Light",
+    "description": "With your angelic power you can project a shimmering ball of light. It's energy is pure enough to heal wounds and light the way!\n",
+    "loading_priority": 10,
+    "hidden": false,
+
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "Active ability, use with %s\nCooldown: 20s, cannot be used when another orb is active"
+        }
+    ],
+
+    "type": "origins:multiple",
+    "activate": {
+        "type": "apoli:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.illusioner.cast_spell",
+                    "volume": 1.5,
+                    "pitch": 1.1
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "summon armor_stand ^ ^ ^0.3 {Invisible:1b,Marker:1b,PersistenceRequired:1b,Invulnerable:1b,NoGravity:1b,Tags:['weaverLightOrb','tempBeaconMarker']}"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function lightweaver:sid/beacon"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=armor_stand,limit=1,sort=nearest,tag=weaverLightOrb] if score @p BeaconSID = @s BeaconSID positioned as @p run tp ~ ~1 ~"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=armor_stand,limit=1,sort=nearest,tag=weaverLightOrb] if score @p BeaconSID = @s BeaconSID run scale set pehkui:width 2.5 @s"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_active",
+                    "operation": "set",
+                    "change": 1
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_moving",
+                    "operation": "set",
+                    "change": 1
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_active",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 8
+        },
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "cooldown": 400
+    },
+    "move": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:resource",
+                        "resource": "*:*_moving",
+                        "comparison": "==",
+                        "compare_to": 1
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "*:*_active",
+                        "comparison": "==",
+                        "compare_to": 1
+                    }
+                ]
+            },
+            "if_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "tag @s add tempBeaconSelector"
+                    },
+                    {
+                        "type": "apoli:area_of_effect",
+                        "bientity_action": {
+                            "type": "origins:and",
+                            "actions": [
+                                {
+                                    "type": "origins:if_else",
+                                    "condition": {
+                                        "type": "origins:target_condition",
+                                        "condition": {
+                                            "type": "origins:block_collision",
+                                            "block_condition": {
+                                                "type": "origins:or",
+                                                "conditions": [
+                                                    {
+                                                        "type": "origins:in_tag",
+                                                        "tag": "replaceable"
+                                                    },
+                                                    {
+                                                        "type": "origins:in_tag",
+                                                        "tag": "wool_carpets"
+                                                    },
+                                                    {
+                                                        "type": "origins:block",
+                                                        "block": "moss_carpet"
+                                                    }
+                                                ],
+                                                "inverted": true
+                                            },
+                                            "offset_x": 4,
+                                            "offset_y": 0,
+                                            "offset_z": 4
+                                        }
+                                    },
+                                    "if_action": {
+                                        "type": "origins:actor_action",
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:trigger_cooldown",
+                                                    "power": "*:*_duration"
+                                                },
+                                                {
+                                                    "type": "origins:change_resource",
+                                                    "resource": "*:*_moving",
+                                                    "operation": "set",
+                                                    "change": 0
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "origins:target_action",
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "function lightweaver:orb/move"
+                                    }
+                                }
+                            ]
+                        },
+                        "bientity_condition": {
+                            "type": "origins:target_condition",
+                            "condition": {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:command",
+                                        "command": "execute if entity @s[tag=weaverLightOrb,type=armor_stand]",
+                                        "comparison": "==",
+                                        "compare_to": 1
+                                    },
+                                    {
+                                        "type": "origins:command",
+                                        "command": "execute as @s if score @a[tag=tempBeaconSelector,sort=nearest,limit=1] BeaconSID = @s BeaconSID",
+                                        "comparison": "==",
+                                        "compare_to": 1
+                                    }
+                                ]
+                            }
+                        },
+                        "include_target": false,
+                        "radius": 25
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "tag @s remove tempBeaconSelector"
+                    },
+                    {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_distance",
+                        "operation": "add",
+                        "change": 1
+                    }
+                ]
+            }
+        },
+        "falling_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_active",
+                    "operation": "set",
+                    "change": 0
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_moving",
+                    "operation": "set",
+                    "change": 0
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_distance",
+                    "operation": "set",
+                    "change": 0
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.illusioner.mirror_move",
+                    "volume": 2,
+                    "pitch": 1
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_distance",
+            "comparison": "<",
+            "compare_to": 115
+        },
+        "interval": 2
+    },
+    "shine": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "*:*_duration",
+                                "comparison": ">=",
+                                "compare_to": 1
+                            },
+                            {
+                                "type": "origins:resource",
+                                "resource": "*:*_duration",
+                                "comparison": "<",
+                                "compare_to": 6
+                            }
+                        ]
+                    },
+                    "if_action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_active",
+                                "operation": "set",
+                                "change": 0
+                            },
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_distance",
+                                "operation": "set",
+                                "change": 0
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "tag @s add tempBeaconSelector"
+                },
+                {
+                    "type": "apoli:area_of_effect",
+                    "bientity_action": {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:and",
+                            "actions": [
+                                {
+                                    "type": "apoli:area_of_effect",
+                                    "bientity_action": {
+                                        "type": "apoli:target_action",
+                                        "action": {
+                                            "type": "apoli:apply_effect",
+                                            "effect": {
+                                                "effect": "minecraft:regeneration",
+                                                "duration": 109,
+                                                "amplifier": 1,
+                                                "is_ambient": true,
+                                                "show_particles": true,
+                                                "show_icon": false
+                                            }
+                                        }
+                                    },
+                                    "bientity_condition": {
+                                        "type": "origins:or",
+                                        "conditions": [
+                                            {
+                                                "type": "origins:target_condition",
+                                                "condition": {
+                                                    "type": "origins:entity_type",
+                                                    "entity_type": "player"
+                                                }
+                                            },
+                                            {
+                                                "type": "origins:target_condition",
+                                                "condition": {
+                                                    "type": "origins:in_tag",
+                                                    "tag": "hostile",
+                                                    "inverted": true
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "include_target": false,
+                                    "radius": 10
+                                },
+                                {
+                                    "type": "origins:execute_command",
+                                    "command": "function lightweaver:orb/shine"
+                                }
+                            ]
+                        }
+                    },
+                    "bientity_condition": {
+                        "type": "origins:target_condition",
+                        "condition": {
+                            "type": "origins:and",
+                            "conditions": [
+                                {
+                                    "type": "origins:command",
+                                    "command": "execute if entity @s[tag=weaverLightOrb,type=armor_stand]",
+                                    "comparison": "==",
+                                    "compare_to": 1
+                                },
+                                {
+                                    "type": "origins:command",
+                                    "command": "execute as @s if score @a[tag=tempBeaconSelector,sort=nearest,limit=1] BeaconSID = @s BeaconSID",
+                                    "comparison": "==",
+                                    "compare_to": 1
+                                }
+                            ]
+                        }
+                    },
+                    "include_target": false,
+                    "radius": 25
+                }
+            ]
+        },
+        "rising_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.amethyst_block.step",
+                    "volume": 1.75,
+                    "pitch": 0.8
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "tag @s add tempBeaconSelector"
+                },
+                {
+                    "type": "apoli:area_of_effect",
+                    "bientity_action": {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:and",
+                            "actions": [
+                                {
+                                    "type": "origins:execute_command",
+                                    "command": "particle minecraft:glow ^ ^0.2 ^ 0.25 0.25 0.25 0 40 force @a"
+                                },
+                                {
+                                    "type": "apoli:area_of_effect",
+                                    "bientity_action": {
+                                        "type": "apoli:target_action",
+                                        "action": {
+                                            "type": "apoli:and",
+                                            "actions": [
+                                                {
+                                                    "type": "apoli:apply_effect",
+                                                    "effect": {
+                                                        "effect": "minecraft:night_vision",
+                                                        "duration": 600,
+                                                        "amplifier": 0,
+                                                        "is_ambient": true,
+                                                        "show_particles": true,
+                                                        "show_icon": false
+                                                    }
+                                                },
+                                                {
+                                                    "type": "apoli:apply_effect",
+                                                    "effect": {
+                                                        "effect": "minecraft:glowing",
+                                                        "duration": 600,
+                                                        "amplifier": 0,
+                                                        "is_ambient": true,
+                                                        "show_particles": true,
+                                                        "show_icon": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "include_target": false,
+                                    "radius": 10
+                                }
+                            ]
+                        }
+                    },
+                    "bientity_condition": {
+                        "type": "origins:target_condition",
+                        "condition": {
+                            "type": "origins:and",
+                            "conditions": [
+                                {
+                                    "type": "origins:command",
+                                    "command": "execute if entity @s[tag=weaverLightOrb,type=armor_stand]",
+                                    "comparison": "==",
+                                    "compare_to": 1
+                                },
+                                {
+                                    "type": "origins:command",
+                                    "command": "execute as @s if score @a[tag=tempBeaconSelector,sort=nearest,limit=1] BeaconSID = @s BeaconSID",
+                                    "comparison": "==",
+                                    "compare_to": 1
+                                }
+                            ]
+                        }
+                    },
+                    "include_target": false,
+                    "radius": 25
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_moving",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_active",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_duration",
+                    "comparison": ">",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "interval": 2
+    },
+    "active": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "moving": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "distance": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 115,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "duration": {
+        "type": "apoli:cooldown",
+        "cooldown": 203,
+        "hud_render": {
+            "should_render": false
+        }
+    }
+}

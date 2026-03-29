@@ -1,0 +1,25 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "random_materials"
+		}
+	}
+	id: "4ADA70E4E4E6F9EA"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ item: "minecraft:nether_wart", random_bonus: 3, weight: 2.0f }
+		{ item: "minecraft:quartz", weight: 2.0f }
+		{ count: 7, item: "minecraft:nether_brick", random_bonus: 9, weight: 2.0f }
+		{ item: "minecraft:netherite_scrap", random_bonus: 1, weight: 0.5f }
+		{ count: 7, item: "minecraft:gold_nugget", random_bonus: 9, weight: 2.0f }
+		{ item: "minecraft:blaze_powder", random_bonus: 3, weight: 1.5f }
+		{ item: "minecraft:wither_rose", random_bonus: 1, weight: 1.2f }
+		{ item: "wstweaks:fragment", random_bonus: 2 }
+	]
+	title: "Common Nether Loot"
+	use_title: true
+}

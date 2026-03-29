@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:shield",
+    {"required":false, "id":"enigmaticlegacy:infernal_shield"},
+    {"required":false, "id":"blueskies:moonstone_sheild"},
+    {"required":false, "id":"blueskies:spike_sheild"},
+    {"required":false, "id":"alexsmobs:shield_of_the_deep"},
+    {"required":false, "id":"dreadsteel:dreadsteel_shield"},
+    {"required":false, "id":"endermanoverhaul:corrupted_shield"},
+    {"required":false, "id":"forbidden_arcanus:obsidian_skull_shield"}
+  ]
+}

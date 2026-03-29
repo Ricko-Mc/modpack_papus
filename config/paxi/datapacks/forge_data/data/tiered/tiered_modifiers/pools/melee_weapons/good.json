@@ -1,0 +1,48 @@
+{
+  "weight": 2,
+  "verifiers": [
+    {
+      "tag": "minecraft:swords"
+    },
+    {
+      "tag": "minecraft:axes"
+    },
+    {
+      "tag": "blue_skies:tools/swords"
+    },
+    {
+      "tag": "blue_skies:tools"
+    },
+    {
+      "tag": "forge:weapons"
+    },
+    {
+      "tag": "forge:weapons/melee"
+    },
+    {
+      "tag": "forge:swords"
+    },
+    {
+      "tag": "c:swords"
+    },
+    {
+      "tag": "sons_of_sins:is_slicer"
+    },
+    {
+      "id": "sons_of_sins:ether_sword"
+    },
+    {
+      "id": "sons_of_sins:osseous_sword"
+    }
+  ],
+  "tiers": [
+    "tiered:melee_weapons/sharp",
+    "tiered:melee_weapons/keen",
+    "tiered:melee_weapons/critical",
+    "tiered:melee_weapons/epic",
+    "tiered:melee_weapons/legendary",
+    "tiered:melee_weapons/rare",
+    "tiered:melee_weapons/arcane",
+    "tiered:melee_weapons/mythic"
+  ]
+}

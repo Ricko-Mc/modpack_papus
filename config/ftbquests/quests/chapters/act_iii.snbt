@@ -1,0 +1,1680 @@
+{
+	autofocus_id: "43A5B83862D9E94C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_iii"
+	group: "2082B1037B9195D1"
+	hide_quest_until_deps_complete: true
+	icon: "aquamirae:frozen_key"
+	id: "7B99D0C8D39F05A8"
+	images: [
+		{
+			height: 3.0d
+			image: "loe:textures/other/act3.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			height: 5.0d
+			image: "loe:textures/other/monstros.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			height: 5.0d
+			image: "loe:textures/other/ignis.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.25d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.4d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.55d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.55d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.85d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.2d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.049999999999999d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.9d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.6d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.45d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.15d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.299999999999999d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.45d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.75d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.75d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.9d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.2d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.35d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.55d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.4d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.55d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.85d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.25d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.95d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.1d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.1d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.4d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.85d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.85d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.4d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.35d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.049999999999999d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.6d
+			y: 1.7d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.299999999999999d
+			y: 0.85d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:item/burning_ashes"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -3.0d
+		}
+	]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7156DB4F67422F8A"
+				"1178573FE1A2FC05"
+				"4A83C09A487BE37A"
+				"0DABBFEC68034353"
+				"214D09E87B67D0F8"
+				"26D6D5B168A2A967"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Upon your return to the overworld, your contacts in the various villages and tribes have brought you news of tremors and terrifying encounters throughout the lands."
+				""
+				"You've learnd a trick or to, so put the one about Ender Eyes to use and craft some specialized Eyes with materials that resonate with the disturbances."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:ender_eye"
+			id: "18EB86F91CBBCCC6"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			rewards: [{
+				count: 3
+				id: "4212990D5B6F9247"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The Engines of Destruction "
+			tasks: [{
+				id: "648E89CEF275D455"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "Cataclysmic Rumblings"
+			x: 4.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["Some machine related parts, iron and redstone, should do for the Eye needed to track down the lair of whatever is causing seismic activity near villages."]
+			id: "775AB10F8196F27B"
+			rewards: [
+				{
+					id: "2891A088FD613B60"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CB251ACD1503BEB"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "...in the sky."
+			tasks: [{
+				id: "23B2C8BA85A59929"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			title: "Electric Eye"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["One of the two disturbances reported by your trade contacts amongst the Piglins is a colosseum of hot brick.  A pillared structure open to the heat of The Nether Realm and populated by armored elemental beings of flame and soot.  Acquire some scraps of the ancient metal from this hellish realm, a bit of its infused sand and some blaze pwders to make the Eye you need to discover the location of this edifice."]
+			id: "43A5B83862D9E94C"
+			rewards: [{
+				id: "579ED982EEBD8D8B"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Unbearably Hot"
+			tasks: [{
+				id: "3A18B988A59BE186"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			title: "Eye of Flames"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: [
+				"While you were wandering the End Realm searching for the...parts...to summon the giant wurm, you also found ruins of an ancient citadel.  "
+				""
+				"Use the magic of the Ender Eye and some select materials from the End to craft a 'Void Eye' to find the citadel."
+			]
+			id: "62C32905C33E2D88"
+			rewards: [{
+				id: "3587D800DDF74D5C"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_slow_falling"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Used in the End to rediscover the Ruined Citadel"
+			tasks: [{
+				id: "41D397FD467CCBD1"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			title: "Void Eye"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: [
+				"One of the two disturbances reported by the Piglins during your regular trips to trade gold for materials, the appearance of the Soul Forge and its attendant causes concern among the Piglins because of the rumors of montrous things being created in the forge and let loose to ravage the landscape.  "
+				""
+				"Some nether metal scraps and a bit of the Nether's most abundant fluid should imbue the Ender Eye with enough resonant energy."
+			]
+			id: "7C848C7011726470"
+			rewards: [{
+				id: "0A9E745422DB3BE6"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Terrible works are wrought there..."
+			tasks: [{
+				id: "40208E5FC2BBFAEA"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			title: "The Soul Forge"
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: [
+				"Seafaring villagers are describing shadows in te depths and a dreadful presense haunts them while they sail from places to place, trading with the other villages."
+				""
+				"Make this Eye out of of frozen lava and it's sodden variety, representing the lightless fathoms below."
+			]
+			id: "3E8C7D92F99496BE"
+			rewards: [{
+				id: "7DA676C4472E397D"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_water_breathing"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The underwater kind of abyss, just to be clear."
+			tasks: [{
+				id: "2E1B52E024B7A6F8"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			title: "Eye of the Abyss"
+			x: 5.95d
+			y: -5.1d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["Villager in the arid regions are reporting subtrerranean disturbances and the appreance of hordes of small upright lizards.  Use some matierals from the arid climates to make an Eye to find out where these lizard creatures are coming from, and what terrible menace is contained therin."]
+			id: "2542D8A6894816C6"
+			rewards: [{
+				id: "7CD940DCF052F4C4"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_swiftness"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Not food, that has two 's's"
+			tasks: [{
+				id: "7C31D3E8DF8C47C5"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			title: "Eye of the Desert"
+			x: 3.05d
+			y: -5.1d
+		}
+		{
+			dependencies: ["7C848C7011726470"]
+			description: ["The structure the Eye leads you to is a large open forge with all the standard gear associated with such.  There are smelteries, chains, lava pits, anvils, giant menacing contructs.  Said menacing constrct is likely to be the thing responsible for all the bad things crafted here, and the source of the Piglins' worry."]
+			id: "6BE1AC99BA60D74C"
+			rewards: [
+				{
+					id: "33FA5CD43F6A05AA"
+					item: {
+						Count: 1
+						id: "tarotcards:strength"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1283849450D55818"
+					item: {
+						Count: 1
+						id: "simplyswords:hearthflame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "042706418FC7DD4B"
+					item: "skillcloaks:brown_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "687B9B5E5ACF821F"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "7511C9AE00699102"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "One part hammer, one part anvil, and one part forge."
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:monstrous_eye"
+				id: "25E10DA17FE89990"
+				title: "&cNetherite Monstrosity!"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Netherite Construct"
+			x: 4.5d
+			y: -10.625d
+		}
+		{
+			dependencies: ["6C9D9A7F3B059EA8"]
+			description: [
+				"On the top floor of this blazing building is a fighting circle surrounding a central brazier.  Remnants within the brazier resemble the ashes you found on before, dead embers from the lesser elemental sinhabiting the lower floor and surroundings."
+				""
+				"Place a pile of the embers you made here, and see what kind of monster has been terrorizing the Piglins nearby."
+			]
+			id: "58FE5DCC46CD3748"
+			rewards: [
+				{
+					id: "63438FA7F9D1BD89"
+					item: {
+						Count: 1
+						id: "tarotcards:the_hermit"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "146CF7AF82EE1C0E"
+					item: {
+						Count: 1
+						id: "simplyswords:flamewind"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B66852C2FED9799"
+					item: "skillcloaks:green_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1960286ECC9FDC57"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "5C810A9122E4D47E"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Not actually a god..."
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1EADDF115D029B72"
+				title: "Kill Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Warrior-God of Flame"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["128F91F61D051973"]
+			id: "6C9D9A7F3B059EA8"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "027AC156F9614742"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			subtitle: "An impressive arena of fire and lava. Multifloored with sentries that drop Burning Ashes."
+			tasks: [{
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				id: "26F36B522E7CBB4C"
+				title: "Discover the Burning Arena"
+				type: "advancement"
+			}]
+			title: "The Burning Arena"
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3634BDFDC1F57A47"]
+			description: [
+				"Annoying small, numerous monsters?  Check."
+				"More of the box mollusks?  Check."
+				"Treasure?  Check, Check, Check."
+				""
+				"All those other things mean there will certainly be larger guards around here."
+			]
+			id: "170A7AF8AF653203"
+			rewards: [
+				{
+					id: "61906BBC13D1B379"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "119887DE3A3FE122"
+					table_id: 6140479905622921234L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3847E8787E41BA4A"
+					table_id: 255314140086928802L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			subtitle: "Pronounced with a long 'O' sound."
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_core"
+				id: "6FDDD81FBA79F135"
+				title: "Kill a Ender Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ambulatory Statues"
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["170A7AF8AF653203"]
+			description: [
+				"You wind your way through the passages deftly failing to avoid most of the traps on the floor, gather up all the loot, and find a trap door leading to another maze of halls below."
+				""
+				"The process repeats, but the second descent leads to a large underground arena with a much larger and better equipped version of those golems.  Take it down, and hope that these destructive rumbling decrease somewhat."
+			]
+			id: "39CD37F2FE8524B9"
+			rewards: [
+				{
+					id: "16D5DF88FB7FA01E"
+					item: {
+						Count: 1
+						id: "tarotcards:temperance"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6E41289F77834EC9"
+					item: {
+						Count: 1
+						id: "simplyswords:arcanethyst"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AE1D9E26F54A6D5"
+					item: "skillcloaks:green_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "715D2644A6B0045C"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "6255ABCFB42E6094"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Trap doors and trapped floors."
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "1301D916FDD1A24C"
+				title: "Kill the Ender Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			title: "A Much Larger Ambulatory Statue"
+			x: 11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["62C32905C33E2D88"]
+			description: ["Ah good, the Eye brings you directly to one of the structures you remember seeing.  "]
+			id: "3634BDFDC1F57A47"
+			rewards: [
+				{
+					id: "690C5712C3C95A11"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3022E587B8BACFAB"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			subtitle: "Fairly well preserved actually."
+			tasks: [{
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "4DFB67962A090F0D"
+				title: "Discover a &eRuined Citadel"
+				type: "advancement"
+			}]
+			title: "The Ruined Citadel"
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["775AB10F8196F27B"]
+			description: ["The eye leads to what appears to be an ancient factory, contradictiong itself by containing small, industrious mechanical creatures of clearly advanced technology."]
+			id: "51BDE9809022784B"
+			rewards: [
+				{
+					id: "5ED1F8832AE22032"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58E633CC53F350E3"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			subtitle: "Wonders of steel and iron, redstone and copper."
+			tasks: [{
+				advancement: "cataclysm:find_ancient_factory"
+				criterion: ""
+				id: "4D5D6F515252DA40"
+				type: "advancement"
+			}]
+			title: "Incomparable Engineering"
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["51BDE9809022784B"]
+			description: [
+				"In the largest chamber of the factory a construct of familiar form is set on a dais.  It seems like whatever civilization once populated these halls had plans to merge a Wither with mechanical augments...and succeded."
+				""
+				"This thing must be destroyed, but it's impervious while inactive.  Perhaps feeding it a nether star would provide the requisite energy to awaken it."
+			]
+			id: "2C93DAC03595769F"
+			rewards: [
+				{
+					id: "0CBC59ADD5BA3B9C"
+					item: {
+						Count: 1
+						id: "tarotcards:the_chariot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "440C7EC6C6C6E2A6"
+					item: {
+						Count: 1
+						id: "simplyswords:thunderbrand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0451936804FA7762"
+					item: "skillcloaks:red_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "560090A76111CD0F"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "1888BD704F9A9CF5"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Or perhaps Remade?"
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				id: "3FA162F77434B551"
+				type: "advancement"
+			}]
+			title: "The Wither, Reborn"
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["70CDA5F1593DB4B2"]
+			description: [
+				"Wandering through these ancient halls and tunnels you've encountered Scorpions, the usual unead, more scorpions, fossilized lizard people(?), even more scorpions (all of which have been really big), and at the back of a very large chamber several more fissilized figures of greater stature.  "
+				""
+				"It seems like an offering is required to get their attention..."
+				""
+				"&o&7[Hint:The Traveling Trader shop in this questbook has the Desert Jewel Fragment for sale]"
+			]
+			id: "0B7F2B63D867D221"
+			rewards: [{
+				id: "5DF0B0D1479AE532"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Pearl Necklace"
+			tasks: [{
+				id: "4A5A607229B4F242"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			title: "An Offering"
+			x: -0.35d
+			y: -3.4d
+		}
+		{
+			dependencies: ["0B7F2B63D867D221"]
+			description: ["The Traveling Traders you keep in contact with dropped a mention about the ceremonial nature of that jewel fragment and the necklace you make with it:  it appears that it was used in a ritual of the Koboletons from the ancient past to contact their legendary ancestors.  Since you've already found the chambers of worship, make use of the item for the ceremony and quell the ancestral beast's rage so it longer threatens the desert-dwelling villagers way of life."]
+			icon: "cataclysm:music_disc_ancient_remnant"
+			id: "33B1D3FD4C0B5514"
+			rewards: [
+				{
+					id: "11377C9F1A66AFBE"
+					item: {
+						Count: 1
+						id: "simplyswords:soulpyre"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69952CC7BD82FE7F"
+					item: "skillcloaks:blue_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7928480DE1BBE653"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "4DA1DD99BD28FD39"
+					item: "paraglider:paraglider"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "14566057DA912EF4"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "A Funerary Staple in Arid Regions"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:remnant_skull"
+				id: "331CDAB944917322"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Preserved Remains"
+			x: -2.04d
+			y: -1.7d
+		}
+		{
+			dependencies: ["2542D8A6894816C6"]
+			description: ["The Eye leads you to a fairly standard ancient pyramid.  Lots of sandstone, pyramid shape, very old."]
+			icon: "minecraft:sandstone"
+			id: "70CDA5F1593DB4B2"
+			rewards: [{
+				count: 3
+				id: "1782568B675839C9"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "Maybe mummies, maybe not."
+			tasks: [{
+				icon: "minecraft:chiseled_sandstone"
+				id: "397BEEBF069AE7BF"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			title: "Ancient Explorations"
+			x: 1.36d
+			y: -4.25d
+		}
+		{
+			dependencies: ["1C5EA7D62BAF2108"]
+			description: ["Once you place the offering on the altar, the entire area is permeated by an unfathomable terror.  After just a fe wmoments, the source of the terror appears:  an incomprehensible being from the depths that makes the other serpentine creatures you have challenged seems as but earthworms in strength.  This will be a worthy challenge, and overcoming it will ensure the safety of your maritime allies."]
+			icon: "cataclysm:music_disc_the_leviathan"
+			id: "746DE905D45A396C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FF8F62C5E635D74"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5072E26836583848"
+					table_id: 255314140086928802L
+					type: "loot"
+				}
+				{
+					id: "186AD37C9E3A2F74"
+					item: {
+						Count: 1
+						id: "runes_of_power:water_rune"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/skills add @p MAGIC 2"
+					elevate_perms: true
+					icon: "sophisticatedbackpacks:xp_pump_upgrade"
+					id: "558934390AE10306"
+					title: "2 Levels of Magic"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "47E44324C55EA91D"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Bigger on the Outside"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "043F030DD013235B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Great Serpent"
+			x: 11.049999999999999d
+			y: -1.7d
+		}
+		{
+			dependencies: ["3E8C7D92F99496BE"]
+			description: ["The Eye shows the way to a city submerged.  Stone colonnades and wide sunken boulevards lead the way through a sprawling metropolis of seaweed and prismarine.  The city is populated by some kind of sea culture of seemingly alien beings and their constructs."]
+			icon: "minecraft:stone_bricks"
+			id: "45FBEABEBA7CC09E"
+			rewards: [
+				{
+					count: 3
+					id: "2F3B0C7B10ACE0A6"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "73218BA1F7EABEA9"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water_breathing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23DAD9EB4218B350"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:respiration"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "An entire city..."
+			tasks: [{
+				icon: "minecraft:chiseled_stone_bricks"
+				id: "78AFAE165BEF2155"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			title: "Lost to the Deep"
+			x: 7.6499999999999995d
+			y: -4.25d
+		}
+		{
+			dependencies: ["45FBEABEBA7CC09E"]
+			description: [
+				"In the center of the city is an immense chamber with a central altar.  The Deeplings use some sort of mystical object as a sacrifice to summon or commune with a monstrous creature. "
+				""
+				"This sounds like it might be the source of the villagers fears.  Gasther the components for the sacrifical item and summon this beast so you can end the threat it poses to the maritime communities."
+				""
+				"&o&7[Hint:Craft the item with an Athame from the Deepling Warlocks, some of the coral the Deeplings use to construct their golem sentries, and some various sea-related materials.]  "
+			]
+			id: "1C5EA7D62BAF2108"
+			rewards: [
+				{
+					id: "2FA0D9A75B465BD1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F145A718A215009"
+					table_id: 255314140086928802L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7E6867522EE80BE7"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			title: "Sacrifice"
+			x: 9.35d
+			y: -3.4d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["Rumors of a prison for damned souls persist in the colder regions.  Necromatic energies felt and ghostly beings seen inspire you to used some phantom membranes and undead parts to seek this eerie containment facility out."]
+			id: "61D844D0984712D2"
+			rewards: [{
+				id: "5DE817C4CF95E5B5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Purely bad intentions"
+			tasks: [{
+				id: "72AE52195EB43A15"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			title: "Evil Eye"
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["61D844D0984712D2"]
+			description: ["The eye leads you to a sprawling stone structure in the frozen wastes, constructed primarilty of stone.  One could understand the restless trying to leave, as stone walls are cold enough without being built in a cold place."]
+			id: "11E7037466E40CA8"
+			rewards: [
+				{
+					id: "4BD417566B3DE662"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "021C16300C266E77"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "658D1CFADE9132E0"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			subtitle: "Like a freezer for souls."
+			tasks: [{
+				advancement: "cataclysm:find_frosted_prison"
+				criterion: ""
+				id: "60FFD80D84D16527"
+				type: "advancement"
+			}]
+			title: "Frozen Penitentiary"
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["11E7037466E40CA8"]
+			description: [
+				"Deep in the bowels of this frozen hell, a tombstone stands atop a dais.  There's no indication of whose corpse lie here, if any at all, but a miasma of dark intent encompasses it fully."
+				""
+				"You approach and lightest touch causes a violent reaction, the mist swirls rapidly and a massive armored ghost rises from the tomb, spectral wings outstrecthed and blanketing the room with darkness.  There was no corpse in the tomb, just a construct fashioned from many evil souls."
+			]
+			id: "03057AA4E7A279E7"
+			rewards: [
+				{
+					id: "02836A11BE157BCC"
+					item: {
+						Count: 1
+						id: "tarotcards:the_devil"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0B9F0B3D517BEEC7"
+					item: {
+						Count: 1
+						id: "simplyswords:shadowsting"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "607E9928611B18A2"
+					item: "skillcloaks:blue_sack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1836B120CC3BB759"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "4B20D10906CB4D92"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "Composite Corruption"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					Count: 1
+					id: "cataclysm:cursium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2FCECDE6B67026AD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "A Compilation of Evil"
+			x: 9.375d
+			y: -10.0d
+		}
+		{
+			dependencies: ["43A5B83862D9E94C"]
+			description: ["The lesser gladiators in this arena leave behind slowly dying embers, the last vestiges of the rage that trapped them in the hellish colosseum in the first place.  They radiate energy still and collecting them in a pile causes them to transmute to a stronger source of heat and anger."]
+			id: "128F91F61D051973"
+			rewards: [{
+				id: "08C3809924F714B4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The Eternal Heat of Battle"
+			tasks: [{
+				id: "4BAB67C216FEE463"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			title: "Raging Embers"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: [
+				"You seek to pierce the veil, traveler? To walk where the light of your world dares not tread? Then you must craft the compass that points to nowhere."
+				""
+				"The Eye of Nothingness. It is not merely a tool; it is a paradox bound in form. To craft it is to hold a mirror to the abyss. As you bind the materials, you will feel the cold vacuum of the space between stars. The Eye does not \"see\" in the way you understand. It yearns. It seeks its home in the silence."
+				""
+				"Finish your work. Hold the Eye aloft. Do not be alarmed when it pulls at your very essence, guiding you towards the cold, forgotten corners of reality. Follow its gaze, for it leads to the Void Cathedral, a monument to a grief so profound it shattered the boundaries of life and death."
+			]
+			hide_until_deps_complete: true
+			id: "1F3E4F7584A6D25E"
+			rewards: [{
+				id: "6AAA99D50B6C55D1"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C65E286871F4615"
+				item: "traveloptics:eye_of_nothingness"
+				type: "item"
+			}]
+			title: "The Gaze of the Void"
+			x: 5.95d
+			y: -3.4d
+		}
+		{
+			dependencies: ["1F3E4F7584A6D25E"]
+			description: [
+				"The Eye has led you to the sanctuary, but the hall is silent. The Night Warden stands before you, not as a guardian, but as a statue of sorrow, locked in a deep, stony slumber. He is a shell that moves no more, bound by a promise that has outlived his own soul."
+				""
+				"To free him, you must find the Excrucis."
+				""
+				"It lies within the cathedral shadows, a twisted artifact that pulses with the potential for a ritual. The inscription whispers that it can \"save someone,\" but do not be deceived by the softness of that word. For a being such as this, salvation is not a healing hand; it is the release of death."
+				""
+				"You must perform the ritual. Use the Excrucis to pierce his slumber. But be warned: he will not wake gently."
+				""
+				"When his eyes open, the void will scream. He will fight you with the desperation of a man who has forgotten how to die. He will shift his form, first raining magic upon you, then hunting you with lethal melee strikes, and finally merging both in a chaotic storm. Do not rely on a single element, for he adapts to your attacks. Bring the full breadth of your magical knowledge, at least three schools of sorcery, or your spells will shatter against his resolve."
+				""
+				"Watch the shadows. If he teleports twice, dodge instantly to evade his scythe. And when he begins to channel the dying star to obliterate you, have your counterspells ready. You must extinguish his light before it goes supernova."
+				""
+				"Awake him, traveler. And then, grant him the end he has earned."
+			]
+			hide_until_deps_complete: true
+			icon: "traveloptics:excrucis"
+			id: "52A745EB3D29C2E8"
+			rewards: [
+				{
+					id: "6AB9A5D9E08ED168"
+					item: {
+						Count: 1
+						id: "simplyswords:dormant_relic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "374B1332939F208F"
+					item: {
+						Count: 1
+						id: "tarotcards:the_world"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "227FF860EEACB20B"
+					item: "irons_spellbooks:ancient_knowledge_fragment"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2F04040CE1073E1D"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42658736EAC4DF42"
+					table_id: 7386055547922529481L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "56401A4EBDBDF7CC"
+					item: "traveloptics:excrucis"
+					title: "Find it"
+					type: "item"
+				}
+				{
+					entity: "traveloptics:the_nightwarden"
+					icon: "traveloptics:withered_excrucis"
+					id: "76FFA98373C281F7"
+					title: "And end his suffering"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Echo of the Promise"
+			x: 7.6499999999999995d
+			y: -1.7d
+		}
+		{
+			dependencies: ["18EB86F91CBBCCC6"]
+			description: ["Craft the eye to bring you to Acropolis!"]
+			id: "7F42B4FD632890C0"
+			rewards: [
+				{
+					count: 2
+					id: "3CE57B25E4A31154"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "10F2A34FB6A58F8B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4248D5770B54F2D8"
+				item: "cataclysm:storm_eye"
+				type: "item"
+			}]
+			x: 3.4d
+			y: -3.4d
+		}
+		{
+			dependencies: ["7F42B4FD632890C0"]
+			description: [" will you be up to the challenge of navigating to his lair and venturing up into the sky to defeat him?"]
+			id: "2CC5ADF4353BA3AC"
+			rewards: [{
+				id: "5F866DB1C65169A2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_acropolis"
+				criterion: ""
+				id: "63710FA911FD5437"
+				type: "advancement"
+			}]
+			x: 2.55d
+			y: -1.7d
+		}
+		{
+			dependencies: ["2CC5ADF4353BA3AC"]
+			description: [
+				"Cataclysm's Newest boss adds a fearsome Water resident to the Overworld. Once you've made it to the dungeon slay the beasts to on the way up to meet &bScyilla!"
+				""
+				"You'll be looking for a GIANT &bAnchor &fjust click it and the boss will summon!"
+			]
+			id: "272C65B9555A116D"
+			rewards: [
+				{
+					id: "269187EECD423F5A"
+					item: "cataclysm:essence_of_the_storm"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5511F651A98FBAAB"
+					table_id: 7386055547922529481L
+					type: "loot"
+				}
+				{
+					id: "297BD969B4294DFA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4CC5A622CE14D50A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:hydroshot"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Follow the eye to the Lair!"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:ceraunus"
+				id: "6751C59B382DD86B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&bScylla Waits for you!"
+			x: 0.85d
+			y: -1.7d
+		}
+		{
+			dependencies: ["2CC5ADF4353BA3AC"]
+			description: [
+				"Sort of like a mini boss in the dungeon! can't miss this big claw guy!"
+				""
+				"He drops an Irons Aqua spell!"
+				""
+				"Slay &aClawdin"
+			]
+			id: "74AB6E993370A8C7"
+			rewards: [
+				{
+					id: "7952BF114D534ACA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "356FD2EADFEDA88B"
+					table_id: 377933700796306313L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47CB75D025E18B79"
+					table_id: 3283448521356161865L
+					type: "loot"
+				}
+			]
+			subtitle: "If you run into this dude take him out!"
+			tasks: [
+				{
+					entity: "cataclysm:clawdian"
+					id: "2AD73CC877DDB442"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "cataclysm:kill_clawdian"
+					criterion: ""
+					id: "64A9F241E46C9204"
+					type: "advancement"
+				}
+			]
+			title: "Not So Shrimple Now!"
+			x: 2.55d
+			y: 0.0d
+		}
+	]
+	title: "&4Act III -&7&o Trial of the Immortals"
+}

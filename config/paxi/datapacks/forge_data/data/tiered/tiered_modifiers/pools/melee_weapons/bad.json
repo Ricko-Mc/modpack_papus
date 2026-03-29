@@ -1,0 +1,30 @@
+{
+  "weight": 3,
+  "verifiers": [
+    {
+      "tag": "minecraft:swords"
+    },
+    {
+      "tag": "minecraft:axes"
+    },
+    {
+      "tag": "blue_skies:tools/swords"
+    },
+    {
+      "tag": "blue_skies:tools"
+    },
+    {
+      "tag": "forge:weapons"
+    },
+    {
+      "tag": "forge:weapons/melee"
+    },
+    {
+      "tag": "forge:swords"
+    }
+  ],
+  "tiers": [
+    "tiered:melee_weapons/dull",
+    "tiered:melee_weapons/berserk"
+  ]
+}

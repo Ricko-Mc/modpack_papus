@@ -1,0 +1,145 @@
+{
+  "weight": 1,
+  "reforge_experience_cost": 10,
+  "reforge_durability_cost": 5,
+  "reforge_item": "tiered:armorers_hammer",
+  "style": {
+    "color": "dark_red"
+  },
+  "attributes": [
+    {
+      "type": "generic.max_health",
+      "modifier": {
+        "id": "tiered:legendary_armor",
+        "operation": "ADD_VALUE",
+        "amount": 12
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "id": "tiered:uncommon",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.20
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "generic.armor",
+      "modifier": {
+        "id": "tiered:legendary_armor",
+        "operation": "ADD_VALUE",
+        "amount": 2
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "betterparagliders:idle_stamina_regen",
+      "modifier": {
+        "id": "tiered:resilient_1",
+        "operation": "ADD_VALUE",
+        "amount": 100
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "generic.luck",
+      "modifier": {
+        "id": "tiered:legendary_tool",
+        "operation": "ADD_VALUE",
+        "amount": 3
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "additionalentityattributes:dropped_experience",
+      "modifier": {
+        "id": "tiered:legendary_tool",
+        "operation": "ADD_VALUE",
+        "amount": 5
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "irons_spellbooks:spell_power",
+      "modifier": {
+        "id": "tiered:unchained",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "id": "tiered:uncommon",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.10
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "forge:swim_speed",
+      "modifier": {
+        "id": "tiered:uncommon",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.10
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "forge:entity_reach",
+      "modifier": {
+        "id": "tiered:uncommon",
+        "operation": "ADD_VALUE",
+        "amount": 0.25
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    }
+  ]
+}

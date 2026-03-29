@@ -1,0 +1,22 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "random_materials"
+		}
+	}
+	id: "447F06A3165B97A8"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ item: "create:shaft", weight: 1.2f }
+		{ item: "create:cogwheel", weight: 1.2f }
+		{ item: "create:large_cogwheel", weight: 1.2f }
+		{ item: "create:andesite_alloy", weight: 1.5f }
+		{ item: "create:experience_nugget", weight: 1.2f }
+		{ item: "create:iron_sheet", weight: 0.5f }
+		{ item: "create:golden_sheet", weight: 0.3f }
+	]
+	title: "Basic Create Loot"
+}

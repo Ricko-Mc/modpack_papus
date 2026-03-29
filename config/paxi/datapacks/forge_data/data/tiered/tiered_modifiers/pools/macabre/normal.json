@@ -1,0 +1,71 @@
+{
+  "weight": 5,
+  "verifiers": [
+    {
+      "id": "macabre:baal_armor_helmet"
+    },
+    {
+      "id": "macabre:baal_armor_chestplate"
+    },
+    {
+      "id": "macabre:baal_armor_leggings"
+    },
+    {
+      "id": "macabre:baal_armor_boots"
+    },
+    {
+      "id": "macabre:gomoria_armor_helmet"
+    },
+    {
+      "id": "macabre:gomoria_armor_chestplate"
+    },
+    {
+      "id": "macabre:gomoria_armor_leggings"
+    },
+    {
+      "id": "macabre:gomoria_armor_boots"
+    },
+    {
+      "id": "macabre:valamon_armor_helmet"
+    },
+    {
+      "id": "macabre:valamon_armor_chestplate"
+    },
+    {
+      "id": "macabre:valamon_armor_leggings"
+    },
+    {
+      "id": "macabre:valamon_armor_boots"
+    },
+    {
+      "id": "macabre:gargamaw_armor_helmet"
+    },
+    {
+      "id": "macabre:gargamaw_armor_chestplate"
+    },
+    {
+      "id": "macabre:gargamaw_armor_leggings"
+    },
+    {
+      "id": "macabre:gargamaw_armor_boots"
+    },
+    {
+      "id": "macabre:morphegor_armor_helmet"
+    },
+    {
+      "id": "macabre:morphegor_armor_chestplate"
+    },
+    {
+      "id": "macabre:morphegor_armor_leggings"
+    },
+    {
+      "id": "macabre:morphegor_armor_boots"
+    }
+  ],
+  "tiers": [
+    "tiered:macabre/bloody",
+    "tiered:macabre/rotton",
+    "tiered:macabre/unearthed",
+    "tiered:macabre/untouched"
+  ]
+}

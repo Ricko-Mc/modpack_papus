@@ -1,0 +1,16 @@
+{
+  "weight": 2,
+  "verifiers": [
+    {
+      "tag": "too_many_bows:bows"
+    }
+  ],
+  "tiers": [
+    "tiered:bows/clumsy",
+    "tiered:bows/stiff",
+    "tiered:bows/stretched",
+    "tiered:bow/epic",
+    "tiered:bow/legendary",
+    "tiered:bow/rare"
+  ]
+}

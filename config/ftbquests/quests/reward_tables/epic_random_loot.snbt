@@ -1,0 +1,101 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "random_materials"
+		}
+	}
+	id: "670C970A28B70BA1"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ item: "gobber2:gobber2_ingot_nether" }
+		{ item: "waystones:waystone" }
+		{ item: "enigmaticlegacy:astral_dust" }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_3" }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_1" }
+		{ item: "sophisticatedbackpacks:jukebox_upgrade" }
+		{ item: "alexsmobs:music_disc_thime" }
+		{ item: "fantasyfurniture:dunmer/bed_single" }
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:shield_of_the_deep"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedstorage:limited_diamond_barrel_2"
+				tag: {
+					accentColor: 15961002
+					mainColor: 15961002
+				}
+			}
+		}
+		{ item: "skillcloaks:firemaking_cloak" }
+		{ item: "skillcloaks:construction_cloak" }
+		{
+			item: {
+				Count: 1
+				id: "forbidden_arcanus:eternal_stella"
+				tag: { }
+			}
+		}
+		{ item: "aquamirae:oxygen_tank" }
+		{ count: 3, item: "aquamirae:anglers_fang" }
+		{ item: "gobber2:gobber2_ingot" }
+		{ item: "gobber2:gobber2_ingot_end" }
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:runic_sai"
+				tag: {
+					Damage: 0
+					chance: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:toxic_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "magnumtorch:diamond_magnum_torch" }
+		{ item: "magnumtorch:emerald_magnum_torch" }
+		{ item: "magnumtorch:amethyst_magnum_torch" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+					Tiered: {
+						Tier: "tiered:melee_weapons/berserk"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "too_many_bows:ironclad_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "too_many_bows:sharpshot_ring" }
+	]
+	title: "Epic Random Loot"
+	use_title: true
+}

@@ -1,0 +1,32 @@
+{
+  "weight": 5,
+  "verifiers": [
+    {
+      "tag": "minecraft:swords"
+    },
+    {
+      "tag": "minecraft:axes"
+    },
+    {
+      "tag": "blue_skies:tools/swords"
+    },
+    {
+      "tag": "blue_skies:tools"
+    },
+    {
+      "tag": "forge:tools/bows"
+    },
+    {
+      "tag": "forge:weapons"
+    },
+    {
+      "tag": "forge:weapons/melee"
+    },
+    {
+      "tag": "forge:swords"
+    }
+  ],
+  "tiers": [
+    "tiered:standard_weapons/common"
+  ]
+}

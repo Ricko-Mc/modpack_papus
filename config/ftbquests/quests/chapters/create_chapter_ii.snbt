@@ -1,0 +1,656 @@
+{
+	autofocus_id: "0E206952DB226B11"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "create_chapter_ii"
+	group: "02AD8609A8FE6EE4"
+	icon: {
+		Count: 1
+		id: "create:brass_casing"
+		tag: { }
+	}
+	id: "4D68873C4929A08D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3F7988BC5FEC3080"]
+			description: [
+				"Welcome to Chapter II: Brass, Processing, and Proper Automation."
+				""
+				"This is where Create stops being \"cool spinning blocks\" and becomes a factory."
+				""
+				"&7Tip: Use Ponder on anything that confuses you. Create explains itself better than most mods."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "create:brass_casing"
+				tag: { }
+			}
+			id: "0E206952DB226B11"
+			rewards: [
+				{
+					id: "1E6471DD571670ED"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "5F95401F25965486"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "From rotation… to production."
+			tasks: [{
+				id: "6118C84F530A567E"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "&6Create: &eChapter II — Brass and Automation"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E206952DB226B11"]
+			description: [
+				"Brass Casings unlock a huge chunk of Create’s \"smarter\" components."
+				""
+				"If you can craft brass reliably, you can scale everything else."
+			]
+			id: "702CB3DE8D07A911"
+			rewards: [
+				{
+					id: "0DD5FE65130BD4C7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "25C610E0DCF46042"
+					item: "create:brass_sheet"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A87F023C0C03C79"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+			]
+			subtitle: "The upgrade path begins"
+			tasks: [{
+				id: "3D85B0AB20F36E20"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Brass Casing"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["702CB3DE8D07A911"]
+			description: [
+				"A Basin is Create’s main crafting/work container for mixing and pressing."
+				""
+				"Most processing chains start here."
+			]
+			id: "05C2582933CC4183"
+			rewards: [
+				{
+					id: "4DF106F6FC5C5DDF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28778120ECE7708C"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+			]
+			subtitle: "Where recipes happen"
+			tasks: [{
+				id: "7E8E84A69DE48638"
+				item: "create:basin"
+				type: "item"
+			}]
+			title: "Basin"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["05C2582933CC4183"]
+			description: [
+				"The Mechanical Press handles compacting and pressing recipes."
+				""
+				"Pair it with a Basin and a Depot for early automation."
+			]
+			id: "4B31732E1891CE2F"
+			rewards: [
+				{
+					id: "56020BD75C929D5E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "67150F1A30D1DD47"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			subtitle: "Smash, stamp, compress"
+			tasks: [{
+				id: "7EA796A6EA60E1FF"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Mechanical Press"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["05C2582933CC4183"]
+			description: [
+				"The Mechanical Mixer does mixing recipes in a Basin."
+				""
+				"Once you add item movement (funnels/chutes), you can mass-produce components."
+			]
+			id: "2FE0D1FA5A5B11F0"
+			rewards: [
+				{
+					id: "7FD2057F5C409B3C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E5C69D9E47D7491"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+			]
+			subtitle: "The heart of batch crafting"
+			tasks: [{
+				id: "3C2DFC5577AB930C"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			title: "Mechanical Mixer"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4B31732E1891CE2F"
+				"2FE0D1FA5A5B11F0"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"A Depot is a \"single-item workstation\" for presses, deployers, and more."
+				""
+				"It makes early automation way cleaner than tossing items on the ground."
+			]
+			id: "7A7D9B83B6A5EDD3"
+			rewards: [
+				{
+					id: "0E39786CA9934978"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07B87F6CE42365BF"
+					table_id: 3283448521356161865L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C8DEF3C3173E912"
+					table_id: 3964824304375825551L
+					type: "loot"
+				}
+			]
+			subtitle: "A tidy processing station"
+			tasks: [{
+				id: "0CF9FA4E1CF51A3D"
+				item: "create:depot"
+				type: "item"
+			}]
+			title: "Depot"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A7D9B83B6A5EDD3"]
+			description: [
+				"Brass Funnels are smarter than Andesite Funnels."
+				""
+				"They can be toggled with redstone and support more precise routing."
+			]
+			id: "3C211EA28702DB17"
+			rewards: [
+				{
+					id: "7A780A920AED7481"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "054AF30DC50E7B07"
+					table_id: 3283448521356161865L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "291B3B4BCA81C5D1"
+					table_id: 3964824304375825551L
+					type: "loot"
+				}
+			]
+			subtitle: "Smarter item routing"
+			tasks: [{
+				id: "3EB095D4DBD5EAFB"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			title: "Brass Funnel"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C211EA28702DB17"]
+			description: [
+				"Filters let you control what moves where."
+				""
+				"Use them with funnels, chutes, and later — arms."
+			]
+			id: "36E057C5BF62980B"
+			rewards: [
+				{
+					id: "48DF6EDDB9D4643B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F024203509C28DD"
+					table_id: 3283448521356161865L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EB27144008CD098"
+					table_id: 3964824304375825551L
+					type: "loot"
+				}
+			]
+			subtitle: "Stop letting chaos win"
+			tasks: [{
+				id: "50A81D324AEE2F50"
+				item: "create:filter"
+				type: "item"
+			}]
+			title: "Filter"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36E057C5BF62980B"]
+			description: [
+				"Chutes are the simplest \"vertical\" item transport."
+				""
+				"Great for feeding Basins from above or dropping items into belts/depot setups."
+			]
+			id: "6A6A879E540155A1"
+			rewards: [
+				{
+					id: "6B1A71EE25D87DB1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11830A59B25AB2D5"
+					table_id: 3283448521356161865L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "734479679DAB2B89"
+					table_id: 3964824304375825551L
+					type: "loot"
+				}
+			]
+			subtitle: "Gravity logistics"
+			tasks: [{
+				id: "575528C259A36693"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "Chute"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A6A879E540155A1"]
+			description: [
+				"Smart Chutes can pull from inventories and respect filters."
+				""
+				"This is one of the easiest upgrades for clean automation."
+			]
+			id: "076D4FDDF75FF928"
+			rewards: [
+				{
+					id: "09A1E5855BB39E5F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0998D001BBD0B00C"
+					table_id: 3283448521356161865L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D625E647253F9BC"
+					table_id: 3964824304375825551L
+					type: "loot"
+				}
+			]
+			subtitle: "Filtered gravity"
+			tasks: [{
+				id: "1D888E4E0FDBA189"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			title: "Smart Chute"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["702CB3DE8D07A911"]
+			description: [
+				"Encased Fans enable multiple Create processing methods."
+				""
+				"They become ridiculous once you pair them with the right blocks (and later — fluids)."
+			]
+			id: "5EDA494F34443CC8"
+			rewards: [{
+				id: "752EF2634F939D58"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "Processing begins here"
+			tasks: [{
+				id: "641E3DC2987108BA"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Encased Fan"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["702CB3DE8D07A911"]
+			description: [
+				"A Clutch lets you turn rotation on/off with redstone."
+				""
+				"This is how you stop machines from running forever (or nuking your stress budget)."
+			]
+			id: "360905A059AE376A"
+			rewards: [
+				{
+					id: "43FF6348D6AA5FF1"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2903D26B8437AF76"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+			]
+			subtitle: "Redstone control"
+			tasks: [{
+				id: "1A013D0FB386D38B"
+				item: "create:clutch"
+				type: "item"
+			}]
+			title: "Clutch"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["702CB3DE8D07A911"]
+			description: [
+				"A Gearshift reverses rotation with redstone."
+				""
+				"This matters more than it sounds — especially for contraptions and certain machines."
+			]
+			id: "59851DB4318448D3"
+			rewards: [{
+				id: "59BC8D3C764AA54C"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "Reverse on command"
+			tasks: [{
+				id: "27617AC8B1668C5C"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			title: "Gearshift"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36E057C5BF62980B"]
+			description: [
+				"The Mechanical Arm is Create’s \"real\" logistics brain."
+				""
+				"It moves items between inventories, belts, depots, and more — based on filters."
+			]
+			id: "385A80BD27B524C7"
+			rewards: [
+				{
+					id: "5869D48B4E2A564D"
+					type: "xp"
+					xp: 125
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31E4703913380183"
+					table_id: 3283448521356161865L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71FCCFEF51FD8EC3"
+					table_id: 3964824304375825551L
+					type: "loot"
+				}
+			]
+			subtitle: "Now you’re automating like a menace"
+			tasks: [{
+				id: "09B60C8B6D2F3CD0"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "Mechanical Arm"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["385A80BD27B524C7"]
+			description: [
+				"Precision Mechanisms are one of Create’s most important progression components."
+				""
+				"If you can automate these, you’ve basically \"made it\" in Create."
+			]
+			id: "49168519EA66E77F"
+			rewards: [
+				{
+					id: "2A41587867723A8D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "178F12A69F51503F"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A3FC8103A7853AB"
+					table_id: 3283448521356161865L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EC48F003CC191F2"
+					table_id: 3964824304375825551L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "The \"factory unlocked\" item"
+			tasks: [{
+				id: "63085F828C5A06D9"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Precision Mechanism"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49168519EA66E77F"]
+			description: [
+				"You’ve hit the Create midgame loop:"
+				""
+				"Brass → Processing → Filtering → Controlled Automation."
+				""
+				"From here, scaling is mostly layout plus stress management."
+			]
+			id: "0B2BB277C3B0EA75"
+			rewards: [
+				{
+					id: "1600D28E21700D01"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03FAEA13901602E5"
+					table_id: 3283448521356161865L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10F83FC8F356EB65"
+					table_id: 3964824304375825551L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.35d
+			subtitle: "You’re officially running a factory."
+			tasks: [{
+				id: "024E23F457E0B021"
+				title: "Chapter II milestone completed"
+				type: "checkmark"
+			}]
+			title: "Factory Online"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49168519EA66E77F"]
+			description: [
+				"Crushing Wheels are the gateway to bulk ore processing."
+				""
+				"Not required for every playthrough — but wildly rewarding if you build around it."
+			]
+			id: "6442E0A842AAF6FF"
+			optional: true
+			rewards: [
+				{
+					id: "32B2EC0BFB9625BC"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1798AFBAA9741B0B"
+					table_id: 3283448521356161865L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A8ABDB9FB5F5675"
+					table_id: 3964824304375825551L
+					type: "loot"
+				}
+			]
+			subtitle: "Bulk processing power"
+			tasks: [{
+				id: "45879C2F6050B273"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Crushing Wheel"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["702CB3DE8D07A911"]
+			description: [
+				"Sandpaper is Create’s polishing tool."
+				""
+				"If your pack uses polishing recipes, this is your entry point."
+			]
+			id: "0BE32213BAB89710"
+			optional: true
+			rewards: [
+				{
+					id: "3DBAEB50C310B8AD"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67D3BB80308BBFA1"
+					table_id: 4935671014145890216L
+					type: "loot"
+				}
+			]
+			subtitle: "Polish to perfection"
+			tasks: [{
+				id: "179D30D9C8240DE1"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Sand Paper"
+			x: -2.0d
+			y: 4.0d
+		}
+	]
+	subtitle: ["Mid-game Create progression: brass, processing, filtering, and automation."]
+	title: "&6Create &7— &eChapter II"
+}

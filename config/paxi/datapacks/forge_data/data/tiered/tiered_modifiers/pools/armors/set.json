@@ -1,0 +1,20 @@
+{
+  "weight": 2,
+  "verifiers": [
+    {
+      "id": "epicpaladins:angel_helmet"
+    },
+    {
+      "id": "epicpaladins:angel_chestplate"
+    },
+    {
+      "id": "epicpaladins:angel_leggings"
+    },
+    {
+      "id": "epicpaladins:angel_boots"
+    }
+  ],
+  "tiers": [
+    "tiered:armors/set"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "weight": 5,
+  "verifiers": [
+    {
+      "tag": "forge:staff"
+    }
+  ],
+  "tiers": [
+    "tiered:staffs/unstable",
+    "tiered:staffs/energized",
+    "tiered:staffs/enchanted",
+    "tiered:staffs/wildsong",
+    "tiered:staffs/enlightened",
+    "tiered:staffs/mystical",
+    "tiered:staffs/spiritual",
+    "tiered:staffs/bent",
+    "tiered:staffs/useless"
+  ]
+}

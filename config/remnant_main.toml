@@ -1,0 +1,27 @@
+
+["General Combat Settings"]
+	portal_activation_item = "minecraft:nether_star"
+	dash_timer = 100.0
+	dash_distance = 2.0
+	shuriken_timer = 50.0
+	shuriken_damage = 50.0
+	shuriken_knockback = 1.0
+	shuriken_pierce = 0.0
+	speed_amplifier = 1.0
+	life_steal_power = 20.0
+
+["Phase 1 Settings"]
+	max_health = 800.0
+	attack_damage = 7.0
+	movement_speed = 0.25
+
+["Phase 2 Settings"]
+	hp_threshold = 50.0
+	transform_delay = 40.0
+	skeletons_on_transform = 5.0
+	skeletons_on_dash = 2.0
+	special_attack_chance = 20.0
+	invisibility_timer = 200.0
+	attack_damage = 9.0
+	movement_speed = 0.3
+

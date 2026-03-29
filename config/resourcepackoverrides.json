@@ -1,0 +1,75 @@
+{
+  "schema_version": "2",
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "vanilla",
+    "mod_resources",
+    "fabric",
+    "file/EmbellishedStone-1.20.1-1.0.0.zip",
+    "mod/subtle_effects:resourcepacks/biome_color_water_particles",
+    "file/WDA-NoFlyingStructures-1.18.2-1.19.2.zip",
+    "file/LowOnFire_1.20.1.zip",
+    "file/Iron's_3D_Spell_book_v2.0.zip",
+    "file/Iron's Spells SR v1.7.2 for Forge.zip",
+    "file/JICKLUS.zip",
+    "file/JICKLUS Modded Ores.zip",
+    "book_fix.zip",
+    "file/SmoothFont_1.20.zip",
+    "generated/fragmentum_layer",
+    "file/JICKLUS (1.20) - JEI Addon.zip",
+    "loeresources",
+    "LoE_resources_1.zip"
+  ],
+  "pack_overrides": {
+    "1": [
+      "vanilla",
+      "mod_resources",
+      "file/Iron's_3D_Spell_book_v2.0.zip",
+      "file/Iron's Spells SR v1.7.2 for Forge.zip",
+      "file/JICKLUS (1.20) - JEI Addon.zip",
+      "file/JICKLUS Modded Ores.zip",
+      "file/JICKLUS.zip",
+      "file/EmbellishedStone-1.20.1-1.0.0.zip",
+      "file/LowOnFire_1.20.1.zip",
+      "file/SmoothFont_1.20.zip",
+      "file/WDA-NoFlyingStructures-1.18.2-1.19.2.zip",
+      "generated/fragmentum_layer",
+      "book_fix.zip",
+      "loeresources",
+      "LoE_resources_1.zip",
+      "fabric",
+      "mod/subtle_effects:resourcepacks/biome_color_water_particles",
+      "Moonlight Mods Dynamic Assets",
+      "builtin/aether_tips"
+    ],
+    "2": [
+      "high_contrast",
+      "programmer_art",
+      "file/Quark Programmer Art.zip",
+      "file/SaturnSky-1.7.0.zip",
+      "obscure_tooltips/packs/vibrant_tooltips",
+      "classic_icons",
+      "white_icons",
+      "black_icons",
+      "builtin/builtin_resource_packs/legacy_dead_king_resource_pack",
+      "blue_skies:legacy_pack",
+      "builtin/aether_125_art",
+      "builtin/aether_b173_art",
+      "builtin/aether_colorblind",
+      "builtin/aether_tooltips",
+      "enigmaticaddons:no_3d_models",
+      "supplementaries:darker_ropes",
+      "file/CreateSophisticatedBackpacks.zip"
+    ],
+    "$$1": {
+      "required": true,
+      "fixed_position": true,
+      "force_compatible": true,
+      "hidden": true,
+      "default_position": "BOTTOM"
+    },
+    "$$2": {
+      "hidden": true
+    }
+  }
+}

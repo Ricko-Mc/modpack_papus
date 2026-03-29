@@ -1,0 +1,32 @@
+{
+    "type": "origins:attribute",
+	"modifiers": [
+        {
+        "attribute": "familiarslib:sound_spell_power",
+        "operation": "addition",
+        "value": 1
+    },
+    {
+        "attribute": "irons_spellbooks:max_mana",
+        "operation": "addition",
+        "value": 150
+    },
+    {
+        "attribute": "irons_spellbooks:nature_spell_power",
+        "operation": "addition",
+        "value": 1
+    },
+    {
+        "attribute": "irons_spellbooks:spell_power",
+        "operation": "multiply_total",
+        "value": 0.3
+    },
+    {
+        "attribute": "irons_spellbooks:mana_regen",
+        "operation": "multiply_total",
+        "value": 0.15
+    }
+],
+"name": "Primordial Harmony",
+"description": "Increased abilities with Iron's Spellbooks: Sound and Nature schools, Max mana, Spell power, and mana regen speeds!"
+}

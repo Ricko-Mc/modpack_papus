@@ -1,0 +1,20 @@
+{
+  "weight": 2,
+  "verifiers": [
+    {
+      "id": "traveloptics:tectonic_crest_armor_helmet"
+    },
+    {
+      "id": "traveloptics:tectonic_crest_armor_chestplate"
+    },
+    {
+      "id": "traveloptics:tectonic_crest_armor_leggings"
+    },
+    {
+      "id": "traveloptics:tectonic_crest_armor_boots"
+    }
+  ],
+  "tiers": [
+    "tiered:armors/set2"
+  ]
+}

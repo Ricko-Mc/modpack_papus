@@ -1,0 +1,25 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "random_materials"
+		}
+	}
+	id: "1E667BADA02C00F7"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ count: 4, item: "create:electron_tube", weight: 3.0f }
+		{ count: 2, item: "create:precision_mechanism", weight: 2.5f }
+		{
+			item: {
+				Count: 1
+				id: "create:chromatic_compound"
+				tag: { }
+			}
+		}
+		{ item: "create:refined_radiance" }
+	]
+	title: "Legendary Create Loot"
+}

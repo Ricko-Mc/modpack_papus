@@ -1,0 +1,22 @@
+{
+  "type": "paraglider:statue_bargain",
+  "owner": "paraglider:horned_statue",
+  "demands": {
+    "items": [
+      {
+        "ingredient": {
+          "item": "paraglider:spirit_orb"
+        },
+        "quantity": 4
+      }
+    ]
+  },
+  "offers": {
+    "items": [
+      {
+        "item": "cardiac:life_bottle",
+        "count": 1
+      }
+    ]
+  }
+}

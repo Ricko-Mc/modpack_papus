@@ -1,0 +1,1527 @@
+{
+	autofocus_id: "5CCAFCBE9E5D24E1"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_greeting_from_beyond"
+	group: "20F67971AC218528"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:scroll"
+		tag: {
+			"irons_spellbooks:spell_container": {
+				data: [{
+					id: "irons_spellbooks:shield"
+					index: 0
+					level: 1
+					locked: 1b
+				}]
+				maxSpells: 1
+				mustEquip: 0b
+				spellWheel: 0b
+			}
+		}
+	}
+	id: "1816EBC6544A9E83"
+	images: [
+		{
+			height: 6.0d
+			image: "loe:textures/other/hud.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			height: 5.0d
+			image: "loe:textures/other/bandit-arcadia1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			click: "#19BE083ACF488E0F"
+			height: 1.5d
+			image: "irons_spellbooks:item/iron_spell_book"
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.0836734693877546d
+			y: -10.056122448979579d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			click: "#53C9B66BEC667ED0"
+			height: 1.5d
+			image: "loe:textures/other/magical.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 7.0836734693877474d
+			y: -10.627551020408156d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			click: "#1C275250E864FCDA"
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			click: "#7303734C4ABA552D"
+			height: 1.0d
+			image: "minecraft:item/emerald"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.7489795918367506d
+			y: -8.080612244897935d
+		}
+		{
+			height: 1.5d
+			image: "loe:textures/other/start.png"
+			order: 2
+			rotation: 0.0d
+			width: 6.0d
+			x: -7.610204081632638d
+			y: -7.52551020408162d
+		}
+		{
+			click: "#1D24C398A990FE26"
+			height: 1.5d
+			image: "minecraft:item/wooden_sword"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.014285714285698d
+			y: -6.889285714285698d
+		}
+		{
+			height: 1.5d
+			image: "loe:textures/other/shop.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.328571428571429d
+			y: -8.91326530612244d
+		}
+		{
+			click: "#2E88D7B85E632DFF"
+			height: 1.5d
+			image: "too_many_bows:item/dragons_breath_pulling_0_old"
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.0d
+			y: -6.785714285714278d
+		}
+		{
+			click: "#0B38429424F05B4D\""
+			height: 1.5d
+			image: "loe:textures/other/archery_bubble.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 6.750000000000007d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			click: "#1BC4C82E0DE96AE4"
+			height: 1.5d
+			hover: ["It is not a key you found, it is an eye that opened..."]
+			image: "enigmaticlegacy:item/abyssal_heart"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.95d
+			y: -10.2d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				""
+				"Good Luck, Hero!"
+			]
+			id: "228CB8D70F780A7F"
+			rewards: [{
+				id: "696CF10534AE7918"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "I Bear to you a message from The One Above All"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					Count: 1
+					id: "enigmaticlegacy:lore_fragment"
+					tag: {
+						display: { }
+					}
+				}
+				id: "223FEEA38C010081"
+				type: "dimension"
+			}]
+			title: "Welcome to the Realms!"
+			x: -0.12857142857140502d
+			y: -10.223469387755081d
+		}
+		{
+			description: [
+				"This book starts off very basic but can adapt into much more! locate village's and other loot areas to find &aparchment fragments.&fThese are used with other various items to craft new skills for you to unlock and abilities within your book!"
+				"{@pagebreak}"
+				"Once you've touched said book you do not need to keep it! &cThrow it out!&f Button in inventory is now unlocked!"
+			]
+			icon: "improvableskills:skills_book"
+			id: "5CCAFCBE9E5D24E1"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "29AD0696FFD14F23"
+					item: "improvableskills:skills_book"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p \"Watcher:Greetings Adventurer! i see you've gotten ahold of one of my skill books!\""
+					elevate_perms: true
+					id: "59576109875124B6"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p \"Watcher:...Now that you have one of these you'll be able to get some really nice skills! Remember you can find better skills to add to this book around the world! \""
+					elevate_perms: true
+					id: "47FE8CD4A9C5D976"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			subtitle: "The begining.."
+			tasks: [{
+				id: "4CF3A3B4A3511C84"
+				title: "Book Of Skills"
+				type: "checkmark"
+			}]
+			title: "&aBook Of Skills"
+			x: -0.23061224489793375d
+			y: -8.203061224489772d
+		}
+		{
+			description: ["I'm sure you've played enough modded to know what this button does, but if you haven't! This nifty little button is to equip all those fun trinkets you can craft and find!"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "curios:slot/empty_curio_slot"
+				}
+			}
+			id: "59A1851F039966E9"
+			rewards: [{
+				id: "49CCEF0FEA3F5C80"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "5BA3CE821A8C37F5"
+					title: "Curios"
+					type: "checkmark"
+				}
+				{
+					id: "482E3B7593999EF2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "curios:ring"
+						}
+					}
+					title: "Any #curios:ring"
+					type: "item"
+				}
+			]
+			title: "&6Curios"
+			x: -2.4687074829931674d
+			y: -8.976870748299305d
+		}
+		{
+			description: ["Like the &6Curios&f Tab this one is basically the same but for &bAether&f Items!"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "aether:textures/gui/inventory/button/accessories_button.png"
+				}
+			}
+			id: "7CF1D7711DBCA623"
+			rewards: [{
+				id: "317283875B665615"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "To the heavens"
+			tasks: [{
+				id: "51DDFF07B5C6EB74"
+				title: "The Aether"
+				type: "checkmark"
+			}]
+			title: "&bThe Aether"
+			x: -2.4806122448979337d
+			y: -6.328061224489787d
+		}
+		{
+			description: [
+				"Dimensions are &cAdvancement locked&f, you can find dimensional travel quests in the \"Acts\" with details on which advancments you will need to traverse!"
+				""
+				"&eCoins! &f Coins will be the currency of the realm you can use them for a shop item in the merchant quest chapter!"
+			]
+			icon: "blue_skies:everdawn_portal"
+			id: "3ADD7B65E0B88DA3"
+			rewards: [
+				{
+					count: 3
+					id: "3108C4ABEA23991D"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13D1AA2E7BE95C13"
+					table_id: 3283448521356161865L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "How to access dimensions!"
+			tasks: [{
+				id: "39CF46885CD89BD7"
+				title: "&6Advancement Portals"
+				type: "checkmark"
+			}]
+			x: 1.371428571428595d
+			y: -10.223469387755081d
+		}
+		{
+			id: "1C275250E864FCDA"
+			rewards: [
+				{
+					count: 9
+					id: "6C0CCB35A7B74381"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1DA3ECF75EAD0B13"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			size: 0.01d
+			subtitle: "Great find!"
+			tasks: [{
+				id: "3F34246CEC2B9D99"
+				title: "easter egg!"
+				type: "checkmark"
+			}]
+			title: "&aEaster Egg!!!"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"There is an Enchantment from &cCorail Tombstone&f Called &adecrepitude&f If you have this enchantment on your weapons they &cWILL NOT&f register the kill for quests. This is a broken Enchantment/cheese ability. Thus having it &eEQUIPPED &fwill mess up quest progression!"
+				""
+				"This enchantment has now been removed for exploits"
+			]
+			id: "17F4A425CD0AAD2E"
+			rewards: [{
+				id: "49D4C010893D31D9"
+				type: "xp"
+				xp: 7
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0F5361FAF195ABD8"
+				title: "READ ME !!"
+				type: "checkmark"
+			}]
+			title: "&cR E A D M E ~"
+			x: 2.871428571428595d
+			y: -10.223469387755081d
+		}
+		{
+			description: [
+				"To be able to use better gear, armor, tools, weapons, etc you will need to level some stats."
+				""
+				"You can access this &bSkill Screen &f via your &aInventory Menu&f on the &cLEFT &fside of your inventory you can click the book looking icon to access the new &bSkill Screen"
+				""
+				"Reskillable is the mod name; Reskillable now gives buffs per &e5 levels&f of said skill ."
+				""
+				"Every &e10 levels&f of skills you recieve 0.5 &chearts "
+			]
+			icon: "minecraft:book"
+			id: "37F99376CA78A2F3"
+			rewards: [{
+				id: "779320FC029FA96C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "478CBFA4588118DC"
+				title: "&aREAD ME!!!"
+				type: "checkmark"
+			}]
+			x: -4.202040816326516d
+			y: -7.362244897959172d
+		}
+	]
+	subtitle: ["\"Tutorial and getting to know your HUD\""]
+	title: "&l&eA Greeting From Beyond"
+}

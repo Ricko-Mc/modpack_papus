@@ -1,0 +1,23 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "random_materials"
+		}
+	}
+	id: "244809ECF220274B"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "minecraft:iron_ingot", weight: 3.0f }
+		{ item: "minecraft:gold_ingot", weight: 2.0f }
+		{ item: "minecraft:netherite_ingot", weight: 0.5f }
+		{ item: "blue_skies:falsite_ingot", weight: 0.25f }
+		{ item: "blue_skies:ventium_ingot", weight: 0.25f }
+		{ item: "blue_skies:horizonite_ingot", weight: 0.25f }
+		{ item: "enigmaticlegacy:evil_ingot", weight: 0.25f }
+		{ item: "eidolon:arcane_gold_ingot", weight: 0.5f }
+	]
+	title: "Ingot Loot"
+}

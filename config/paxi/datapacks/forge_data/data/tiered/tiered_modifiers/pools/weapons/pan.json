@@ -1,0 +1,11 @@
+{
+  "weight": 5,
+  "verifiers": [
+    {
+      "id": "enigmaticlegacy:eldritch_pan"
+    }
+  ],
+  "tiers": [
+    "tiered:standard_weapons/pan"
+  ]
+}

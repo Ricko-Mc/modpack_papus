@@ -1,0 +1,6 @@
+
+["Mine Spawners Config"]
+	#Chance of dropping the spawner when mined. From 0 (never) to 100 (always)
+	#Range: 0.0 ~ 100.0
+	dropChance = 100.0
+

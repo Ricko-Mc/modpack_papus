@@ -1,0 +1,19 @@
+{
+  "weight": 1,
+  "verifiers": [
+    {
+      "id": "minecraft:elytra"
+    },
+    {
+      "id": "alexsmobs:tarantula_hawk_elytra"
+    },
+    {
+      "id": "enigmaticlegacy:enigmatic_elytra"
+    }
+  ],
+  "tiers": [
+    "tiered:elytra/common_elytra_1",
+    "tiered:elytra/epic_elytra",
+    "tiered:elytra/legendary_elytra"
+  ]
+}

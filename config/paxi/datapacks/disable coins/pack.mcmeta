@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Disables smelting ingots into coins."
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "coinsje",
+        "path": "recipes/.*_ingot_to_.*"
+      }
+    ]
+  }
+}
